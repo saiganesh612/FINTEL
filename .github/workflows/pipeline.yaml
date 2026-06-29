@@ -1,0 +1,74 @@
+name: FINTEL Pipeline
+
+on:
+  schedule:
+    # All times in UTC (IST = UTC+5:30)
+    - cron: '30 5 * * 1-5'   # NSE_OPEN  - 9:00 IST
+    - cron: '30 6 * * 1-5'   # NSE_MID   - 12:00 IST
+    - cron: '0 10 * * 1-5'   # NSE_CLOSE - 15:30 IST
+    - cron: '30 13 * * 1-5'  # US_OPEN   - 19:00 IST
+    - cron: '30 19 * * 1-5'  # US_CLOSE  - 1:00 IST Next day
+  workflow_dispatch:
+    inputs:
+      session:
+        description: 'Session to run manually'
+        required: true
+        default: 'NSE_OPEN'
+        type: choice
+        options:
+          - NSE_OPEN
+          - NSE_MID
+          - NSE_CLOSE
+          - US_OPEN
+          - US_CLOSE
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Determine session name
+        id: session
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "SESSION=${{ github.event.inputs.session }}" >> $GITHUB_ENV
+          else
+            HOUR=$(date -u +"%H")
+            MIN=$(date -u +"%M")
+            TIME="${HOUR}${MIN}"
+            if [ "$TIME" = "0330" ]; then
+              echo "SESSION=NSE_OPEN" >> $GITHUB_ENV
+            elif [ "$TIME" = "0630" ]; then
+              echo "SESSION=NSE_MID" >> $GITHUB_ENV
+            elif [ "$TIME" = "1000" ]; then
+              echo "SESSION=NSE_CLOSE" >> $GITHUB_ENV
+            elif [ "$TIME" = "1330" ]; then
+              echo "SESSION=US_OPEN" >> $GITHUB_ENV
+            elif [ "$TIME" = "1930" ]; then
+              echo "SESSION=US_CLOSE" >> $GITHUB_ENV
+            else
+              echo "SESSION=UNKNOWN" >> $GITHUB_ENV
+            fi
+          fi
+
+      - name: Run pipeline
+        env:
+          SESSION: ${{ env.SESSION }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python pipeline/run.py
