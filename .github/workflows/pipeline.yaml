@@ -2,12 +2,12 @@ name: FINTEL Pipeline
 
 on:
   schedule:
-    # All times in UTC (IST = UTC+5:30)
-    - cron: '30 5 * * 1-5'   # NSE_OPEN  - 9:00 IST
-    - cron: '30 6 * * 1-5'   # NSE_MID   - 12:00 IST
-    - cron: '0 10 * * 1-5'   # NSE_CLOSE - 15:30 IST
-    - cron: '30 13 * * 1-5'  # US_OPEN   - 19:00 IST
-    - cron: '30 19 * * 1-5'  # US_CLOSE  - 1:00 IST Next day
+    # All times in UTC. Minutes shifted off :00/:30 to dodge GitHub's queue congestion.
+    - cron: '37 3 * * 1-5'   # NSE_OPEN  — ~9:07 IST  (target 9:00)
+    - cron: '37 6 * * 1-5'   # NSE_MID   — ~12:07 IST (target 12:00)
+    - cron: '7 10 * * 1-5'   # NSE_CLOSE — ~15:37 IST (target 15:30)
+    - cron: '37 13 * * 1-5'  # US_OPEN   — ~19:07 IST (target 19:00)
+    - cron: '37 19 * * 1-5'  # US_CLOSE  — ~1:07 IST next day (target 1:00)
   workflow_dispatch:
     inputs:
       session:
@@ -41,22 +41,14 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "SESSION=${{ github.event.inputs.session }}" >> $GITHUB_ENV
           else
-            HOUR=$(date -u +"%H")
-            MIN=$(date -u +"%M")
-            TIME="${HOUR}${MIN}"
-            if [ "$TIME" = "0330" ]; then
-              echo "SESSION=NSE_OPEN" >> $GITHUB_ENV
-            elif [ "$TIME" = "0630" ]; then
-              echo "SESSION=NSE_MID" >> $GITHUB_ENV
-            elif [ "$TIME" = "1000" ]; then
-              echo "SESSION=NSE_CLOSE" >> $GITHUB_ENV
-            elif [ "$TIME" = "1330" ]; then
-              echo "SESSION=US_OPEN" >> $GITHUB_ENV
-            elif [ "$TIME" = "1930" ]; then
-              echo "SESSION=US_CLOSE" >> $GITHUB_ENV
-            else
-              echo "SESSION=UNKNOWN" >> $GITHUB_ENV
-            fi
+            case "${{ github.event.schedule }}" in
+              "37 3 * * 1-5")  echo "SESSION=NSE_OPEN"  >> $GITHUB_ENV ;;
+              "37 6 * * 1-5")  echo "SESSION=NSE_MID"   >> $GITHUB_ENV ;;
+              "7 10 * * 1-5")  echo "SESSION=NSE_CLOSE" >> $GITHUB_ENV ;;
+              "37 13 * * 1-5") echo "SESSION=US_OPEN"   >> $GITHUB_ENV ;;
+              "37 19 * * 1-5") echo "SESSION=US_CLOSE"  >> $GITHUB_ENV ;;
+              *) echo "SESSION=UNKNOWN" >> $GITHUB_ENV ;;
+            esac
           fi
 
       - name: Run pipeline
