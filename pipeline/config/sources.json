@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-06-22",
+    "total_sources": 28,
+    "notes": [
+      "Tier 1: Official filings. Self-trusting. Single mention = CONFIRMED.",
+      "Tier 2: Wire services. High accountability. 1 mention = UNCONFIRMED but high trust.",
+      "Tier 3: Financial media. 2+ mentions across sources = CONFIRMED.",
+      "Tier 4: Community/supplementary. Never CONFIRMED alone. Signals only.",
+      "poll_sessions: which GitHub Actions cron trigger fetches this source",
+      "Sessions: NSE_OPEN=09:00 NSE_MID=12:00 NSE_CLOSE=15:30 US_OPEN=19:00 US_CLOSE=01:00 IST"
+    ]
+  },
+
+  "tier_1": [
+    {
+      "id": "nse_announcements",
+      "name": "NSE Corporate Announcements",
+      "type": "scraper",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
+      "api_endpoint": "https://www.nseindia.com/api/corp-announcements",
+      "market": "india",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["earnings", "board_meetings", "dividends", "mergers", "regulatory_actions", "insider_trades"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": true,
+      "notes": "NSE blocks direct API without session. Use requests.Session() with headers to mimic browser."
+    },
+    {
+      "id": "bse_filings",
+      "name": "BSE Corporate Filings",
+      "type": "scraper",
+      "url": "https://www.bseindia.com/corporates/Splindia.html",
+      "api_endpoint": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w",
+      "market": "india",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["regulatory_filings", "investor_presentations", "results", "shareholding_patterns"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": "BSE API more stable than NSE for automated access."
+    },
+    {
+      "id": "nse_fii_dii",
+      "name": "NSE FII / DII Daily Flows",
+      "type": "api",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "market": "india",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["institutional_flows", "fii_net_buy_sell", "dii_net_buy_sell"],
+      "poll_sessions": ["NSE_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": true,
+      "notes": "Published by NSE after market close. Pull once at 16:00 IST. Critical signal for India market sentiment."
+    },
+    {
+      "id": "sec_edgar_8k",
+      "name": "SEC EDGAR — 8-K Material Events",
+      "type": "api",
+      "url": "https://efts.sec.gov/LATEST/search-index?forms=8-K&dateRange=custom",
+      "api_endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22%22&forms=8-K&dateRange=custom&startdt={today}&enddt={today}",
+      "market": "us",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["material_events", "earnings_releases", "mergers", "leadership_changes"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": "Filter by watchlist US tickers only. EDGAR API is free, no key required."
+    },
+    {
+      "id": "sec_edgar_form4",
+      "name": "SEC EDGAR — Form 4 Insider Trades",
+      "type": "api",
+      "url": "https://efts.sec.gov/LATEST/search-index?forms=4",
+      "api_endpoint": "https://efts.sec.gov/LATEST/search-index?q=%22%22&forms=4&dateRange=custom&startdt={today}&enddt={today}",
+      "market": "us",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["insider_buying", "insider_selling", "executive_trades"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "Insider buying is a strong long-term bullish signal. Insider selling is weaker (many reasons to sell). Filter by watchlist tickers."
+    },
+    {
+      "id": "rbi_press",
+      "name": "RBI Press Releases",
+      "type": "rss",
+      "url": "https://www.rbi.org.in/Scripts/RSS.aspx",
+      "market": "india",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["interest_rates", "monetary_policy", "banking_regulations", "inflation_data"],
+      "poll_sessions": ["NSE_OPEN", "NSE_CLOSE"],
+      "poll_interval_minutes": 60,
+      "requires_session_cookie": false,
+      "notes": "Low frequency but extremely high impact when published. Rate decisions move entire market."
+    },
+    {
+      "id": "sebi_disclosures",
+      "name": "SEBI Regulatory Disclosures",
+      "type": "scraper",
+      "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes",
+      "market": "india",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["regulatory_orders", "insider_trading_disclosures", "takeover_codes", "fpi_data"],
+      "poll_sessions": ["NSE_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "Pull once daily after market close. SEBI actions are low frequency but extremely high impact."
+    }
+  ],
+
+  "tier_2": [
+    {
+      "id": "reuters_business",
+      "name": "Reuters Business News",
+      "type": "rss",
+      "url": "https://feeds.reuters.com/reuters/businessNews",
+      "market": "global",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["global_macro", "earnings", "mergers", "policy", "commodities"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE", "US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": "Highest editorial trust after Tier 1. Wire service — factual, sourced."
+    },
+    {
+      "id": "reuters_india",
+      "name": "Reuters India Markets",
+      "type": "rss",
+      "url": "https://feeds.reuters.com/reuters/INbusinessNews",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_macro", "india_earnings", "india_policy", "india_markets"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": "India-specific Reuters feed. Prioritise over global Reuters for NSE stocks."
+    }
+  ],
+
+  "tier_3": [
+    {
+      "id": "et_markets",
+      "name": "Economic Times Markets",
+      "type": "rss",
+      "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_stocks", "india_sectors", "analyst_calls", "results"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "moneycontrol",
+      "name": "Moneycontrol Latest News",
+      "type": "rss",
+      "url": "https://www.moneycontrol.com/rss/latestnews.xml",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_stocks", "india_sectors", "ipo", "fii_dii_commentary"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "business_standard",
+      "name": "Business Standard Markets",
+      "type": "rss",
+      "url": "https://www.business-standard.com/rss/markets-106.rss",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_markets", "earnings", "policy", "banking"],
+      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "livemint",
+      "name": "LiveMint Markets",
+      "type": "rss",
+      "url": "https://www.livemint.com/rss/markets",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_markets", "macro", "mutual_funds", "policy"],
+      "poll_sessions": ["NSE_OPEN", "NSE_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "hindu_businessline",
+      "name": "The Hindu BusinessLine",
+      "type": "rss",
+      "url": "https://www.thehindubusinessline.com/feeder/default.rss",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_markets", "agriculture", "commodities", "policy"],
+      "poll_sessions": ["NSE_OPEN", "NSE_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": "Good for policy and commodity coverage less covered by ET/MC."
+    },
+    {
+      "id": "cnbc_top",
+      "name": "CNBC Top News",
+      "type": "rss",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "market": "us",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["us_markets", "earnings", "fed_policy", "tech", "macro"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "cnbc_investing",
+      "name": "CNBC Investing News",
+      "type": "rss",
+      "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839135",
+      "market": "us",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["us_stocks", "analyst_ratings", "earnings", "sector_news"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch Top Stories",
+      "type": "rss",
+      "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+      "market": "us",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["us_markets", "earnings", "economy", "tech"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 15,
+      "requires_session_cookie": false,
+      "notes": null
+    },
+    {
+      "id": "yahoo_finance_news",
+      "name": "Yahoo Finance News",
+      "type": "rss",
+      "url": "https://finance.yahoo.com/news/rssindex",
+      "market": "global",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["global_markets", "earnings", "tech", "economy"],
+      "poll_sessions": ["NSE_OPEN", "US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": "Good global coverage. Quality varies — corroboration scoring important here."
+    },
+    {
+      "id": "alpha_vantage_news",
+      "name": "Alpha Vantage News Sentiment",
+      "type": "api",
+      "url": "https://www.alphavantage.co/query",
+      "api_key_env": "ALPHA_VANTAGE_API_KEY",
+      "endpoint_function": "NEWS_SENTIMENT",
+      "market": "us",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["us_stock_news", "sentiment_scores", "ticker_specific_news"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": null,
+      "daily_call_budget": 10,
+      "requires_session_cookie": false,
+      "notes": "CRITICAL: 25 calls/day free limit. Budget: 10 for NEWS_SENTIMENT, 10 for technical indicators, 5 reserve. Batch US watchlist tickers per call."
+    },
+    {
+      "id": "fed_press",
+      "name": "US Federal Reserve Press Releases",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "market": "us",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["interest_rates", "monetary_policy", "fed_statements"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 60,
+      "requires_session_cookie": false,
+      "notes": "Fed statements are Tier 1 equivalent — treat as CONFIRMED. Low frequency, extremely high impact."
+    },
+    {
+      "id": "google_news_india",
+      "name": "Google News — India Markets",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=india+stock+market&hl=en-IN&gl=IN&ceid=IN:en",
+      "market": "india",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["india_market_general", "broad_coverage"],
+      "poll_sessions": ["NSE_OPEN", "NSE_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": "Wide net — catches sources not in other feeds. Apply noise filter aggressively here."
+    },
+    {
+      "id": "google_news_us",
+      "name": "Google News — US Markets",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=US+stock+market+nasdaq&hl=en-US&gl=US&ceid=US:en",
+      "market": "us",
+      "trust_label_on_match": "UNCONFIRMED",
+      "covers": ["us_market_general", "broad_coverage"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 30,
+      "requires_session_cookie": false,
+      "notes": "Wide net. Noise filter critical."
+    }
+  ],
+
+  "tier_4": [
+    {
+      "id": "reddit_india_invest",
+      "name": "Reddit — r/IndiaInvestments",
+      "type": "reddit_api",
+      "subreddit": "IndiaInvestments",
+      "sort": "hot",
+      "limit": 25,
+      "api_key_env": "REDDIT_CLIENT_ID",
+      "api_secret_env": "REDDIT_CLIENT_SECRET",
+      "market": "india",
+      "trust_label_on_match": "SINGLE_SOURCE",
+      "covers": ["retail_sentiment", "community_signals", "crowd_research"],
+      "poll_sessions": ["NSE_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "Retail sentiment signal only. Never CONFIRMED alone. Useful for spotting themes early. Filter: upvote_ratio > 0.85 AND score > 50."
+    },
+    {
+      "id": "reddit_stocks",
+      "name": "Reddit — r/stocks",
+      "type": "reddit_api",
+      "subreddit": "stocks",
+      "sort": "hot",
+      "limit": 20,
+      "api_key_env": "REDDIT_CLIENT_ID",
+      "api_secret_env": "REDDIT_CLIENT_SECRET",
+      "market": "us",
+      "trust_label_on_match": "SINGLE_SOURCE",
+      "covers": ["us_retail_sentiment", "earnings_reactions", "community_signals"],
+      "poll_sessions": ["US_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "Same filter as above. Low trust but useful for US retail sentiment."
+    },
+    {
+      "id": "reddit_investing",
+      "name": "Reddit — r/investing",
+      "type": "reddit_api",
+      "subreddit": "investing",
+      "sort": "hot",
+      "limit": 20,
+      "api_key_env": "REDDIT_CLIENT_ID",
+      "api_secret_env": "REDDIT_CLIENT_SECRET",
+      "market": "global",
+      "trust_label_on_match": "SINGLE_SOURCE",
+      "covers": ["global_sentiment", "macro_discussions", "long_term_ideas"],
+      "poll_sessions": ["US_CLOSE"],
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "Better quality than r/wallstreetbets. Still Tier 4. Treat accordingly."
+    }
+  ],
+
+  "market_data": {
+    "notes": "These are data sources, not news sources. Handled separately by FundamentalsAgent and TechnicalAgent.",
+    "sources": [
+      {
+        "id": "yfinance",
+        "name": "Yahoo Finance via yfinance library",
+        "type": "python_library",
+        "covers": ["OHLCV_prices", "fundamentals_PE_PB_margins", "52W_high_low", "volume", "India_and_US"],
+        "cost": "free_unlimited",
+        "notes": "Primary price and fundamentals source. No API key needed."
+      },
+      {
+        "id": "alpha_vantage_technicals",
+        "name": "Alpha Vantage Technical Indicators",
+        "type": "api",
+        "api_key_env": "ALPHA_VANTAGE_API_KEY",
+        "covers": ["RSI", "MACD", "EMA_9_20_50_200", "ATR"],
+        "daily_call_budget": 10,
+        "cost": "free_25_calls_per_day",
+        "notes": "Use only for US tickers. India technicals computed from yfinance OHLCV data locally."
+      },
+      {
+        "id": "nse_options_chain",
+        "name": "NSE Options Chain",
+        "type": "api",
+        "url": "https://www.nseindia.com/api/option-chain-indices",
+        "covers": ["put_call_ratio", "max_pain", "options_OI"],
+        "cost": "free",
+        "notes": "Requires NSE session cookie. Pull for Nifty 50 index as market sentiment indicator."
+      }
+    ]
+  }
+}
