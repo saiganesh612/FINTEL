@@ -1,23 +1,25 @@
 # FINTEL — LangGraph Agent Graph Design
 
-**Version:** 1.0  
-**Created:** 2026-06-30  
+**Version:** 2.0  
+**Created:** 2026-06-22 | **Updated:** 2026-07-03  
 **Purpose:** Single source of truth for M3 implementation. Every node, edge, and state field defined here before a single line of code is written.
 
 ---
 
 ## 1. Pipeline Trigger Points
 
-Five GitHub Actions cron jobs trigger the pipeline per day (times in IST):
+Five GitHub Actions cron jobs trigger the pipeline per day (times in IST).
 
-| Session Name | IST Time | UTC Cron        | What it covers                         |
-| ------------ | -------- | --------------- | -------------------------------------- |
-| NSE_OPEN     | 09:00    | `37 3 * * 1-5`  | Pre-market India news, overnight US    |
-| NSE_MID      | 12:00    | `37 6 * * 1-5`  | Mid-session India pulse                |
-| NSE_CLOSE    | 15:30    | `7 10 * * 1-5`  | India close, FII/DII data, day summary |
-| US_OPEN      | 19:00    | `30 13 * * 1-5` | US pre-market, macro data              |
-| US_CLOSE     | 01:00    | `37 13 * * 1-5` | US close summary, after-hours news     |
-| SUPERVISOR   | 23:00    | `30 19 * * 0`   | Sunday night weekly calibration        |
+**Scheduling note:** GitHub native cron has documented 5-120min queue delay due to shared runner infrastructure. Minutes offset to :37 and :07 to avoid peak congestion slots (:00 and :30). SESSION detection uses `github.event.schedule` case-match — immune to runner time drift. Full fix deferred to M9: external trigger via cron-job.org calling `workflow_dispatch` API, which bypasses the queue entirely.
+
+| Session Name  | IST Time  | UTC Cron         | What it covers                          |
+|---------------|-----------|------------------|-----------------------------------------|
+| NSE_OPEN      | ~09:07    | `37 3 * * 1-5`   | Pre-market India news, overnight US     |
+| NSE_MID       | ~12:07    | `37 6 * * 1-5`   | Mid-session India pulse                 |
+| NSE_CLOSE     | ~15:37    | `7 10 * * 1-5`   | India close, FII/DII data, day summary  |
+| US_OPEN       | ~19:07    | `37 13 * * 1-5`  | US pre-market, macro data               |
+| US_CLOSE      | ~01:07    | `37 19 * * 1-5`  | US close summary, after-hours news      |
+| SUPERVISOR    | ~23:07    | `37 17 * * 0`    | Sunday night weekly calibration         |
 
 ---
 
@@ -180,7 +182,7 @@ Signal:
   - `rss` type → feedparser.parse(url)
   - `api` type → requests.get(endpoint) with API key from env
   - `scraper` type → requests.Session() with browser headers
-  - `reddit_api` type → praw.Reddit().subreddit(name).hot(limit=n)
+  - `reddit_api` type → **DEFERRED** — Reddit closed self-service API access Nov 2025 (Responsible Builder Policy). `.json` endpoints also blocked from May 2026. Code exists in `reddit_collector.py` but is commented out in adapter registry. Revisit only if Reddit reopens access.
 - On per-source error: append error to `state.errors`, skip that source, continue
 - Outputs all raw items into `state.raw_items`
 
@@ -188,7 +190,7 @@ Signal:
 
 ### Node 2: DeduplicatorAgent
 
-**Responsibility:** Eliminate duplicates, cluster same-story items.  
+**Responsibility:** Eliminate duplicates, cluster same-story items, and detect citation laundering.  
 **Reads from state:** `raw_items`  
 **Writes to state:** `deduplicated_items`, appends to `run_log`  
 **Logic:**
@@ -197,47 +199,82 @@ Signal:
 - Query Supabase `news_items` table: SELECT item_hash WHERE item_hash = ? AND fetched_at > NOW() - 72h
 - If exists in Supabase: skip (already processed)
 - Cluster near-duplicates: items with headline text similarity > 0.85 (using difflib.SequenceMatcher) are merged into one item with `corroboration_count` incremented and `corroborating_sources` populated
+- **CITATION LAUNDERING DETECTION (Hybrid — Q1 decision):**
+  - If a cluster contains a Tier 2 source (Reuters/PTI), Tier 3 items in that cluster are presumed reprints by default
+  - Exception: if a Tier 3 item's snippet contains NO wire attribution keywords ("Reuters," "PTI," "ANI," "Bloomberg," "AFP") → counts as +1 independent observation (not +1 per source)
+  - Set `is_wire_reprint = True` on presumed reprints
+  - Effective corroboration for ValidatorAgent = count of Tier 1 + Tier 2 items + 1 (collective, for all independent Tier 3) — not raw source count
+  - Rationale: one Reuters report republished by 8 Indian outlets is 1 observation, not 8. This prevents manufactured consensus.
 - Output unique items into `state.deduplicated_items`
 
 ---
 
 ### Node 3: RelevanceFilterAgent
 
-**Responsibility:** Hard-drop anything that doesn't match the watchlist.  
+**Responsibility:** Four-pass relevance filter — keeps anything market-relevant, hard-drops genuine noise.  
 **Reads from state:** `deduplicated_items`  
 **Writes to state:** `filtered_items`, appends to `run_log`  
-**Logic:**
+**Logic (4 passes in order — item kept if ANY pass matches):**
 
-- Load watchlist.json keywords list for all tickers + sector names
-- For each item: check if any keyword appears in (headline + snippet) — case-insensitive
-- If no keyword match: DROP. No LLM call. Hard filter.
-- If match: pass through to `state.filtered_items`
-- Log: "Filtered X items to Y relevant items"
+- **Pass 1 — Ticker/Sector keyword match:** check if any watchlist ticker keyword or sector name appears in (headline + snippet) — case-insensitive. Tag: `RELEVANT`
+- **Pass 2 — Tier 1 macro source:** if source_id is in `{rbi_press, fed_press, sebi_disclosures}` — automatically macro-relevant regardless of content. Tag: `MACRO`
+- **Pass 3 — Macro keyword match:** check against static macro keyword list. India: "repo rate," "reverse repo," "CRR," "SLR," "CPI," "WPI," "GDP," "monsoon," "Union Budget," "fiscal deficit," "current account," "rupee," "USDINR," "crude," "Brent." US: "Fed funds rate," "FOMC," "PCE," "payrolls," "unemployment," "yield curve," "treasury," "DXY." Tag: `MACRO`
+- **Pass 4 — Hard DROP:** item matched nothing in passes 1-3 → dropped. No LLM call. No exceptions.
+
+**MACRO-tagged items:** TaggerAgent maps them to affected sectors using static sector-impact table instead of ticker peer lookup. Example: "repo rate cut" → affects Banking, NBFC, Real Estate, Infrastructure sectors → all watchlist tickers in those sectors surface as potentially affected.
+
+**Static sector-impact table maintenance:** Supervisor agent monitors for new high-frequency CONFIRMED keywords not in the table and flags candidates for manual addition quarterly. Table is bootstrap, not ceiling.
+
+- Log: "4-pass filter: X items in → Y RELEVANT, Z MACRO, W dropped"
 
 ---
 
 ### Node 4: NoiseScorerAgent
 
-**Responsibility:** Score each item 0-10 for signal quality.  
+**Responsibility:** Score each item 0-10 for signal quality using static rules + targeted LLM for ambiguous categories.  
 **Reads from state:** `filtered_items`  
 **Writes to state:** `scored_items` (sorted by score descending), appends to `run_log`  
-**Scoring Rules (additive):**
+
+**Base scoring rules (additive):**
 
 | Condition                                    | Score Adjustment |
-| -------------------------------------------- | ---------------- |
-| Source is Tier 1                             | +4               |
+|----------------------------------------------|------------------|
+| Source is Tier 1                             | +3               |
 | Source is Tier 2                             | +2               |
 | Source is Tier 3                             | +1               |
 | Source is Tier 4                             | +0               |
-| corroboration_count >= 3                     | +2               |
-| corroboration_count == 2                     | +1               |
+| corroboration_count >= 3 (independent)       | +2               |
+| corroboration_count == 2 (independent)       | +1               |
 | Item contains specific numbers/percentages   | +1               |
 | Item references a filing or official release | +1               |
 | Vague/sensational language detected*         | -2               |
 | Anonymous source mentioned                   | -1               |
 | Ticker has risk_flag in watchlist            | -1               |
 
-*Sensational keywords list: ["skyrocket", "crash", "explode", "moon", "must buy", "hot tip", "secret"]
+*Sensational keywords: ["skyrocket", "crash", "explode", "moon", "must buy", "hot tip", "secret", "guaranteed"]
+
+**Tier 1 Category Weight Modifier (added to base Tier 1 score):**
+
+| Announcement Category          | Modifier | Rationale                                       |
+|--------------------------------|----------|-------------------------------------------------|
+| Financial Results              | +3       | Direct EPS/revenue catalyst, highest volume     |
+| Merger / Amalgamation          | +3       | 15-30% typical move on announcement day         |
+| Acquisition                    | +2*      | *LLM scores — acquirer vs target impact differs |
+| Buyback                        | +2       | Bullish signal, price floor support             |
+| Insider Buy (SAST / Form 4 P)  | +2       | Promoter conviction — strongest long-term signal|
+| Regulatory Order               | +2*      | *LLM scores — direction varies by order type    |
+| Credit Rating Change           | +2*      | *LLM scores — upgrade vs downgrade differ       |
+| Change in Directors            | +1*      | *LLM scores — CFO exit ≠ routine board rotation |
+| Rights Issue                   | +1       | Dilution concern, mildly negative               |
+| Dividend                       | +1       | Mechanical ex-date effect                       |
+| Outcome of Board Meeting       | +1       | Context-dependent, moderate impact              |
+| Board Meeting Notice           | +0       | Zero immediate price impact                     |
+| AGM Notice                     | -1       | Purely routine, noise                           |
+
+**LLM escalation — 4 ambiguous categories (marked *):**
+For Director Changes, Regulatory Orders, Acquisitions, Credit Rating changes: call primary LLM (Nemotron 3 Ultra 550B via NVIDIA NIM, fallback Llama 3.3 70B → Gemini 1.5 Flash) with structured prompt: "Score financial impact 1-3 and direction. Respond JSON only: {score: int, direction: str, reasoning: str}". LLM result replaces the* modifier. All rules documented with financial reasoning in `/docs/noise_rules.md`.
+
+**Agent behaviour:** static rules run first on every item. LLM called only when category is in ambiguous set. Never LLM-first.
 
 Final score capped 0-10. Items with score < 2.0 are dropped (noise floor).
 
@@ -260,13 +297,14 @@ Final score capped 0-10. Items with score < 2.0 are dropped (noise floor).
 
 ### Node 6: DeepCheckAgent
 
-**Responsibility:** Attempt to verify SINGLE_SOURCE items via Gemini.  
+**Responsibility:** Attempt to verify SINGLE_SOURCE items via primary LLM.  
 **Reads from state:** `pending_deep_check`  
 **Writes to state:** adds resolved items to `validated_items`, appends to `run_log`  
+**LLM:** Nemotron 3 Ultra 550B via NVIDIA NIM → fallback Llama 3.3 70B → Gemini 1.5 Flash  
 **Logic:**
 
 - For each item in `pending_deep_check`:
-  - Call Gemini 1.5 Flash with prompt: "Is this news headline corroborated by any other source? Headline: '{headline}'. Search for this story and tell me: (a) corroborated yes/no, (b) source name if yes. Respond in JSON: {corroborated: bool, source: str|null}"
+  - Call primary LLM: "Is this news headline corroborated by any other source? Headline: '{headline}'. Search for this story and tell me: (a) corroborated yes/no, (b) source name if yes. Respond in JSON: {corroborated: bool, source: str|null}"
   - If corroborated == True: update trust_label to VERIFIED_DEEP, add to `validated_items`
   - If corroborated == False: update trust_label to SINGLE_SOURCE_UNVERIFIED, still add to `validated_items` (but flagged)
 - Append all resolved items to `state.validated_items`
@@ -360,7 +398,7 @@ Final score capped 0-10. Items with score < 2.0 are dropped (noise floor).
   - Volume_ratio > 1.2 OR RSI moving sharply
   - Note: this is a watchlist, NOT a trade signal. Requires chart confirmation at open.
 
-- Call Gemini 1.5 Flash to generate the `reasons` field (3 bullets per signal) from the input data
+- Call primary LLM (Nemotron 3 Ultra 550B via NVIDIA NIM → fallback Llama 3.3 70B → Gemini 1.5 Flash) to generate the `reasons` field (3 bullets per signal) from the input data
 - Write all signals to `state.signals` and to Supabase `signals` table
 
 ---
@@ -373,7 +411,7 @@ Final score capped 0-10. Items with score < 2.0 are dropped (noise floor).
 **Logic:**
 
 - If `signals` is empty AND no CONFIRMED `tagged_items`: set `digest_html = None`, skip to DeliveryAgent
-- Call Gemini 1.5 Flash with structured prompt to generate digest sections:
+- Call primary LLM (Nemotron 3 Ultra 550B via NVIDIA NIM → fallback Llama 3.3 70B → Gemini 1.5 Flash) with structured prompt to generate digest sections:
   1. 🚨 Top Signals — BULLISH/BEARISH with confidence, ticker, 3 reasons
   2. 👀 Intraday Watchlist — stocks to monitor next 1-2 sessions with reason
   3. 📊 Sector Overview — which sectors are in motion this session
@@ -416,7 +454,7 @@ Final score capped 0-10. Items with score < 2.0 are dropped (noise floor).
 
 ## 5. Graph Edges and Conditional Routing
 
-```text
+```mermaid
 START
   → CollectorAgent
   → DeduplicatorAgent
@@ -446,14 +484,14 @@ ERROR HANDLING EDGES:
 
 ## 6. What Gets Logged to Supabase (Reference for M6 Schema)
 
-| Table                 | Written by                      | Timing              |
-| --------------------- | ------------------------------- | ------------------- |
-| pipeline_runs         | DeliveryAgent                   | End of every run    |
-| news_items            | DeduplicatorAgent               | Per item, every run |
-| fundamentals_cache    | FundamentalsAgent               | Weekly refresh      |
-| technical_cache       | TechnicalAgent                  | Every session       |
-| signals               | SignalGeneratorAgent            | Per signal          |
-| agent_decisions       | ValidatorAgent + DeepCheckAgent | Per decision        |
-| source_accuracy_log   | SupervisorAgent                 | Weekly              |
-| outcome_tracker       | You (manual during M11)         | After paper trading |
-| proposed_calibrations | SupervisorAgent                 | Weekly              |
+| Table                  | Written by                      | Timing              |
+|------------------------|---------------------------------|---------------------|
+| pipeline_runs          | DeliveryAgent                   | End of every run    |
+| news_items             | DeduplicatorAgent               | Per item, every run |
+| fundamentals_cache     | FundamentalsAgent               | Weekly refresh      |
+| technical_cache        | TechnicalAgent                  | Every session       |
+| signals                | SignalGeneratorAgent            | Per signal          |
+| agent_decisions        | ValidatorAgent + DeepCheckAgent | Per decision        |
+| source_accuracy_log    | SupervisorAgent                 | Weekly              |
+| outcome_tracker        | You (manual during M11)         | After paper trading |
+| proposed_calibrations  | SupervisorAgent                 | Weekly              |
