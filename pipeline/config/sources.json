@@ -1,32 +1,39 @@
 {
   "metadata": {
-    "version": "1.0",
+    "version": "2.0",
     "created": "2026-06-22",
-    "total_sources": 28,
+    "updated": "2026-07-04",
+    "total_sources": 29,
     "notes": [
       "Tier 1: Official filings. Self-trusting. Single mention = CONFIRMED.",
       "Tier 2: Wire services. High accountability. 1 mention = UNCONFIRMED but high trust.",
       "Tier 3: Financial media. 2+ mentions across sources = CONFIRMED.",
       "Tier 4: Community/supplementary. Never CONFIRMED alone. Signals only.",
       "poll_sessions: which GitHub Actions cron trigger fetches this source",
-      "Sessions: NSE_OPEN=09:00 NSE_MID=12:00 NSE_CLOSE=15:30 US_OPEN=19:00 US_CLOSE=01:00 IST"
+      "Sessions: NSE_OPEN~09:07 NSE_MID~12:07 NSE_CLOSE~15:37 US_OPEN~19:07 US_CLOSE~01:07 IST (crons offset to :37/:07 to avoid GitHub queue congestion)"
     ]
   },
 
   "tier_1": [
     {
-      "id": "nse_announcements",
-      "name": "NSE Corporate Announcements",
-      "type": "scraper",
-      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
-      "api_endpoint": "https://www.nseindia.com/api/corp-announcements",
+      "id": "nse_rss_registry",
+      "name": "NSE Official RSS Feeds (14 feeds)",
+      "type": "rss",
+      "base_url": "https://nsearchives.nseindia.com/content/RSS/",
       "market": "india",
       "trust_label_on_match": "CONFIRMED",
-      "covers": ["earnings", "board_meetings", "dividends", "mergers", "regulatory_actions", "insider_trades"],
+      "covers": [
+        "announcements", "board_meetings", "financial_results",
+        "xbrl_integrated_financials", "insider_trading", "corporate_actions",
+        "buybacks", "sast_reg29_stake_acquisition_5pct",
+        "sast_reg31_promoter_pledge", "shareholding_patterns",
+        "related_party_transactions", "fund_usage_deviation",
+        "offer_documents", "exchange_circulars"
+      ],
       "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
-      "poll_interval_minutes": 15,
-      "requires_session_cookie": true,
-      "notes": "NSE blocks direct API without session. Use requests.Session() with headers to mimic browser."
+      "poll_interval_minutes": null,
+      "requires_session_cookie": false,
+      "notes": "UPDATED 2026-07-04: Replaced fragile session-cookie API (api/corp-announcements) with 14 confirmed official RSS feeds from nsearchives.nseindia.com. Feed URLs and session routing live in nse_collector.py NSE_RSS_FEEDS registry. Financial results now also filed in XBRL (machine-readable XML) since April 2025 — parsed directly, no PDF extraction needed for this category."
     },
     {
       "id": "bse_filings",
@@ -108,6 +115,19 @@
       "poll_interval_minutes": null,
       "requires_session_cookie": false,
       "notes": "Pull once daily after market close. SEBI actions are low frequency but extremely high impact."
+    },
+    {
+      "id": "fed_press",
+      "name": "US Federal Reserve Press Releases",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "market": "us",
+      "trust_label_on_match": "CONFIRMED",
+      "covers": ["interest_rates", "monetary_policy", "fed_statements", "fomc_decisions"],
+      "poll_sessions": ["US_OPEN", "US_CLOSE"],
+      "poll_interval_minutes": 60,
+      "requires_session_cookie": false,
+      "notes": "MOVED TO TIER 1 (was incorrectly in tier_3). Fed statements are legally mandated government disclosures — same trust level as SEBI/RBI. Low frequency, extremely high impact. FOMC rate decisions move global equity, bond, and currency markets simultaneously."
     }
   ],
 
@@ -275,19 +295,6 @@
       "notes": "CRITICAL: 25 calls/day free limit. Budget: 10 for NEWS_SENTIMENT, 10 for technical indicators, 5 reserve. Batch US watchlist tickers per call."
     },
     {
-      "id": "fed_press",
-      "name": "US Federal Reserve Press Releases",
-      "type": "rss",
-      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "market": "us",
-      "trust_label_on_match": "CONFIRMED",
-      "covers": ["interest_rates", "monetary_policy", "fed_statements"],
-      "poll_sessions": ["US_OPEN", "US_CLOSE"],
-      "poll_interval_minutes": 60,
-      "requires_session_cookie": false,
-      "notes": "Fed statements are Tier 1 equivalent — treat as CONFIRMED. Low frequency, extremely high impact."
-    },
-    {
       "id": "google_news_india",
       "name": "Google News — India Markets",
       "type": "rss",
@@ -320,6 +327,7 @@
       "id": "reddit_india_invest",
       "name": "Reddit — r/IndiaInvestments",
       "type": "reddit_api",
+      "status": "DEFERRED",
       "subreddit": "IndiaInvestments",
       "sort": "hot",
       "limit": 25,
@@ -331,12 +339,13 @@
       "poll_sessions": ["NSE_CLOSE"],
       "poll_interval_minutes": null,
       "requires_session_cookie": false,
-      "notes": "Retail sentiment signal only. Never CONFIRMED alone. Useful for spotting themes early. Filter: upvote_ratio > 0.85 AND score > 50."
+      "notes": "DEFERRED: Reddit closed self-service API access Nov 2025 (Responsible Builder Policy). reddit.com/prefs/apps requires manual approval, personal projects being denied. .json endpoints blocked May 2026. Code in reddit_collector.py exists but commented out in collector_agent.py. Revisit if Reddit reopens access."
     },
     {
       "id": "reddit_stocks",
       "name": "Reddit — r/stocks",
       "type": "reddit_api",
+      "status": "DEFERRED",
       "subreddit": "stocks",
       "sort": "hot",
       "limit": 20,
@@ -348,12 +357,13 @@
       "poll_sessions": ["US_CLOSE"],
       "poll_interval_minutes": null,
       "requires_session_cookie": false,
-      "notes": "Same filter as above. Low trust but useful for US retail sentiment."
+      "notes": "DEFERRED: Same reason as reddit_india_invest."
     },
     {
       "id": "reddit_investing",
       "name": "Reddit — r/investing",
       "type": "reddit_api",
+      "status": "DEFERRED",
       "subreddit": "investing",
       "sort": "hot",
       "limit": 20,
@@ -365,7 +375,7 @@
       "poll_sessions": ["US_CLOSE"],
       "poll_interval_minutes": null,
       "requires_session_cookie": false,
-      "notes": "Better quality than r/wallstreetbets. Still Tier 4. Treat accordingly."
+      "notes": "DEFERRED: Same reason as reddit_india_invest."
     }
   ],
 
