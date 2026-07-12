@@ -131,11 +131,8 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
 
             # ── CIK verification — eliminates false positives ──────
             result_ciks = source.get("ciks", [])
-            if cik not in result_ciks:
-                logger.debug(
-                    f"SEC 8-K [{ticker}]: skipping filing from "
-                    f"{source.get('display_names', ['unknown'])} — CIK mismatch"
-                )
+            if not result_ciks or result_ciks[0] != cik:
+                logger.debug(f"SEC 8-K [{ticker}]: skipping — not primary filer. ciks={result_ciks}")
                 continue
 
             # ── Form type verification ────────────────
@@ -160,8 +157,7 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
                 continue
 
             item_desc = ", ".join(
-                ITEM_DECRIPTIONS.get(item, f"Item {item}")
-                for item in high_signal_items
+                ITEM_DECRIPTIONS.get(item, f"Item {item}") for item in high_signal_items
             ) if high_signal_items else "Material Event"
 
             headline = (
@@ -182,7 +178,7 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
                 source_tier=SourceTier.OFFICIAL,
                 headline=headline,
                 snippet=snippet,
-                url=_build_filing_url(cik, adsh),
+                url=_build_filing_url(result_ciks[0], adsh),
                 published_at=_parse_sec_date(file_date),
                 market=Market.US,
                 raw_payload=source
@@ -240,28 +236,31 @@ def _fetch_form4_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawI
             adsh          = source.get("adsh", "")
             file_date     = source.get("file_date", "")
             display_names = source.get("display_names", [])
-            filer_name    = display_names[0] if display_names else ticker
+
+            insider_name  = display_names[0] if display_names else "Unknown Insider"
+            company_name  = display_names[1] if len(display_names) > 1 else ticker
 
             headline = (
                 f"[{ticker}] Form 4 Insider Trade | "
-                f"Filer: {filer_name} | "
+                f"Insider: {insider_name} | "
+                f"Company: {company_name} | "
                 f"Filed: {file_date}"
             )
-
             snippet = (
                 f"SEC Form 4 | {ticker} | "
-                f"Insider: {filer_name} | "
+                f"Insider: {insider_name} | "
                 f"Filed: {file_date} | "
                 f"P=Purchase(bullish), S=Sale(neutral-bearish), A=Award(non-signal)"
             )
 
+            filing_cik = result_ciks[0] if result_ciks else cik
             items.append(RawItem(
                 source_id    = "sec_edgar_form4",
                 source_name  = "SEC EDGAR — Form 4 Insider Trades",
                 source_tier  = SourceTier.OFFICIAL,
                 headline     = headline,
                 snippet      = snippet,
-                url          = _build_filing_url(cik, adsh),
+                url          = _build_filing_url(filing_cik, adsh),
                 published_at = _parse_sec_date(file_date),
                 market       = Market.US,
                 raw_payload  = source,
