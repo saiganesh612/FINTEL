@@ -128,9 +128,9 @@ if __name__ == "__main__":
     print("\nBSE Collector Live Test — per-scrip approach")
 
     test_session_routing()
-    # test_item_structure()
-    # test_sample_output()
-    # test_per_ticker_coverage()
+    test_item_structure()
+    test_sample_output()
+    test_per_ticker_coverage()
 
     print(f"\n{'=' * 60}")
     print("  All tests complete")

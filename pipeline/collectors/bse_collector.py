@@ -55,6 +55,8 @@ HORIZON_MAP = {
     "Board Meeting":                "SHORT_TERM",
     "Outcome of Board Meeting":     "SHORT_TERM",
     "Corp. Action":                 "SHORT_TERM",
+    "Corp Action":                  "SHORT_TERM",
+    "Result":                       "SHORT_TERM",
     "Dividend":                     "SHORT_TERM",
     "Bonus":                        "SHORT_TERM",
     "Buyback":                      "SHORT_TERM",
