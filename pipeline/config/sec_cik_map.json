@@ -1,0 +1,17 @@
+{
+  "_note": "SEC CIK numbers for all US tickers in watchlist. CIK = Central Index Key, SEC's unique company identifier. Padded to 10 digits as required by EDGAR API.",
+  "NVDA":  "0001045810",
+  "MSFT":  "0000789019",
+  "GOOGL": "0001652044",
+  "META":  "0001326801",
+  "AMD":   "0000002488",
+  "LLY":   "0000059478",
+  "JNJ":   "0000200406",
+  "LMT":   "0000936468",
+  "AMZN":  "0001018724",
+  "JPM":   "0000019617",
+  "BAC":   "0000070858",
+  "XOM":   "0000034088",
+  "CAT":   "0000018230",
+  "AAPL":  "0000320193"
+}
