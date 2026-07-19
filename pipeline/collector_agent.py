@@ -5,7 +5,7 @@
 # This is not a LangGraph node yet (that comes in M3).
 # It's a pure Python implementation of the agent pattern:
 #   - Knows the goal: collect all relevant data for this session
-#   - Has tools: 7 adapters, each behind a standard interface
+#   - Has tools: 6 adapters, each behind a standard interface
 #   - Has decision logic: which tools to call depends on session_type
 #   - Has resilience: one tool failing never stops the others
 #
