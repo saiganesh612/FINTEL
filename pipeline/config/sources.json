@@ -18,7 +18,7 @@
     {
       "id": "nse_rss_registry",
       "name": "NSE Official RSS Feeds (14 feeds)",
-      "type": "rss",
+      "type": "nse_native",
       "base_url": "https://nsearchives.nseindia.com/content/RSS/",
       "market": "india",
       "trust_label_on_match": "CONFIRMED",
