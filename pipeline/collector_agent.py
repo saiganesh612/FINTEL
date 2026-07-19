@@ -18,6 +18,8 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Any
 from datetime import timezone, datetime
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 from pipeline.collectors.alphavantage_collector import collect_alphavantage
 from pipeline.collectors.bse_collector import collect_bse
 from pipeline.collectors.nse_collector import collect_nse
@@ -90,23 +92,31 @@ def run_collector(session_type: str) -> CollectorOutput:
         ("Alpha Vantage", collect_alphavantage),
     ]
 
-    for adapter_name, adapter_fn in NEWS_ADAPTERS:
-        try:
-            items = adapter_fn(session_type=session_type)
+    # ── News adapters — run in parallel ───────────────────────
+    # Each adapter hits a different host — parallel execution is safe.
+    # ThreadPoolExecutor is platform-agnostic — works on any future
+    # compute backend (Lambda, Cloud Run, VM) without code changes.
 
-            # Count items per source_id for the run log
-            for item in items:
-                source_counts[item.source_id] = source_counts.get(item.source_id, 0) + 1
+    with ThreadPoolExecutor(max_workers=len(NEWS_ADAPTERS)) as executor:
+        futures = {
+            executor.submit(adapter_fn, session_type): adapter_name
+            for adapter_name, adapter_fn in NEWS_ADAPTERS
+        }
 
-            all_items.extend(items)
-            logger.info(f"[{adapter_name}] returned {len(items)} items")
-
-        except Exception as e:
-            # Catch-all safety net — each adapter has its own error handling,
-            # but this ensures CollectorAgent itself never crashes.
-            error_msg = f"{adapter_name} adapter raised unexpected error: {e}"
-            logger.error(error_msg, exc_info=True)
-            errors.append(error_msg)
+        for future in as_completed(futures):
+            adapter_name = futures[future]
+            try:
+                items = future.result()
+                for item in items:
+                    source_counts[item.source_id] = source_counts.get(item.source_id, 0) + 1
+            
+                all_items.extend(items)
+                logger.info(f"[{adapter_name}] returned {len(items)} items")
+                
+            except Exception as e:
+                error_msg = f"{adapter_name} adapter raised unexpected error: {e}"
+                logger.error(error_msg, exc_info=True)
+                errors.append(error_msg)
 
     # ── Price data ────────────────────────────────────────────
     price_data: Dict[str, Any] = {}
