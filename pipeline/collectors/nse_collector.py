@@ -247,7 +247,7 @@ def collect_nse_announcements(session_type: str) -> List[RawItem]:
     session.headers.update(HEADERS)
 
     try:
-        session.get(NSE_BASE_URL, timeout=10)
+        session.get(NSE_BASE_URL, timeout=15)
         time.sleep(1)
     except Exception as e:
         logger.warning(f"NSE RSS: session seed failed ({e}) — attempting feeds anyway")
@@ -255,8 +255,24 @@ def collect_nse_announcements(session_type: str) -> List[RawItem]:
     all_items: List[RawItem] = []
     for feed_config in active_feeds:
         try:
-            response = session.get(feed_config['url'], timeout=15)
-            response.raise_for_status()
+            response = None
+            for attempt in range(2):  # 1 attempt + 1 retry
+                try:
+                    response = session.get(feed_config['url'], timeout=30)
+                    response.raise_for_status()
+                    break  # success — exit retry loop
+                except requests.exceptions.Timeout:
+                    if attempt == 0:
+                        logger.warning(
+                            f"NSE RSS [{feed_config['id']}]: timeout on attempt 1 "
+                            f"— waiting 5s before retry"
+                        )
+                        time.sleep(5)
+                    else:
+                        raise  # second timeout — let outer except handle it
+
+            if response is None:
+                continue
 
             feed = feedparser.parse(response.content)
             if feed.bozo:
@@ -274,8 +290,7 @@ def collect_nse_announcements(session_type: str) -> List[RawItem]:
             logger.info(f"NSE RSS [{feed_config['id']}]: {len(items_from_feed)} items")
             all_items.extend(items_from_feed)
 
-            # Brief pause between feeds — respectful crawling
-            time.sleep(0.5)
+            time.sleep(2)  # respectful crawling — increased from 0.5s
 
         except Exception as e:
             logger.warning(
@@ -304,7 +319,7 @@ def collect_fii_dii(session_type: str) -> List[RawItem]:
     session.headers.update(HEADERS)
 
     try:
-        session.get(NSE_BASE_URL, timeout=10)
+        session.get(NSE_BASE_URL, timeout=15)
         time.sleep(1)
 
         response = session.get(NSE_FII_DII_URL, timeout=15)
