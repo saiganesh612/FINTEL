@@ -131,34 +131,7 @@
     }
   ],
 
-  "tier_2": [
-    {
-      "id": "reuters_business",
-      "name": "Reuters Business News",
-      "type": "rss",
-      "url": "https://feeds.reuters.com/reuters/businessNews",
-      "market": "global",
-      "trust_label_on_match": "UNCONFIRMED",
-      "covers": ["global_macro", "earnings", "mergers", "policy", "commodities"],
-      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE", "US_OPEN", "US_CLOSE"],
-      "poll_interval_minutes": 15,
-      "requires_session_cookie": false,
-      "notes": "Highest editorial trust after Tier 1. Wire service — factual, sourced."
-    },
-    {
-      "id": "reuters_india",
-      "name": "Reuters India Markets",
-      "type": "rss",
-      "url": "https://feeds.reuters.com/reuters/INbusinessNews",
-      "market": "india",
-      "trust_label_on_match": "UNCONFIRMED",
-      "covers": ["india_macro", "india_earnings", "india_policy", "india_markets"],
-      "poll_sessions": ["NSE_OPEN", "NSE_MID", "NSE_CLOSE"],
-      "poll_interval_minutes": 15,
-      "requires_session_cookie": false,
-      "notes": "India-specific Reuters feed. Prioritise over global Reuters for NSE stocks."
-    }
-  ],
+  "tier_2": [],
 
   "tier_3": [
     {
