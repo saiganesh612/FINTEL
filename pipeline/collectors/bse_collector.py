@@ -22,6 +22,7 @@
 # scores unexpectedly low downstream.
 
 import json
+import time
 import logging
 import tempfile
 from datetime import datetime, timedelta, timezone
@@ -183,6 +184,7 @@ def collect_bse(session_type: str) -> List[RawItem]:
 
     today     = datetime.now(timezone.utc)
     from_date = today - timedelta(hours=LOOKBACK_HOURS)
+    failed_count = 0
 
     logger.info(
         f"BSE: fetching {len(scrip_map)} tickers | "
@@ -245,13 +247,20 @@ def collect_bse(session_type: str) -> List[RawItem]:
                     )
                     all_items.extend(items_for_ticker)
 
+                except TimeoutError:
+                    logger.warning(f"BSE [{ticker}]: timeout — BSE rate limited this request, skipping")
+                    failed_count += 1
+
                 except Exception as e:
-                    # Per-ticker failure: log and continue to next ticker.
-                    # One company's API failure never stops the rest.
-                    logger.warning(
-                        f"BSE [{ticker} | {scrip_code}]: failed — {e}",
-                        exc_info=True,
-                    )
+                    if "Expecting value" in str(e):
+                        logger.warning(f"BSE [{ticker}]: empty response body — BSE returned non-JSON (throttled), skipping")
+                        failed_count += 1
+                    else:
+                        logger.warning(f"BSE [{ticker}]: unexpected error — {type(e).__name__}: {e}", exc_info=True)
+                        failed_count += 1
+
+                finally:
+                    time.sleep(1)
 
             bse_client.exit()
 
@@ -266,6 +275,7 @@ def collect_bse(session_type: str) -> List[RawItem]:
         f"BSE collection complete | "
         f"Session: {session_type} | "
         f"Total items: {len(all_items)} | "
-        f"Tickers processed: {len(scrip_map)}"
+        f"Tickers: {len(scrip_map) - failed_count}/{len(scrip_map)} succeeded, "
+        f"{failed_count} failed (throttled or timed out)"
     )
     return all_items

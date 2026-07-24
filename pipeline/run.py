@@ -31,15 +31,21 @@ def main():
     # Data Collection
     from pipeline.collector_agent import run_collector
     output = run_collector(session_type=session)
-
-    logger.info(f"Collection complete: {output.total_items} raw items")
-    logger.info(f"Price data: {len(output.price_data)} tickers")
-
+    
     if output.errors:
         logger.warning(f"{len(output.errors)} non-fatal errors occurred:")
         for err in output.errors:
             logger.warning(f"  {err}")
 
+    # errors=0 means no adapter crashed entirely.
+    # Per-item failures (e.g. BSE timeouts on individual tickers)
+    # are handled within each adapter and visible in WARNING logs above.
+    logger.info(
+        f"Collection complete: {output.total_items} raw items | "
+        f"Price data: {len(output.price_data)} tickers | "
+        f"Adapter crashes: {len(output.errors)}"
+    )
+    
     # Placeholder for M2.5 — DeduplicatorAgent will process output next
     logger.info("(Deduplicator) not yet implemented — pipeline stopping here")
     logger.info("=" * 60)
