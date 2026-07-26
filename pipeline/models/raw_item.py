@@ -61,7 +61,7 @@ class RawItem(BaseModel):
     published_at: Optional[datetime] = None
     fetched_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     market: Market
-    raw_payload: Dict[str, Any] = Field(default_factory=Dict)
+    raw_payload: Dict[str, Any] = Field(default_factory=dict)
 
     @field_validator("snippet")
     @classmethod
