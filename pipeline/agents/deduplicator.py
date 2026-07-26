@@ -42,7 +42,7 @@ from rapidfuzz import fuzz, utils
 from pipeline.models import RawItem, SourceTier
 from pipeline.storage.base import InMemoryStorage, compute_hash
 
-logger = logging.getLogger(__file__)
+logger = logging.getLogger(__name__)
 
 # ── Similarity thresholds ──────────────────────────────────────
 # Headlines with token_set_ratio above HEADLINE_CLUSTER_THRESHOLD
