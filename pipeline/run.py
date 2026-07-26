@@ -45,9 +45,26 @@ def main():
         f"Price data: {len(output.price_data)} tickers | "
         f"Adapter crashes: {len(output.errors)}"
     )
+
+    # Deduplication
+    from pipeline.agents.deduplicator import run_deduplicator
+    from pipeline.storage.base import InMemoryStorage
+
+    storage = InMemoryStorage()
+    deduped = run_deduplicator(items=output.raw_items, storage=storage)
+
+    multi_source  = sum(1 for d in deduped if d.corroboration_count > 1)
+    wire_reprints = sum(1 for d in deduped if d.is_wire_reprint)
+
+    logger.info(
+        f"Deduplication complete: {output.total_items} raw → {len(deduped)} unique | "
+        f"Removed: {output.total_items - len(deduped)} | "
+        f"Multi-source: {multi_source} | "
+        f"Wire reprints: {wire_reprints}"
+    )
     
-    # Placeholder for M2.5 — DeduplicatorAgent will process output next
-    logger.info("(Deduplicator) not yet implemented — pipeline stopping here")
+    # Placeholder — RelevanceFilterAgent next
+    logger.info("(RelevanceFilter) not yet implemented — pipeline stopping here")
     logger.info("=" * 60)
     logger.info("FINTEL Pipeline run complete")
 
