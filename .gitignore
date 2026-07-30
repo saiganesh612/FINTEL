@@ -4,3 +4,4 @@ __pycache__/
 venv
 .DS_Store
 av_budget.json
+CONTEXT.md
