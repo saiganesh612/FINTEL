@@ -62,6 +62,7 @@ class RawItem(BaseModel):
     fetched_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     market: Market
     raw_payload: Dict[str, Any] = Field(default_factory=dict)
+    category: Optional[str] = None
 
     @field_validator("snippet")
     @classmethod
@@ -121,7 +122,8 @@ class RawItem(BaseModel):
             "url": self.url,
             "published_at": self.published_at.isoformat() if self.published_at else None,
             "fetched_at": self.fetched_at.isoformat(),
-            "market": self.market.value
+            "market": self.market.value,
+            "category": self.category,
         }
     
     def __repr__(self):

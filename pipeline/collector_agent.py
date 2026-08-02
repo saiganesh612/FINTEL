@@ -26,6 +26,7 @@ from pipeline.collectors.nse_collector import collect_nse
 from pipeline.collectors.price_collector import collect_prices
 from pipeline.collectors.rss_collector import collect_rss
 from pipeline.collectors.sec_collector import collect_sec
+from pipeline.collectors.sebi_collector import collect_sebi
 from pipeline.models import RawItem
 
 logger = logging.getLogger(__name__)
@@ -90,6 +91,7 @@ def run_collector(session_type: str) -> CollectorOutput:
         ("BSE",           collect_bse),
         ("SEC EDGAR",     collect_sec),
         ("Alpha Vantage", collect_alphavantage),
+        ("SEBI",          collect_sebi),
     ]
 
     # ── News adapters — run in parallel ───────────────────────

@@ -62,9 +62,22 @@ def main():
         f"Multi-source: {multi_source} | "
         f"Wire reprints: {wire_reprints}"
     )
+
+    # Relevance filtering
+    from pipeline.agents.relevance_filter import run_relevance_filter, RelevanceTag
+
+    filtered = run_relevance_filter(items=deduped)
+    relevant_count = sum(1 for f in filtered if f.tag == RelevanceTag.RELEVANT)
+    macro_count = sum(1 for f in filtered if f.tag == RelevanceTag.MACRO)
+
+    logger.info(
+        f"Relevance filter complete: {len(deduped)} deduped → {len(filtered)} kept | "
+        f"RELEVANT: {relevant_count} | MACRO: {macro_count} | "
+        f"Dropped: {len(deduped) - len(filtered)}"
+    )
     
-    # Placeholder — RelevanceFilterAgent next
-    logger.info("(RelevanceFilter) not yet implemented — pipeline stopping here")
+    # Placeholder — NoiseScorerAgent next
+    logger.info("(NoiseScorer) not yet implemented — pipeline stopping here")
     logger.info("=" * 60)
     logger.info("FINTEL Pipeline run complete")
 

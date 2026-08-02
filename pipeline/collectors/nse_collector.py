@@ -224,6 +224,7 @@ def _entry_to_raw_item(entry: dict, feed_config: dict) -> Optional[RawItem]:
         url=entry.get("link", NSE_BASE_URL),
         published_at=_parse_rss_date(entry),
         market=Market.INDIA,
+        category=category,
         raw_payload=dict(entry)
     )
 

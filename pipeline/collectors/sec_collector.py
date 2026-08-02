@@ -9,9 +9,11 @@
 
 import json
 import logging
+import time
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from typing import List, Optional
+import xml.etree.ElementTree as ET
 
 import requests
 
@@ -22,11 +24,15 @@ logger = logging.getLogger(__name__)
 CONFIG_DIR = Path(__file__).parent.parent / "config"
 CIK_MAP_PATH = CONFIG_DIR / "sec_cik_map.json"
 
+HEADER_ARCHIVES = {
+    "User-Agent":      "FINTEL-Pipeline/1.0 personal-investment-research@gmail.com",
+    "Accept-Encoding": "gzip, deflate",
+}
+
 # SEC requires a descriptive User-Agent for automated access
 # Format: "AppName/Version Contact-Email"
 HEADERS = {
-    "User-Agent":      "FINTEL-Pipeline/1.0 personal-investment-research@gmail.com",
-    "Accept-Encoding": "gzip, deflate",
+    **HEADER_ARCHIVES,
     "Host":            "efts.sec.gov",
 }
 
@@ -34,6 +40,16 @@ HEADERS_DATA = {
     "User-Agent":      "FINTEL-Pipeline/1.0 personal-investment-research@gmail.com",
     "Accept-Encoding": "gzip, deflate",
     "Host":            "data.sec.gov",
+}
+
+FORM4_TRANSACTION_LABELS = {
+    "P": "Insider Buy",
+    "S": "Insider Sell",
+    "A": "Award/Grant",
+    "M": "Option Exercise",
+    "G": "Gift",
+    "F": "Tax Withholding",
+    "C": "Conversion",
 }
 
 # 8-K item numbers that are high-signal for trading
@@ -173,7 +189,7 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
             )
 
             items.append(RawItem(
-                source_id="sec_edgar_8k0",
+                source_id="sec_edgar_8k",
                 source_name="SEC EDGAR — 8-K Material Events",
                 source_tier=SourceTier.OFFICIAL,
                 headline=headline,
@@ -181,6 +197,7 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
                 url=_build_filing_url(result_ciks[0], adsh),
                 published_at=_parse_sec_date(file_date),
                 market=Market.US,
+                category=ITEM_DECRIPTIONS.get(high_signal_items[0]) if high_signal_items else "Other Material Events",
                 raw_payload=source
             ))
 
@@ -188,6 +205,51 @@ def _fetch_8k_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem
         logger.warning(f"SEC 8-K [{ticker}]: {e}", exc_info=True)
 
     return items
+
+
+def _extract_form4_transaction_code(cik: str, adsh: str) -> Optional[str]:
+    """
+    The EDGAR full-text search endpoint only returns filing metadata,
+    not parsed transaction detail — so getting P/S/A requires two more
+    requests per filing: the filing's own index.json (to find the
+    ownership XML document's filename), then that XML itself, to read
+    "transactionCode".
+
+    Per decision: extra calls are fine, optimize later if throttled.
+    """
+    cik_numeric = str(int(cik))
+    adsh_no_dashes = adsh.replace("-", "")
+    index_url = f"https://www.sec.gov/Archives/edgar/data/{cik_numeric}/{adsh_no_dashes}/index.json"
+
+    try:
+        resp = requests.get(index_url, headers=HEADER_ARCHIVES, timeout=15)
+        resp.raise_for_status()
+        files = resp.json().get("directory", {}).get("item", [])
+        xml_files = [file["name"] for file in files if file.get("name", "").endswith(".xml")]
+        if not xml_files:
+            return None
+
+        doc_url = f"https://www.sec.gov/Archives/edgar/data/{cik_numeric}/{adsh_no_dashes}/{xml_files[0]}"
+        time.sleep(0.3)
+
+        doc_resp = requests.get(doc_url, headers=HEADER_ARCHIVES, timeout=15)
+        doc_resp.raise_for_status()
+        root = ET.fromstring(doc_resp.content)
+        codes = [el.text.strip() for el in root.iter("transactionCode") if el.text]
+        if not codes:
+            return None
+
+        # Multiple transactions in one filing (rare) — surface Purchase
+        # over Sale/Award if the filing mixes types.
+        if "P" in codes:
+            return "P"
+        if "S" in codes:
+            return "S"
+        return codes[0]
+
+    except Exception as e:
+        logger.debug(f"Form 4 [{adsh}]: transaction code extraction failed — {e}")
+        return None
 
 
 def _fetch_form4_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawItem]:
@@ -240,8 +302,12 @@ def _fetch_form4_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawI
             insider_name  = display_names[0] if display_names else "Unknown Insider"
             company_name  = display_names[1] if len(display_names) > 1 else ticker
 
+            filing_cik = result_ciks[0] if result_ciks else cik
+            txn_code = _extract_form4_transaction_code(cik=filing_cik, adsh=adsh)
+            txn_label = FORM4_TRANSACTION_LABELS.get(txn_code, "Unclassified")
+
             headline = (
-                f"[{ticker}] Form 4 Insider Trade | "
+                f"[{ticker}] Form 4 {txn_label} | "
                 f"Insider: {insider_name} | "
                 f"Company: {company_name} | "
                 f"Filed: {file_date}"
@@ -250,10 +316,9 @@ def _fetch_form4_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawI
                 f"SEC Form 4 | {ticker} | "
                 f"Insider: {insider_name} | "
                 f"Filed: {file_date} | "
-                f"P=Purchase(bullish), S=Sale(neutral-bearish), A=Award(non-signal)"
+                f"Transaction: {txn_label} (code: {txn_code or 'unknown'})"
             )
 
-            filing_cik = result_ciks[0] if result_ciks else cik
             items.append(RawItem(
                 source_id    = "sec_edgar_form4",
                 source_name  = "SEC EDGAR — Form 4 Insider Trades",
@@ -263,8 +328,10 @@ def _fetch_form4_filings(ticker: str, cik: str, days_back: int = 3) -> List[RawI
                 url          = _build_filing_url(filing_cik, adsh),
                 published_at = _parse_sec_date(file_date),
                 market       = Market.US,
+                category     = txn_label,
                 raw_payload  = source,
             ))
+            time.sleep(0.3)
 
     except Exception as e:
         logger.warning(f"SEC Form 4 [{ticker}]: {e}", exc_info=True)

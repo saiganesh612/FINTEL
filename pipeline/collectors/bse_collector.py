@@ -163,6 +163,7 @@ def _announcement_to_raw_item(
         url          = url,
         published_at = _parse_bse_date(announcement.get("NEWS_DT")),
         market       = Market.INDIA,
+        category     = category_label,
         raw_payload  = announcement,
     )
 
