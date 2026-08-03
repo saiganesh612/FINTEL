@@ -12,7 +12,6 @@
 # FII/DII flows: no RSS equivalent exists. Retained as a separate API call
 # for NSE_CLOSE session only.
 
-import json
 import logging
 import time
 from datetime import datetime, timezone
@@ -96,7 +95,7 @@ NSE_RSS_FEEDS = [
         "id":          "nse_sast_reg29",
         "name":        "NSE SAST Regulation 29 (Stake Acquisition 5%+)",
         "url":         "https://nsearchives.nseindia.com/content/RSS/Sast_Regulation29.xml",
-        "category":    "Acquisition",
+        "category":    "Stake Acquisition (5%+ Disclosure)",
         # SAST Regulation 29: disclosure when any entity acquires or
         # disposes 5%+ of a company's shares. Signals large institutional
         # interest or a potential takeover play. High impact on target stock.

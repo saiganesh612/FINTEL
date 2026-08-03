@@ -242,6 +242,7 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
     kept: List[FilteredItem] = []
     dropped = 0
     dropped_by_source: Dict[str, int] = {}
+    kept_by_source: Dict[str, int] = {}
     pass_counts = {"sector": 0, "ticker": 0, "macro_source": 0, "macro_keyword": 0}
 
     for deduped in items:
@@ -298,6 +299,7 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
             matched_keywords=matched_keywords,
             sector_impact=sector_impact
         ))
+        kept_by_source[source_id] = kept_by_source.get(source_id, 0) + 1
 
     logger.info(
         f"RelevanceFilterAgent: {len(items)} in → {len(kept)} kept, {dropped} dropped | "
@@ -313,5 +315,12 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
             for sid, count in sorted(dropped_by_source.items(), key=lambda x: -x[1])
         )
         logger.info(f"RelevanceFilterAgent: dropped breakdown by source — {breakdown}")
+
+    if kept_by_source:
+        kept_breakdown = ", ".join(
+            f"{sid}: {count}"
+            for sid, count in sorted(kept_by_source.items(), key=lambda x: -x[1])
+        )
+        logger.info(f"RelevanceFilterAgent: kept breakdown by source — {kept_breakdown}")
 
     return kept
