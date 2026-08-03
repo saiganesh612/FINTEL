@@ -89,7 +89,7 @@ def _entry_to_raw_item(entry: dict) -> Optional[RawItem]:
     if category is None:
         return None
 
-    snippet = f"SEBI {category} | {(entry.get("summary") or "")[:300]}"
+    snippet = f"SEBI {category} | {(entry.get('summary') or '')[:300]}"
     return RawItem(
         source_id="sebi_disclosures",
         source_name="SEBI Regulatory Disclosures",
