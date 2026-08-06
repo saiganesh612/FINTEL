@@ -68,3 +68,10 @@ jobs:
           # REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           # REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python pipeline/run.py
+
+      - name: Upload audit logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-logs-${{ github.run_id }}
+          path: artifacts/audit/

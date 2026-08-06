@@ -29,6 +29,7 @@ from typing import Dict, Pattern, List
 
 from pipeline.agents.relevance_filter import FilteredItem
 from pipeline.models import RawItem, SourceTier
+from pipeline.storage.audit_log import write_audit_log
 
 logger = logging.getLogger(__name__)
 
@@ -192,8 +193,15 @@ def _load_keyword_to_ticker_map() -> Dict[str, dict]:
     for market in ("india", "us"):
         for ticker in watchlist.get(market, []):
             for kw in ticker.get("keywords", []):
-                # TODO: Something is off with this logic, need to cross-verify
-                mapping[kw.lower()] = ticker
+                key = kw.lower()
+                if key in mapping and mapping[key]["ticker_display"] != ticker["ticker_display"]:
+                    logger.warning(
+                        f"NoiseScorer: keyword '{key}' is shared between "
+                        f"{mapping[key]['ticker_display']} and {ticker['ticker_display']} — "
+                        f"risk_flag lookup will silently use whichever was inserted last. "
+                        f"Verify this collision is intentional."
+                    )
+                mapping[key] = ticker
 
     return mapping
 
@@ -271,7 +279,7 @@ def _score_item(filtered: FilteredItem, keyword_to_ticker: Dict[str, dict]) -> S
     return ScoredItem(filtered=filtered, noise_score=score, score_reasons=reasons)
 
 
-def run_noise_scorer(items: List[FilteredItem]) -> List[ScoredItem]:
+def run_noise_scorer(items: List[FilteredItem], session_type: str = "unknown") -> List[ScoredItem]:
     """
     Score every FilteredItem (RELEVANT and MACRO alike) and return
     them sorted descending by noise_score. Items below NOISE_FLOOR
@@ -293,4 +301,21 @@ def run_noise_scorer(items: List[FilteredItem]) -> List[ScoredItem]:
         f"(floor={NOISE_FLOOR})"
     )
 
+    audit_records = [
+        {
+            "item_hash":     s.filtered.deduped.item_hash,
+            "source_id":     s.item.source_id,
+            "source_tier":   s.item.source_tier.name,
+            "headline":      s.item.headline,
+            "url":           s.item.url,
+            "published_at":  s.item.published_at.isoformat() if s.item.published_at else None,
+            "category":      s.item.category,
+            "tag":           s.tag.value,
+            "noise_score":   s.noise_score,
+            "score_reasons": s.score_reasons,
+            "decision":      "KEPT" if s.noise_score >= NOISE_FLOOR else "DROPPED_BELOW_FLOOR",
+        }
+        for s in scored
+    ]
+    write_audit_log(stage="noise_scorer", session_type=session_type, records=audit_records)
     return kept

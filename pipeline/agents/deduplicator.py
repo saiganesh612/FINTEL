@@ -33,14 +33,16 @@
 # wire source and Tier 3 items attribute the story to wire services,
 # effective_corroboration is capped at 1 to reflect the true observation count.
 
+import re
 import logging
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Tuple
 
 from rapidfuzz import fuzz, utils
 
 from pipeline.models import RawItem, SourceTier
 from pipeline.storage.base import InMemoryStorage, compute_hash
+from pipeline.storage.audit_log import write_audit_log
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +69,10 @@ WIRE_ATTRIBUTION_KEYWORDS = {
     "reuters", "pti", "ani", "bloomberg", "afp",
     "press trust", "associated press", "ap news"
 }
+_WIRE_ATTRIBUTION_PATTERNS = [
+    re.compile(r"\b" + re.escape(kw) + r"\b", re.IGNORECASE)
+    for kw in WIRE_ATTRIBUTION_KEYWORDS
+]
 
 @dataclass
 class DeduplicatedItem:
@@ -82,17 +88,14 @@ class DeduplicatedItem:
     corroboration_count: int = 1
     corroborating_sources: List[str] = field(default_factory=list)
     is_wire_reprint: bool = False
+    effective_corroboration: int = 1
 
-    @property
-    def effective_corroboration(self) -> int:
-        """
-        Corroboration count adjusted for citation laundering.
-        Wire reprints from multiple Tier 3 outlets count as one
-        independent observation, not one per outlet.
-        """
-        if self.is_wire_reprint and self.item.source_tier == SourceTier.MEDIA:
-            return 1
-        return self.corroboration_count
+
+@dataclass
+class ClusterDecision:
+    should_cluster: bool
+    method: str   # "headline_direct" | "snippet_assist" | "rejected_low_headline" | "anchor"
+    score: float  # # the deciding score — headline score, or the combined score
 
 
 def _headline_similarity(a: str, b: str) -> float:
@@ -141,7 +144,7 @@ def _combined_similarity(
     return 0.7 * h_score + 0.3 * s_score
 
 
-def _should_cluster(item_a: RawItem, item_b: RawItem) -> bool:
+def _should_cluster(item_a: RawItem, item_b: RawItem) -> ClusterDecision:
     """
     Determine whether two items represent the same story.
 
@@ -152,18 +155,18 @@ def _should_cluster(item_a: RawItem, item_b: RawItem) -> bool:
     """
     h_score = _headline_similarity(item_a.headline, item_b.headline)
     if h_score >= HEADLINE_CLUSTER_THRESHOLD:
-        return True
+        return ClusterDecision(True, "headline_direct", h_score)
 
     low, high = SNIPPET_ASSIST_RANGE
     if h_score < low:
-        return False
+        return ClusterDecision(False, "rejected_low_headline", h_score)
 
     # Borderline - check snippet for similarity
     combined = _combined_similarity(
         item_a.headline, item_a.snippet,
         item_b.headline, item_b.snippet
     )
-    return combined >= COMBINED_THRESHOLD
+    return ClusterDecision(combined >= COMBINED_THRESHOLD, "snippet_assist", combined)
 
 
 def _is_wire_reprint(item: RawItem) -> bool:
@@ -175,15 +178,24 @@ def _is_wire_reprint(item: RawItem) -> bool:
         return False
 
     text = f"{item.headline} {item.snippet}".lower()
-    return any(keyword in text for keyword in WIRE_ATTRIBUTION_KEYWORDS)
+    return any(pattern.search(text) for pattern in _WIRE_ATTRIBUTION_PATTERNS)
 
 
-def _has_tier2_source(items: List[RawItem]) -> bool:
-    """Check if any item in a cluster originates from a Tier 2 wire source."""
-    return any(item.source_tier == SourceTier.WIRE for item in items)
+def _compute_effective_corroboration(cluster: List[RawItem]) -> int:
+    tier1_count = sum(1 for i in cluster if i.source_tier == SourceTier.OFFICIAL)
+    tier2_count = sum(1 for i in cluster if i.source_tier == SourceTier.WIRE)
+    tier3_items = [i for i in cluster if i.source_tier == SourceTier.MEDIA]
+    other_count = sum(1 for i in cluster if i.source_tier == SourceTier.COMMUNITY)
+
+    if tier2_count == 0:
+        # No wire anchor — nothing to presume as a reprint
+        return len(cluster)
+
+    independent_tier3 = any(not _is_wire_reprint(i) for i in tier3_items)
+    return tier1_count + tier2_count + (1 if independent_tier3 else 0) + other_count
 
 
-def _build_clusters(items: List[RawItem]) -> List[List[RawItem]]:
+def _build_clusters(items: List[RawItem]) -> List[List[Tuple[RawItem, ClusterDecision]]]:
     """
     Group items into clusters where items represent the same news story.
 
@@ -195,26 +207,27 @@ def _build_clusters(items: List[RawItem]) -> List[List[RawItem]]:
     In practice k << n because many items cluster together,
     making this significantly faster than O(n²) worst case.
     """
-    clusters: List[List[RawItem]] = []
+    clusters: List[List[tuple]] = []
     representatives: List[RawItem] = []
 
     for item in items:
         isMatched = False
         for ind, rep in enumerate(representatives):
-            if _should_cluster(item, rep):
-                clusters[ind].append(item)
+            decision = _should_cluster(item, rep)
+            if decision.should_cluster:
+                clusters[ind].append((item, decision))
                 isMatched = True
                 break
         if not isMatched:
             # representatives acts as an anchor for cluster, locating at the same indexes
             # avoiding unnecessary extra loops or complex nested dicts
-            clusters.append([item])
+            clusters.append([(item, ClusterDecision(True, "anchor", 100.0))])
             representatives.append(item)
 
     return clusters
 
 
-def _merge_cluster(cluster: List[RawItem]) -> DeduplicatedItem:
+def _merge_cluster(cluster: List[Tuple[RawItem, ClusterDecision]]) -> tuple:
     """
     Merge a cluster of same-story items into one canonical DeduplicatedItem.
 
@@ -226,29 +239,51 @@ def _merge_cluster(cluster: List[RawItem]) -> DeduplicatedItem:
     Citation laundering: if cluster contains a Tier 2 source and
     the canonical item is a wire reprint, effective_corroboration = 1.
     """
-    sorted_cluster = sorted(cluster, key=lambda item: item.source_tier.value)
+    items = [i for i, _ in cluster]
+    sorted_cluster = sorted(items, key=lambda item: item.source_tier.value)
     canonical = sorted_cluster[0]
     canonical_hash = compute_hash(canonical.headline, canonical.source_id)
 
-    corroborating_sources = [
-        item.source_id for item in cluster
-        if item.source_id != canonical.source_id
-    ]
+    corroborating_sources = [i.source_id for i in items if i.source_id != canonical.source_id]
+    effective = _compute_effective_corroboration(items)
+    discount_applied = effective < len(items)
 
-    cluster_has_wire = _has_tier2_source(cluster)
-    item_is_reprint = _is_wire_reprint(canonical)
-    is_wire_reprint = cluster_has_wire and item_is_reprint
-
-    return DeduplicatedItem(
+    deduped = DeduplicatedItem(
         item=canonical,
         item_hash=canonical_hash,
-        corroboration_count=len(cluster),
+        corroboration_count=len(items),
         corroborating_sources=corroborating_sources,
-        is_wire_reprint=is_wire_reprint
+        is_wire_reprint=discount_applied,
+        effective_corroboration=effective,
     )
 
+    audit_record = {
+        "canonical_source_id":     canonical.source_id,
+        "canonical_headline":      canonical.headline,
+        "canonical_url":           canonical.url,
+        "canonical_published_at":  canonical.published_at.isoformat() if canonical.published_at else None,
+        "cluster_size":            len(items),
+        "corroboration_count":     len(items),
+        "effective_corroboration": effective,
+        "citation_laundering_discount_applied": discount_applied,
+        "cluster_members": [
+            {
+                "source_id":    item.source_id,
+                "tier":         item.source_tier.name,
+                "headline":     item.headline,
+                "url":          item.url,
+                "published_at": item.published_at.isoformat() if item.published_at else None,
+                "join_method":  decision.method,
+                "join_score":   round(decision.score, 1),
+            }
+            for item, decision in cluster
+        ],
+    }
 
-def run_deduplicator(items: List[RawItem], storage: InMemoryStorage) -> List[DeduplicatedItem]:
+    return deduped, audit_record
+
+
+def run_deduplicator(items: List[RawItem], storage: InMemoryStorage, session_type: str = "unknown") -> List[DeduplicatedItem]:
     """
     Deduplicate raw items from the current collection session.
 
@@ -296,7 +331,9 @@ def run_deduplicator(items: List[RawItem], storage: InMemoryStorage) -> List[Ded
 
     # ------ Near-duplicate clustering ------
     clusters = _build_clusters(unique_items)
-    merged_clusters: List[DeduplicatedItem] = [_merge_cluster(cluster) for cluster in clusters]
+    merge_results = [_merge_cluster(cluster) for cluster in clusters]
+    merged_clusters = [d for d, _ in merge_results]
+    audit_records = [a for _, a in merge_results]
 
     multi_source = sum(1 for cluster in clusters if len(cluster) > 1)
     wire_reprints = sum(1 for d in merged_clusters if d.is_wire_reprint)
@@ -313,4 +350,5 @@ def run_deduplicator(items: List[RawItem], storage: InMemoryStorage) -> List[Ded
         f"({len(items) - len(merged_clusters)} removed)"
     )
 
+    write_audit_log(stage="deduplicator", session_type=session_type, records=audit_records)
     return merged_clusters

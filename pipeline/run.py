@@ -51,7 +51,7 @@ def main():
     from pipeline.storage.base import InMemoryStorage
 
     storage = InMemoryStorage()
-    deduped = run_deduplicator(items=output.raw_items, storage=storage)
+    deduped = run_deduplicator(items=output.raw_items, storage=storage, session_type=session)
 
     multi_source  = sum(1 for d in deduped if d.corroboration_count > 1)
     wire_reprints = sum(1 for d in deduped if d.is_wire_reprint)
@@ -66,7 +66,7 @@ def main():
     # Relevance filtering
     from pipeline.agents.relevance_filter import run_relevance_filter, RelevanceTag
 
-    filtered = run_relevance_filter(items=deduped)
+    filtered = run_relevance_filter(items=deduped, session_type=session)
     relevant_count = sum(1 for f in filtered if f.tag == RelevanceTag.RELEVANT)
     macro_count = sum(1 for f in filtered if f.tag == RelevanceTag.MACRO)
 
@@ -75,9 +75,20 @@ def main():
         f"RELEVANT: {relevant_count} | MACRO: {macro_count} | "
         f"Dropped: {len(deduped) - len(filtered)}"
     )
+
+    # Noise scoring
+    from pipeline.agents.noise_scorer import run_noise_scorer
+
+    scored = run_noise_scorer(items=filtered, session_type=session)
+    logger.info(
+        f"Noise scoring complete: {len(filtered)} filtered → {len(scored)} kept | "
+        f"Dropped below floor: {len(filtered) - len(scored)}"
+    )
+    if scored:
+        logger.info(f"Top scored item: [{scored[0].noise_score}] {scored[0].item.headline[:80]}")
     
-    # Placeholder — NoiseScorerAgent next
-    logger.info("(NoiseScorer) not yet implemented — pipeline stopping here")
+    # Placeholder — ValidatorAgent next
+    logger.info("(Validator) not yet implemented — pipeline stopping here")
     logger.info("=" * 60)
     logger.info("FINTEL Pipeline run complete")
 

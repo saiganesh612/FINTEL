@@ -48,6 +48,7 @@ from typing import Dict, Optional, List, Pattern
 
 from pipeline.agents.deduplicator import DeduplicatedItem
 from pipeline.models.raw_item import RawItem
+from pipeline.storage.audit_log import write_audit_log
 
 logger = logging.getLogger(__name__)
 
@@ -213,7 +214,7 @@ def _find_macro_sectors(text: str) -> tuple[List[str], List[str]]:
     return matched_kws, sorted(sectors_hit)
 
 
-def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
+def run_relevance_filter(items: List[DeduplicatedItem], session_type: str = "unknown") -> List[FilteredItem]:
     """
     Filter deduplicated items to those relevant to the watchlist
     or to macro events affecting the broader market.
@@ -244,6 +245,8 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
     dropped_by_source: Dict[str, int] = {}
     kept_by_source: Dict[str, int] = {}
     pass_counts = {"sector": 0, "ticker": 0, "macro_source": 0, "macro_keyword": 0}
+
+    audit_records: List[dict] = []
 
     for deduped in items:
         item = deduped.item
@@ -291,6 +294,17 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
         if tag is None:
             dropped += 1
             dropped_by_source[source_id] = dropped_by_source.get(source_id, 0) + 1
+            audit_records.append({
+                "item_hash":     deduped.item_hash,
+                "source_id":     source_id,
+                "source_tier":   item.source_tier.name,
+                "headline":      item.headline,
+                "url":           item.url,
+                "published_at":  item.published_at.isoformat() if item.published_at else None,
+                "category":      item.category,
+                "decision":      "DROPPED",
+                "reason":        "no pass matched (ticker, sector, macro source, macro keyword)",
+            })
             continue
 
         kept.append(FilteredItem(
@@ -300,6 +314,18 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
             sector_impact=sector_impact
         ))
         kept_by_source[source_id] = kept_by_source.get(source_id, 0) + 1
+        audit_records.append({
+            "item_hash":        deduped.item_hash,
+            "source_id":        source_id,
+            "source_tier":      item.source_tier.name,
+            "headline":         item.headline,
+            "url":              item.url,
+            "published_at":     item.published_at.isoformat() if item.published_at else None,
+            "category":         item.category,
+            "decision":         f"KEPT_{tag.value}",
+            "matched_keywords": matched_keywords,
+            "sector_impact":    sector_impact,
+        })
 
     logger.info(
         f"RelevanceFilterAgent: {len(items)} in → {len(kept)} kept, {dropped} dropped | "
@@ -323,4 +349,5 @@ def run_relevance_filter(items: List[DeduplicatedItem]) -> List[FilteredItem]:
         )
         logger.info(f"RelevanceFilterAgent: kept breakdown by source — {kept_breakdown}")
 
+    write_audit_log(stage="relevance_filter", session_type=session_type, records=audit_records)
     return kept
