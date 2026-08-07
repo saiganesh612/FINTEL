@@ -22,6 +22,9 @@ on:
           - US_OPEN
           - US_CLOSE
 
+permissions:
+  contents: write
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
@@ -57,6 +60,7 @@ jobs:
       - name: Run pipeline
         env:
           SESSION: ${{ env.SESSION }}
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
           PYTHONPATH: ${{ github.workspace }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -69,9 +73,16 @@ jobs:
           # REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python pipeline/run.py
 
-      - name: Upload audit logs
+      # - name: Upload audit logs
+      #   if: always()
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: audit-logs-${{ github.run_id }}
+      #     path: artifacts/audit/
+
+      - name: Commit audit logs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          name: audit-logs-${{ github.run_id }}
-          path: artifacts/audit/
+          commit_message: "Audit logs — ${{ env.SESSION }} run #${{ github.run_number }}"
+          file_pattern: 'artifacts/audit/*.json'

@@ -9,6 +9,7 @@
 # down and judging by eye. This file is that record — every item, its
 # decision, and why — not a sample, the full set.
 
+import os
 import json
 import logging
 from datetime import datetime, timezone
@@ -33,7 +34,8 @@ def write_audit_log(stage: str, session_type: str, records: List[Dict[str, Any]]
     """
     AUDIT_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    filepath = AUDIT_DIR / f"{stage}_{session_type}_{timestamp}.json"
+    run_number = os.environ.get("GITHUB_RUN_NUMBER", "local")
+    filepath = AUDIT_DIR / f"{stage}_{session_type}_run{run_number}_{timestamp}.json"
 
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump({
