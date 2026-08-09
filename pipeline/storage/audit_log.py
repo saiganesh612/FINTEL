@@ -33,9 +33,12 @@ def write_audit_log(stage: str, session_type: str, records: List[Dict[str, Any]]
         Path to the written file (for the GitHub Actions upload step)
     """
     AUDIT_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_number = os.environ.get("GITHUB_RUN_NUMBER", "local")
-    filepath = AUDIT_DIR / f"{stage}_{session_type}_run{run_number}_{timestamp}.json"
+    run_dir = AUDIT_DIR / f"run{run_number}"
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    filepath = run_dir / f"{stage}_{session_type}_run{run_number}_{timestamp}.json"
 
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump({
