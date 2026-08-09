@@ -1,5 +1,8 @@
 name: FINTEL Pipeline
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # All times in UTC. Minutes shifted off :00/:30 to dodge GitHub's queue congestion.
@@ -21,9 +24,6 @@ on:
           - NSE_CLOSE
           - US_OPEN
           - US_CLOSE
-
-permissions:
-  contents: write
 
 jobs:
   run-pipeline:
@@ -73,16 +73,47 @@ jobs:
           # REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python pipeline/run.py
 
-      # - name: Upload audit logs
-      #   if: always()
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: audit-logs-${{ github.run_id }}
-      #     path: artifacts/audit/
-
-      - name: Commit audit logs
+      - name: Publish audit logs to dedicated branch
         if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./artifacts/audit
+          publish_branch: audit-logs
+          keep_files: true
+          commit_message: "Audit logs — ${{ env.SESSION }} run #${{ github.run_number }}"
+
+  prune-audit-logs:
+    needs: run-pipeline
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout audit logs branch
+        uses: actions/checkout@v4
+        with:
+          ref: audit-logs
+
+      - name: Delete old run folders
+        run: |
+          KEEP_RUNS=150
+          echo "KEEP_RUNS=$KEEP_RUNS" >> "$GITHUB_ENV"
+
+          mapfile -t all_runs < <(ls -d run*/ 2>/dev/null | sed 's#run##;s#/##' | sort -n)
+          total=${#all_runs[@]}
+
+          if [ "$total" -gt "$KEEP_RUNS" ]; then
+            to_remove=$((total - KEEP_RUNS))
+            for i in $(seq 0 $((to_remove - 1))); do
+              rm -rf "run${all_runs[$i]}"
+            done
+            echo "Deleted ${to_remove} old run folders (kept newest ${KEEP_RUNS})"
+          else
+            echo "Only ${total} run folders present, nothing to prune (limit: ${KEEP_RUNS})"
+          fi
+
+      - name: Commit pruned state
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Audit logs — ${{ env.SESSION }} run #${{ github.run_number }}"
-          file_pattern: 'artifacts/audit/*.json'
+          commit_message: "Prune old audit logs — keeping last ${{ env.KEEP_RUNS }} runs"
+          branch: audit-logs

@@ -25,7 +25,7 @@ import logging
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, Pattern, List
+from typing import Dict, Pattern, List, Tuple
 
 from pipeline.agents.relevance_filter import FilteredItem
 from pipeline.models import RawItem, SourceTier
@@ -111,6 +111,7 @@ AMBIGUOUS_CATEGORIES = {
     "Regulatory Order",       # direction varies by order type
     "Credit Rating Change",   # upgrade vs downgrade differ
     "Director Change",        # CFO exit ≠ routine board rotation
+    "Insider Trading"
 }
 
 # Native label (RawItem.category, as populated by each collector) →
@@ -141,6 +142,7 @@ NATIVE_TO_CANONICAL_MAP: Dict[str, str] = {
     "Change in Directors":       "Director Change",        # ambiguous, LLM-deferred
     "Regulatory":                "Regulatory Order",       # ambiguous, LLM-deferred
     "Credit Rating":             "Credit Rating Change",   # ambiguous, LLM-deferred
+    "Insider Trading / SAST":    "Insider Trading",        # ambiguous, LLM-deferred
 
     # SEC 8-K (native label = ITEM_DECRIPTIONS value from sec_collector.py)
     "Results of Operations / Earnings":                     "Financial Results",
@@ -210,7 +212,7 @@ def _matches_any(text: str, patterns: List[Pattern]) -> bool:
     return any(pattern.search(text) for pattern in patterns)
 
 
-def _score_item(filtered: FilteredItem, keyword_to_ticker: Dict[str, dict]) -> ScoredItem:
+def _score_item(filtered: FilteredItem, keyword_to_ticker: Dict[str, dict], unmapped_counts: Dict[Tuple[str, str], int]) -> ScoredItem:
     item = filtered.item
     search_text = f"{item.headline} {item.snippet}"
 
@@ -260,11 +262,8 @@ def _score_item(filtered: FilteredItem, keyword_to_ticker: Dict[str, dict]) -> S
         canonical = NATIVE_TO_CANONICAL_MAP.get(item.category)
 
         if canonical is None:
-            logger.warning(
-                f"NoiseScorer: unmapped Tier 1 category '{item.category}' "
-                f"from source '{item.source_id}' — scoring 0 modifier. "
-                f"Add to NATIVE_TO_CANONICAL_MAP once a real weight is decided."
-            )
+            key = (item.source_id, item.category)
+            unmapped_counts[key] = unmapped_counts.get(key, 0) + 1
             reasons.append(f"category '{item.category}' unmapped (gap): +0")
 
         elif canonical in AMBIGUOUS_CATEGORIES:
@@ -290,8 +289,9 @@ def run_noise_scorer(items: List[FilteredItem], session_type: str = "unknown") -
 
     logger.info(f"NoiseScorerAgent: scoring {len(items)} filtered items")
     keyword_to_ticker = _load_keyword_to_ticker_map()
+    unmapped_counts: Dict[Tuple[str, str], int] = {}
 
-    scored = [_score_item(item, keyword_to_ticker) for item in items]
+    scored: List[ScoredItem] = [_score_item(item, keyword_to_ticker, unmapped_counts) for item in items]
     kept = [s for s in scored if s.noise_score >= NOISE_FLOOR]
     dropped = len(scored) - len(kept)
 
@@ -300,6 +300,13 @@ def run_noise_scorer(items: List[FilteredItem], session_type: str = "unknown") -
         f"NoiseScorerAgent: {len(items)} in → {len(kept)} kept, {dropped} dropped "
         f"(floor={NOISE_FLOOR})"
     )
+
+    if unmapped_counts:
+        summary = ", ".join(
+            f"{src}/{cat}: {count}"
+            for (src, cat), count in sorted(unmapped_counts.items(), key=lambda x: -x[1])
+        )
+        logger.info(f"NoiseScorer: unmapped Tier 1 categories this run — {summary}")
 
     audit_records = [
         {
