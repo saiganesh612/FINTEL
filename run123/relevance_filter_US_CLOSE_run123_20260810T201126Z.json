@@ -1,0 +1,3952 @@
+{
+  "stage": "relevance_filter",
+  "session_type": "US_CLOSE",
+  "generated_at": "20260810T201126Z",
+  "record_count": 292,
+  "records": [
+    {
+      "item_hash": "8a9e3c26e6b8d3ae8ceb28adadea99b9fc4bb337fc37e2434e31e1fdc5cc131f",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+      "published_at": "2026-08-04T20:30:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7d74094e6e82c278c50381f5e2c07970aae44eda67b9958e961582e26eb73978",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1ba6bcf0a9f362c8edc49678511c7627b060e9bc4ed57074776afcc8c6e8bc4f",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "banking"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "70c04df5b4abdf687cacf0c17992cbdc46530b96f99b5b70e17cf1f1341c1c4e",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+      "published_at": "2026-07-30T15:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ca7b4cb0abda04c050de190abfc0fad82fd84b60900d3a23a40d87de995bfec0",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+      "published_at": "2026-07-30T15:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "state bank"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7825122cea16ed340f3dad63634b1a3213ab3ea56cffe40644339870d094e551",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": [
+        "AI & Semiconductors (US)",
+        "Banking"
+      ]
+    },
+    {
+      "item_hash": "b920df2b8ddc0113adc50a9f4b1b07dfafcad08c966ebccab43c618cccbde595",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+      "published_at": "2026-07-16T18:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0e8ac9b864c4cc8789a9597df015aeb7710577d9a8f4d0dfa6a303774a312c86",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "published_at": "2026-07-14T18:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "952dbd8cc6b8840c9689b1052d1e9b1837938ea7a3103e6465e71407191bcb23",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "published_at": "2026-07-09T19:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": [
+        "Banking",
+        "Fintech & NBFC",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "1cd7ece9cba39c8f821b5862655b07d09d603b909fd730e093c274718276c116",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "published_at": "2026-07-08T18:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1427d522e5b54452345e6cea76f146cb12a8e21ee48d93757287c512bcaf859e",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
+      "published_at": "2026-07-07T19:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7e923bb4f1abeaccb4ba7ce0f988c2c430a6c689c681b437e9c7edb48d6322a1",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+      "published_at": "2026-07-01T18:30:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "027eee1b8c8e58ae66f48ca656ec803105919c18bf215d2076adcd5a91886451",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+      "published_at": "2026-06-30T14:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4f2c9eebdd11c26c4dbf59cb9ce7d23ea32f4e5c04ff85281a4ca0c73fd3a4a0",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
+      "published_at": "2026-06-25T15:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "source:fed_press"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a4dd624bdd59bed7af97f46fd4f331540d31b89f50aee688cee8b5c5517a23ec",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push",
+      "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+      "published_at": "2026-08-10T18:58:47+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cc2a206b2441aa3d7b2e4c7c14998451d3033f4211b62c4bf11f47a58507a3b3",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
+      "url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
+      "published_at": "2026-08-10T19:53:36+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "533a5b315ad712207ab47299a6526b0055a9548a73b24e09f31d6d08426582e3",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+      "url": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
+      "published_at": "2026-08-10T14:27:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ab5047bb024707e33d96a1ea6ac8c4d358e9480fd9629431878d504642b02490",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500 closes little changed as oil rises on Iran uncertainty, Intel leads chips lower",
+      "url": "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
+      "published_at": "2026-08-10T20:10:18+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "s&p 500"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2d3e9a1506dcc2faf9222aa4115607a5ca2bdbabaa47634fce52bf3ae2ec240d",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
+      "url": "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html",
+      "published_at": "2026-08-10T18:43:17+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "openai"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2679750fbc99773af6532aa9e3adef0aca198b3d1d4ca4ec9da2f0413089f9b0",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Here's how the market may react to July's CPI report, according to JPMorgan",
+      "url": "https://www.cnbc.com/2026/08/10/how-the-market-may-react-to-julys-cpi-report-according-to-jpmorgan.html",
+      "published_at": "2026-08-10T20:00:01+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpmorgan"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cc80488690ce208fc275445ba245d20142081632ede15fea0ecc25943b815d8f",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+      "url": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html",
+      "published_at": "2026-08-10T18:43:06+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "cb352fbf92ace0fb3b825b667f48d6db70e868e83739d19d27f3c601ade79a17",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Berkshire shares appear to be breaking out. Katie Stockton says it's a timely buying opportunity",
+      "url": "https://www.cnbc.com/2026/08/10/berkshire-shares-appear-to-be-breaking-out-katie-stockton-says-its-a-timely-buying-opportunity.html",
+      "published_at": "2026-08-10T17:51:33+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "conglomerate"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "274342474492e7271f76e9265f4642dcb3b7a68f26d5e36823e9d88161a28c9a",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "U.S. oil rises back above $82 as doubt grows Washington and Tehran will reach Hormuz deal",
+      "url": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html",
+      "published_at": "2026-08-10T19:26:30+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a96778828f2b8ec055742b1c09cfe64cdbcd5cb7bcf5d41107eefefdceec0a4f",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Three reasons Goldman's co-head of global banking and markets says to stay invested",
+      "url": "https://www.cnbc.com/2026/08/10/three-reasons-goldmans-co-head-of-global-banking-and-markets-says-to-stay-invested.html",
+      "published_at": "2026-08-10T18:36:26+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "banking"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "68cf9326094121ed6fcc2aa4af990cfbc4f5448c52c6d76503d26711569fd6f2",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Taylor Farms recalls salsa, guacamole on salmonella outbreak, intensifying food-safety fears",
+      "url": "https://www.cnbc.com/2026/08/09/taylor-farms-recalls-salsa-and-guacamole-over-salmonella-risk.html",
+      "published_at": "2026-08-10T15:04:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d898730f78de97d519f0157261f2ccf955993b2e3b1bd50e90e3b14246872d7f",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "At least 111 killed after powerful earthquake hits western Colombia",
+      "url": "https://www.cnbc.com/2026/08/10/earthquake-on-pacific-coast-shakes-colombian-capital.html",
+      "published_at": "2026-08-10T19:09:36+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "39fa77e8555ae8a1ac03825b3daa28aff5e8c6ba6f43b58ecac83b5aeafa95bf",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat",
+      "url": "https://www.cnbc.com/2026/08/10/crowdstrike-palo-alto-stock-black-hat.html",
+      "published_at": "2026-08-10T20:03:39+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "dcb8bf8355c310e79c4b38f4745a7576336913a62c860b93b79c367d6a9eb365",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
+      "url": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
+      "published_at": "2026-08-10T15:06:58+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "92677cc3b39eaba4d3b2e0cd16e7a271568e0426e2a51edc2771847387db72f3",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "HHS moves to tighten oversight of food ingredients as safety concerns mount",
+      "url": "https://www.cnbc.com/2026/08/10/hhs-makes-announcements-on-gras-ultraprocessed-food.html",
+      "published_at": "2026-08-10T18:46:43+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bc5a80b90fdebb316ff75cdf6e11134745d9362d6ce0e7b9b35aa85d5fae78a9",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Gold just had its best week in 7 months. Here’s why Mike Khouw is buying more",
+      "url": "https://www.cnbc.com/2026/08/10/gold-just-had-its-best-week-in-7-months-heres-why-mike-khouw-is-buying-more.html",
+      "published_at": "2026-08-10T16:09:32+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6029bef64c73dd278e735246e1fb8993d6d403c549aee92f64594f1775124f91",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Wednesday’s crucial CPI report will show tamer inflation, according to prediction markets",
+      "url": "https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html",
+      "published_at": "2026-08-10T16:42:04+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "cpi",
+        "inflation"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "Banking",
+        "FMCG",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "a3c8b1f01ad98b6ad28b3ea438d28a1f51f8524b0121b3ead1d25f5871ccbcfb",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
+      "url": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
+      "published_at": "2026-08-10T14:16:24+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "97f3e7c3e453d0e0af16e33c8f7d7f0ed8b4e9202316b8b672427c0f7c0230d5",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Looking for strong returns outside of AI? Buy these ‘non-tech compounders,’ says Trivector Research",
+      "url": "https://www.cnbc.com/2026/08/10/strong-returns-beyond-ai-buy-non-tech-compounders-says-trivector-research.html",
+      "published_at": "2026-08-10T19:00:19+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e4de54b86de9d59f37da5bb13d72b9f4032c95e51fa0ee5f78ca58117d7a9dce",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "SpaceX stock rebounds, closing above $135 IPO price for first time in weeks",
+      "url": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+      "published_at": "2026-08-10T20:08:55+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b90d36686fff703ea196f31b4e71777492f10512eac0ea749defc1e19544872f",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
+      "url": "https://www.cnbc.com/2026/08/10/metas-latest-model-advances-zuckerbergs-vision-for-personal-ai-assistants.html",
+      "published_at": "2026-08-10T19:09:56+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3973eb8e4645bfdab614e770947e44f9fe84030223dbbb1eeb2ad3b544961c3d",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
+      "url": "https://www.cnbc.com/2026/08/10/openai-astra-cybersecurity-risks.html",
+      "published_at": "2026-08-10T11:04:50+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "openai"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "50cbbcc14c66d6f7e98f8242f82900d646070762dae7ddec38845ce61a6f2cdf",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Marriott credit cards are offering an end-of-summer bonus: Earn up to 150K points and a $250 statement credit",
+      "url": "https://www.cnbc.com/select/marriott-bonvoy-cards-are-offering-an-end-of-summer-bonus/",
+      "published_at": "2026-08-10T15:38:43+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3dd25399aa5bcd0d2b9396bf5e55646062e4c0427815b13e2bbe31e70d65032b",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Santoli: Stocks return to winning ways. Why the market gods may not be satisfied with July's brief pain",
+      "url": "https://www.cnbc.com/2026/08/10/santoli-stocks-return-to-their-winning-ways-but-was-julys-brief-pain-enough-to-satisfy-the-market-gods.html",
+      "published_at": "2026-08-10T11:45:50+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fcb9e952334026a2ea0eebea71f641593f532b32b9f4b99d99ad82758a5b78d9",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
+      "url": "https://www.cnbc.com/2026/08/10/openai-anthropic-ai-hack-congress.html",
+      "published_at": "2026-08-10T14:06:08+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "openai"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0346a21ba7db4f493a95f3d12a7cebb5cbb3d3f89e96a85a20ef2da45456f5cd",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
+      "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+      "published_at": "2026-08-10T12:40:36+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "openai",
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8dc0d2e95ecb6a8245013405a500ee864f7cefbc317d101ed143212e91ef5490",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+      "url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "published_at": "2026-08-10T13:39:56+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "96c05a7485aae10feecefa3e412df1c987a323385c8bb5dff20cc160c7c18ac2",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Student loan borrowers face steeper 'marriage penalty' under new repayment plan",
+      "url": "https://www.cnbc.com/2026/08/10/student-loan-marriage-penalty-rap.html",
+      "published_at": "2026-08-10T12:15:01+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "49c93707fc5237971e92d01a5c7c3d6816026b324ee50859cc0e492226a1c537",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Interest rates may stay higher for longer. What that means for consumers",
+      "url": "https://www.cnbc.com/2026/08/10/fed-rate-hike-prospects-higher-interest-rates.html",
+      "published_at": "2026-08-10T16:10:05+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1f9d9302426110c98f9817ea1921be623c6c111760bd3380f782d6bd2dcad526",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
+      "url": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
+      "published_at": "2026-08-10T11:00:01+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "5da10b4c3f4fb0364e8faa4b04f43e42b049e99e29ce1c0cdeb6c1b5dd29e25f",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+      "url": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
+      "published_at": "2026-08-08T13:28:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b0d1e8e888754a69b9cdc45212fe154bac764ae9e25c5de8aef7fcadb2420fcc",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
+      "url": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html",
+      "published_at": "2026-08-06T21:24:38+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "64045f874c0522499fd27842e2d9344205051c7a644d9baf0b648bd1805c1e3b",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Grindr's AI spend is paying off and its pricey new tier has had some surprises, CEO says",
+      "url": "https://www.cnbc.com/2026/08/06/grindr-grnd-stock-earnings-ai.html",
+      "published_at": "2026-08-06T22:26:01+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "50ab3dd00e3edcc1b3043aef1bd910eabf50b6194e694ab35ab3491db2979c04",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter",
+      "url": "https://www.cnbc.com/2026/08/06/airbnb-abnb-q2-earningsreport.html",
+      "published_at": "2026-08-06T22:01:34+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6cc46e96a76bdf9b727ff45a3234a82abbb93e14771f3aa945e3bb6236a1db6c",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Fox advertising, streaming service Tubi get boost from World Cup",
+      "url": "https://www.cnbc.com/2026/08/06/fox-advertising-streaming-service-tubi-get-boost-from-world-cup.html",
+      "published_at": "2026-08-06T17:59:12+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "700332e591941206fd70cb8c313fa69d58e59b51f10984ab055427a43976ad45",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "AppLovin stock tanks on Q2 revenue miss",
+      "url": "https://www.cnbc.com/2026/08/06/applovin-stock-q2-earnings-revenue.html",
+      "published_at": "2026-08-06T20:02:47+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "21ea6f6916fbfe5a13ecf0934ebc7d71464d19b1aa9476cfd2d6460966eb36ec",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Warner Bros. Discovery reports 10% jump in streaming revenue ahead of proposed Paramount combination",
+      "url": "https://www.cnbc.com/2026/08/06/warner-bros-discovery-streaming-revenue-paramount-combination.html",
+      "published_at": "2026-08-06T15:21:13+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c96cd44bffd68d3ea247e887abb2adf6cb1e1a38263163b686d8756f5652246a",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Peloton posts first-ever annual net profit, but shares drop as outlook disappoints",
+      "url": "https://www.cnbc.com/2026/08/06/peloton-pton-q4-2026-earnings.html",
+      "published_at": "2026-08-06T13:42:48+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e3681c0577db3cdc51a7a72980ade459d890778bb0f2dabed5fdefe39624a58e",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Versant raises 2026 outlook on strength of platforms segment and advertising momentum",
+      "url": "https://www.cnbc.com/2026/08/06/versant-vsnt-earnings-q2-2026.html",
+      "published_at": "2026-08-06T20:27:42+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "8621a99f22a823297695090cc8ec0f5e43d8c0409f7142b5890588c2726a2952",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Restaurant Brands International earnings beat as Burger King's U.S. business soars",
+      "url": "https://www.cnbc.com/2026/08/06/restaurant-brands-international-q2-2026-earnings.html",
+      "published_at": "2026-08-06T15:58:02+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "8b4caa999a6dccd364fccadfd45e3a3d32391bc00a7ad42fce15127c156fff97",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Nintendo's fiscal first-quarter profit and revenue beat estimates, despite Switch 2 sales slump",
+      "url": "https://www.cnbc.com/2026/08/06/nintendo-first-quarter-earnings-switch2.html",
+      "published_at": "2026-08-06T07:43:19+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "dd263efdff7f2c038c474d6d63a6a81cb86cff0ee26eabbba508090ed6b973aa",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Rheinmetall stock volatile after trimming guidance as Germany's F126 warship cancellation hits sales outlook",
+      "url": "https://www.cnbc.com/2026/08/06/rheinmetall-stock-earnings-guidance-frigate.html",
+      "published_at": "2026-08-06T08:57:01+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f1b57df9a1afb28b50103d82bb264885ca7d116f8c80b79c7bc7a0daab7d3314",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat",
+      "url": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "published_at": "2026-08-06T13:18:38+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "openai"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f811660c0ed443d8aedc7920b8366663662ca7fced3c1a68c941b559a1aac29c",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "We're downgrading Honeywell Aerospace after a shockingly bad earnings debut",
+      "url": "https://www.cnbc.com/2026/08/05/were-downgrading-honeywell-aerospace-after-a-shockingly-bad-earnings-debut.html",
+      "published_at": "2026-08-06T00:09:36+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "conglomerate"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "14920966a443754f0c4be1ac0358d63cb5975df02de1396606d08d7745a357df",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+      "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+      "published_at": "2026-08-05T21:00:48+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "tariff"
+      ],
+      "sector_impact": [
+        "AI & Semiconductors (US)",
+        "Auto & EV",
+        "Electronics & EMS"
+      ]
+    },
+    {
+      "item_hash": "b4fe42b9cf159383544e98a9bbd6d1966b4c42e58e3de1a051c7892db9e1137a",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "We're increasing our Eli Lilly price target after another beat-and-raise quarter",
+      "url": "https://www.cnbc.com/2026/08/05/were-increasing-our-eli-lilly-price-target-after-another-beat-and-raise-quarter.html",
+      "published_at": "2026-08-05T19:28:32+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "glp-1",
+        "eli lilly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7f8fd95bab0bd1bfdf68604f50fb9b10bd363215ffaeea273c4c3cdf2cf143a2",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Tanger CEO says World Cup drove up traffic, sales this summer",
+      "url": "https://www.cnbc.com/2026/08/05/tanger-ceo-world-cup-traffic-sales.html",
+      "published_at": "2026-08-05T15:48:39+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b375d4d62a54516ab1e2e1a26a0a0b34a3b011cd18f957d61294babc95b30515",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "How Disney parks are bucking a travel slowdown",
+      "url": "https://www.cnbc.com/2026/08/05/disney-parks-travel-attendance-revenue.html",
+      "published_at": "2026-08-05T21:22:36+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "907a0ce0034d1b5759755fe66bd48a4775e80773b5d6b88c0264030ce7a4a55e",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Disney weighs free, ad-supported streaming, says it has sold out Super Bowl ad spots",
+      "url": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html",
+      "published_at": "2026-08-05T15:25:55+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ab304e1bbaf2c9bdaa9da95b975618a9952901e3cf9e839a0fd09f3fcea48123",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Uber stock sinks 5% after weak guidance despite revenue growth",
+      "url": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html",
+      "published_at": "2026-08-05T20:09:17+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6b793a75ffcc0cb0e5717df8887d8dded076bbe9868ea0ed901c7336a0207f83",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge",
+      "url": "https://www.cnbc.com/2026/08/05/eli-lilly-lly-earnings-q2-2026.html",
+      "published_at": "2026-08-05T14:35:37+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "mounjaro",
+        "zepbound",
+        "eli lilly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ca11835ff81a2e69913eeb2a4055fdeb9b851c4183896f44dfd615c5aef2cb34",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "CVS blows past estimates, hikes guidance as insurance unit continues to improve",
+      "url": "https://www.cnbc.com/2026/08/05/cvs-health-cvs-earnings-q2-2026.html",
+      "published_at": "2026-08-05T14:15:32+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "zepbound",
+        "eli lilly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ff6202d09c820374e000d648b884ae46c2f3ed7970eee253fdc829c438f89159",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Disney tops earnings estimates as parks and streaming offer a boost",
+      "url": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html",
+      "published_at": "2026-08-05T21:21:55+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "63f7e48899c6841d22fcd4da89c75f24e4ce4ac643625f8e8460377d9741873b",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
+      "url": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
+      "published_at": "2026-08-05T20:02:56+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d37ee6a888cecdce06a48eee757eab576433c82625022c6c51d7e74dec0c0754",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "SpaceX stock falls 13% as AI spending surge rattles investors and massive share unlock looms",
+      "url": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html",
+      "published_at": "2026-08-05T20:02:03+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bb7b543189a9adff1912defb177cb6de485fb51dbb5fc5366619c366f4f58dd7",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Novo Nordisk CEO defends economics of Wegovy pill as lower prices weigh on sales; shares fall 5%",
+      "url": "https://www.cnbc.com/2026/08/05/novo-nordisk-stock-guidance-earnings-wegovy-ozempic-eli-lilly.html",
+      "published_at": "2026-08-05T11:02:21+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "eli lilly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3f463c069e03470951ee429331c040dfa2e535e6cb257554621e24aab67c2d03",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
+      "url": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
+      "published_at": "2026-08-05T01:43:06+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a24d6e68f2f17f50989e2a58ab679b255a137abcd6d425a555cf42147a4b6f80",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
+      "url": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
+      "published_at": "2026-08-04T22:09:17+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "26a7fd5f17a3a0cfde0eabadc536b191f038263f8a1e4218edd0c55a85002e23",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Pinterest shares fall on lukewarm sales guidance",
+      "url": "https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html",
+      "published_at": "2026-08-04T22:45:26+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "df51c60fa864c405dbab4b0e24e9224a9e329d4fe64441b723368b2b314fbaf9",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+      "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T20:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0aa34a63a7ab037e45fab13b8fab1f7298769b8dffb41a17d95edd44e2983c36",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
+      "url": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T20:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "602f1ff148c77798311baa9a63579a06e21c98e2f39bb0a7782088c62c4399a4",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "This Nvidia change could spell good news for Micron",
+      "url": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T19:42:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "b43e73153bf6e82f452cfbcec0edb97ceb2b62e2c995ccecafab4cd1d78b50e2",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Fed Chair Kevin Warsh promises 2% inflation, but skyrocketing U.S. debt makes that a pipe dream",
+      "url": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T19:31:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "inflation"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "FMCG",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "0abaf88b11e1555271f0ea1f9a3b81078dc791e72d1ef23f9c3ccde58fc072c4",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Microsoft’s stock is charging back. Here’s the case for it to rally another 30%.",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-is-charging-back-heres-the-case-for-it-to-rally-another-30-1fe261cd?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T19:18:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "microsoft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f2e18a62877e5e3339cfea0d6e87bd4932dac11bc640155ea8d10b90df764cf4",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "‘I want her to choose the best strategy’: My wife’s Social Security is just $900. Should she claim spousal benefit at 62?",
+      "url": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T19:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d422da81e0544f33ef63a79ac01bfc61600c57e8ea0ef35378053cf78029f227",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
+      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T18:31:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d52dbed3765b69ac81f9a57d56b627f33a1a395a39297161a3ae650f3e99dc60",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Is $1 million enough for a household to retire? The answer keeps changing.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T18:30:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0bbaa2d9de47a92f9532dc6fb3231369581fab3051d83a035e120dd17a10cc64",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "2 charts showing just how insane the stock market’s August ‘crash-up’ has been so far",
+      "url": "https://www.marketwatch.com/story/2-charts-showing-just-how-insane-the-stock-markets-august-crash-up-has-been-so-far-b822404d?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T18:08:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9f07ab98b9977200dd09b2ce40240967dfbbffa274a1591d8658a1cf8c646dd4",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
+      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T18:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9e999d8ddd8ef41401fd9c577467ece55be1f3893351d1e032a9e0e021244b5b",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Apple Tests Chinese Memory Chips as Supply Squeeze Bites",
+      "url": "https://www.wsj.com/tech/apple-tests-chinese-memory-chips-as-supply-squeeze-bites-d292bb97?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-08-09T10:54:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d1672ae20748688164dae0b1fb88cb24334643ad4311c1f94dd92fabd8e7af20",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Borderlands Mexico: USMCA gives Mexico an edge as global trade barriers rise",
+      "url": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-usmca-gives-mexico-110000849.html",
+      "published_at": "2026-08-09T11:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "542ab6d77ad1202e7b0f601f4b6ceb98a742dc233c868de602138a5fe6e3e675",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Trump’s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-100-billion-tariff-refund-111500641.html",
+      "published_at": "2026-08-09T11:15:00+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "tariff"
+      ],
+      "sector_impact": [
+        "AI & Semiconductors (US)",
+        "Auto & EV",
+        "Electronics & EMS"
+      ]
+    },
+    {
+      "item_hash": "27564b695a9a751146c1656a93c3d30996b1544ea819499014be4e5d469fff9a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips",
+      "url": "https://finance.yahoo.com/energy/articles/constellation-ceg-locks-more-power-112156765.html",
+      "published_at": "2026-08-09T11:21:56+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fffcf2880384b7e822de4bfceafdd6d1ab1e013456be0009162756e83abfb398",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "AMD (AMD) Buys Inference Chip Startup Taalas To Sharpen Its AI Edge",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-inference-chip-102614063.html",
+      "published_at": "2026-08-09T10:26:14+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9063a2cfa230ebb36196a30c0f0a17521a3a6ea6ccfde286be6b2124936c5b40",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "The Stock Market Is Doing Something Observed Only 4 Times Since 1997 -- and the Previous 3 Instances Ended in Disaster for Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-doing-something-observed-105600929.html",
+      "published_at": "2026-08-09T10:56:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "537797faa20ca116238d9924a73d3f6fffc15a4f305dc2b2fb9e619c2077c6b4",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Jim Cramer says Wall Street is 'fleeing' the AI trade to buy these stocks instead. Do you own any?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-wall-street-102000243.html",
+      "published_at": "2026-08-09T10:20:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bcec38b2c7966820c812f83b926ba0a1e24c5fde819ce2724b855a67e52eb71f",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
+      "url": "https://finance.yahoo.com/technology/ai/articles/micron-mu-secures-strategic-auto-101757418.html",
+      "published_at": "2026-08-09T10:17:57+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "dc9b139c2752cf394acfe8da18ef644eb20a9c3805710b22ca54a4618c11e466",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/irs-warns-crypto-investors-fake-113000642.html",
+      "published_at": "2026-08-09T11:30:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "92c92df0e9f4bb00bf2e3b06a7367aff0ee5df6d2c1db33e2c474c7a120e34c7",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Gold's breakout could force investors back in: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html",
+      "published_at": "2026-08-09T11:30:04+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "53c7a58e29fc7651a6931ba9e57f6ee4221e999ebf50bf62430954e85121e097",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Analyst Report: Enbridge Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3799_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b659972770fc4d91a7124b8eaee8e88bb151e3fb835a805997885e40b7111455",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Why Your Condo Association Might Be Raising Your Dues Soon",
+      "url": "https://www.wsj.com/finance/regulation/why-your-condo-association-might-be-raising-your-dues-soon-20d6adba?siteid=yhoof2&yptr=yahoo",
+      "published_at": "2026-08-09T11:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2bc4ac0893aec80e359262d1b2bd3119d78f7b8058f354d04bf4c1048eabb814",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+      "url": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
+      "published_at": "2026-08-09T11:35:29+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "349228e7602fc3dfa272e70a3931156fd3944cdab3419f5c3afac8fc429c3dbc",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "340,000 U.S. homes were inherited in 2025 — but a mortgage lien can lead to foreclosure if heirs don't act fast",
+      "url": "https://finance.yahoo.com/real-estate/articles/340-000-u-homes-were-100000962.html",
+      "published_at": "2026-08-09T10:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b757baf2325094cadc1948884e51fcd5442a7030c8d519e26af2706ec8abe740",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "New cars just hit $52K and Social Security faces a 24% cut — 5 things to buy before you retire",
+      "url": "https://finance.yahoo.com/economy/policy/articles/cars-just-hit-52k-social-114500144.html",
+      "published_at": "2026-08-09T11:45:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b4551424b6cac66d67963eb82028773a5050f94e1a6b78dd5bfbd7d80d3f32b8",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "What Do Cost of Carry Tables Tell Us Heading Into Fall Harvest?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/cost-carry-tables-tell-us-094525020.html",
+      "published_at": "2026-08-09T09:45:25+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2354dbd7c91dac7ddf6671d55768d21205c4dfe33d6ee78f44c980cd67bcf53c",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Analyst Report: Sterling Infrastructure Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_6630_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "infrastructure"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f44fa8db42c9796a201c82b1236c9af76e7e582271978cc2b860a3927936352c",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "He “Retired” From Farming and Leased Out the Acres. Telling the Tenant What to Plant Kept Him Self-Employed.",
+      "url": "https://finance.yahoo.com/small-business/articles/retired-farming-leased-acres-telling-110322081.html",
+      "published_at": "2026-08-09T11:03:22+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "14a48b6f06a956a1d799b00174c2ac018562786f4eb620054bb3464254d43c1a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Far more Americans are filing for bankruptcy — but maybe not enough, as people don't get 'how good of a deal' it can be",
+      "url": "https://finance.yahoo.com/small-business/articles/far-more-americans-filing-bankruptcy-115500738.html",
+      "published_at": "2026-08-09T11:55:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1dcaa7737422c7339cd2a9bac6233d0472b41547db51277a3fbef9f679d08162",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Americans say they need $530,000 to take a mini retirement — financial planners say you can do it for far less",
+      "url": "https://finance.yahoo.com/markets/articles/americans-530-000-mini-retirement-093000850.html",
+      "published_at": "2026-08-09T09:30:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9bee08ad829db910fc489b3c5062632a413ce9cde89f82a649cac4f62a7835ea",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports",
+      "url": "https://finance.yahoo.com/technology/articles/apple-tests-chinas-cxmt-memory-120655649.html",
+      "published_at": "2026-08-09T12:06:55+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c1965154343e6fe5a7cf4a4032daede5a98dd17a7e2354b813f60c9fa8c6444b",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Oklo’s (OKLO) Groves Reactor Hits Criticality In Under A Year",
+      "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-groves-reactor-hits-121315063.html",
+      "published_at": "2026-08-09T12:13:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "723587af764d0979cf060894e31d61e406e318d057c4c1bb8be67022f97f3e60",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Market Update: ENB, CVX, EXPE, ORLY, XOM, STRL",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47871_MarketUpdate_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "09a67413f54883b069addf0f3437a9877da3a9f5899725fb0312661cde6f4305",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "TriplePoint Venture Growth BDC Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/triplepoint-venture-growth-bdc-q2-110352274.html",
+      "published_at": "2026-08-09T11:03:52+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b97ace11a53e0ec6475b60849312dd9f0a33a6d0980caa099a8cc9199fd1c02d",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Trump plan may make it harder to compare airfares and find the best price — but you can still sound off on the proposal",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-plan-may-harder-compare-123000587.html",
+      "published_at": "2026-08-09T12:30:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "eb4417891b62a92cd435c72be0c6d5bec76948243fd4ee3782ec53a759c3d6df",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Eli Lilly (LLY) Posts Blowout Growth And Raises Its Outlook",
+      "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-posts-blowout-085111847.html",
+      "published_at": "2026-08-09T08:51:11+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "eli lilly",
+        "lly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7b57975c6a4e934ca3f976b6734b836883ca11bfe5fa0155428544e086b0613b",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Best CD rates today, Monday, August 10, 2026: Lock in up to 4.35% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-10-2026-lock-in-up-to-435-apy-100000181.html",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "86224d467f4f72b4385c6351cb61e91a4cfc0fab110e74452d3dff8be0ea7578",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "HELOC and home equity loan rates today, Monday, August 10, 2026: A 19-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-10-2026-a-19-basis-point-differential-100000351.html",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1e36311db59f2b9f258c2fdcd3d282ac7c24a456fca81740943b9049a22af09a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Analyst Report: Chevron Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_2878_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6a984b7d3611b12effed8049162c793abdf0904624edb8d8ffc5b0a77a177e68",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "31a877c8f28fccb489f93ab7cefb696c99163c056a61c2952ac8adcd61834c99",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Gold prices today, Monday, August 10, 2026: Highest opening price since early June",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html",
+      "published_at": "2026-08-10T12:32:42+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "77e470958ce561c1b2d973f6d00da1eeb9771d488576b472fd61d7cea2f3fdf6",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Silver prices today, Monday, August 10, 2026: Silver prices keep rising this morning",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-10-2026-silver-prices-keep-rising-this-morning-124241793.html",
+      "published_at": "2026-08-10T12:42:41+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f309587f8828be81e459f54f85086b8da695573a1d58f73d8173c6eb814ff851",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Analyst Report: O'Reilly Automotive Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_4178_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c05b7e6fafa2eb2a74f06c8315a9009a40184139b41a1b72253916cb1e8d9e72",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Texas Pacific Land Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/energy/articles/texas-pacific-land-q2-earnings-110352947.html",
+      "published_at": "2026-08-09T11:03:52+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "993069a336e34db87cd2a4af369fa49191cfbbfe3b350e7e21f4073def19e73a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html",
+      "published_at": "2026-08-10T12:57:22+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3ba0c49b5ee2cca18e1f1830014c49a8eff940198a7bf379691e9976f7cc0d45",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Weekly survey of mortgage lenders with the lowest rates: Lower rates and stiff fees",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-10-170834159.html",
+      "published_at": "2025-11-03T17:08:34+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "27886562539d80d6b971e626be4a0620c3bb227d271fa716b34b9ed7636ea641",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Does renters insurance cover fire?",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/does-renters-insurance-cover-fire-172417697.html",
+      "published_at": "2026-08-10T17:24:17+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "465de799c66165455345e5492aea313d857f31bf1610a7740adc2dcac15cc30a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Powerball jackpot climbs to $905 million. What you’d pocket after taxes, and what to do with the rest.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/powerball-jackpot-climbs-to-905-million-what-youd-pocket-after-taxes-and-what-to-do-with-the-rest-154401967.html",
+      "published_at": "2026-08-10T15:44:01+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c5e52040006271a3afcd83c4555fd9684e4c80228307acec16b9c14fd4629a7e",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Analyst Report: ExxonMobil Holdings Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3550_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published_at": "2026-08-10T18:03:15+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "exxonmobil"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "452e0f1e0be26b99920bcb55feb3ee1ca5aa6e77c74df071cbc551566a0a2d8e",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "How much income is needed to afford a $500,000 mortgage (including the down payment)?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/income-needed-for-500k-mortgage-and-down-payment-162215694.html",
+      "published_at": "2026-01-14T16:22:15+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2a9339487d494d3542aa53819fc2c55186bf9828864bebee3cb7de69d820ab8d",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Guide to peer-to-peer (P2P) payment apps: Everything you need to know before sending money",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/guide-to-peer-to-peer-p2p-payment-apps-195134245.html",
+      "published_at": "2026-08-10T19:51:34+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "595c3b9b9061a907e95e2d2c130bb7d09d025aab5a9a0c126f6c542f08466938",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Targa Resources Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/energy/articles/targa-resources-q2-earnings-call-110353193.html",
+      "published_at": "2026-08-09T11:03:53+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a4eb1ba7755c5386ae27250cd42046c36e9845f8e6810e7c5ee2fc66154ac368",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Tejon Ranch Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tejon-ranch-q2-earnings-call-110352288.html",
+      "published_at": "2026-08-09T11:03:52+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "59d72c04f96fa6c0792b6c92b799da615ff421358d7185a9cd4f485cba264198",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Trulieve Cannabis Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trulieve-cannabis-q2-earnings-call-110353631.html",
+      "published_at": "2026-08-09T11:03:53+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e7d560ae1e5dcdca1f4a44cd218877f2c53afc10e205788816e7b5396677b077",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street eases as hopes for imminent Hormuz deal fade; Intel drops - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
+      "published_at": "2026-08-10T19:10:41+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "80df67e834372c4d4714ecebac37443849639417c994e7e579d055cc41c67bbd",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Futures Mixed With Big Earnings Ahead; What To Do Now - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUk1TGt3SGVRbFVCa2R3cFBJVFFBdHZfTXBiSDE0SlgxS01CX2tWWV9iTUlmOWF4OWd1NzRKLTRYTHgxSUVEUGl1Vmw0OVROUTgwNjhSVVcybmJoVkc5b1IwUDN5Nm5TUEh0RHQyb2RwbjFLcHZTZlU3cGpCUFdwWEgyWXFlNWFaRUtac1hQWWFuTlZVZFdteTY2eHpsOG5IUkFkQk05SFNUajFFakpQVTJKekZ5dw?oc=5",
+      "published_at": "2026-08-10T12:09:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "427b43480a0c51e69e67ce0c56a0c08777ecb34a1dd43ba4819b84482c16376a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: S&P 500 Sees Muted Start As Traders Await Hormuz Clarity; Intel Drags Nasdaq In Red - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU1EtcFBKVkZmYUc4LVM4dmpiQzdZSlQwN3ZWaEdCZzh6Wm95S3hHUjRabGFOMlR0M2V1akRjRjJIb3J4QTgzclhnbkROaENqY0FOd1BWelVHQ0U3eVc1eXpaaTA0cktTdl96VF8xaU1MeWRWdVlsNUhfYWx5enViRmctT0MwOWp5VGdPM1ZiWGxQZVZhdzRYczJPQTBqN3k5bW1rREs4eE9QaE9VVFBmeVpuUml0VnM3aF9yMTI5aC0zajU5QjZabG9qQ2g2VEQwREVYS080dC1nTWxSVWZ0QVZB0gHqAUFVX3lxTE5TUmNsQlRncGg2MlNvcTVnbGRKY2IxelpqUWZLRFdGWFZwMEgtOHRhVmY3TzdhZ3cyellQbGNuSmFRYTRmTzhFV2RRUHA5d2I3QTdzbjVHVzU5RWdnZVZlVkplSC1haUFqc3dmZzluamo0SmNqUkl4c25xRjRwVzJTQTMzZ01YWWRVMW55WkdaZ2praFVLN0g4S3N6NUVWd21Kc2gyTmM5azZsR29xMzdMcThoRWdhdzhhV25nb0k5b05mNjN1clo1Z1AtN0hxN3VVelR5Nnl5bVBjc1pwdGExRTA1dDhpZ0haUQ?oc=5",
+      "published_at": "2026-08-10T13:40:04+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ceec40cbfb0b39cdc5e9c1d3ac1964db767fb52ef2d425be9270809e0a6b91d0",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "U.S. Stocks Turn Lower; Nasdaq Falls 0.44% - bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tV1FqVTFwT1JhUnREbWFMbDNBTGNTSlM3cTdya25ZOWNob0dzcWNjQnM3Smw1ZC1UX3NMNGxDQ1RNaFV6UmpReU1YdlBZWUpiUXNSRQ?oc=5",
+      "published_at": "2026-08-10T18:28:30+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e5c2023222f2e0b82b3c71f4d4602eeb9ee80649c22eada49dd62c578146d93c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "U.S. stocks set for cautious start ahead of key inflation data: Dow Jones, S&P, Nasdaq, Wall Street Futures - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX1piazF4Mks5T1B0TFhlVk9NZlJ3dkVGTEZHWVZMQ3BaT3BRTVJuSVFxcFluZU4yeklRd3RobzFCNnJwNV84TllHMlJ4YkNrWFpKX2JQV0t5RzRCcWFjZHFCSWJOeGVQREhBUXNCOEoyYzBjX0dOQkdCSU5ScmtDdEM0djk2ZUloRlRuYU1EaEJ2enQ4STNz?oc=5",
+      "published_at": "2026-08-10T13:14:32+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7fb1c79a90ca9b417c9e3e52549ba8c69e29af75a3f615733a04859c754ddfcf",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq will soon trade 23 hours a day. Australia is watching - AFR",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0w4Z0JNNl92MjFzODYzYnozMUhPV1FoVHluOG85N0JmaGplUEpLSDBJU3U5bkZrM0pYZ29FX1RmbGthNEljRDNhakNMeHNndjM2N1AzM20xaG9heWJSREtiRWVoR0tBSEdzdlg4QUpNaU0wdXlSR1hfamUtcWtGMHhXaUxRdE5GZU5HR1hQM21oREVmN2F5S3RLRDdPYlRQcDZ0dW9vWkpZWDllenZGVXo4bmxUd0lBdnJISDF1UGdRdw?oc=5",
+      "published_at": "2026-08-09T06:59:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f9807af42cd6595ef9a841b5601352fa96fc731ba2cba0d3e71ad97021d586de",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "RETRANSMISSION: First Phosphate Announces Uplisting of American Depositary Receipt (ADR) to Nasdaq Global Market Under Ticker Symbol PHOS - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNVUZnV0pYN2luTlRweFdtMDlsOUxyWm1qSnljdll5X3lwZWFIdXduWmNYV1lZLTVEekJBMXZWX1VPbW5jUVFLQWVqTXNIWmJOcHdwM2dZd2NPR24wZ1ZvSWdWQm42aFdsdHBoNk9yLVFmSzFiTERVUlNla3pfZ0hlTE1pQmJmOURrbkJJdmVvcExHQWhtejhycFhjYW9XcjFCYi1IVUQtWlJVY21ZVjA3dnFTZTFjcDQ3bFh5N21pYkRWY1lfZUJ3aEdfakhnS3ZucGRRbUVFczIwUVJpQnBBM3dvUXZ0RTZtN0hMLVh5cTJiVE1MNmFDM1V6QXRVajF4ZVhWYl9kcFlkR1lUZkpWaS1Pc0dPbEc2aGQzUDJ4eDR2Tlk?oc=5",
+      "published_at": "2026-08-10T11:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c5fc5dee52706cd0998429f4b5954149b3b8657fb83624b53853c7aaab3b7593",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUW91N0lYVC1uZE1NRkF1RWdhUFRyX2l0VDM0bkZXTWozbmdPV3JxLTgtd3huZkRlVUtpLXlLQVhzMjBZeDhwaHgtTEh4VUlKWGFURnFKOGZpMkpoOUlCU1VHLWRuYWd0T0tQd3hxMTk3NTYwWVJKY25OQ3pSem5SdHZLaWdEVnVPV2J4SmpLX2VsY0dNYkVuSmpTVm5FN3JDWUJwUmNZdFhlMnRnRVdLR1Z0TTJxVmd2YXZPVEZZUjRIT3I0Qzl3MTN4WndKLTFTZTRzMS13UGxMcFRNcm5kaThkUkM1czBmc1plbWJWZFZyYkRNV0RoUmNQRXBvR3c?oc=5",
+      "published_at": "2026-08-10T09:00:54+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e0aaf350ec8fa4c4d72c89cab78b0831727a5a94dfc0796bc49f6afeca2449a8",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stocks Subdued as Nasdaq Hovers Near 26,600 Amid Hormuz Uncertainty and Inflation Data Jitters - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUVBNE1OZXNaOE40MUFhbEFDQkVwUUVKanJTb2FOUS16MnFQRkNkWUFxSnkwRDJOX3Y4b1dqUWFKZjgySzBja3RJbHZ5T1JYajdmQlNGeENWZkFNTTY2TzljcVFhR1dETUVlSnVFV1ZXZm1Ia3JvdFVkYUZrY240ekRZaGpQWjFWT3FQa2d3YVZlUkR0c0Ewamp6UmNfU1BkZ3NfNURxY2NRTU5kNDR0YTFwcmVZZExqal95QzdEMERldWVFbDVzLWZiVVUzblY4WlE?oc=5",
+      "published_at": "2026-08-10T14:36:53+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ef545845f8209e989a191d933f4b7b262b69c25570ef7a3a6db4b566fa9f85f4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "【US Pre-Market】Apple Downgraded, Berkshire Earnings in Focus; Commercial Space Stocks Rise as RKLB and ASTS Face Earnings Catalysts - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVFWTV9sVUpwUDMtdzhCX2h1ZFJMcVBJTmcxZFFsaThlSDJXdExKMkdzRHVhcmZYeTh0Zk1MWmRzOG1QaWpTX3Q5clJrUzZ5N05mSThsUzJCMmNnNzNmZ2FzZFBhTkROQkhqeUdBUHVqSkUtSVhGMUFzc3BUczRaOWtxUHFDOEJOSElJUE1rVWsyR085Q3B2Z3FnWGk5TmNheTN6Q1ZuZjVTd0t2WjBOS00yRjgwb0N1S1FNbWVSZzF3SmpvWFdwdmJjUzFacGhTaF80dUVfVkpETHZCT3dBN3pLbTFIOUg2Z2hWLUV3ZHpBR0U?oc=5",
+      "published_at": "2026-08-10T17:59:17+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "apple"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f8e22e373ab84653d3fe4e02bd1b8e8534f46e92b0d75207f79e42510d7059de",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US markets set to rise with Nasdaq leading ahea... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0FHdDRhWFR0dkZSVTBsc1VlcWJObjNrZ1p2UDllN3VrZXJMVXZ5UWNkOUlYZ2lWa0hReUQwNml0dHg0NHVVNHo0SDhXQWhUN0VySTVSSUdRQURNblplM19jQ0VpZTd5TTJfdE9YQVdqekNiS3FRWUpqU01vbmUyYlFncmFubkowbkpMT2N3?oc=5",
+      "published_at": "2026-08-07T12:49:32+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c4cbbed3b17e815bf59a0d93755252e6026c6bdda13611ecf7bcc890696f76fd",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Live Updates 10.08.2026 - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkSEpCMEtYREFXc3VOSzNqdTkyMWlCemRRNkt0OXVTWDhDRkZwcnFXamJJUm9QaENyTWRwT01xVThkV0lkRl9ZdDRkNm9rUDRScE9DWDdvclUxV0lQZlkw?oc=5",
+      "published_at": "2026-08-10T08:00:02+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9530299d9f764ec12fd6edaaa05adcd8354b57df4561bf05599d5a08051d3542",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq, S&P 500 drop 1% after China’s latest AI breakthrough rattles tech stocks | CNN Business - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb1lYUUpVRVRtTkNqYzk2aGgxS1pQMWlqMFdGUUtieEstM1EyaE1uYjhObFU1Wm4yWWhuTDRkcUI5TnVfWVRsTklqX1BPbGJiTmlFVWY4bXpUQWNralJqbFBpOXZYQQ?oc=5",
+      "published_at": "2026-07-17T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "693cbeb762ebd1ab7b335fc70ac95b406c52e66742dda76745040e6a7c333d30",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today Live, August 10: DJIA Falls Below 54,000 Mark, Nasdaq Struggles At 26,600, S&P 500 Flat - Goodreturns",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPREJoV05QdjBHMFNLV3R2MGJqblZMLWlpUndQekhlRi1hMTE1c29xRUlKZTZmR3ZmWmNyWWJCbmctOU1TdlMxU0FKQ3AtX1VtMzRGN0xuRWhJWEdvVVlfU3pJSGQxTWZZb2JWV0JRZFpST1N6S2JfY2NHV3Voa1BsYTg2WUtFeXVVb0QxM3o0dTBrTXBQVlY5UEhWdkNTQWpnRE8ySFlXWUFySEVla1Z6cUxvRDU3TldEeWVZUTl1cW5TOHViQ01SLUs0YVdFZ01wUl9Ba1FQdHlSSkE?oc=5",
+      "published_at": "2026-08-10T17:11:43+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "95bdf5fcc59b77f31c7089b472731687fd25797d83916f0aff2eeb9218d59c3e",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open on July 3? Here's the holiday trading schedule for Fourth of July. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeGFQNW1JNVNqc2FGTnljRmhkSzllLTl1b2VqdlN5OXZ4VmRUZEdVdzdYc2lVa3RfUDZDVS1HWEk3TWVWZmh3UnZDRHRXclZnSGY1ODlnaF90cEUyVDFaS295UnEzblNZWjA2dmMtU0NzS0lNUUFXeFo3TFFKVGc5MU5iTktlcnJDUENwN3VTRXdyR203SE9TR2U2b2tvXzBXUy1yMXllRDQ0NHJaZjM0ZGU2akJOS051YWZUbDBYeGw1aFpyUFBwbU9lMW16RmYtUFVTdFN1WFQ2eGo1V25NeUZJeXNvZ1ZoYVFMdFZVUng4ckswM2tR?oc=5",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f0906c947a9029cafe5d4f11f1de2e270c26fb47f2315243da1e7a10fe9b2d0a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Quanterix (NASDAQ:QTRX) Drops 39% After Outlook Revision Pushes Breakeven Back to 2027 - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONEJBOTRRaUZ2RXJPVWctVzN3TllPX29ZTl9JRWJZRGNHMlRKZTBHWEUyQ2NZcDEySGo1UUJJckxIRWZvRGpiQm1CLW9zczdfT3J3N3A2NFp6S3lzRDdlN0xYbnpnVkdyejBqUGZaQzV4NTNvOGpjaFNlYmotVXk0aFRuZVIyWW5mNUdQZjBMSmlvQnl0SkZ0QkdxNzEwYjAxalQ0WnlB?oc=5",
+      "published_at": "2026-08-10T17:07:50+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "21b0e7e5e908f78b8f9363b3f39f44857268db7649ff409cbeb7bb185bf4e662",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Apple (NASDAQ:AAPL) Sheds About $97 Billion in Market Capitalization After Jefferies Cuts Rating - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNEQ2RkljQzVvdURlVFl0OWlON0RpRDhTaVNLWTVFdXl6NVlJOGFyaTFXa1JHQWVkZFB3clc5TWlyVmVmcFAyelE0X043T0FjMmJjU19XbGItdmtmdnduNE9DeFBaRWNnVG5kZzc2MlBhbnR0WFk3MnNkUlc0M2ZPY0hFLXVpbkxmSURnT1A0QUpqTDNmcWkwQ1dfYkxqNExzaHNvU05aNHlMTmtRWUwxYWhhZw?oc=5",
+      "published_at": "2026-08-10T17:57:34+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "apple",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f7e6bf94cb07af990ccef9e82e576557d48b9e4e24a826710092d0ca906e7e89",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow, S&P 500, Nasdaq little changed as markets await key inflation data - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT3d1RFQ1UzlORUdNUDNrd2c1OVJMLW1qQ2VGVGVWa1FPQ1JvLWdpZXFYbGdRNVZkal9rSlpYeFd4UHEwOVdkajh3LUx4SklPcFlVT0pGemRER09McjV3REtsU2t4bi1fVzdZeWp5Qzh1bXlodmZCSE9fekFqblpCNTBKY1VmOUxsSVU1bGF4NGFfR25XOTFlMmRHOExmZ0dFLXVwV3JR0gGrAUFVX3lxTE8wZVJYVTFWSWdFTEpFU1k2X2RNWE5lVmppWHdWOXZ3eXlQQ2pYZ1BWQ2JaZWxtdTd6d0taYlFJdnJ5Umo5dldoTmtYV1RsMGhLWHNTa2hjZTVVRVhSVWl2ZEc3UTVGeEVlWW1tX21mVnEtNU8yWEljNlphTFIxWkh2VUxiVTN3NmpjNnJXV1RWTEZQVUhmdy1pQ3JUellnNnFtUTlHd0ZhZXAwWQ?oc=5",
+      "published_at": "2026-08-10T14:09:14+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8f35e83702bb3fcc65ce0912f8aed131ff53e7b3a7cc15ac6d26c27b310eaa81",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends lower as Iran tensions dampen risk appetite; chipmakers drop - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUxJelN2M2lFYXd0QzZIdkhQVGdKTFl2clAtSllTMzIxZ0xudk9CeFpNNVV5MVNVSTdhb251ZjZYbWZ3UFQxWGl0ZWRBRXc3NFVvbXpRT1pPUjZxWUw5VDhtZ2s0bDZVT2VrWEp6M01qeTgwcWFtdmxOcFBYdmQxU1J6anlGbURld1ZmdnloOFBOaTJYbUFxNGo0dTFvbEl1bFdZTXIwcjMtRldFd1BMTw?oc=5",
+      "published_at": "2026-07-13T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5fed05db9a0c5ef1f81d8aed9a69bfc8df5675adbcc15dbc1c13304573eceb7c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Nasdaq Slides, Nvidia Can't Lift The Dow; Super Micro Shines - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc1NrcmE4ZHhZeWhueGxnS2NNLXQ3RjNvS3VsLVhQZWVRSjVnVDliUXQ2NUF2LUdjS25FNjRDY2ZkWFFGV0NleVQ2V0JSTTdISXZ6VjZQQWQzUlNiVGtXYlFuTWlob1ROTmdMSjZYLU9sQ0pOTWg3LTROLUUtQUdob3FHaTNJRUhIeENGTERtbkV5ZS1ZcnduNU9zMXB5U2paNjJiOW1LOHV3V1N6aW9IT3VsbUNwZ2t6QlFzSFg2aV9qdWFmd1E?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "58c5ef24ca1d5ecfc7c43f570e4e6dafee3a50ef0b8b949728cef302234d099a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US markets today: Dow, S&P 500, Nasdaq futures indicate positive opening; US-Iran negotiations in focus - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbnhLTGVGNmdxeU9iUGpIdlJIempBRm1IY3liUGJBaG43OWVndnhUMm9HVWo5QzNNT2VMbEdkcl9jNl9wT0VqdVNkWjBLa2ZBNmFaR0NlS0ZQekRpSkFYa1h0TnV1czdJVktCWHJlZXR0YzNFM1Q1NmpFNmlDeU5hRzI5bWFYV1hPN201ZGdQS3p0dE9kVFBGOHc5cDVTaWtETzd2REREc0NVRE50b09yZ3pFa196MXJVRVVOZXVyQWZhcExDTnZ0OElxUkVXQXZHSXE5SEViTjlFcVRRS2dmT2xEYkxuSkFzNkxWRFRLN0tTTzFCN1lXTA?oc=5",
+      "published_at": "2026-08-10T11:46:11+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c2662686d43c7573ef7070114b5b2182312b04218b827835e33575abf2510e75",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "June, Second Quarter 2026 Review and Outlook - Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdEJPem5ySWp5ejRxUnh2LVNBN2c3LVhGZktqUlU5WndtcHlnQU42YnpTUjY3cTNxdkhuaGNPTUh1d1g4aUd5SWx5OXgxaHBUTG5SdHZ3YndqRzh4dE43NWxSeU5FRXVjcTUzWUVtN1dWNUh5TTA4YmlhZGI2Vmk1Ug?oc=5",
+      "published_at": "2026-07-01T20:30:11+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c046e004b826ca698d5260e7ad17a0f4220dcc40155525cf9ca84c5821aeee75",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close sharply higher as Broadcom rallies - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeURVeHcyZ0dZTjVKUU5YT1c0UFpHZjliRDdNamlueUo3M0pyaDFDYkNPYlZnTDMwY1I2Q2ZodmhPeWdKeUZNY2wzRUgxOUowQ0pLMnF0ajJqdnI2dS1uWjdIS1hSLUFkeHN3VnZadWJJYk9XZnAyczBjOVBXcmxCSlNCcVRWZjZnVkZQQWlYam9MQWZ2T0hpWnN0aHRSU2o2MU9WRlB0THYxREJzVkM2U1NSOA?oc=5",
+      "published_at": "2026-07-06T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e876de9ff1bbe3e065ec7d4403135bb8f96ead974a8dbb155b342a5638612937",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq end up as tech, chipmakers rebound - Virginia Business",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWi1qZTVibGdSOU40cjliS0JwcnpDWDkxWk04OFl2bG15ajVvSEdtMHpVS1FmdVR1d2hCNWtxQmU3R0VKZk9VSjBCT2hPdXZUUndhWEJROG40MWM1RHhBc0FlNXhKNzBzYjNfTWFraVZVSUE5emZPN1ZvU0pRQUJLaDVyelRKRHM?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "97cb9e0994663bcbd9a7a42c69386b13d9dce596935492dbea4b86558a68ddbb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stocks are recovering from a sell-off — but even bullish investors warn of a bumpy ride ahead - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZUIzZkY5b1hzeWY3Sklyb3laaUVURkdITVprY2FmWjllei1ySDRzYnI1X3dWVzJMQjJxRXM4b3NOMExuQW9INHYxNFF4ZktYMW94eGREMEdIVGo2d29LTjF3S1htX2J3YnMzMkpNdUE1NVdYc2ItcFA5TFRzSHJrUGJmU29xcVc0UGlTOTk5bExHRzJ0bE9zNNIBngFBVV95cUxOZWQzX1JmMHZVaVhWZGUtNWJQQUdnaUs3NGRKaHBGU3BBSEo0UlZSdkV0TWtGTU84ZllERlpWak5vemx5T0t5anhtY2RNY2w4Vk81MVpqME9YV0dzTXFNcFFsTFlDQzJSVjZkTUd1UGVHR1dZcE9ZcEExRENBcjBQbGdMYzFDNk9Qb19RMUJwNVNEZE1CUHkyTzFJNEFnUQ?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "28ced546d0b141a0e6c06ff92967c2ddd0253b507485be3930cb26142bdef845",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "SEC Approves Nasdaq Proposal To Expand Trading Hours - Arnold & Porter",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUtCd2ZTYU05OUcwSDc0UDlMSmhDS3dwck8wNXZrQkE0RUpEdjJMYzlLOHZNNlg0MW94S0NMVGFERU81WEhENDR1SFBLdElWSWxaeTRhSUZTUlJDTExXME1XcTBuZDBJMHpRcWJaX0dWeFA2cDRSZFk3RXBfdi1YVG1OWThydURITDZEQkdGaks5MDZONmNCTTlaQWVJbkpQb3Y1R1NtckhzMG5Ca1VKSFV5blJGQVU?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1e1e074f8f7c91381af6293958253454eb1a2f0e0dcc0f4377b05dfbb5925754",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq sinks as AI worries hit chipmakers - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkRnZVFOUXdNU3JYa1lRMEFEQ0MwWGZMRkZ4TW1PM1JaUmQ4aEhTQlNsdlp1cVBTRVZ4LWZ0RDBJNU40a0tJS1JvaEtjZWczcHJWOFVncTBCYzh3NVFUS1M3UG1tZWJ4VDNsc1VkNkg2eVByZkhacEhDS1hQaGJlaUpGUG5qR0dhbzZ3RzRVSGpDdW94RlJWUFFNR0Mwc05lZ1hqRUJ3ZWVoaTRKTDJFSEtQaXRIdEVvQnc?oc=5",
+      "published_at": "2026-07-07T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "36ecb147dbd2080680643363217db6b33e1287da5c14fa17b7051081b2d9a1f0",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow closes at record high as SpaceX and AMD drag Nasdaq lower - CommBank",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbTlfakFTY282a1JYU29kZFZ5akdZdGtUM09PcWRwWG14VU5jSjh1NHd6ZnpCRUtFcVFXdE1WMjBmQzBWSnUzT3ZybWx4QUg2dlQ4QUpRVWdpVkxXWEZpanM1c0pBZWNxa3MtbnE5VXEyNjhkWkE5NU96UlFhTVNpUy13TGFuY0JsZl9pX2dmVWxOalhEWkZZQnMteHI5bmdEUmlZWWlkOVNtVDhjZzRBeDhjWU1YajYzTGxmZQ?oc=5",
+      "published_at": "2026-08-06T01:43:29+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "amd"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5b298f8cab1df542c7ffb329f01c052b3440c1113c88e6df5b491af6b7992669",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a04a3818ab63eb97c144436ebdd1775d3455f344fc333137575c054e25a78479",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Palantir Technologies Inc. (NASDAQ:PLTR) Surges 40%, Highlighting 54-Times-Guided-Sales Valuation Pressure - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTC1VaEkwR1pxdGxDNXdOYXVXV3kyYi1qNjFiTU5USlU1dlB1dldmdnUtSmhJUmNrVFg0MkI1M2xYM0k3MDVDOGl4cUk1X0haU1JTNmNoMG94cjNEdXFzbU82Z1M2X3AyeU02Mk5qeEttZUJTajlMNlBUZEp5bU11X21WN1VpSmNxUFlBSmh4UFlGSmNEdm9abUFFRy16ZGdnSEFsY1ptQnVkdWNlc0U4NG02QnVxQ1F3VDQ4ek1B?oc=5",
+      "published_at": "2026-08-10T08:36:09+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "42c6844fce2abde06587cb88d3f4fc0f84cc5df46d9c1b511eea490e55132527",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5",
+      "published_at": "2026-07-09T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "28dfd529e8ada861b427051eaf36332c4461f4e645969a816a708faf2f1c6099",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "65ab1f44da017d14246435f8fe67822ac41cab6847b7c70fefc5afec776cb1da",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq to launch new products ahead of extended trading hours plan - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmFNbUVndTNQOWpJLU5Hd19TUkZ2TVc4YVNOa0QtQ1F1SkJKT3BYeEdiOEhLYUxfQjFJVkpuQ1daWVQteFY4X0hMZU5hR01CSnFJb1IyRy1tWnJCaU00SGNGSUFHcFhNMExJcUpReXdIdjUyeGNfdl9tUGRGdWN1Y1FHeGtYZWZTMWV6Q0JpSjhyeV9oMGxvN1lxR1h2U1psNXdFZmtva2J4UkJkaGR5YUo3RQ?oc=5",
+      "published_at": "2026-04-23T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2816f4404ce4ee8fbf0d877d7fc1710220ea52755a3a7891a673c6c020301958",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq slips in volatile trading as 2026 high-flyers pull back - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdVJBS0ZvTW9NcW9Sek5mcFFpbV84dGg3VEE2OGlFS05UOWF4eUthZzlteEtEcERiaEVLRS1ITGc5WWp1amFfZUVLb1Rhdlp5aDk2ZVFqOHF1WW5yTVI5WGo5VXFhNFZkQUpJZ3Y3eTgwbkRITmc4UzcyblQ0Y3Y2WF9BbUU?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5d5c8fea9b949a01f41234df73fc4c2f295e132c3b487480f63c23eb79b2858c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4147b92d39c05c0461f280f03741e5e00ed2456cfbf5da80d2aa6ef90617961d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq boosted by chips to record closing highs - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOFFvTzhsTGtZYjFZd3ZLQUNtNGxSZTlyb0ZmX3pKSHFucWF1bnpGQlQydHhod21iUWE2bW54QzgyeEstVGZhQmRpSWZQZTMycFlMeTNtUGtfT0VHeWdaSlJCb0xrY29Gcy0tbm5XMWRDYkgyVUY4UDRycXgtMHRfc2hiUHN1Wmd2YTNEMFZ0ZVdqQXRGTnhETXJuZjYxTUpwRGpaU2N6ZEd0Yldh?oc=5",
+      "published_at": "2026-05-13T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a49952614a63e8a3493b754e21f46a49f08fcb2682296fca6f3b8fdf95926706",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stocks slump as fears over Big Tech shake Wall Street - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md0VwQTBZMkZhcmhKQ1phZFhwVUJMcGxHVW5wMkU3YUFoY2thZnJTb1FoaWkweV9wTllaZU1WQ0ZTX1ZaR2FPdExEUnJjM1ptN2hiV3l4Tk9qZw?oc=5",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1c35cda8c125f92a92a5c23f13e8397dc1a61baa86a5b49a31b7028be26606cc",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stock market jumps as US-Iran deal stirs hopes for end to energy turmoil - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
+      "published_at": "2026-06-16T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cae813455462386c01491724f19c0badf036377a62f042a42d1300db52d2c73f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "How Index Funds Are Adapting to Mega-IPOs - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BbWhmbzZ2bDR6UnhYTU9vVW9ISVRibWVpcHU4TnprejFRUzRUM3ZWQnV4Nkt0RzJ2RDFmRkFSNkFWYW5udWVoTDloM3E1ZlhENHJNQkRXR2lKWlltV3dEOHpIRjVoWGNVSWF0Z0wyMWEzcnBxcU5OczRGTEloQQ?oc=5",
+      "published_at": "2026-07-14T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "463e8b01fd864cf1ee5b3d7ed6db370c02b8aaa8d0ce4fa001b1cdbc58de3ff2",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow claims record closing high, S&P 500 advances; chip selloff weighs on Nasdaq - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRjd0VDVDTE8tQ3NNbkxONGN2d2VuUlFUb2xRc19kZFRPN1E4MWduSzczMTYyNUtPZjFLMFJWMGN0WTVCdDdwbk5rOHdZc09JUEwxd3ZDRS1RSVU5V2w5dXJkSkRQdXloYjJvRUJlaEJpek56SVZYQW5BZ2hqZTZJODdLUkVNb3ZTZFI0X1hoZEt0RXdOUk9Yeg?oc=5",
+      "published_at": "2026-06-04T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c490a62c314cbe6a573f9bf8f81ce0002f066fd78d2ee993bb47d6349a08e47c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St indexes advance with boost from chips, Iran optimism - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbk9OU3cxZnFJZTJuS2dhU3hka1hTQjc0ay1fMUgzTHl5cnhpb2F1NzUzbEkwTmQ1TzkxWHJscTJKVGRkMEFvdC1ieXJ1RDhWVjRvNERsaHdwUVBROEE4ckpaaUwyY1I0RlJwMVRDWFBSd1BmYkF0OC02UXIxMXFwSFU2RGNpd1hwNG9lN1NqbWVMTlhRUUhkVk5jdHN4MVhfRXpnZkdXYUFiT25WOWVndVktRVBNUHY3WjQ1SkNDeWFNZw?oc=5",
+      "published_at": "2026-06-18T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a7b8f8f63e39d22c70e048baa2d3801881598aa25c9165dbbd6b88f6a382338c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "62b015dc690932fff3ba315d9b31b32dc75f70dc19d2eb1e9dcef5e3af54ec08",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq nab record closing highs, WTI crude falls on hopes for Iran peace deal - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUdJaVVrejdzRGFrQTZTY0JUUzY5SEVJUzR5WWJpYjJBdEJHenRtTzJ5dEd0Rkd2SGhrTk1qQ3o5MGhOb3dVSlZSd2gwNVFZV2hCS2VCWkFoUlA2WV8xTEhKbEpyVVhxWnNCMl85dllubTQzU2kwM0Q0WDlKek5YZUE4UQ?oc=5",
+      "published_at": "2026-05-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5c2d92dfb4f5b6dab01800d84b953ad6b96d835f768def6b4910cfc470d9eb92",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Weekly: Nasdaq Falls, Small Caps Hold 2026 Advantage - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEgtQW5TMmFhS1Q4ZEd4a0R0ekFiRUJHM1BhRW9SUnh3M01CWTM5UjJXZVNSVWpaM1NmU0s3UFFvN0xFOXdra1k0OGw5TmIxRTNZMTByYUFDVl9BTjJqclNIQUNHbmwxbjR3VFZBYUx0c2pSMEJNRjV3ZGxtcFZhNldUVHhoOENweFFOMUNOVGs?oc=5",
+      "published_at": "2026-07-18T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8e1e49ea3139597e3d4ce672d774895dad1bcd2fbe2312837f459048a5455635",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "New Nasdaq 23/5 Rule and Its Potential Impact on Confidentially Marketed Public Offerings - faegredrinker.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPXy0zNFQ1N0xPX2loTklkQTFfaFdsM0gzSVJTN0dOQ2txWlIwTi1iNm0zaUFsLWlXWVVwbUNzMEdMS25FeWdYd2U1VEZCR1F6NHBqcTJJbkxfQl82czE4bkp1VHlsZDRHcUJMZjRabFBfd0sxQ1l0dVdhMWJMVXN1a1JqNHFrOEtNekRRNjV6VTlKRmNUN1Z3d1JzbEpoT1B1QWpNMXBlTTNXdFhKZ1VmbXktNFFMUmZRNHQwUXJiRFRoSGhTbEZpMVhyRHNsUHB5U1JiVGFXZ2NDcG9HckhFUjc2U09UQQ?oc=5",
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3e3b76b1c6f250db9e5c9490210873b139f28e6880300337e49778ed74225c8f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Futures Rise On Trump, Iran Comments - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSHZGUXJUd3BHVl93cnRiQjBXX2tPSjcyclFhTUYwdUswWnJVN2dLZU9hVjJ5bjVCU3h2alpISEx5TXRNRmlYMzFGLTFwSTVFc0FmN3dfSDlJNF9RYlRHRnB0ZFN0RmJUNmNLb1pieFFqSVBlcGJOQ0prT2tyQ21GcnBjbmdNMXBMSWptdTBfTzBaVjRla084T0FDOEtRN3ZaVTFsM29hVkV0SmRjMzFxeQ?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8037109ab2b042cab2e2451be7401542af7f6d68ecb5d777ebdce89c2402a5b6",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stocks Mixed as Indexes Head for Best Quarter Since 2020 - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWGEwTWVhRS16UWpmZTg0dXFzY2I0ZGlNeUM2eHdPMi1QRWtwalBTZFZRWEhPVWpGTWlJME9nQktQNW9XcGNodnljbjU0Tm9hbnRVRkJWX3d0cmVxSkVycHlrRnFZSjhwSy01SFBNVFdST0hWZHNUd25NamplZW9zVzN2VVRZSm1Oa2VwSHdhWENteDZkZmpvNHdycERiT1RFby1HR29lQTdUclM3aEVz?oc=5",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ed92d68a356774a406656d91464e021bf6b6c0e58b5d4f2595e25c1b66ecc613",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St inches to higher close, AI fervor edges out Iran impasse - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalRramdTOWdXOEJkZHl0RVQzNWtQbnE2b3ZMWVc1V3JLZ3IxTFplM1NBVnhRSVBXbHNDV2hXMWJnRnpFeXBoeXcwU1djVzh4UTg0aENiWG1waUtfTnlQeGRDQjJyd1lDdGpFUndna0luRUp6UlNDeDBFWFJlMlFxYmxJckRjM3UwNDRuYmJfcExsRjRmQ0E?oc=5",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ca2eb72e60a4314e1a0f781a92e3f81ecd81a73ef2c3b3016df69019956b077c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends lower on mounting inflation worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWjZBNTNiNzEwUUZ4SU40ZzNPX0FWWGhydkJtR3M2aEljYjVWZUN2NjRIRG5vQ2UtNUNlSGNlMUFacmlzQXZfaHN2MkJLTHY0ZXZMcVItZXo3Z3dubE9aenZXYjl6V0loS2lTZVVmUUtfeXpZcng5Tkw0bS03TmJ0d3RIOGV3ZnF3NmxTNU5SY0YwTlN2U2M5c3RmRFNtUkRZYTZxZjZURWFYWGVKNk9UZXdNdVNFOXp3MmQ2VjBCRThSaXZlNEtQc3hxN1NrSUZMRTBzc1NB?oc=5",
+      "published_at": "2026-05-15T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "6fb2b4440701dc91d56553dc2b13de0e6b93160c149f014006d0e3c4802a2621",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St ends lower as inflation worries push up yields - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTExrQVdLWjM3N1B1VnNNMFc4MFNXMXU2RVRtNVVuNUlJcGJDenVoc0E3RWV4UDhMQkhIVmRZemxvQnVyQXJiQktfRV9XUzRkRW9vUjhQT0stU2RNM2w0ZHQzTGQ2Zi1Db1lVdEdwUzFpZTNHUFhOTmd3RE4zbW5sQkpkZzh1M1gxSk1rRmd4R3pUaVN6cFVZeWluNE1IQWZ2eHh6VTd6Z1JjNFZ4dUZERA?oc=5",
+      "published_at": "2026-05-19T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "6d344699d019fe1b6ae54a3db495ffbcc3eef305d0c392eaeda212f18ac8b8c9",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Nasdaq Drops 2%, Dow Falls 950 Points As Chips Slide; Robinhood Pops - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeE5MM19LcFh2MWpkcm1wSUNENGFrTnhlcjdfbTBsVmYwT0tyOWJKQ3JFZFBRWU0xUHdUa19RMDI1dG4wd0ZZb1BCUTk2c2JaT3NOYWV1S3VvaWVvcUczSmpLVGdwRjdOZWZ0anhQRmx1TTNpRVFLWmlXclQyZjAzcU9tdFZDUUNMQzZGXzEzbHROWXFIY3BUTUh2ZkppRklac2RkZktvRm5DSVUyQnJlbg?oc=5",
+      "published_at": "2026-06-10T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "84a600f77db871875eb9a62e7dba2c8a2c81906f8f69a5c0466d49183f1d4efb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq Drop: What Is Driving the Massive June Tech Stock Selloff? - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnVFozOWNNczBGWDhadHlPOXpWNlM2bUJ0R2QyMlZqQTJtOTB6cHJldUx5M3YzbUFuVTZxZ0VpaDRTQWFOekFLNkpZTUVnUF9kbndwQWxxVWNtSEJUTGpJQ1NkYVlQTmRpamlxTzVIQTBtTWV1RFE?oc=5",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "38d55a85a9705ac0ac852827428ea9a9c5768379bede5879318586878668b90d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close at records on tech lift, Iran peace talk hopes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeFI0QnNnNVVVckNHY3RrNk9MQTd1aS1ZRzFVZ2FzZEIycjhqSjdndzdyYkdXdGNPSThqc1lrSURHeUdQQk9JLW1KTHlUWkZweGxibG1YRVJhN2F6b0dhb0loZGo1NUtWU3FOeVNIcG1oWDY2QnppRXdVTkh5LTE4MkZoaGxWNmFTQ3JoQkxGWWRVb0c2TjRSTnMxUzA3cHp5ZDc2N1d1Z2tMOThqcFE?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "922ead28181719261054c82e8a5b34df4eef4379b7213bafa22010fff1bbf8d1",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
+      "published_at": "2026-03-21T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2f1ada707b4253d604cbafc363b12c29156e36c7db6d99e2f7ec1834dd9aaf8c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq hit record closing highs on AI optimism, Micron joins $1 trillion club - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRWWDF6RVpndmREd3hkYTZ4Q1YyNmVLN09uSGlUaGdJaTdXM3kxM3lwNXRWdU9vX3NUSS1HR040RzVKQU5YZGFtU1BvSjBnTDBZWExDY0ZLLUcyamhXV0FGWVliZUxfWjFVYlFVckEyRmlsMmVaVEgzTHVOcFZLM0wtU0tHaWU3emFJdmprT0NSdUtq?oc=5",
+      "published_at": "2026-05-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ce0455b3cec0c545c5a087c29098fe40935d29c4bdc786c94f6a74bd04c1a149",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Nasdaq Slides 1.7%, Dow Slumps 500 Points As Tech Stocks Drag; Google Falls 6% - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUmxEUkdUSnpfZGVIeW02VDA4WE9JSEpqYTZwbGpDTmVzTE5YZFVnYTBXLWRpZXZIb2xZeFhyc0FlaFlBcWxjZm8xQ3hoT2ZibGx6Qjh6SHREQThDOUFsRXMzU19fSXViQks4SDUtandTM1U3c25BaWdxX1dhTXh2WFNvMWNTclZEVUZvOXd3RGFKWThpWXVjRmxGS2s2X005UzFSU2hzMHNIbkZFeGZCLUtLanEzWllaempQR21PbVNsWEVYNzRMNlFaZ2hVNmctRUwyNE9OUdIB3wFBVV95cUxOUXdfc0t3QnJiWHFXNGF1N0FhdzJuQk1ma3Vtb0JGUTJkb2ZQdGV4dFlmMjZxSTgyNnJNWFFIaE5FTmFkUzJ5bnpNYVFJSUZwRUZ1UURVSVdCNkV4d2xWZXNRbm5ib0k2cmYyWXRHWVlFX1dxNVFFMjR3Z0h6RUtWM3Z0LVZaV3ZsM2FjUWxsOG0xajBqWTlQb2VFaTFTR3Itd3g4WFl6andTZUV4OFRLYVNMTGtQVERDc05vODRFSVRVc2RaRHVFVWE4Zk9mUXJsblRQVVZvcjktc2JNTnlF?oc=5",
+      "published_at": "2026-07-23T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "dea3b87713fd2a86963a4419de79cc2ca19e737fe18fe448432fccf46877e459",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500 and Nasdaq notch records as AI chip stocks surge - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXJmbTJ1QXlUbzNTS1ZhOXF6RHZmZjJGekJSRzZHRWRYQ05FSmEzMnlCaHJpbG0zSVB5WGRTNzUyYWtzY0JtSVNkRWdpWVo0Z2VrM1JLSW02UzRLWXQwaEhoMWgzYnNLdkhRdktMbGJlRnFxY2s5SzNDYkF3Y3ExVWdHTjJuMy1qT200WVo1WmxlT2hnYXJPWmpPTTlXWXhPTnI3N0dn?oc=5",
+      "published_at": "2026-05-05T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f332b0e5369cb386d3f61d1368dd9cb7a6c8d10a016e620b880c132a511cae53",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq bleeds more than 2% as South Korea tech bloodbath becomes global sell-off - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMm0xb3M1QmVSSUlSSTdBSXBCVndOVFc4alZIYjhUNGRjLTJDbWpDejhycC00RUFNMmRBRS1QZzJ1SHNzQVQ2MDRtQm9SY0J6UFd2aTQ4ODBINEY4UTU5T2pJNFZmUDFIbmN0N2JTajlFLTFrSzBUWDlHeXFNeU1ucS1JRThrYjlPNktkM3JvZm1TZThOYW53Tzgzd1BITE5ZODJyZU1MdTBfVWNNUDQwVU4tUm1JSVVESzR2NXI3YVNZdzBPUDQ3XzJLSjU?oc=5",
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "02a25742c3bdf161cea28cfea96faa6ca3111b2f0ee9edfc9685725791c104f3",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "How major US stock indexes fared Friday 5/15/2026 - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd2x1eWZrdmk0TTI2YVFnRW9LMVRFX0IyRWRzWG9xYjNrT2VacXdaNUVkSmp0SEphRGJId1VsdmRXWW5Ja3BwNkxHV0hTRkhOa05jRk01YmZ0dWtXWEY0QlNIazQzNy0xeUVSUlJvMGZWNGFYN2lmeVZFVkFwX2txY3FVdHlhZlpqLW93aTFpakJnMS1KOHpjODA1Q21BZ0xxeGpXUlNUTEdGc2RzZGRYMWpnSEhQYnl5UEV0NjBtQnJEWTl4ZTVn?oc=5",
+      "published_at": "2026-05-15T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "40263b33ced7c7b1e61f991bb3378ff5438c595dd7114afd3579c57e0b39089b",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "UK stocks are beating Wall Street — but the Iran war is putting the winning streak at risk - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVFhVGZJczc4SnlxbmRwY1pMc0RhRVhod29tUjhubUExa3VuM3VxVTJBMEc3RXhiR2ttaEpPY19RR1ktOFczclZ4Y1RUVFZJc2RzcEpFREZSUEYybFo0Um5GODY3Q2tXTFl3ZVhkQmNUTUMycF85eTdWemZfb3lsQWpxdmR6MlhMcWdwX2RWWUlZejBtMGtPZmp4TFdPcWs?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c0eab1258e1a414f250a2551a49a252b1b1d84c2eaa43c3e350ce07725022581",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Earnings, not valuations, are fuelling the US stock market - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWd2MjZyQTBHYUhuVmxZUV9LTG9sWkhDbHU5U2R0R01lTXl5MEtyWUJtRE9YaWxVOE11TWlOdGZtVmwwOVNTaHdJX3ZGNmdkdHlEZmM0QUY0aVFfWXNjRkQwcnJ2TmlPU3VTbzJTNTJOUDA4RFUxbkVQT3ZYS3Z3enVzYnA?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8659feac67e48a79e0d0176ed3e3abc9e9f84c2004747cf75d86457fc98f8ccf",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Bank of America told investors to ‘take profits.’ Then the Nasdaq fell 7% - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nX1I0TVdLcFBkeExleVhrV2FuMjJTRlhFNVFUSVJ3QmRHWHA4aUVkcXFrSS03UkI2S25TU0xaUmcwazBzSWZtYTFTZUpVcE5LT3pNMWcyRkQ2bjFSTGFRUndPQk40bDdHOWs2Z280ZUdmVjVWZ2hwVmFnazZ6a1E?oc=5",
+      "published_at": "2026-06-11T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "bank of america"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "27446c3e78336497dff1be7adf0e6a5418bff02593b777ab753f76c561faab60",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close lower, dragged by Alphabet and megacap tech; focus on Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDQxcFBhNUJhWlNpLXhmbHBEcUMxSG00alpWU2t3bGpwWU82RUFLZmVFWklDZWpJSjg0a2dYdm14bkoxN3BYanhxUTMyZGprZ25rVlpCXzNQV3NaQmlUcVMydlp5eEdUQ1FMWU92ckNXWjhzTWt5R3NvNTV0UmFtbkhjTExKRm1hWlNPWThBemtwMExrWm9jcFFac2VHZVpmMmFYRGx1dWc?oc=5",
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "eb39389bd268da82b80fd211daf9848790803a47f96895a1ff3228221e42e66a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street indexes gain as investors hold out hope for US-Iran resolution - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnlHODRfWHZBSmRTd0hYTjBoVndLOTk4dm8tS1Q5WmVlQVZ5NEtoYU9wUFZKdXdMOXlYc0d4RU5jMEFyTUthSTZaMTlGMEJEaHdtNWh1YndGQnlRWjhQMnJzVmZFNTFhZ2FQX3JESzhxc1NaMXRiclVmNHlaZkIwT3dhWTJ6eFgtZ3ZQVDBZV2FoQ3RPWlRCbm5ZSDNSX2tqV0NjWE9EM0JLaENHRTNj?oc=5",
+      "published_at": "2026-04-13T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "dd7b63cd5dc885f4e3ebc034b10d01cea3762b9d160e7c2ce34cf4462666b63a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street is getting trampled by an AI sell-off. South Korean market plunges 10% | CNN Business - CNN",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWi1vbVJfRVl3SlVIX0xzRGpoS3pzMFBNYUJreWZsTVpRaUhwY0NFQlVvbGFzRWJRRnlNTWNYaHlTeFF4TUVBaTlkVmxSZ1h3T2tzTk5iRmpnNVZLZURiSkpoaGN0blFvVzMteEJxWFZTT0tOUXRrZlh3VWY?oc=5",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "fd0e642c6bd043254736313a244bca56ee37c21ed646a6a48fe48ada2c6f3218",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "[U.S. Equities] Dow Inc fell, down 430 points; Nasdaq also declined (as of morning trading on the 3rd). - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb00wUGpoSExvbzBuNk5yb003M0ROZEhncmhyVC11Z2lOYWM1QzVGMXJxVGk5NTJtTEdwaHl3YnRmaTFPMGNDTk5kb1F1bGdQbHVHTG5DcFNFQzZMdXUzV282bk4xTjNDMHhyZ2drLVl6TnlnZ1U3akF3aGJ1ZTRIUzF4ZUE0R0Y5dkh1Y2tOb1FmaVVaS3U4ak13?oc=5",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "dccca20395bcf75e49715899c786237db4b183a509f632938b30568403bd7afb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq and Tech continue to outperform – Dow Jones and US Stock Market Outlook - marketpulse.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjVtamZTWnhJNDVVSWJTOTREUHpKNTNjOTI1dncwMGJNUUFMZEtxWkRxcVB2RnlZT1ozN3BYUnpuX2FjZkZ1Y1FtS0pnTWpwLXhpSFlVQlhRR2xxYVdmQmIyNmFoX3R5V3BEVUtDaWNPd0lBbzN0bkt5THlHNF9kTUxnOUppeHVhTmhPUW5GaFR0dXhK?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f5d87e3ecfb24d5723a9d7e159e2ee9ea54f4787562bcfad30dfdd6b2a597152",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Risks Are Not Cleared. Nasdaq Weakens at Open, Four Major Investment Banks Reach Latest Consensus Warning of High Stock Market Risks - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObEFCT1pQU1FTTGdkNFEwM0ZTWnEzTkh1c05sbkFjdlNsTzJkdTlrc0xlTUxSTjdNSS0zZUtmdXVIWWl6eWlQYkZPSUtpR0hTcDJaUERtRUt1SnVfQkM4QlpfRnI3TU5nV3NCeDZKVGhVWGNaLXhvSDFNdDlPa0pwR0FZV3RpNTVGcy1kUW12bVMyUms0NjhJWDZyaG9YZ2ZianhGZ081U0N2UTRTY2Y4cjNlbzU1YXZMaEFZVVc2Mkl3SDRYM3Jr?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a66728e487d71fac5b5f20cf639f2e676cf7714f517b830cc2003ad603212712",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Instant View: Nasdaq confirms correction as U.S. stock retreat gathers steam - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSTE2cXRfQnBlWmdzZVd2Zm5uLWFTZXEtWl82SklWcGZYT3BqamFteWt6cGtvQkdQcmc4aWtCR0VTSVdYTGJRWnFUWXRQZ2FydDZOS2VySjI3b3FGUU02NUpvY3NvZ0JOc3VCT01sN0w3ZmtRT2pzNkJVdXp5TTh3Y0FQLUM5ci1reDFsZ3JiZFVEa1E0V21uazk1cERNRHFsckxBUldvTWtrTTQ?oc=5",
+      "published_at": "2026-03-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a2ef906dfa85cc6ee3d8e1ded1c6cf9f9ddb6558b20c7eaa784a67132a96d8e4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq edge up to new records with Middle East hopes in focus - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV1YzZ3lwdHRtd1p6VDEwRUhxOUxMcWdUbl9jM240QmMwVFh2U1JBOGZ3TFFEeWxuc1VHS183VnNDaWJVbF9oN2k1TUhlY1lOM1Q4dnVmMHkxN3JWck96UXpGMVFUR3B1Qjc0TzR1Q3lwaFljUmtLd3hOTXZKa0NOcGNFbHYyUGVCcEJONzZyaVlfZ1VWS3pMcEkxYnJxTlIzU21SbDJja050RW1zVVptUVJn?oc=5",
+      "published_at": "2026-04-16T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c1c7f0bad396cc12c9a8d0e5d821b6ba6a4a6313e78bd57f063d08662c3142f0",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq Tokenization: From One Order Book to Two Systems - TD Securities",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazVfWEsxUlFKbzYzSjNueHhvUDBoa0ItZG5wZ1B4ajlLZXhiaDFCUFlibkd1cTZ0cnJpcFdRVWhQWUx2eVZHZUY5QjRCQ2FxNTNQZUpQcU1NMW54alNSNDZ4T2tHMENoaE4yM09lRU4tejJoQVY4YWl0Tm9Vb3VEUGk3M1Zta3lv?oc=5",
+      "published_at": "2026-04-01T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "56ccbdc49abeab8c33c733773368ff9b20de6ad0b8f66a2216c97a970485959f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The Core Logic Behind the U.S. Stock Market's Consecutive Declines: The Fall of the 'Heaviest-Weighted' Magnificent 7 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTktnQmVETktKOUJPa0xmNThZeTFubTlhcElJMFp2ZlowYmpLNHJEYUJTelJXRHltUlprTWxPM2lHSGt4SzlqZXNvSTlUWTNNNFFGSmxBRzMySGxvXzdLQlh2UVYtRUR1SXhuSnBqNzRfNkltdkdBbm01dUtkSTFnSldLSjZwNU0wbHBYeE9rRjktWnVUbVdKbHNCTjd3Zw?oc=5",
+      "published_at": "2026-06-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "66152e3e94542c72c3523e5e4805ba869f2f9341c6a914ec037eef549a86aa9f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq moves to make trading nearly 24 hours. Why some on Wall Street say that's a bad idea - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYnhXRHhoM3FnOXBPZjhqSU42RlVrWXk5dXRKS21XZ3JibWxNZWxfWGgyb2hOV290UjlfVGhkYlRkT3JXaGpBdldMQW1SaGtFQXdDZUtKYWxvQ2NUWmhfMlF4LU5uUlM0aVR4VWczaTE1cm9TdnB6OTJBYXpfdEw2RmlVakxKVUJaTUx4YjBBcm1QdkcyWFhnVjVnZHppZ2t60gGmAUFVX3lxTE1hRmpqWTJ0ampHZlZwRzJjaXhwdkNKTnRJTlFNaFlCd1JnOURLVGx4aTYtWTYzYjlVcEw5UnkxcmotMGVxTlN1d3k1U1d5TElFUlJYdU1RS0tHeDRFUDFPY2dXNGp3MWUyVlBTbHVkMXpzbHVyZDJaLVVjVU15dzlZRE9iUUhyMG1LZXA0MEVHWXJnNjNtNGl5NHZzZTVWbjNQQmpudEE?oc=5",
+      "published_at": "2025-12-16T08:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1be8169daa9b16b387cd0843b6581a8d52965bcb0e5f4f0539cfb748945545a1",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Chip Stocks Lift Nasdaq Nearly 1%; S&P 500, Dow Advance Despite War Jitters - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWTlSNjFMb3YxUVVHNTAyc0l3amFLelRHQzgyTXVoM3ozZ0NMeEdCcTZtTmNhM01iOEtLaW0ySjNGNHF3MWpoeDlvU2dVbjhWQlc4Ui0tY21CTkZOXzhtcy0tTFBwN21fV3VPdVhLNzF3REpOcU1zNFRpMW5Dd2xZQnVoZkpXbWxNNEJncUJhM2ZHOEV4NHk3TW96RVlsQnNidWJiNmhCZjV2Ty1OckFraEoyY3J1N3VCNjdRVGdYZ3JfYkR5ZFdHOVdOUFczN2VHSEV1R9IB3AFBVV95cUxPa2RFYldUeVdCamR4Q0xJejl6VTBBNjhYZWVpSkJSV3lVUXhwM0RySmM0Z0FCdXpwWDFaSkk0N3p2QkNBWFRDYmU4Vm5maVFHblJaZkFMR09OMnBsbG1zZHZvTWpGaEN6eVVoRkVtQ205UGJGNE1YN3o0TW0wR0t4LU1xaEtTVnNGMHluN0d4cXUxel94NFlfakl4MDVaeEgtV1djMWVmZnhNUldxSmczODFTYTNRRWxwWXo5aE5wbmRncjFETXJBU2VibTQtRGlnNkxZR1VDb3FSbzR0?oc=5",
+      "published_at": "2026-07-20T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8cd49151ee996f581b8541cf0f8c0e4afb5edbfab11ccd53e0cd174fc33145b7",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stocks close higher as S&P 500, Nasdaq wipe out Iran war-driven losses on hopes for deal - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGd6Uk4wOVpPYmlBcFhpRnZhUGJJR1J5NXdBLVg1RUx5MnFsekF2U25mWmZIWExZWF9pTXJ5b2tGNU5sTnZDUUdMTEdKN1BPc3RpR3F1eHdBaUJOZlpwdXQtWXR6ZnY4c2ZkSnRUQXUwMWpzMHRvcjk4cGdZVk9CNGVpRnhZWnU3RjB0UzlGZWh1cGg2N0Rvb0RmcUMxZlJjMmFUMGswTFFCRHlZNlFwaTBBMEFrV2VIdVZOT0QwMG1VM0RFU09PeXFR?oc=5",
+      "published_at": "2026-04-13T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ef035e7e7d18c32dc056bedddb9b8ee02c9265255c3a4ce2ac6698855c4c5162",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open today? What to know about Memorial Day hours - Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTERla2tzRXdWZUdYVDRPVXpKSFh6NXpjZUxfTUZoeXRydTRzUGlXSU1xWXo2b0QyWnNpdXdMUXNDWWJZbWE1WFpLVVJKNHNLdXVZcGh6N21OV3Z5Sm5QWVZ4d3NCLU5TR0Fyc3pSSHk4Mkk1ckJqc25mMjIzV1dVVW96cTkxVkVlQmgzY0hFZ0YzWnh4ZGY1RmxIenlNVDBEaE5iZkh4MzU3ZEV3dm43cHlQSnd6Z2hQV3otTA?oc=5",
+      "published_at": "2026-05-25T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2686a9c75300cb2bb667218cba1f03625cf98d78dea8b64b7d7ef6cf189ac32b",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Nasdaq Soars 1.6% As Microsoft Shares Spike 15%; S&P 500, Dow Rebound - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc1RRNDNjdHJIZl96X3hwWHZ1ZC1tZGRsa3hpZnJDMnR6TGFVR0hfRzNwUm1jN01NWDBUbE9VMFI1S2ZvejVCTkxSb2V5MjhJWHJFYkg3MXJBeUdMaXlLSDRxWW15X3lOcmUzM2pOT0MwRlVPdXpBak5MVTFfZlNvcy1aMDBaeG51MTVZQURnX2Nrc3l1ZjRNRHNMY2RHS2doaWlRanZVbDFDUzc0YUxTZEdEZ3V6eDRGMFV3OURRRTA2OWctUzgtWWdzZlZWUzdqM0huZVk3QVEwVFlwa2RTONIB6AFBVV95cUxQVkdsRzcxTTh1bDk0ZW5kclZBTkZfM3VVbWE0cjhDTWkwekVZUzh4ejNjeWZoZUVBMGJSalBVYVI1WG1Vd1I1a3F6SzVZX1FQNV9Ma3I5ejJoOG04Rmdzb1MyeEJoVHpqMEJ6aVQ0MTAyRUltcDNDOVhIeHM5Nzg1bUlQYnk4djVyVTVDUnhYamxRUC1YTlE3TU5IUDE3d2xZQ0FWZ052Qkx4QUpVdGUwNlBoVWRIdTNXU2MxNDJwNkxmcFlBR3lmMFI4a3FsSVJKTng3OFV6NmtNUDA3WWhnVFUxRUhtYkRy?oc=5",
+      "published_at": "2026-07-30T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "microsoft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "fc80a6dbb1781dd9e13726115975c487c55d39f74ec44bdb754ffcaeb89b054a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The S&P 500, Dow and Nasdaq: Real Returns Since the 2000 Peak (June 2026) - ETF Trends",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSTJRQVRYbHRTSTFYM3VBR0tjRGVodGZ4VGJ0cHZFVGQzMVg0akRBS1NJUHpNSkNzbkNWUFBvUDA2cWRNaW1fVDdOT29kMVR2NXI4eEtKZ1pLSjB3RXhHeGRDVG8zbmRFZFBzZ1hLNjdtd3ZDS1hSNVI0Rmdla01zNXRtd1dPX014dzNyMGN6ZmRXNGd6MnhPRTJadWs3Njg5VWdSUDdhMUVXOThybzFNcW1GbUZpT2FtVTN0d1ZzS2dlaGxkcEHSAa8BQVVfeXFMTXAxSld6Zll2eTE5R3VwWFM5dmJqM3R1RmdOWkw1cFF5V1RlLXNOWkJYeDNqejB1eXlFVzJaQWM4ZU1HUGRGazl1OXZjWHJqV3pIeWR1MUtubVIyVlNxQ1Z4RXhWWWp1ZGJmRFY2a2NaMFRDc0VWak1sVElkQjQ5ekpwaWdoLXV5RTRBUmttU3N1Qks4dmV4X0NUY1RRZV94TVRFb0tOSlJlakFCM21oUQ?oc=5",
+      "published_at": "2026-07-08T21:01:50+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d15610df5674654cec1913575a182f379ca6afef6b1cc21532e3d403767ea3f4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5c598099dab4c4acf610ec08a01d43a68a172aad62980dae50e7935f18d14ed7",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street closes slightly down on renewed tensions between US, Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMjU2TlFwQnBjVlAzdFJFUENydUg2ZmFkc3dtVnRtOHhfZDVKNkN6SnZzdE9iOG45Mm01UUJnbVU4RHFjNUFZMVlicFZwMks0OTNOMDFiQWZfM3BfZm1tSVNRakg4ZWh6REtwNVRIQ1NLOGhSMDA5VE5nM3FGRTFkXy14Q09HZ0VNc0ZuQVNPRmZ3TE14UkhvbnNJTmliTlR4RWVn?oc=5",
+      "published_at": "2026-04-20T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8beeec64cdd8a6b26bb77ae58af5cce1ddaa8673bbedf8ccd2e83c34670634a4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq end higher, notch weekly gains after earnings-heavy week - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbzVzVFFXRWp6X1Q3cmU4VDNDalVDYms5ZXhYaWkxUjVmYml5T0htOExManp3eDg0LUptOHd2SG9pVE9qTWR0Q3hETUFlR3UtQ3hKM0tZUDU2REp2clR2Y0dteVFHS05Tam9IMHlWbV9ZVEZlSFo1dDl3YnZVblhPZzdOVVpKa2N4UkVkNXNEc25LTi1zVlhRcG1ycDFWZVktVmZjV3dZbkt5WEU?oc=5",
+      "published_at": "2026-05-01T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "b787aec8eb3f2f807e56e0d5f3aee4926c8b15e0cca1223b4bbf990185a1efa4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street rallies on renewed hopes for US-Iran talks, earnings boost - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnl4MW04VzZlWE1mWVBMdFdCQWFwZjNoQmZuSU5lVkRIaWgyQ3czMFkzcEJlMmhEdVpkZmVwdll0MEl1VjA3emZoWkJyNlFZcl9UNlVpZTRsVWJSRXF0VTdDb2ZSbFFyWjJXMEFwN2wxa0h5Q05VRnFOVTVCQzA2ampLcWhZeEVLZVcwUXhJNTJPMU5xWjJUcEYybGFWS0ExMzgwWlo1azBEMzhFNG9Zc1FCMGxlRjQ?oc=5",
+      "published_at": "2026-04-14T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2cd00f125d9bd15cdf447236377cbdad6013d4a050439be3a135ceff721aa530",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq hit record highs as investors shrug off Iran war fears - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zVjFXLXh2WGJpSEwzUkxPUTA1M1dNYzk4Qk1jNWFUclVNdndybnVtelQwYk9wS3VpbDhWUl91dUozUnR0N0NGdXhPakZiUS1DM2k4NWVtQWJ1SkZjMXh1clhDTXVRRFItcERUWk5jN29rOGdITjNIQk130gF_QVVfeXFMUHRGRnVtMnRSQWFlYUNVTDZ4T2dWYlFYY294SEVlYjRhdTBQaXQydWtlTHZ5VVcxUERISFlqVm5QQ0Zpb2RmOFJqN2toeEpWeTUzQzZhUjRmZXJJbF9DdFdrVDdVMVp5d0xNQldpS00tenV4Z0pfNFlITExMT25xSQ?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c3b7817c6ce78dc0e0a91c2545e7a9338f85505989d0e5e6a5513e8c5d71620d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open July 4th? NYSE, Nasdaq holiday trading hours - Cincinnati Enquirer",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1ZnUXllRVBCV3R4Y1JMZDh6Vnp6VHRDZnRCTGZWVmtOZWRPYzZzak1QdWZFRWF6U0EzZ0R3QjdEb0FDV2I5VzBGNDRzLWJqdS1RSFJJMW5kVlE1MmtqTENOSkpRZEtHcVpNd3VuQW00a1VHSlhxaEZUdWV5dDl2a2R1bjFtWk9DWG1ETGJTbWJnQmEtTmxYd0hFVWZPX1NQSHVYejU3SGM1RExTalJvUkN4M2pjUlFXZ0E?oc=5",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5ca8a9af12993876f61692fa5f87b733f387be8083877713421d04ab6928a7d6",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYU9PdE9VWERPN21wdEE5dTl5cThMNm92LVFpQWdDZGh3b2hkakFvVUdHS2w3UEEyOXRETFlndzI4Y0tJbk9WM280Y1F1YzZkaVhheUVEMnlhemtfR0lldEtQaXJkWTNvWEtBOW9Mc3BYLW5qejdFdS1fVXdEeHlLZXJPNjFLMDQ4TGg0LXNKaEhDUG93c1E?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e3932f23163eabf2a56df34d2e961abd2bf99e08b1e9d1465c3ff409efbae6ee",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The SpaceX IPO: How US Stock Index Funds Will Adapt - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYzVMVTcwVUViQlJ3cFhRZWlJVnJnM3EyRDQ0d3FRZHg2Yi1tUUpKdXpobkRLOVZnaVZTNElONFdGM3FaMUN3QXRITE1TenVsalphYndnTi1FZHRyWkFwUmtZbTJwZFJEOWlEWFJjVDZiLWRBUVFNSi1qdGhNc2hEU0xoczhnb05iVWxnRFU5ck5iWk0?oc=5",
+      "published_at": "2026-04-10T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1b02b1f329cd10339232b93a35c5d06c34a550b9e4bb04a178bbba34c6d70d8a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Tech continues to pull Stock Markets higher, S&P 500 at 7,400 – Dow Jones, Nasdaq and S&P 500 Intraday Levels - marketpulse.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZldMRndLeERLYkRZYzBkRFdRU0liQmhyd0JLUTFnaVRFSmRzdW9GbFBpejdJdEw4ZkJUdWgyVlUydDk5U20wWkNCQWNiNlVZRmhvSDhFdFFIMHY4SnlWd2xVcTBCX0JCV3dxYzNydnhZTHM0WFZ3X1pGckVjWmRCWHc0d0JLOFlMVVdaVWwxWWFvYzA?oc=5",
+      "published_at": "2026-05-08T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ab88a71d0694cde50a1994ddd1a437c157b3354b59aab53e15687cf78ea57a5d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq confirms correction, bond prices fall as Iran crisis pushes oil to $108 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CUDZ1ZEFoT1N5X3pEbnFqZnBkbllpZS0xSlg4MUtVelN4c3VibGhrSjZIQXRDY2QyY0w2TUtTTGxvdUU4WHFrblJQdk80VlV1OG5lNm1oVThudFc2SVYza2EtUVo5SS1sd0dtMmMzZkxJazhwdDF6eVdFQTlZVEU?oc=5",
+      "published_at": "2026-03-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "247e84cdb4a8eb455fc4016b3815ae665c9fb8c19164dbc072210b18e85e3a18",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St split as slide in big tech hits Nasdaq - CommBank",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemlCZEd4WDdQcGZaRmg5eUVDajE0Z0pvU0Z6blJmbVJSLWJIV08yWGQzeXhHck5oVldHRm1OdnRVQnJwMjQ5UUI5d3NsdVVhT3lMTjFaNThFR245NVN0dkp4VllCRWsxc0R3VXNORmlRR052a25heF96SmZFaUJXMmotYkdyaWtfa3hmYklJNlNlZTZCOTVPYWZQZGJZUGhueHlTSWt5ZXM?oc=5",
+      "published_at": "2026-06-26T07:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d12db1a3f3562efc2d8368e1f041a1d7983192bc9f2172a3c28443cca32813cc",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq and S&P just had their worst month since March. Here’s how to navigate the shift | CNN Business - CNN",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CZE1HZnpKS0ZCWWhXVjlnWnhpTXF3dldoVkFza3dLTFNEU3dkNXlodU0zVVpNU01Dc0FHQXNUb2E4THJZenh1MjNrZlNIVHBjMmRoQTA0MDJZMnhnRGQ2WEw4LVU0WTQ4MEZoaTFVMUI?oc=5",
+      "published_at": "2026-02-27T08:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cc9d0e83c7252229212ac722171abbee46150043caf0c5a2983d539634b6e4b0",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Bullish] NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "published_at": "2026-08-10T20:06:13+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "540d1f1c6d6079ecc033c3bd951d1c7b2a84faf4add6206748cbc3f7f28828b9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Bullish] Amazon Shares Up Nearly 2% After Key Trading Signal",
+      "url": "https://www.benzinga.com/Opinion/26/08/61090004/amazon-shares-up-nearly-2-percent-after-key-trading-signal",
+      "published_at": "2026-08-10T19:44:04+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn",
+        "amazon"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "51a9407570b6b852d7df0cbd122cbb44bc860a460025c62624cc7be94401886a",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] Phillips 66 Stock (PSX) Moved Up by 5.00% on Aug 10: What Signal Does It Send?",
+      "url": "https://www.tradingkey.com/news/market-movers/262093386-market-movers-psx-20260810",
+      "published_at": "2026-08-10T19:15:45+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d7adb80e64727f840dcaf32cfcd9e17c1f65787957fdc3ea840a38f95883a399",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] Marathon Petroleum Corp Stock (MPC) Moved Up by 6.15% on Aug 10: A Full Analysis",
+      "url": "https://www.tradingkey.com/news/market-movers/262093385-market-movers-mpc-20260810",
+      "published_at": "2026-08-10T19:15:27+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3737154dfa57d1d156b08f577bf40cf186c7c9d24f30061287e54cb27e5c783c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Snag Some Ink-Redible Back-to-School Deals on Printers From Canon, Epson, and HP",
+      "url": "https://www.pcmag.com/deals/best-back-to-school-printer-deals-2026-canon-epson-hp-august-10",
+      "published_at": "2026-08-10T19:15:03+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "41aacb5fa00add04f23a43181538119956ebe43219d3bf31c1e8ea0a5272d8bd",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Chevron (CVX) Lands 20 Year AI Data Center Power Deal",
+      "url": "https://ca.finance.yahoo.com/news/chevron-cvx-lands-20-ai-181109812.html",
+      "published_at": "2026-08-10T19:11:40+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "msft",
+        "microsoft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c50020da3dc4192ad112657a4ba76500ff86c62544485589cf9ef6af6659925c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Bullish] JPMorgan Chase & Co. Issues Positive Forecast for BorgWarner (NYSE:BWA) Stock Price",
+      "url": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-borgwarner-nysebwa-stock-price-2026-08-10/",
+      "published_at": "2026-08-10T19:08:13+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm",
+        "chase",
+        "jpmorgan"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ca91e369387f8e3218a39abca5c6200e5a4994e9955bd8cc493dac6492514c99",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Apple (AAPL) Downgraded as Soaring Memory Costs Test iPhone Pricing Power",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-downgraded-soaring-memory-190232931.html",
+      "published_at": "2026-08-10T19:06:57+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "iphone",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "32cd74d086dd77807fa28c8fce77878b493760fb67d1043b95fc3085683dcc99",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Apple settles EEOC claims about antisemitic retail manager for $150K",
+      "url": "https://www.reuters.com/legal/government/apple-settles-eeoc-claims-about-antisemitic-retail-manager-150k-2026-08-10/",
+      "published_at": "2026-08-10T19:05:58+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f867f6e005c5aa146dbd81c70f60b562aa4401b30648dfcd96cd0ee2ce004c12",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Coca-Cola Stock Recently Hit a New All-Time High. Has It Gotten Too Expensive?",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/KO/pressreleases/3761416/coca-cola-stock-recently-hit-a-new-all-time-high-has-it-gotten-too-expensive/",
+      "published_at": "2026-08-10T18:38:15+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "210270282ea2203957bd1cacd763e41ce0640ba121815836c7473844608bc7f2",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] Valero Energy Corp Stock (VLO) Moved Up by 5.32% on Aug 10: Facts Behind the Movement",
+      "url": "https://www.tradingkey.com/news/market-movers/262093303-market-movers-vlo-20260810",
+      "published_at": "2026-08-10T18:15:36+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3dbe813cd347aeb27d3defc0ce85ef722b4483869940a206128d27565dc9b591",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Fortinet Inc Stock (FTNT) Moved Up by 3.35% on Aug 10: A Full Analysis",
+      "url": "https://www.tradingkey.com/news/market-movers/262093305-market-movers-ftnt-20260810",
+      "published_at": "2026-08-10T18:15:01+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "msft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3cf38bf0c031e58254471feaf694efc0aa087f815985482383784e75165f5cf5",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Pfizer's Earnings Have Declined 58% This Year. Is a Dividend Cut Around the Corner?",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PFE-N/pressreleases/3761338/pfizer-s-earnings-have-declined-58-this-year-is-a-dividend-cut-around-the-corner/",
+      "published_at": "2026-08-10T18:08:56+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "04782dcadedbeef572478a67c3209eb33be59a5657dc414dcef1880207163667",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Bullish] CVX, OXY & XOM: The Next Big Move in Oil Could Be Just Getting Started",
+      "url": "https://247wallst.com/investing/2026/08/10/cvx-oxy-xom-the-next-big-move-in-oil-could-be-just-getting-started/",
+      "published_at": "2026-08-10T18:00:49+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "exxon",
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "60219d60f01292dbadac6c65b83d682d18b517d60e1ee228c012bfeb39c60522",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Bullish] BofA: Nvidia's next earnings report could kick off a \"multi-quarter upgrade cycle\"",
+      "url": "https://uk.finance.yahoo.com/news/bofa-nvidias-next-earnings-report-175100931.html",
+      "published_at": "2026-08-10T17:50:44+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "bofa",
+        "nvidia",
+        "bank of america"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "b812b4f8be357c212313ed84e3cba7a64943d04c4adc0ab657d4e717dbb2b509",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Wells Fargo & Company Forecasts Strong Price Appreciation for Associated Banc (NYSE:ASB) Stock",
+      "url": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-forecasts-strong-price-appreciation-for-associated-banc-nyseasb-stock-2026-08-10/",
+      "published_at": "2026-08-10T17:39:18+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bac"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "34f544c6fcec37248099925a30c354b172fcfb63c2a93718ecc90c52f18fddf3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Somewhat Bullish] Does Oracle’s Gemini-Fueled Government Deals Deepen Its AI Moat For ORCL’s Enterprise Platform?",
+      "url": "https://simplywall.st/stocks/us/software/nyse-orcl/oracle/news/does-oracles-gemini-fueled-government-deals-deepen-its-ai-mo",
+      "published_at": "2026-08-10T17:38:58+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "google",
+        "gemini",
+        "googl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "6b3578378f75feac764716341aa0b778f3561cbaeea371c7b8bbfb20a5c59abb",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JNJ] [Bullish] ASC GPO inks deal with J&J for cardiac electrophysiology tech",
+      "url": "https://www.modernhealthcare.com/medical-devices/mh-johnson-and-johnson-access-pulsed-field-ablation/",
+      "published_at": "2026-08-10T17:37:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jnj",
+        "johnson & johnson",
+        "j&j"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "62111eaf15f8bc0003994bcc39b34a1ad5e57bbfab01bde9077550986b27265f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Bullish] NVDA Teams Up With Wall Street Giants On Massive $500B AI Infrastructure Funding Push: Report",
+      "url": "https://www.tradingview.com/news/stocktwits:137e4dcdc094b:0-nvda-teams-up-with-wall-street-giants-on-massive-500b-ai-infrastructure-funding-push-report/",
+      "published_at": "2026-08-10T17:23:21+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "43523825bdc1534938056570837509c248896f6e006415ca7b70e4c56984aa97",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LMT] [Bullish] Lockheed Martin Corp Stock (LMT) Moved Up by 3.00% on Aug 10: What Investors Need To Know",
+      "url": "https://www.tradingkey.com/news/market-movers/262093241-market-movers-lmt-20260810",
+      "published_at": "2026-08-10T17:15:21+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "f-35",
+        "lockheed martin",
+        "lmt"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "dc213c47d0d45f24e455959bf0b92c0a9f9fe7e0afa61ce36908bc3fca12726b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Bullish] Nvidia Poised for Second-Quarter Sales Beat, Upbeat Guidance, BofA Says",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-poised-second-quarter-sales-165513484.html",
+      "published_at": "2026-08-10T16:55:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "bofa",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1f39b37c0770d7c0fb348111baf9412069bf831aa4b6685c93c36bb095de7af3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Uber Technologies Inc Stock (UBER) Moved Up by 3.20% on Aug 10: Key Drivers Unveiled",
+      "url": "https://www.tradingkey.com/news/market-movers/262093150-market-movers-uber-20260810",
+      "published_at": "2026-08-10T16:15:44+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "msft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d0631180d5ffe0b40bd32df0cdb00a32dc6046ed13eddc2f4f8a63de3ff45054",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Bullish] What Broker-Dealers Need to Know About Digital Assets in 2026",
+      "url": "https://www.fticonsulting.com/insights/articles/what-broker-dealers-need-know-about-digital-assets-2026",
+      "published_at": "2026-08-10T16:10:01+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4073e390d7b2ea8b008abd26e8dcf50d0cb683d618aa3659f27ea16d29b19973",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Verisk Analytics (NASDAQ:VRSK) Shares Gap Down - Here's Why",
+      "url": "https://www.marketbeat.com/instant-alerts/verisk-analytics-nasdaqvrsk-shares-gap-down-heres-why-2026-08-10/",
+      "published_at": "2026-08-10T16:09:47+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "06ad79e6426cf5f5d83e1e81bb15fc65c2d7e74eefa91107d4c9fa022fd13ca9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Netflix Is Down 42% From Its High. Here's Why I'm Buying More.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-down-42-high-heres-163500218.html",
+      "published_at": "2026-08-10T16:08:32+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1c186f0a510bb15e928a83fa68c3d5b4c62765cd007e2518f7d16cfe40aa0c48",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[CAT] [Somewhat Bullish] Zacks Market Edge Highlights: Caterpillar, MasTec and United Rentals",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CAT/pressreleases/3759410/zacks-market-edge-highlights-caterpillar-mastec-and-united-rentals/",
+      "published_at": "2026-08-10T16:07:23+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "cat",
+        "caterpillar"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "6d19d3f9d4ec7791859e841d35e18bd62c073155132b532d1cb059da38bac539",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Vistra supports Texas data center pause, execs say",
+      "url": "https://www.utilitydive.com/news/vistra-texas-data-center-pause-comanche-amazon-earnings/827434/",
+      "published_at": "2026-08-10T16:02:51+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn",
+        "amazon"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4dfe4526c1394324e5ccd84760fef00ec6e499c62f5f06c0ab4940303db8acc7",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] ICE Mortgage Monitor: Mortgage Holder Equity Climbs to Record $18 Trillion as Annual Home Price Growth Reaches 14-Month High",
+      "url": "https://www.01net.it/ice-mortgage-monitor-mortgage-holder-equity-climbs-to-record-18-trillion-as-annual-home-price-growth-reaches-14-month-high/",
+      "published_at": "2026-08-10T16:00:26+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3ecfae6404f4bb4d0c8d6dfc1db58f509f40488686565fdf65b6e7324bd9b82d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Apple Strikes $150K Deal To End EEOC Religious Bias Suit",
+      "url": "https://www.law360.com/employment-authority/discrimination/articles/2511620/apple-strikes-150k-deal-to-end-eeoc-religious-bias-suit-",
+      "published_at": "2026-08-10T15:56:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c11aba8c6eb0e6a77435429432754026df347954c290fc23cdbeb0788a2b1d12",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Evotec (NASDAQ:EVO) Shares Gap Up - Here's What Happened",
+      "url": "https://www.marketbeat.com/instant-alerts/evotec-nasdaqevo-shares-gap-up-heres-what-happened-2026-08-10/",
+      "published_at": "2026-08-10T15:42:09+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bac"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f385a53d08f214eb858fa6537690ac45aa940ee7fe01df6a06a216a37b1c95c3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[META] [Somewhat Bullish] Tech stocks today: Meta lays out new AI path, Intel to sell $15 billion in stock",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-meta-lays-out-new-ai-path-intel-to-sell-15-billion-in-stock-135605566.html",
+      "published_at": "2026-08-10T15:38:52+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "b98253877c39691752892957cfe4b4caacc4ec37d3a9a6f59361a66f1dc7575c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Algoma Steel Group Target of Unusually Large Options Trading (NASDAQ:ASTL)",
+      "url": "https://www.marketbeat.com/instant-alerts/algoma-steel-group-target-of-unusually-large-options-trading-nasdaqastl-2026-08-10/",
+      "published_at": "2026-08-10T15:14:59+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "12592e69c309961e64d7b4131754854e5ca5da346521fdba1abae53a1ef86735",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Avnet Partners with Weston Robot to Launch Autonomous Inspection Robot",
+      "url": "https://autonews.gasgoo.com/articles/news/avnet-partners-with-weston-robot-to-launch-autonomous-inspection-robot-2086829546333814785",
+      "published_at": "2026-08-10T15:12:54+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd",
+        "ryzen"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2128255eeed464306d3444bfb2aa7c0d97717f3cacbefb5b37b1cbd509a8f5f1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Bullish] Amazon.com and Krispy Kreme have been highlighted as Zacks Bull and Bear of the Day",
+      "url": "https://www.tradingview.com/news/zacks:f49826bcb094b:0-amazon-com-and-krispy-kreme-have-been-highlighted-as-zacks-bull-and-bear-of-the-day/",
+      "published_at": "2026-08-10T15:11:59+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn",
+        "aws",
+        "amazon"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "86dc3667e26b3d29d2f8a9143ce08f0c53641ca04cba3f84f180311460ea2945",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] AI Cloud Provider Lambda Taps Loans for Nvidia-Tied Chip Deal",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-cloud-provider-lambda-taps-144447179.html",
+      "published_at": "2026-08-10T15:09:03+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "06fd269251ef43c2fc6a2ce6023bf8492d020b18b1032de21b007df1451fae40",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Somewhat Bullish] Alphabet's Higher AI Spending Could Boost These ETFs",
+      "url": "https://www.tradingview.com/news/zacks:f1bdc567c094b:0-alphabet-s-higher-ai-spending-could-boost-these-etfs/",
+      "published_at": "2026-08-10T15:08:15+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "googl",
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4cd27017b2231eedb1de537934596516f25f7958bb281415cc28ea4d5f71cba0",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] JPMorgan Leads $441 Million Debt Deal for AI Infrastructure Firm",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/jpmorgan-leads-441-million-debt-deal-for-ai-infrastructure-firm",
+      "published_at": "2026-08-10T15:00:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm",
+        "chase",
+        "jpmorgan"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e254c92996d98d491c4aef2962152fc32d6fc51eb570aa418fa657007e624031",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Apple gets downgraded, Intel plans to raise $15B: AlphaSpace check",
+      "url": "https://finance.yahoo.com/video/apple-gets-downgraded-intel-plans-145507775.html",
+      "published_at": "2026-08-10T14:54:52+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "7a7bdf583c555b5e8356a10e18642f0ed208b5bdf695ad7edfa3236500df751b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] What is a Ford Fathom and Why is it Creating So Much Buzz",
+      "url": "https://www.thelascopress.com/2026/08/what-is-a-ford-fathom-and-why-is-it-creating-so-much-buzz/",
+      "published_at": "2026-08-10T14:50:08+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "355e2f81074dcb5ca2a561f0c19dd90f5b41f40fe682d1f700aec2d351d170fc",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LMT] [Bullish] Pentagon Urges Boeing (NYSE: BA), Lockheed (NYSE: LMT) And RTX (NYSE: RTX) To Fast-Track Weapons Output Amid Iran War Strain",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/10/pentagon-urges-boeing-nyse-ba-lockheed-nyse-lmt-and-rtx-nyse-rtx-to-fast-track-weapons-output-amid-iran-war-strain/",
+      "published_at": "2026-08-10T14:40:10+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "lockheed martin",
+        "lmt"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9a6c775f292c9e25a608bf34b2fc7f44922e27a7f3552a26e8b50bd763ffad39",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Synopsys (SNPS) Unleashes Agentic AI Chip Design Tools Backed by Microsoft, AMD",
+      "url": "https://finance.yahoo.com/technology/ai/articles/synopsys-snps-unleashes-agentic-ai-143945738.html",
+      "published_at": "2026-08-10T14:39:24+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amd",
+        "microsoft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "815a568116e13b6a13e2c5f8fab6810be412bafa01ce317e5fa7558e88097378",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LLY] [Somewhat Bullish] Veru Q3 2026 Earnings Call Transcript",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-8-10-veru-inc-stock/",
+      "published_at": "2026-08-10T14:38:22+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "lly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "82bb4c45167e3cef4976354ea915b8a776c3dae2bed435943f74afb2458829c6",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Akamai Technologies (NASDAQ:AKAM) Stock Price Up 7.7% Following Analyst Upgrade",
+      "url": "https://www.marketbeat.com/instant-alerts/akamai-technologies-nasdaqakam-stock-price-up-77-following-analyst-upgrade-2026-08-10/",
+      "published_at": "2026-08-10T14:26:05+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bac"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4d84e5f52c353a334971cb139c8bc9cee66c8dce3f2cc35bed2ca330e1fd3ecb",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LLY] [Somewhat Bullish] Bristol Myers to build $2.3 billion manufacturing site in Houston",
+      "url": "https://www.reuters.com/legal/litigation/bristol-myers-build-23-billion-manufacturing-site-houston-2026-08-10/",
+      "published_at": "2026-08-10T14:19:33+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "lly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "af6e9616819a05504d15465d4b3b6357d5165adcaa1d8bf8cbe57edb0725760a",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Bullish] Exxon Mobil Corp Stock (XOM) Moved Up by 3.16% on Aug 10: Drivers Behind the Movement",
+      "url": "https://www.tradingkey.com/news/market-movers/262092892-market-movers-xom-20260810",
+      "published_at": "2026-08-10T14:15:52+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "exxon",
+        "xom"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "33bfc14a42865fb42d9b8f8ac1426bb0d60febb0e78798ee777d8f94c723e69c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Arm Holdings PLC Stock (ARM) Moved Down by 4.64% on Aug 10: What Investors Need To Know",
+      "url": "https://www.tradingkey.com/news/market-movers/262092900-market-movers-arm-20260810",
+      "published_at": "2026-08-10T14:12:45+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "bc7539161bb17ac418b0d4f960e4ff191069211ee4627b73db17a3a3b46f6239",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Ouster Stock Doubles YTD: Buy OUST After Another Quarter of Beat?",
+      "url": "https://www.tradingview.com/news/zacks:877003caa094b:0-ouster-stock-doubles-ytd-buy-oust-after-another-quarter-of-beat/",
+      "published_at": "2026-08-10T14:10:49+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "580a21a52f708177bdd61522c1ea90d12adcd8f7a283aa9bde15636940f27f9c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[META] [Somewhat Bullish] Vistra: Strong Q2 Beat, Structural Growth Drivers and Data-Center Deals Support Buy Rating and $232 Price Target",
+      "url": "https://www.tipranks.com/news/ratings/vistra-strong-q2-beat-structural-growth-drivers-and-data-center-deals-support-buy-rating-and-232-price-target-ratings-news",
+      "published_at": "2026-08-10T14:09:51+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cf0d59d5b4cbcb7ab37cc3d16a73edc29501508d91d60f1bfe420537107a1e9e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JNJ] [Bullish] ACCESS GPO signs multiyear cardiac electrophysiology agreement with Johnson & Johnson for ambulatory surgery centers",
+      "url": "https://www.medicaleconomics.com/view/access-gpo-signs-multiyear-cardiac-electrophysiology-agreement-with-johnson-johnson-for-ambulatory-surgery-centers",
+      "published_at": "2026-08-10T14:03:36+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jnj",
+        "johnson & johnson"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "43b0436ebfa570451fa75d9239477498e4364319e4a1b3eb5a6175eb6d4091a1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Bearish] Dow's 150-Point Fall Led By Losses For Home Depot, Apple Shares",
+      "url": "https://www.moomoo.com/news/post/74429960/dow-s-150-point-fall-led-by-losses-for-home",
+      "published_at": "2026-08-10T13:52:07+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9dd03b221f03b41bc6b06ce60dde6de870b61d3a79a5d0deb28f560f45fff096",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] What TSMC’s Surging Sales Growth Means for Apple and Nvidia Stocks",
+      "url": "https://www.barrons.com/articles/tsmc-stock-sales-apple-ai-3491573c",
+      "published_at": "2026-08-10T13:48:58+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "apple",
+        "nvidia",
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3101f1a496781d6b39c5f490a1d63e2429ebf049177dc5d5e87301a9bfcb028d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Form FWP JPMORGAN CHASE & CO Filed by: JPMORGAN CHASE & CO",
+      "url": "https://www.streetinsider.com/SEC+Filings/Form+FWP+JPMORGAN+CHASE+%26amp%3B+CO+Filed+by%3A+JPMORGAN+CHASE+%26amp%3B+CO/26895609.html",
+      "published_at": "2026-08-10T13:44:31+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm",
+        "chase",
+        "jpmorgan"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "56dac402ea1c83d3e5cd7e0446ee9a9bffe9c9119567e5d9a94db492e014170d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] S&P 500 Earnings Hit Best Growth Since 2021: Here's Why - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61075408/sp-500-earnings-growth-q2-2026-factset",
+      "published_at": "2026-08-10T13:44:00+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn",
+        "amazon",
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cfc3770f1665729a47414cd9dc6e126105a188341f3bc083540036c806d52927",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Why is Abcellera Biologics stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-abcellera-biologics-stock-surging-today-93CH-4849295",
+      "published_at": "2026-08-10T13:42:13+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3220e0bd4d06e7fecabca0c76d88de46b2ffceda827a666e064ad3c8e637041e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Sony, TSMC to build $6.29bn image sensor plant in Japan – report",
+      "url": "https://www.investmentmonitor.ai/news/sony-tsmc-image-sensor-plant-japan/",
+      "published_at": "2026-08-10T13:41:45+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "89fbf05b887ffebe0c502c7cba086917a0516dc9de37baad43e904838662e968",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Terreno Realty (NYSE:TRNO) Stock Price Expected to Rise, Citigroup Analyst Says",
+      "url": "https://www.marketbeat.com/instant-alerts/terreno-realty-nysetrno-stock-price-expected-to-rise-citigroup-analyst-says-2026-08-10/",
+      "published_at": "2026-08-10T13:39:33+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bac"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "57480d0aa0a3ec21f9dd7c25c16907e561c44cb0a3f5c53576a4e1d8ce140c80",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] RBC Capital reiterates Applied Materials stock rating on WFE strength",
+      "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-applied-materials-stock-rating-on-wfe-strength-93CH-4849469",
+      "published_at": "2026-08-10T13:37:08+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "65e38b392d5e2c404594ee7ad07358b8f2c6fd47d793a58e82cfceb7ff88a0ae",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Wall Street Bulls Look Optimistic About JPMorgan Chase & Co. (JPM): Should You Buy?",
+      "url": "https://sg.finance.yahoo.com/news/wall-street-bulls-look-optimistic-133003524.html",
+      "published_at": "2026-08-10T13:09:50+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm",
+        "chase",
+        "jpmorgan"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "644666c13c5ed09f018616f8e1265539eec424031fe2adc45b4acf2e014383a1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Form 8K The Mosaic Company For: 10 August By Investing.com",
+      "url": "https://ca.investing.com/news/stock-market-news/form-8k-the-mosaic-company-for-10-august-93CH-4789687",
+      "published_at": "2026-08-10T13:05:03+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "aapl"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5802f1bcad0288e5b6895ffbc908dbc658c142e4e5977f193b5d5888838c9d2b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JNJ] [Somewhat Bullish] Can Johnson & Johnson (JNJ) Challenge Intuitive Surgical (ISRG) After Ottava’s FDA Approval?",
+      "url": "https://ca.finance.yahoo.com/news/johnson-johnson-jnj-challenge-intuitive-124242559.html",
+      "published_at": "2026-08-10T12:42:20+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jnj",
+        "johnson & johnson"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1866ed0651c532a8467cd84ffd6c9c5ddb7e18dd99ded424f2023a6f86251ed3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] ABCL Stock Climbs As Vertex Deal And Data Catalyst Fire Up Traders",
+      "url": "https://stockstotrade.com/news/abcellera-biologics-inc-abcl-news-2026_08_10-2/",
+      "published_at": "2026-08-10T12:42:13+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jpm"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1754cb88db12fe4a8fa58a3d8e7c49cc5f2ca52bf66fb0eb232bf40841e4b842",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Credo to Contribute OmniConnect Scale-In Interconnect Solution to the Open Compute Project to Address AI Inference Memory Wall",
+      "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Contribute-OmniConnect-Scale-In-Interconnect-Solution-to-the-Open-Compute-Project-to-Address-AI-Inference-Memory-Wall/default.aspx",
+      "published_at": "2026-08-10T12:40:35+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "87cb15fab1088e213d5fa2eb39a64e4158fffc2bec447c646705d726e8012316",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LLY] [Bullish] Lilly's weight-loss pill gets UK regulator's nod",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/uk-green-lights-lillys-obesity-pill-2026-08-10/",
+      "published_at": "2026-08-10T12:39:34+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "eli lilly",
+        "lly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5701e73aa001abc8bfd8114731c7a5280835069acc4c585e1a9db42458b5b124",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Bank of America buys Southside operations center for $155 million",
+      "url": "https://www.jaxdailyrecord.com/news/2026/aug/10/bank-of-america-buys-southside-operations-center-for-155-million/",
+      "published_at": "2026-08-10T12:14:34+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bac",
+        "bank of america"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4d9e72a5cdf5cef7d7b34333b630f119bc2a4a7174a3ac33de899b1397efb500",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[NVDA] Form 4 Gift | Insider: COXE TENCH  (CIK 0001197647) | Company: NVIDIA CORP  (CIK 0001045810) | Filed: 2026-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1197647/000119764726000007/0001197647-26-000007-index.htm",
+      "published_at": "2026-08-07T14:00:00+00:00",
+      "category": "Gift",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "nvda",
+        "nvidia"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "56959f4d53649ba259646007c701bc9dd663061fa86849ff3f8f988e4f250b45",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[MSFT] Form 4 Insider Sell | Insider: Althoff Judson  (CIK 0001868758) | Company: MICROSOFT CORP  (CIK 0000789019) | Filed: 2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1868758/000078901926000143/0000789019-26-000143-index.htm",
+      "published_at": "2026-08-06T14:00:00+00:00",
+      "category": "Insider Sell",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "msft",
+        "microsoft"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "41865c8abd93c4e06e292ecb40969fed09d7f0ba7759b0764837cae504e34571",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[GOOGL] Form 4 Gift | Insider: Hennessy John L.  (CIK 0001198046) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1198046/000119312526338824/0001193125-26-338824-index.htm",
+      "published_at": "2026-08-06T14:00:00+00:00",
+      "category": "Gift",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "googl",
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e40c2058979370fd581efa9bfb75da2bce1165b46fd26b7b042728bd61e28953",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[META] Form 4 Insider Sell | Insider: KIMMITT ROBERT M  (CIK 0001181218) | Company: Meta Platforms, Inc.  (CIK 0001326801) | Filed: 2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326011964/0000950103-26-011964-index.htm",
+      "published_at": "2026-08-05T14:00:00+00:00",
+      "category": "Insider Sell",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "354876c24404a56649298dd6447d1556d56782bf7fb09d07203d37b2c40134a8",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[META] Form 4 Conversion | Insider: Zuckerberg Mark  (CIK 0001548760) | Company: Meta Platforms, Inc.  (CIK 0001326801) | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326011908/0000950103-26-011908-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Conversion",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "98fafcb427a829d9f70e5fa84a0b668f35b578b2e6328e7ef25668aa591f2871",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMD] 8-K: Results of Operations / Earnings, Regulation FD Disclosure | Period: 2026-08-04 | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/0000002488-26-000121-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Results of Operations / Earnings",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "advanced micro devices",
+        "amd"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "6fcb8bdf0365cc6e67cb709706d108bdeeddab2be941544e8d632e3db1d232d2",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[LLY] Form 4 Option Exercise | Insider: Seymour Melissa  (CIK 0002032089) | Company: ELI LILLY & Co  (CIK 0000059478) | Filed: 2026-08-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/2032089/000203208926000002/0002032089-26-000002-index.htm",
+      "published_at": "2026-08-03T14:00:00+00:00",
+      "category": "Option Exercise",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "eli lilly",
+        "lly"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "406efdc78335021f71c1603ad43f7e0ef1d99935f586469393b54a102b618d82",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[JNJ] 8-K: Departure/Election of Directors or Principal Officers | Period: 2026-08-04 | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000167/0000200406-26-000167-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Departure/Election of Directors or Principal Officers",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jnj",
+        "johnson & johnson"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "261c749d07e8d3a896a3855fc20fc7949474b9e6992f6a0605cc402cfb26192d",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[JNJ] Form 4 Insider Sell | Insider: Forminard Elizabeth  (CIK 0001950802) | Company: JOHNSON & JOHNSON  (CIK 0000200406) | Filed: 2026-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1950802/000020040626000169/0000200406-26-000169-index.htm",
+      "published_at": "2026-08-07T14:00:00+00:00",
+      "category": "Insider Sell",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jnj",
+        "johnson & johnson"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "cdd45b5a65fb41c19039525e10d395af0186ef205fa065d9487b0864ced603d4",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[LMT] Form 4 Unclassified | Insider: St John Frank A  (CIK 0001728300) | Company: LOCKHEED MARTIN CORP  (CIK 0000936468) | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728300/000122520826006930/0001225208-26-006930-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Unclassified",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "lockheed martin",
+        "lmt"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "33d47b0b45c550ac3e7866e43e08c83203202b156ce30191f619b9b9841d9b13",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMZN] Form 4 Insider Sell | Insider: Herrington Douglas J  (CIK 0001936006) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1936006/000101872426000030/0001018724-26-000030-index.htm",
+      "published_at": "2026-08-05T14:00:00+00:00",
+      "category": "Insider Sell",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "amzn",
+        "amazon"
+      ],
+      "sector_impact": []
+    }
+  ]
+}
