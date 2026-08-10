@@ -1,0 +1,1228 @@
+{
+  "stage": "noise_scorer",
+  "session_type": "NSE_MID",
+  "generated_at": "20260810T081702Z",
+  "record_count": 75,
+  "records": [
+    {
+      "item_hash": "af7b5dc1c0d33e487a2ab8fb6f5c1c752d943cd3032d70a2282080ca90f8e6e3",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "$48 billion profit! 5 global oil majors cash in on oil surge amid Iran war. Where is money flowing?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/48-billion-profit-5-global-oil-majors-cash-in-on-oil-surge-amid-iran-war-where-is-money-flowing/articleshow/133091563.cms",
+      "published_at": "2026-08-10T08:06:24+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "38dfbb37806d91e1814cdbe3edc3c1713a49a4ec9ee22133c36ea51aba16a44d",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: Shanghai, Hong Kong stocks rise as consumer gains offset tech weakness",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-shanghai-hong-kong-stocks-rise-as-consumer-gains-offset-tech-weakness/articleshow/133090625.cms",
+      "published_at": "2026-08-10T07:47:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "36c16d4d862be806c8bad422aaf967256ef6a7dad4abd353acfb322ab53b3e56",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: BOJ rate hike case strengthens as policymakers warn of rising inflation risks",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boj-rate-hike-case-strengthens-as-policymakers-warn-of-rising-inflation-risks/articleshow/133090142.cms",
+      "published_at": "2026-08-10T07:31:34+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d1c454a52828e3362e1346ddbfbf21ddc1be550351dbbf2ac2acf7bee5bfefbc",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Rupee anchored by central bank hand, traders watchful of oil ructions",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-anchored-by-central-bank-hand-traders-watchful-of-oil-ructions/articleshow/133089685.cms",
+      "published_at": "2026-08-10T07:09:10+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c4b19faa5b53e2eb0ae87e607624acccda8088799b521a21a83d0d0848eeb333",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Alphabet vs Meta: Which stock is the better long-term bet?",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-vs-meta-which-stock-is-the-better-long-term-bet/slideshow/133090309.cms",
+      "published_at": "2026-08-10T07:08:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "94064a11f326e86809fbce8e23a2f9914698f4bcb19823c6394930adf250170e",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market: Berkshire steps up buybacks, boosts Alphabet stake as cash falls",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-berkshire-steps-up-buybacks-boosts-alphabet-stake-as-cash-falls/articleshow/133086633.cms",
+      "published_at": "2026-08-10T05:52:49+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "de632133d79383280436298532b845e1c4909af7472f9d42b8185ad899b5556a",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market: Weak July jobs data dents expectations for September Fed rate hike",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-weak-july-jobs-data-dents-expectations-for-september-fed-rate-hike/articleshow/133084200.cms",
+      "published_at": "2026-08-10T04:57:18+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "40784c040340bd886271d828ca4158dac3028229a82d87454cbd6dbfd29c9e93",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Sky Gold and Diamonds shares rally 10% after Q1 profit soars 141% YoY, revenue rises 78%",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sky-gold-and-diamonds-shares-rally-10-after-q1-profit-soars-141-yoy-revenue-rises-78/articleshow/133083710.cms",
+      "published_at": "2026-08-10T04:53:40+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d3b0653969455eba1817932002a6fea89835ed12a405fc1cc53b214b5a423b0f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Rupee falls 8 paise to 95.25 against US dollar in early trade",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-8-paise-to-95-25-against-us-dollar-in-early-trade/articleshow/133082110.cms",
+      "published_at": "2026-08-10T04:30:28+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2576ea4066cc325d3e9312654b42370e55d6489cd6377d9ea53a9e05efaa5044",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Silver climbs Rs 2,100/kg, but gold prices fall as focus shifts to inflation data amid Iran war. Key levels to track",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-climbs-rs-2100/kg-but-gold-prices-fall-as-focus-shifts-to-inflation-data-amid-iran-war-key-levels-to-track/articleshow/133081450.cms",
+      "published_at": "2026-08-10T04:18:48+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "961c4aaf5e8665ea22acfe33d354013a3cc9b9fb1cc7913d030653c6470679ed",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Kaynes Tech shares crash 8% after weak Q1 results: What are Nomura and Motilal Oswal saying",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-shares-crash-8-after-weak-q1-results-what-are-nomura-and-motilal-oswal-saying/articleshow/133081372.cms",
+      "published_at": "2026-08-10T04:14:19+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 0.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1",
+        "sensational language: -2"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6ad3c3191982b37aef8d6818bd83b5df9d7a001b2bd5e24f9a88aa151eff68c7",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Sensex, Nifty hold steady as strong earnings offset oil worries",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-hold-steady-as-earnings-offset-oil-worries/articleshow/133080723.cms",
+      "published_at": "2026-08-10T04:04:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "401507e02dce8d26cbd1849ca001ca989de85d8593012a7d9dcd66495187d929",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: South Korean shares rise as chipmakers gain on Wall Street rally, easing rate fears",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rise-as-chipmakers-gain-on-wall-street-rally-easing-rate-fears/articleshow/133080687.cms",
+      "published_at": "2026-08-10T04:02:28+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "85f42f5c97a36aafe949fff2ae81ad36c83c1ef688cdfea7efe1b7ccf0958b2c",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "SBI shares rise nearly 2% after Q1 beat. Here's what Nomura, Morgan Stanley and other top brokerages expect next",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-shares-rise-nearly-2-after-q1-beat-heres-what-nomura-morgan-stanley-and-other-top-brokerages-expect-next/articleshow/133080745.cms",
+      "published_at": "2026-08-10T03:58:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "96d77500511626f606aa3db331ae853eb3a0411ffba37622b853cda05b994aab",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US stock rally faces inflation test as investors weigh Fed rate path",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-rally-faces-inflation-test-as-investors-weigh-fed-rate-path/articleshow/133080203.cms",
+      "published_at": "2026-08-10T03:52:43+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "10a95e2d7ad28baf915d535ccd824a210f21e57ace5a046556811adb13eb2e1f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Asian Paints Share Price Live Updates: Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/asian-paints-stock-price-livestock-price-today-live-updates-10-aug-2026/liveblog/133079996.cms",
+      "published_at": "2026-08-10T03:40:37+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e3583871d65f42c1246569fefcbb95a1d29ddca81a6e706eb8f6bc9a9e704ae6",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "RIL Share Price Live Updates: RIL's Financial Snapshot",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-10-aug-2026/liveblog/133079707.cms",
+      "published_at": "2026-08-10T03:30:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "99643c46f45c0275b8ed1c13f6e80f3fedd1ee2c9644511314a88c2d4af1a185",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-adanis-125-billion-capex-boom-is-creating-new-winners-on-dalal-street/articleshow/133079045.cms",
+      "published_at": "2026-08-10T03:07:33+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "38bdfdbd4123c9f2f904fffd0815597e67d45d1844db8919b2dfcdeb6a360f35",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Tata Steel Share Price Live Updates: Tata Steel Stock Details",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-steel-share-price-today-live-10-aug-2026/liveblog/133079020.cms",
+      "published_at": "2026-08-10T03:05:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4669089eb74f407a53c82810223659e9ed67e0e1a1fea44efee99d3e437fdbf0",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[WIPRO] [Company Update] Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/835d7730-d616-4b9f-b4f2-2cb5337f39b0.pdf",
+      "published_at": "2026-07-08T10:29:59.223000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "references filing/official release: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b4826cf9f7956ce5a8f28cec7f9817c80f2f88e672087ae671bc614331600c87",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
+      "published_at": "2024-04-23T08:11:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9af268c3c1b36a6cb27aedb1ec66ca09241e008c0e4faee86e5b3f0cb97e7670",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Reduce Persistent Systems; target of Rs 3700: Emkay Global Financial",
+      "url": "https://www.moneycontrol.com/news/recommendations/reduce-persistent-systems-targetrs-3700-emkay-global-financial_17531581.html",
+      "published_at": "2024-04-23T07:56:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2b030f32790eb4728ee2f1576b72e8fba63c9e61ded1f5f301a4d542daccd156",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Accumulate Infosys; target of Rs 1531: KR Choksey",
+      "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
+      "published_at": "2024-04-23T06:35:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f6c13dc3efc43271e7bf528f124ec25f130da139df4527e91bdef2cdcd5ea7d8",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "R K Swamy Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/RKSWAMY1973_10082026134410_Intimation_of_Amalgamation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "bb8ae78718e2d52976eb13fe48b1eb638b7ba97155a6268ad1580b4690a6f998",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sun Pharma Advanced Research Company Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SPARC_10082026133324_BMOutcomesigned.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "bdc3117a14c4b395733e6c48ab24040e6742fe346b35db3da46947d5d41998ad",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "K.P.R. Mill Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_10082026132817_Announcement__Reg_30.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ada6b63723e9601c31b497cd9a5bde70421ada823f996a18e053d8eed81bfaff",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - SBI FMP - Series 49 (1823 Days)-RP-G",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "787dee397f96e4f913100af389140716c1cacd64ce9b1e24f5c4f6582401ae1a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Veedol Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10082026123619_SGSPL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9805e50453bbb7a94bc172f33c159d8ae4aeacedfb8c957179670e28f324c462",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Axis BSE SENSEX ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "16ca1b59de173e40db556b7042c9896b4b10a1d6f0231502b4cde570cbec7e8b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kotak Nifty PSU Bank ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "5b2af308d66493105509d94ed6e570d6c3f349ffb2f570a5fba1ea9c535cf4f4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mahanagar Telephone Nigam Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MTNL_10082026121011_SD_SE_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b088adc39efbcf3f8c943341fbc04423480dbae640ff3367c74bef8c87725c2c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "J.Kumar Infraprojects Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/JKIL_10082026120905_JKIL_SELETTER.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "20899811e0e6f582238db60f8a1541c119e82ef06fee272df657ca0129c64cf3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential MF - ICICI Prudential Nifty 200 Quality 30 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "352b8e3be96064cb40af95d510b69a413f71d5f33cdd96400f1f522b0a460193",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential Nifty India Consumption ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "53eefe210f9891486003fd0aff5cf35233c7bcb1fb5a2f0b7560ff246cf9fe56",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Reliance Industrial Infrastructure Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/mrunalvaidya_10082026120119_RIILADVT.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "128d596426420d0cff66ec329b20045319c064a4fb9fd6f0130fbd55916c32f4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bharti Airtel Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026120302_BhartiAirtelPressRelease.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f6f50dc62ed872cfc0bc5987761717f61aa6c6a9691fbd95ea5c29a9f26c38b9",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "International Gemological Institute Limited",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "79d956191d7365bd2c28f65c63b92514839ef62d5ce6421ebd229cc77eea7967",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "GenXAI Analytics Limited",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d43eff4d9ea398c42ac0ced9f85514b750fcf3f1d19177e5ca2b6f9dec1e0929",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Leela Palaces Hotels & Resorts Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/THELEELA_10082026115510_SE_Intimation-BREPL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f9ae45f26a6e30ff7d1b0084301b13c9c5980845f7970e843f809a62dfe08b66",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jio BlackRock MF - Prism Hybrid Long-Short Fund - Regular Plan Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "45660507399bad94d1642bf3e734036075af26797077649c91ab448ae281dbd3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "UTI Nifty 50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c3f9cdb333d25fc99606e550ba4b50a5c4d106a87035b0029f5cc2ccff9ade8b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Anand Rathi Share and Stock Brokers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ARSSBL_2024_27072026185228_NSE_Clarification_Letter_27072026_sd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e3756e838631a77db6f7dbd600fbfe70946919da914b1f3349c5147d793b3e75",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Integrity Infrabuild Developers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/INTEGRITY_05082026131422_reply_with_Outcome.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3fe9e340a181f0f588efd72f7f4144b9e8dcf580da297c0d930eb2c93ae6aef5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Rockingdeals Circular Economy Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/rockingdeals_31072026115219_Reply_to_NSE__1_.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "5379ebb22147184fca2a619b9490de90ca644d4043629b14e4f25ba6c1a9eb0f",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Foce India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/FOCE_01082026111350_Clarification_with_outcome.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "249ffbebbd02af150f946baf30cc621400968432b27aedfc7a4b0bc7ec14258a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Vikas Lifecare Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VIKASLIFE_31072026132251_Vllbm2406sd_final.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fa4610a54ef0cd2e81fae7d86ea420e8fa20b606ec131ff9b664a9d6a5d099b4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bajaj Finserv Nifty 1D Rate Liquid ETF-Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "17a30ed7125bd3bb8779d3f05953af37a4e329ee22de1b4d8447edf8ab93c1ed",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF-Mirae Asset Nifty India Infrastructure & Logistics ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "889b8c3e95f3d8cf8261402d6c88b96b2810821a22fbb56784c963ffcf6bf101",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF-Mirae Asset Nifty Smallcap 250 Momentum Quality 100 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4ea188cede7f79c15c7cc3097c50e14e288c835757c33a5fbe9f7a6a621498e5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset Mutual Fund - Mirae Asset Nifty India Internet ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a3a2dd5c6d9056963472cc5522fa03ffbcca54d50183bbcca0f03fc3b1c72fa3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF - Mirae Asset Nifty EV and New Age Automotive ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "24a7567e454d60d6cc642c84a08d9dd6caa4d842d91272ce2887ec87d7ca21cd",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "35dedffebabfe0b8b51fafb32abaf787f237d8b5d0f9004655d76af8e793d880",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "LIC MF - LIC MF G-sec LT ETF - GO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "464951611e3c5681dc1c8229382ad687e96e623b12263951fc4ec58df80a855a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Midcap150 Momentum 50",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d23d90964fc131290531600f2763e6ad04c79cc366459d6219afc4083dc0f646",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India Mutual Fund - Nippon India Nifty India Manufacturing ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e6db65fb4ca3b7c562adba0be9672a765214a0e8753c3b88a1732b74c74c877b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "eb19f26645e3676d58fb70584ff5225f542155c2aaacc7c5567f3da918ad7390",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[RELIANCE] [Company Update] The newspaper clippings of the advertisement on the captioned subject published today i.e., August 7, 2026 in the newspapers viz. The Indian Express (English), Financial Express (English), ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5129b54-de13-4e65-a1c4-e1e33d27e773.pdf",
+      "published_at": "2026-07-08T11:47:39.373000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d6e76daf6a5bdacdf5da480e772ffcd510ff2a98961ef6f0bc93aa616f1de32b",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[RELIANCE] [Company Update] Please note that the Company executives will be participating in the Institutional Investors'''' Meeting - Emkay Confluence 2026, scheduled to be held on August 12, 2026 at Mumbai. It is ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/556d5cc0-036f-4d63-910a-2ae1be214321.pdf",
+      "published_at": "2026-07-08T11:26:11.880000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "eb2343e753e86ccf4400663e4cc47d65bed3e3ca748fc2dfb0d20f53fa54a14f",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Link of Audio Recording of Post Earning Investor / Analyst Meeting",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1749f85b-7cc8-46b9-9959-cbbe31a6d3d2.pdf",
+      "published_at": "2026-07-08T15:05:58.737000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "448a40a2f18342d322e7d42395e210d0b3d36b21237c7997c4e2284a16d6ebc5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Statement of deviation / variation",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93aa15a4-38ad-4790-a85b-9e97ed902e6a.pdf",
+      "published_at": "2026-07-08T09:49:52.440000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0d376a822c5538b68ca847da1cdac8a6d265666b9a244de965d6f8e5f42fd6b7",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Result] Financial Results for the quarter ended 30.06.2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4df42574-1a0d-41d0-a30b-d4ee22e965f2.pdf",
+      "published_at": "2026-07-08T09:30:04.160000+00:00",
+      "category": "Result",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Financial Results': +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "09ef083f406d5609efc0d1d24fcefc4de0013929274704de1ab1da0d0fe83cc2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Press Release Q1FY27 Results",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89b08175-4d6c-4177-9733-ff21fa1fae92.pdf",
+      "published_at": "2026-07-08T08:24:01.130000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "99232c66dd33e76aa9716402c2223ce6c3c63b8eb1ed0e4fae039958a35352f5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Maruti Suzuki Annual Integrated Report 2025-26 The Next Million, New Momentum: Every Engine of Growth in Motion",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b55ea979-3175-4b78-b465-2f4c53cebe21.pdf",
+      "published_at": "2026-08-08T16:41:03.087000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f17419670e4a90dea723e1ec755157d43a05568546ee6a10f0ea7c36f06f076d",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Issuance of letter providing Web-link of the Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/356313d3-8bc6-46ef-9280-5977d2695873.pdf",
+      "published_at": "2026-08-08T16:15:57.503000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0ce06fd4f797907b20fabd6a9858eb56a498494622ce309574c595adf2ccee91",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Others] Business Responsibility and Sustainability Report (BRSR) for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f830aefe-81ed-4bcf-96e4-3852972b067d.pdf",
+      "published_at": "2026-08-08T16:08:42.583000+00:00",
+      "category": "Others",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Others' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a8fa021db8886ab06141baa193d8897e40e96dee027b55e36f40f874380b0c15",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [AGM/EGM] Notice of 45th Annual General Meeting and Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8231cb4-74ab-4aa7-94a5-335d11aef321.pdf",
+      "published_at": "2026-08-08T15:50:33.490000+00:00",
+      "category": "AGM/EGM",
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'AGM Notice': -1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "12ccf19f2c33c3aa1113e6d3b86d9d767b7810ce4ab287ec95bce7e6b7eb1bd2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[TATASTEEL] [Company Update] Intimation of Schedule of Analyst / Institutional Investor Meeting under the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94611b87-178d-41f6-84ea-ad059f5f6127.pdf",
+      "published_at": "2026-07-08T11:40:44.567000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "05a30f1b9839bb54c12624c30824ef6c7c52311e136c37ace52e44dc7d4cc189",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BHARTIARTL] [Company Update] We are enclosing herewith a press release dated August 10, 2026 titled ''Airtel Business and ITI Limited enter into strategic partnership to accelerate India''s digital transformation'' ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/285c8289-21d8-4160-98a8-cde3671b96d0.pdf",
+      "published_at": "2026-10-08T06:30:56.590000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f92b0d93a9b83c7ec2d22ae7be4a4531aa992f721f31d3a2c6ab0e7506da6d5e",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BAJFINANCE] [Company Update] Allotment of Secured Redeemable Non- Convertible Debentures on Private Placement basis.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6b9b5e1f-9083-4707-be40-e41a97b75350.pdf",
+      "published_at": "2026-10-08T07:30:25.303000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f4747ded8ba4ae0e061bb587e70944a591f8e266417d223898f4c75cb5f1c7e2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[DRREDDY] [Company Update] Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2105",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aba1e242-a7a7-48ea-bf1a-5c3984361d20.pdf",
+      "published_at": "2026-07-08T17:35:28.030000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "references filing/official release: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d565553d6f8985ba10b7fa35465cbe0040f3419030435cf5d1d476f04ae97c49",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[ADANIGREEN] [Company Update] Intimation of interaction with Investors/Analysts",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/074255b7-e06b-4cee-b848-41e382ab036c.pdf",
+      "published_at": "2026-07-08T09:46:20.800000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "ticker ADANIGREEN has risk_flag: -1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "81d1c206403df5f852e2e908c08de36f406f462342e1c5c1ca0719849c3ce653",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[LT] [Company Update] L&T Wins Offshore Orders (Major*) from ONGC",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c06eba92-18e5-4c30-ac78-87ec0a4c3bbd.pdf",
+      "published_at": "2026-07-08T07:22:25.227000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9293c0b00b69b8dd0aea6813ac899615556ab6a6e97a8091972c69e9fa7229e7",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[NTPC] [Company Update] Newspaper publication regarding special window for transfer and dematerialisation of physical securities of NTPC Limited",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e18cc77-7eee-4c49-af40-a94ccc0259f9.pdf",
+      "published_at": "2026-07-08T09:50:01.750000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9011cd6737273947b36cedb2e62958ca697b4f7122ef1eb19c5850eee66cf335",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KPITTECH] [Company Update] Letter to members for weblink of Annual Report for FY 2025-26 to those members who have not registered their email addresses with the Company",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a3edea8-df4f-46af-ba5e-615db8d2fb19.pdf",
+      "published_at": "2026-07-08T12:42:18.710000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8b3b3c28e3bfee0eb5dfc582d17e9fcb193f08826dfda8376bbb2c9d2143a762",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KAYNES] [Mutual Fund] NAV Upload 07-08-2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2345e535-8b4b-47af-9186-1f5dc21897f5.pdf",
+      "published_at": "2026-10-08T04:04:12.870000+00:00",
+      "category": "Mutual Fund",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Mutual Fund' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    }
+  ]
+}

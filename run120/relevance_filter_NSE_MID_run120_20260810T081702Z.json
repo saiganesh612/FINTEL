@@ -1,0 +1,2926 @@
+{
+  "stage": "relevance_filter",
+  "session_type": "NSE_MID",
+  "generated_at": "20260810T081702Z",
+  "record_count": 241,
+  "records": [
+    {
+      "item_hash": "af7b5dc1c0d33e487a2ab8fb6f5c1c752d943cd3032d70a2282080ca90f8e6e3",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "$48 billion profit! 5 global oil majors cash in on oil surge amid Iran war. Where is money flowing?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/48-billion-profit-5-global-oil-majors-cash-in-on-oil-surge-amid-iran-war-where-is-money-flowing/articleshow/133091563.cms",
+      "published_at": "2026-08-10T08:06:24+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "exxon"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d3faf42ea615337ef1720f3635b63f79f971356a172e457a0017ae98466207da",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Pix Transmissions shares surge over 12% after Q1 profit spikes 98% YoY",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pix-transmissions-shares-surge-over-12-after-q1-profit-spikes-98-yoy/articleshow/133091477.cms",
+      "published_at": "2026-08-10T08:03:42+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ef6270188a2d542a820bea3cfe425cc7498250fa250435c6355d8872133dd741",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Vedanta Oil and Gas shares surge 12% to fresh record high. What should investors do?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-oil-and-gas-shares-surge-12-to-fresh-record-high-what-should-investors-do/articleshow/133090903.cms",
+      "published_at": "2026-08-10T07:55:03+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "38dfbb37806d91e1814cdbe3edc3c1713a49a4ec9ee22133c36ea51aba16a44d",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: Shanghai, Hong Kong stocks rise as consumer gains offset tech weakness",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-shanghai-hong-kong-stocks-rise-as-consumer-gains-offset-tech-weakness/articleshow/133090625.cms",
+      "published_at": "2026-08-10T07:47:16+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "persistent"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "36c16d4d862be806c8bad422aaf967256ef6a7dad4abd353acfb322ab53b3e56",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: BOJ rate hike case strengthens as policymakers warn of rising inflation risks",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boj-rate-hike-case-strengthens-as-policymakers-warn-of-rising-inflation-risks/articleshow/133090142.cms",
+      "published_at": "2026-08-10T07:31:34+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "rate hike",
+        "inflation"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "Banking",
+        "FMCG",
+        "Fintech & NBFC",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "4e313b665bc0422a39cde5931eb3f855732e6c0876bb6f8e290a3295824e3151",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Hindalco share price: Why brokerages are reiterating their Buy calls, raising target prices after Q1 earnings",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindalco-share-price-why-brokerages-are-reiterating-their-buy-calls-raising-target-prices-after-q1-earnings/articleshow/133089907.cms",
+      "published_at": "2026-08-10T07:18:54+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d1c454a52828e3362e1346ddbfbf21ddc1be550351dbbf2ac2acf7bee5bfefbc",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Rupee anchored by central bank hand, traders watchful of oil ructions",
+      "url": "https://economictimes.indiatimes.com/markets/forex/rupee-anchored-by-central-bank-hand-traders-watchful-of-oil-ructions/articleshow/133089685.cms",
+      "published_at": "2026-08-10T07:09:10+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "rupee"
+      ],
+      "sector_impact": [
+        "Conglomerate",
+        "Information Technology",
+        "Pharma & Healthcare"
+      ]
+    },
+    {
+      "item_hash": "c4b19faa5b53e2eb0ae87e607624acccda8088799b521a21a83d0d0848eeb333",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Alphabet vs Meta: Which stock is the better long-term bet?",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-vs-meta-which-stock-is-the-better-long-term-bet/slideshow/133090309.cms",
+      "published_at": "2026-08-10T07:08:21+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "meta",
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "61de857c0e6eda88a0ec5383009736395dc3ebd5eb06635ee367f73fb45a4a95",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Raymond Realty shares fall 8% as profitability takes a hit  in Q1",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/raymond-realty-shares-fall-8-as-profitability-takes-a-hit-in-q1/articleshow/133088516.cms",
+      "published_at": "2026-08-10T06:50:25+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d36e2c5fafafc139c64727a2974d4430ccb6f37924850d36db2c9e90fc8569d4",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "PFC shares tumble 5% to 4-month low after weak Q1 earnings. Why Motilal Oswal still recommends Buy",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/pfc-shares-tumble-5-to-4-month-low-after-weak-q1-earnings-why-motilal-oswal-still-recommends-buy/articleshow/133087726.cms",
+      "published_at": "2026-08-10T06:24:59+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a3cd4c0129c8a58ab8edf40a152e91321fc94b76fdfb5e0881d2c2642d6efece",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Milky Mist Dairy Food IPO opens tomorrow, GMP signals 20% listing gain. Check price band, lot size and key dates",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-dairy-food-ipo-opens-tomorrow-gmp-signals-20-listing-gain-check-price-band-lot-size-and-key-dates/articleshow/133087338.cms",
+      "published_at": "2026-08-10T06:03:39+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "572fbd3e5fe0ab2a0a12aaf6fc28fb03d015221a9f051aeabe8df27ba0b7bb69",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Paytm shares jump 5% after Bernstein assigns target price above IPO price for first time",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/paytm-shares-jump-5-after-bernstein-assigns-target-price-above-ipo-price-for-first-time/articleshow/133087184.cms",
+      "published_at": "2026-08-10T06:00:48+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "362114f43659a04b0969bfd94169f4863c603d4852280ddd50709ef283fbae4a",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Aarti Pharmalabs shares hit 20% upper circuit as Q1 net profit surges 65% YoY to Rs 76 crore",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/aarti-pharmalabs-shares-hit-20-upper-circuit-as-q1-net-profit-surges-65-yoy-to-rs-76-crore/articleshow/133086824.cms",
+      "published_at": "2026-08-10T05:57:21+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "94064a11f326e86809fbce8e23a2f9914698f4bcb19823c6394930adf250170e",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market: Berkshire steps up buybacks, boosts Alphabet stake as cash falls",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-berkshire-steps-up-buybacks-boosts-alphabet-stake-as-cash-falls/articleshow/133086633.cms",
+      "published_at": "2026-08-10T05:52:49+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "alphabet"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0b5e0baa401e6dd031ce9be40674449fde8e84b8a181738840eb3898a08b751f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Hitachi Energy jumps 7% after Q1 results. Here's why Nomura initiated coverage on stock",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/hitachi-energy-jumps-7-after-q1-results-heres-why-nomura-initiated-coverage-on-stock/articleshow/133086376.cms",
+      "published_at": "2026-08-10T05:49:22+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "adaa8890fa41b563d9cc2aaaf35b5efa8ced76577430a1c91d22e66f4f96c3bc",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Dynamatic Technologies shares soar 9% after Q1 profit jumps 93% YoY to Rs 21 crore; outlook stays strong",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/dynamatic-technologies-shares-soar-9-after-q1-profit-jumps-93-yoy-to-rs-21-crore-outlook-stays-strong/articleshow/133085993.cms",
+      "published_at": "2026-08-10T05:42:40+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "21b87573ca8d2d28fea0e1a8e97429df17df4fd764f92b131449c1c4454ec271",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Cupid shares fall 2% even as Q1 profit jumps 3x. What’s ahead for multibagger stock that rose 680% in a year?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/cupid-shares-fall-2-even-as-q1-profit-jumps-3x-whats-ahead-for-multibagger-stock-that-rose-680-in-a-year/articleshow/133085241.cms",
+      "published_at": "2026-08-10T05:18:12+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9d08f42b1ad9e93f4d9c637017ce80688d5502c7ed7bda555b711ddabb1e9d4a",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Ola Electric shares fall 6% even as Q1 loss narrows. Why brokerages see up to 51% downside",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ola-electric-shares-fall-6-even-as-q1-loss-narrows-why-brokerages-see-up-to-51-downside/articleshow/133084431.cms",
+      "published_at": "2026-08-10T05:00:44+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "de632133d79383280436298532b845e1c4909af7472f9d42b8185ad899b5556a",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market: Weak July jobs data dents expectations for September Fed rate hike",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-weak-july-jobs-data-dents-expectations-for-september-fed-rate-hike/articleshow/133084200.cms",
+      "published_at": "2026-08-10T04:57:18+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "persistent"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "40784c040340bd886271d828ca4158dac3028229a82d87454cbd6dbfd29c9e93",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Sky Gold and Diamonds shares rally 10% after Q1 profit soars 141% YoY, revenue rises 78%",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sky-gold-and-diamonds-shares-rally-10-after-q1-profit-soars-141-yoy-revenue-rises-78/articleshow/133083710.cms",
+      "published_at": "2026-08-10T04:53:40+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "fii"
+      ],
+      "sector_impact": [
+        "AI & Semiconductors (US)",
+        "Banking",
+        "Information Technology"
+      ]
+    },
+    {
+      "item_hash": "d3b0653969455eba1817932002a6fea89835ed12a405fc1cc53b214b5a423b0f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Rupee falls 8 paise to 95.25 against US dollar in early trade",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-8-paise-to-95-25-against-us-dollar-in-early-trade/articleshow/133082110.cms",
+      "published_at": "2026-08-10T04:30:28+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "crude oil",
+        "rupee"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "Conglomerate",
+        "Information Technology",
+        "Infrastructure",
+        "Pharma & Healthcare"
+      ]
+    },
+    {
+      "item_hash": "9835b71c923e9457b56e46c066476b4efd25045266579f86c828369c0d5bb58d",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Delhivery shares plunge 4% as net profit tumbles 65% YoY. Why Nuvama still maintains Buy rating",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/delhivery-shares-plunge-4-as-net-profit-tumbles-65-yoy-why-nuvama-still-maintains-buy-rating/articleshow/133081619.cms",
+      "published_at": "2026-08-10T04:22:45+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2576ea4066cc325d3e9312654b42370e55d6489cd6377d9ea53a9e05efaa5044",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Silver climbs Rs 2,100/kg, but gold prices fall as focus shifts to inflation data amid Iran war. Key levels to track",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-climbs-rs-2100/kg-but-gold-prices-fall-as-focus-shifts-to-inflation-data-amid-iran-war-key-levels-to-track/articleshow/133081450.cms",
+      "published_at": "2026-08-10T04:18:48+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "federal reserve",
+        "inflation"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "FMCG",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "961c4aaf5e8665ea22acfe33d354013a3cc9b9fb1cc7913d030653c6470679ed",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Kaynes Tech shares crash 8% after weak Q1 results: What are Nomura and Motilal Oswal saying",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-shares-crash-8-after-weak-q1-results-what-are-nomura-and-motilal-oswal-saying/articleshow/133081372.cms",
+      "published_at": "2026-08-10T04:14:19+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "kaynes",
+        "kaynes technology"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0bcdf55252069033e4cf0022d909dca495b40d9cefc2b567fdc1616e02f691aa",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Titan shares gain 2% after Q1 results. What are Citi, Motilal, two other brokerages saying?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/titan-shares-gain-2-after-q1-results-what-are-citi-motilal-two-other-brokerages-saying/articleshow/133081121.cms",
+      "published_at": "2026-08-10T04:06:59+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "8f8f09e0cad4d0f0e10c6c3c7ada966e9ce1371b54d143c3469025a1320b4cb2",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "HDFC Life Share Price Live Updates: HDFC Life's new reco indicates potential decline",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-life-share-price-today-live-updates-10-aug-2026/liveblog/133081190.cms",
+      "published_at": "2026-08-10T04:06:13+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6ad3c3191982b37aef8d6818bd83b5df9d7a001b2bd5e24f9a88aa151eff68c7",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Sensex, Nifty hold steady as strong earnings offset oil worries",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-hold-steady-as-earnings-offset-oil-worries/articleshow/133080723.cms",
+      "published_at": "2026-08-10T04:04:05+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "icici bank",
+        "bajaj finance",
+        "ntpc"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "401507e02dce8d26cbd1849ca001ca989de85d8593012a7d9dcd66495187d929",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Global Market: South Korean shares rise as chipmakers gain on Wall Street rally, easing rate fears",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rise-as-chipmakers-gain-on-wall-street-rally-easing-rate-fears/articleshow/133080687.cms",
+      "published_at": "2026-08-10T04:02:28+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "federal reserve"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "85f42f5c97a36aafe949fff2ae81ad36c83c1ef688cdfea7efe1b7ccf0958b2c",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "SBI shares rise nearly 2% after Q1 beat. Here's what Nomura, Morgan Stanley and other top brokerages expect next",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-shares-rise-nearly-2-after-q1-beat-heres-what-nomura-morgan-stanley-and-other-top-brokerages-expect-next/articleshow/133080745.cms",
+      "published_at": "2026-08-10T03:58:20+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "96d77500511626f606aa3db331ae853eb3a0411ffba37622b853cda05b994aab",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "US stock rally faces inflation test as investors weigh Fed rate path",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-rally-faces-inflation-test-as-investors-weigh-fed-rate-path/articleshow/133080203.cms",
+      "published_at": "2026-08-10T03:52:43+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "federal reserve",
+        "inflation",
+        "treasury"
+      ],
+      "sector_impact": [
+        "Auto & EV",
+        "FMCG",
+        "Infrastructure"
+      ]
+    },
+    {
+      "item_hash": "57450080cdf0f047a3d7eaa6fa6e263578c16ef83100ae49258963dcbb31b1b9",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Ardee Industries IPO allotment today, GMP signals 30% listing gain. Here’s how to check status",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ardee-industries-ipo-allotment-today-gmp-signals-30-listing-gain-heres-how-to-check-status/articleshow/133080145.cms",
+      "published_at": "2026-08-10T03:49:43+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b823587e2980b4a3d0f389b63a3b46bf126d1053440a2fbdc60757438bbe67c8",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Kotak Bank Share Price Live Updates: Kotak Bank News",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/kotak-bank-share-price-live-updates-10-aug-2026/liveblog/133080034.cms",
+      "published_at": "2026-08-10T03:41:49+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a119c901b76f53cfbbefc38f0c960ddf34873d04621624ce1ba174ad7ce36dcc",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Tata Technologies among 5 stocks flashing bullish signals. Upside on cards?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-technologies-among-5-stocks-flashing-bullish-signals-upside-on-cards/slideshow/133080114.cms",
+      "published_at": "2026-08-10T03:41:44+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "10a95e2d7ad28baf915d535ccd824a210f21e57ace5a046556811adb13eb2e1f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Asian Paints Share Price Live Updates: Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/asian-paints-stock-price-livestock-price-today-live-updates-10-aug-2026/liveblog/133079996.cms",
+      "published_at": "2026-08-10T03:40:37+00:00",
+      "category": null,
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4f9c04b154a6caaf7956aec265f00b47cbe04523db190bb46c9a52af239f181b",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Siemens Energy India among 4 stocks that show bullish RSI upswing",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/siemens-energy-india-among-4-stocks-that-show-bullish-rsi-upswing/slideshow/133079926.cms",
+      "published_at": "2026-08-10T03:36:32+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b8965545d78f187dbd9756efd8ebd467a2939ecb1c625170676966278de4066d",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "How Rakesh Jhunjhunwala's old Tata bet created Rs 80,000 crore wealth after two years of flat returns",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-rakesh-jhunjhunwalas-old-tata-bet-created-rs-80000-crore-wealth-after-two-years-of-flat-returns/articleshow/133079774.cms",
+      "published_at": "2026-08-10T03:34:57+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e3583871d65f42c1246569fefcbb95a1d29ddca81a6e706eb8f6bc9a9e704ae6",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "RIL Share Price Live Updates: RIL's Financial Snapshot",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ril-share-price-today-live-10-aug-2026/liveblog/133079707.cms",
+      "published_at": "2026-08-10T03:30:05+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "ril"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "204690a50b4e209da5bf27f3300bcccc6fa4ccfeb3fb6bf857cf5f9889f377b6",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "LTIMindtree Share Price Live Updates: LTIMindtree  Stock Performance",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-live-updates-10-aug-2026/liveblog/133079306.cms",
+      "published_at": "2026-08-10T03:15:04+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e9191eb00298521b79b01d766c4fc4314cb7a1d6099ee8482a66e8227b0fd734",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Anawil Wire &amp; Engineering shares to list today; GMP points to 21% premium ahead of debut",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/anawil-wire-engineering-shares-to-list-today-gmp-points-to-21-premium-ahead-of-debut/articleshow/133079189.cms",
+      "published_at": "2026-08-10T03:13:07+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "267f92230c06a3699590143fbfa08f4f47a813b83a4969f250f7aa677d5ed8e2",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Hindalco Share Price Live Updates: Hindalco's Stock Analysis",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hindalco-stock-price-live-updates-10-aug-2026/liveblog/133079240.cms",
+      "published_at": "2026-08-10T03:12:23+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e1790eab33a1488bc154e4bb4442e2e179b2d335027c3c8d0a73d67b4ecfdda7",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Japan's Nikkei rises 2% as AI stocks rally, Middle East worries cap gains",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/japans-nikkei-rises-2-as-ai-stocks-rally-middle-east-worries-cap-gains/articleshow/133079117.cms",
+      "published_at": "2026-08-10T03:09:30+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "99643c46f45c0275b8ed1c13f6e80f3fedd1ee2c9644511314a88c2d4af1a185",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-adanis-125-billion-capex-boom-is-creating-new-winners-on-dalal-street/articleshow/133079045.cms",
+      "published_at": "2026-08-10T03:07:33+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "infrastructure"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f07febfb5490fcc12dbf5d3da04267773a318f4ebaf8d037c46b7d0d1eed628e",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Eicher Motors Share Price Live Updates: Eicher Motors Current Market Status",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-today-live-10-aug-2026/liveblog/133079048.cms",
+      "published_at": "2026-08-10T03:05:52+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1a24b32622292c851c959dffe483ac41161bd74d80693fa5009c326c01a76515",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "IndusInd Bank Share Price Live Updates: IndusInd Bank's Current Market Position",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-stock-price-livestock-price-today-live-updates-10-aug-2026/liveblog/133079028.cms",
+      "published_at": "2026-08-10T03:05:21+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "38bdfdbd4123c9f2f904fffd0815597e67d45d1844db8919b2dfcdeb6a360f35",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Tata Steel Share Price Live Updates: Tata Steel Stock Details",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-steel-share-price-today-live-10-aug-2026/liveblog/133079020.cms",
+      "published_at": "2026-08-10T03:05:04+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "tata steel"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "929f09041716df763ebb1ad73d7cd17195a795f4dc932ab93b5e9c40bf45bdba",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Technocraft Ventures IPO Day 2: Issue subscribed 3.51x, GMP signals 12% premium — Should you subscribe?",
+      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/technocraft-ventures-ipo-day-2-gmp-signals-11-premium-issue-subscribed-2-59x-should-you-subscribe/articleshow/133078950.cms",
+      "published_at": "2026-08-10T03:04:49+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "4669089eb74f407a53c82810223659e9ed67e0e1a1fea44efee99d3e437fdbf0",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[WIPRO] [Company Update] Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/835d7730-d616-4b9f-b4f2-2cb5337f39b0.pdf",
+      "published_at": "2026-07-08T10:29:59.223000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "wipro"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8a6b74d5409b57b38c6a8c4d817b1df17aac8575fe3333aa41ab56e9e2a816a2",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "UltraTech Cem Share Price Live Updates: UltraTech Cement's Current Price and Market Performance",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ultratech-cem-share-price-today-live-updates-10-aug-2026/liveblog/133078888.cms",
+      "published_at": "2026-08-10T03:00:21+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b4826cf9f7956ce5a8f28cec7f9817c80f2f88e672087ae671bc614331600c87",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
+      "published_at": "2024-04-23T08:11:02+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "hdfc bank"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "fc191b5d1a1f6f179fd40314ab88821d56e9a6c8b6015c4c05a4ec70c11a484e",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy Tejas Networks; target of Rs 1100: Emkay Global Financial",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-tejas-networks-targetrs-1100-emkay-global-financial_17531621.html",
+      "published_at": "2024-04-23T08:06:47+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9af268c3c1b36a6cb27aedb1ec66ca09241e008c0e4faee86e5b3f0cb97e7670",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Reduce Persistent Systems; target of Rs 3700: Emkay Global Financial",
+      "url": "https://www.moneycontrol.com/news/recommendations/reduce-persistent-systems-targetrs-3700-emkay-global-financial_17531581.html",
+      "published_at": "2024-04-23T07:56:31+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "persistent",
+        "persistent systems"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f0a3e3c7913aa3334af32a13cbdd6ba6e9e6a8697407e057f54405b3290fdd4a",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy Patel Engineering; target of Rs 80: ICICI Direct",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-patel-engineering-targetrs-80-icici-direct_17531401.html",
+      "published_at": "2024-04-23T06:35:43+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2b030f32790eb4728ee2f1576b72e8fba63c9e61ded1f5f301a4d542daccd156",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Accumulate Infosys; target of Rs 1531: KR Choksey",
+      "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
+      "published_at": "2024-04-23T06:35:06+00:00",
+      "category": null,
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "infosys"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "11621b2a779b1ca1660e85cc13d9a354f8531f865ea1c6ba577f29a457cfdcc1",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jindal Drilling And Industries Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/JINDRILL_10082026114358_JDILPQ127.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "402d8b071bb0065ebacab638b4da5812718b4f911eb216a09fd376afe5e014c8",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy Navneet Education; target of Rs 182: Prabhudas Lilladher",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-navneet-education-targetrs-182-prabhudas-lilladher_17531441.html",
+      "published_at": "2024-04-23T06:34:07+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "88104703bd6fd570c074934ce0c45f1e944b76ca54fb649496c5d7815f78a8a4",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Sell Indus Tower; target of Rs 260: ICICI Securities",
+      "url": "https://www.moneycontrol.com/news/recommendations/sell-indus-tower-targetrs-260-icici-securities_17531381.html",
+      "published_at": "2024-04-23T06:26:53+00:00",
+      "category": null,
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fe7882b6c4aa549315472d14e6ed0600c339d4b4d5b47c53b54bca3a3c7b9129",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Ndr Auto Components Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/NDRAUTO_10082026134434_Presentation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f6c13dc3efc43271e7bf528f124ec25f130da139df4527e91bdef2cdcd5ea7d8",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "R K Swamy Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/RKSWAMY1973_10082026134410_Intimation_of_Amalgamation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "612a642fa94217ef2460f6e3870fb581b7d366a25417afe911bd977b9ce58253",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Hardwyn India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_20558_WebXMLFile_20260810_134419667.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1ba3691b09c63db1d0b122ffda5f8d6d25df0ee26e7bf4ab3e001ebb69c91192",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jain Irrigation Systems Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/JISLJALEQS_10082026134326_SE_Letter_Press_Release_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "77d8e6e85ff95f6c528b370f42413aa4efcc52474e53347ea17c719d185bda2e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "MMP Industries Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MMP_10082026134252_MMPILPressRelease30062026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "dd344682453cf72b83f7f6e1ec53a289213b9ad8e7d8dcd52c2d651d3e69d635",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Seamec Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SEAMECLTD_10082026133451_BSENSEIntimationofInvestormeet10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b31336f69511900c6b02935b906c87a187f3df7eb9f02f13c75dd2b9f059436d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "NIIT Learning Systems Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_22067_WebXMLFile_20260810_133613770.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c5736dc4cb1174c3b30a9873f6e5b0712d0ca3fab04dd569e4b497d63f435491",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Zensar Technologies Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_476_WebXMLFile_20260810_133409325.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "db808a3d588719fc9be80f9a983f2cf1a524a52d2c5b29728c78c3b214b3fbcd",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Info Edge (India) Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_10082026133435_Outcome_of_Board_Meeting_10_August_2026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bb8ae78718e2d52976eb13fe48b1eb638b7ba97155a6268ad1580b4690a6f998",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sun Pharma Advanced Research Company Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SPARC_10082026133324_BMOutcomesigned.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sun pharma"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f159fab1dcae7d0c88ae275c00d36558d8c9e0d26a758c60af17d13216851a39",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Khandwala Securities Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KHANDSE_10082026133243_OutcomeofBoardMeeting.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "df30fc832c0789be1c5f03c00aba2806ff5859cd70f1447aec3e5a434a01273e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Marico Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/marico_10082026133246_SEin_new_LH.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "725019ca99b05da6b65bea61fdc3bf8e765ee165f854b154b1dfb508bf70b586",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ASK Automotive Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/8448091598_10082026133157_stxintimation10082026sd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "63a90b036b38443bb03e6049e1a9ed9dd6e1f6231459af9ee0d181cd6a0c398e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Astra Microwave Products Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ASTRAMICRO_10082026132949_OutcomeofBoardMeeting.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "5b21cb6cd47c85f40797d2d103b2ecd7b4b13d720badde6b505c980e3ea6b153",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Amara Raja Energy & Mobility Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/AMARARAJA_10082026132916_BMOutcomeQ1FY27.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9fe77c262a13fabe2f8c9f1016200f11837630ae667dbec0923afec3eeaaaccf",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "M & B Engineering Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MBENG_10082026132917_Intimation_ESOP.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b186377cfe143c1c1a2e20556a89051ed106578139cedc62dcf17917bf95b2a9",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Venus Pipes & Tubes Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VENUSPIPES_10082026132718_Outcome_Financial_Results10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bdc3117a14c4b395733e6c48ab24040e6742fe346b35db3da46947d5d41998ad",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "K.P.R. Mill Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KPRMILL_10082026132817_Announcement__Reg_30.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "35f60044efa923ce17eccd3928ed50a18a23b3b73b330334136ff07375a4cc65",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Hindustan Copper Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_10082026132243_outcome.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "267744057eb900e955467512e3ab60d1942a556e19148529e765fdc1063a05e9",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Latent View Analytics Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_10082026131846_SEIntimationEarningsCalltranscriptSigned.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0effee0b86daa2879828da29eb936705831e04c4df4e4b7fa0247ee9c6e193db",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "quant Money Managers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/Quant_AMC_10082026131919_Qsif_Active_Asset_Allocator_fund_Portfolio.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "5f9e326e034367f5633ec618f4552251fd574f00dd46a5ca4345306b4ab0c223",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Craftsman Automation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_19266_WebXMLFile_20260810_131901007.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "291a323784005f12dc962a82edf91800156b93959b339173d7339b0328e3f066",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Delhivery Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_20163_WebXMLFile_20260810_131852331.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f25f3227e0fcf52cc0c5c0d936a1b783d175098fa7b00130078b0efd219df1d3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aarti Pharmalabs Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/AARTIPHARMA_10082026131826_AARTIPHARMsigned.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "4bc571750af6f5a979d33ba17a6bd8e604256256ad44a378844599d49b9a3faa",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "IMP Powers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/INDLMETER_10082026131747_NewspaperPublication.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "222be037347897eddf97cdf25f3746d6fa4bc364cad243b9d3b15ad3f956a1cc",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Pansari Developers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_14299_WebXMLFile_20260810_131711664.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ada6b63723e9601c31b497cd9a5bde70421ada823f996a18e053d8eed81bfaff",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - SBI FMP - Series 49 (1823 Days)-RP-G",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8ee9a4a5f63faa9748d09097bc7dd986f7df07c3819f759ee9f0c431beeec74b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Power Mech Projects Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_10082026131358_CL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d10f0ab210ae5176635d0fae6cf1d54d55c7d1e2ec3cdcaee1267faaddd4681c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Power Finance Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BTL_10082026125339_PFC_Merger_NOC.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3fbd3820f460a01913109ef33c6f30d451ac81cad18dfc34d67d927bfba635d8",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jubilant Agri and Consumer Products Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/JACPL_10082026131018_Postadvtsigned.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "735a4bde5768f4ed8fe03924272827d3dac0a33d50b380dd5254ee6022bdff3b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Rushabh Precision Bearings Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/RUSHABEAR_10082026130208_outcome_of_board_meeting.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2f2cee88ab79ee7566fa7d39632f6a63a5cfd68fff5ef5114e881a662ea2dd00",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Gopal Snacks Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/GOPALSNACKS_10082026130928_IntimationIM.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "249f75d3a0cd628db50a09e9ede1f3f752525b5e018be1c2c82dd3271335218a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Lambodhara Textiles Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/LAMBODHARA_10082026130841_Intimation_of_Press_Release.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6d8e4c036657d2e9da847dab7782bbde556877e91a2443fbb139e00a6a46dc13",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Parag Milk Foods Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/PARAGMILK_10082026130710_Intimation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c13f6420e1e2e12e71bba9a0a710783edc1cb539985c241cc690ec50b13d26d6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Singer India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SINGERINDIA_10082026130610_Intimation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fb57778a6a7e318a015825234f37cf840d31f398f6f0d19766cde138ccdca813",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Anant Raj Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ANANTRAJ_10082026130421_Newspaper_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e21b8cb68f74268a499736f136d8707b90179feadf2b77fca1f33489d1eb9608",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "TV Today Network Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/NOTICE_OF_SHAREHOLDERS_MEETINGS_2166_WebXMLFile_20260810_130424115.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ba2d134d2b20bcd8369f316903fdd18a24c6830b85988b7c4dbc87ddc29ec017",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Poly Medicure Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/POLYMED_10082026130154_Advertisement_newspaper_upload.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "81134f2bd96daf2d946663bda789f7f5df6ad461c08a157c2f099c79a53bd290",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kirloskar Brothers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KIRLOSBROS_10082026130111_SE_AnalystMeet_Transcript_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d44b3728fc67f27ebf1556863eb9e331577657fdf707bfd3586321048ad1ff2e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Suraksha Diagnostic Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SURAKSHA_10082026130011_Suraksha-_AGM_Postponemet_intimation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "eceec23e91e57b6cea22b250091aa4ea42d5793acb82724ca8e975a14acebca6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Power & Instrumentation (Gujarat) Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_16089_WebXMLFile_20260810_125747784.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "7678ee7594d59736c51bb8c543b1f4ef0c862e343c16a089ced01c7412819144",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sundrop Brands Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_308_WebXMLFile_20260810_125715645.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "44e639d5e04c8093ac905e9bbce2bccb7b79887bece6270be04074394aa04836",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Gulf Oil Lubricants India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_10359_WebXMLFile_20260810_125716297.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3d07a5007d15e13cd99ad5b955dea534ada9d81bdf692f280f73856f2a4e3d5b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Datamatics Global Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_2190_WebXMLFile_20260810_125622311.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "1f3ce744747629b493d8f945e45ea94176b8b67f6486f85acbd4f6dec1ea1e8a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Holmarc Opto-Mechatronics Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/HOLMARC_10082026125510_Newspaper_Advertisement_SE_Intimation_For_Filing.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ff8336f9fcd3067c1043f13362e0c77743d69cf87d9339491d067321377ff415",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Man Infraconstruction Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/vishaladhav_10082026125438_MICL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9635a22da76bb78d00f53a5209bd3daa80c53431a5617a06cf8205394d1e4e43",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "R M Drip and Sprinklers Systems Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_15501_WebXMLFile_20260810_125315682.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d134bba513c569f12f2f2a9ecb18c5188b627b9e3c3e3526a8ebea84523bab58",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Alembic Pharmaceuticals Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/APLLTD_10082026125211_Intimation_Submission_of_Transcript_Signed.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "41557203e66e2894c43cd56b62b44de7a543933ea9b4e87131eb2a0ccd10dfb6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Metropolis Healthcare Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/METROPOLIS_10082026125026_Signed_SE_Intimation_Earning_Call_transcipt_Aug5_26.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "263d73d68dbeaece62a4b9a425d0174a6638c5255610422f258412524053d2ad",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Brainbees Solutions Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BRAINBEES_10082026125134_IntimationforinvestormeetJune302026sd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a17f53645698224023307a959ac0e5ced765144c2803ca3655809b36743f8882",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "CSB Bank Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_17653_WebXMLFile_20260810_125132802.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "227b2fd452f2ae0bcff32d32f103663d44384f39a848eb72af3e6246b92fcaa0",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Wealth First Portfolio Managers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_13644_WebXMLFile_20260810_125117471.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "74b0ac3a9a36537128589b526141aa50ee51259a400b2a0d4ecf695a607d0830",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Lyka Labs Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/LYKALABS_10082026124922_Final_press_release.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "787dee397f96e4f913100af389140716c1cacd64ce9b1e24f5c4f6582401ae1a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Veedol Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10082026123619_SGSPL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "47814107f76b81d492df4b550c21c44177f26e236bede9a36052cbc00442fd49",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mankind Pharma Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MANKIND1_10082026124202_Intimation_IC.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "857995f52a4c8f366bdfb28efe90f1a3dc52117997a2352faf4490d97022172a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Angel One Limited",
+      "url": "https://nsearchives.nseindia.com/content/debt/WDM/ANGEL8896_10082026123819_Recorddate10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0b3bc4881d5806d9584309cd1012d5ef1f43e0ff23c9e8aa88b7bbb566524c48",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "National Fertilizers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/NFL_10082026123807_SignedNSEnewspaperClipping.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fb6ef2b683a39537b8bc36059a27e605412bb2fe37172a98a8e85152a61b8b92",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Arrow Greentech Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ARROWGREEN_10082026123230_IntimationOfHoldingBoardMeeting10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6469eec5e1bcd18c56d73c127f5c52bbd0e6ab7e5f5039fdd2ee90b74f80d963",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bank of India",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_1600_WebXMLFile_20260810_123225722.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "56117743b40e0275b8a6c26ca67c4cdf30bedb579eab6e9816d22ea694ce34e6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kaya Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/ALTERATION_OF_CAPITAL_AND_FUND_RAISING_12974_WebXMLFile_20260810_123210926.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0f453d1a1286044f63e4684990b540bd4b0ad2bbe0136bd0f8d14a0419965d44",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Petronet LNG Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_2178_WebXMLFile_20260810_122914510.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3627494815cc023f588ccd06cc6f92c12f19b9d2a93d87db00214542450a39c7",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SKY GOLD AND DIAMONDS LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/SKYGOLD_10082026122719_Newspaperpublication.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3006f7e94c783840c6a651d7239b01aacef4c85bce53851cb80dfed159d7622e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Motilal Oswal Financial Services Limited",
+      "url": "https://nsearchives.nseindia.com/content/debt/WDM/MOTILALOFS_10082026122633_Intimation_Reg_60_2__September_2026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e83f2ad1424ec2745d1ce974405dd2a2efda251973b21da80b5f19e387177e1d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Prakash Steelage Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_3459_WebXMLFile_20260810_122508459.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "4e70a74bc287dc2222df238567ef6bededd1d633df87378a6af38217835570de",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kopran Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/DEEPIKA_10082026122344_Newsadvt07082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2dd9d4d94f1cf29ac8de86e17785d0038392975302c5f08901fbac82d5e9c683",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Laser Power & Infra Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_27025_WebXMLFile_20260810_122336012.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "2b45d629418bfb1a623e625269680f174f3fbe511ffde4458d9e7ab6907594e3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Axis Mutual Fund - Axis Gold ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9805e50453bbb7a94bc172f33c159d8ae4aeacedfb8c957179670e28f324c462",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Axis BSE SENSEX ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sensex"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "16ca1b59de173e40db556b7042c9896b4b10a1d6f0231502b4cde570cbec7e8b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kotak Nifty PSU Bank ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a25db42a8135c4a71a1788f97bba750990b1d7feffdaa515511b1b585025ee30",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Vascon Engineers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VASCONEQ_10082026122144_scrutinizerreportbsense_Sd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bce3320e52d719a8e8bc14104636c5e1cef551b460b1932a0f1f5d77a4c03d10",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ORIENT CERATECH LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/ORIENTABRA_10082026122055_SE_Newspaper_Publication_June_2026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "93080ceaf2356c217c09159b3cc80f85a01f272d46d000466755cd3f1ecd00da",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "United Drilling Tools Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_PARA_B_18742_WebXMLFile_20260810_121642627.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c5e33540d8697d9b18760d7e40e305392c7e4495911a7f6f90414a3a9bd69a15",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "PNC Infratech Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/PNCINFRA_10082026121328_NewspaperAdvertisement30062026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fbf59fc56e3c21853f7dca3b46e76c6ff03b088e1becfd70b945e182b935a890",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Knack Packaging Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_26872_WebXMLFile_20260810_121329848.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "5b2af308d66493105509d94ed6e570d6c3f349ffb2f570a5fba1ea9c535cf4f4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mahanagar Telephone Nigam Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MTNL_10082026121011_SD_SE_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "263f4f4558f9258f6a98fd81900e6a7714693d83af75b863577c0de544d13d90",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Allied Digital Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ADSL_10082026120954_special_notice_for_relodgement_of_transfer_.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b088adc39efbcf3f8c943341fbc04423480dbae640ff3367c74bef8c87725c2c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "J.Kumar Infraprojects Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/JKIL_10082026120905_JKIL_SELETTER.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5cb4d9ca7bd27d9a06ee0e2e67d9ec79386c32e64f1502d6426e67229c841714",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Beardsell Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BEARDSELL_10082026120808_Newspaper_Results_SE.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "20899811e0e6f582238db60f8a1541c119e82ef06fee272df657ca0129c64cf3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential MF - ICICI Prudential Nifty 200 Quality 30 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "2b65c1a925c1edf91590558955fd259503cd425feaf75e69008f33958b0fa6b1",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential MF-ICICI Prudential BSE Liquid Rate ETF-Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "352b8e3be96064cb40af95d510b69a413f71d5f33cdd96400f1f522b0a460193",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential Nifty India Consumption ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "24c9328d9b259cc382772d4431b8d165179302e24214dc7a9848ae391614e6a5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "ICICI Prudential MF - iSIF Active Asset Allocator Long-Short Fund-G",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "53eefe210f9891486003fd0aff5cf35233c7bcb1fb5a2f0b7560ff246cf9fe56",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Reliance Industrial Infrastructure Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/mrunalvaidya_10082026120119_RIILADVT.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "reliance"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "20075192ead0eb9a204506faa3ffafef6125e54e1b776f5d594c527128173b62",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jindal Photo Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_2270_WebXMLFile_20260810_120420914.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "435ced4dab0fc70e83a1cad54491398c2ed9353eee1f7fec09f01578a67f7507",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Artemis Medicare Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_17679_WebXMLFile_20260810_120412395.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "128d596426420d0cff66ec329b20045319c064a4fb9fd6f0130fbd55916c32f4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bharti Airtel Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026120302_BhartiAirtelPressRelease.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "airtel",
+        "bharti airtel"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "ff412d0e01c70521e7b6e046987ba06b8be4396d2c50025cee023ae1b79d375d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Yatharth Hospital & Trauma Care Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/YATHARTH_10082026120237_NRC.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f6f50dc62ed872cfc0bc5987761717f61aa6c6a9691fbd95ea5c29a9f26c38b9",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "International Gemological Institute Limited",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "814ed1f8ed8736008bb8390498858a3e6e0feb224b525b99dfe05cb9c27a53ef",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aditya Birla Fashion and Retail Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ABFRL_10082026115919_SE.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "79d956191d7365bd2c28f65c63b92514839ef62d5ce6421ebd229cc77eea7967",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "GenXAI Analytics Limited",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "bff97450b2f5161216b3ac142b087ec0e2a26df3a92257d7823333e9ee311297",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Premier Polyfilm Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/PREMIERPOL_10082026114452_Intimation_Credit_Rating.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d43eff4d9ea398c42ac0ced9f85514b750fcf3f1d19177e5ca2b6f9dec1e0929",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Leela Palaces Hotels & Resorts Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/THELEELA_10082026115510_SE_Intimation-BREPL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9d673e9470b4e4c43cfdf5941633c0c1214672f7d96c2d786cd9f006f1266f0b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Addictive Learning Technology Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/CLOSURE_TRADING_WINDOW_22751_WebXMLFile_20260810_115549552.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "7499090e275116c590074fbeb40f35cfdde6fe0176dee4edb72949893fba0249",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aqylon Nexus Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SABTNL_10082026115434_Newspaper_Publication.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "cdc6e226dfec58f5d0c24e5acd7c7fd72c391a61c7b4041d42ae2fb799641924",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Paisalo Digital Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/PAISALO_10082026114219_BSE_NSE_Intimation_Press_Release_10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "73d570d2b53acd07d9311e20203fbb87c1f3101f36de427da519dcbb8be3103d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Kalyani Steels Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KSL_10082026113920_Newspaper_Publication_Reg_30_Unudited_Results_30062026_KSL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fbd831a1794f27618f0a127e051ff6905b9cdfd48e1a519352a8b1c657806fe2",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sadhana Nitrochem Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SNCL_10082026113652_Newspaper_Publication_June_2026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c9489e01abf985348d540eec543908e14240bf17c5ced629ec42b537b5f7331d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nashik Municipal Corporation",
+      "url": "https://nsearchives.nseindia.com/content/debt/WDM/NMC_10082026113507_RecordDateIntimation08082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "a3c752bc4fac29e61df53087b106a72cc937935d897c1338582292992cd766f4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Indo Farm Equipment Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/IFEL_10082026113557_Intimation_for_Newspaper.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f9ae45f26a6e30ff7d1b0084301b13c9c5980845f7970e843f809a62dfe08b66",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Jio BlackRock MF - Prism Hybrid Long-Short Fund - Regular Plan Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "jio"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c0ff2c6838e7a2e40dbb565fff59d3cecd5dee3c6a578e79e05339c1ed690adf",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mahindra & Mahindra Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/Pooja_10082026112958_MMPRR_.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "9a3bb05ccc3053a6d71b342dc6b96d6eaff4a696aaa77de735c0a8dc43e441f2",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "CORONA Remedies Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_25973_WebXMLFile_20260810_112742632.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bbda751f60344b3ef0acdc26b45b1e5e94dd05639eadf9ff48177dabf55220f6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nitin Spinners Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/NITINSPIN_10082026112637_Letter.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c1618a288bdc8e91d3e5a195baa6d31da07babc99f79717966ecdb45c480c999",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Zydus Wellness Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ZYDUSWELL_10082026111145_SEintimationtranscript.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "78584fa4eb4eeca1c09a4ad3e3fac8d6e53cb0b3ade4dcca8ed2bf4edff8f0b3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Chetana Education Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/CHETANA_10082026111505_Outcome_BM.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "45660507399bad94d1642bf3e734036075af26797077649c91ab448ae281dbd3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "UTI Nifty 50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "1f042ced19a8a47b44e76277998145ff11982b046db7d54358506569b95045bf",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Ceigall India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ceigall_10082026111526_CEIGALL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e39cf60081ea9f7d9f84c7bc0eded397f471725c4cc7df68adc8063108d63858",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "BIRLASOFT LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/BSOFT_10082026110015_InvestormeetAug26.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c7bde2c1a170a97de664a2048229bf9905e3d6dd03c70686aaa3fd722310a1be",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Antelopus Selan Energy Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/CIM_2431_WebXMLFile_20260810_111057416.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c3f9cdb333d25fc99606e550ba4b50a5c4d106a87035b0029f5cc2ccff9ade8b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Anand Rathi Share and Stock Brokers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ARSSBL_2024_27072026185228_NSE_Clarification_Letter_27072026_sd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d87cfe8047aa0285db972642e5795e24ed46c5872724254dba83e8e5b7cd2e7a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Tips Music Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_1945_WebXMLFile_20260810_110856409.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "c7083e1439b398365ef3eacc127b145a4b0f2454c6688440149761c24859c542",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Intellect Design Arena Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_11206_WebXMLFile_20260810_110742424.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f415ac23217e49efce6f2880c292a610e5a7e896cfff94801c85be22671f9d4f",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "The Andhra Pradesh Mineral Development Corporation Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/BTL_10082026110620_DT_Instructions_to_Bank.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e389f98016303c4481c0d23a2efdb289875ca20a6beb092b5a3e6c4a54653268",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Cash Ur Drive Marketing Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/CASHURDRIVE_10082026110523_Intimation_of_Group_Investor_Meet.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bc6282f9973de4c1f1c522c3e6aa287a17afbaac26b9ef2df53e54211ec87d41",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sumitomo Chemical India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SUMICHEM_10082026110510_AnalystMeet_19_08_2026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "da51e84b7a6e35988923a8b91c67639b342a5e1f03641c44a5bc43988ec705ca",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Teamo Productions HQ Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_2794_WebXMLFile_20260810_110432388.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "52da5b8381219de092605a8ceb83809d248d18329fec8ee409a1471e3bead91b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "UTI Annual Interval Fund - I",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b3cd013174763f379d7c18f98fa19146e614f3d0c076e7f2924d694c08d0372c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "UTI Mutual Fund - UTI FTIF - Sr XXXVI - I (1574 D) - DP-IDCWPO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "e3756e838631a77db6f7dbd600fbfe70946919da914b1f3349c5147d793b3e75",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Integrity Infrabuild Developers Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/INTEGRITY_05082026131422_reply_with_Outcome.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "3fe9e340a181f0f588efd72f7f4144b9e8dcf580da297c0d930eb2c93ae6aef5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Rockingdeals Circular Economy Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/rockingdeals_31072026115219_Reply_to_NSE__1_.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "5379ebb22147184fca2a619b9490de90ca644d4043629b14e4f25ba6c1a9eb0f",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Foce India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/FOCE_01082026111350_Clarification_with_outcome.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "eabf944f3b5a168f402bb338d2c9b7ad22dac241942104228832fbaed262008c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Hubtown Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/HUBTOWN_10082026105703_Newspape_AD_Hubtown.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "249ffbebbd02af150f946baf30cc621400968432b27aedfc7a4b0bc7ec14258a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Vikas Lifecare Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VIKASLIFE_31072026132251_Vllbm2406sd_final.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "sebi"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "b217f1b7e55562a67fbf2292588cf365ec2acf9a9b89a18a316e6fb61edab26b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "CREDITACCESS GRAMEEN LIMITED",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_16550_WebXMLFile_20260810_105535725.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "5958f466045d3fd59c66ead5ecb8c4e086f33d748fda8318a69636313755c653",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Onida Electronics Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MIRCELECTR_10082026105303_OnidaPressRelease10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "7bbe647cd7578c8cce3412b987fff321bd6aeb6cbbd97f6d79afd786161e51e0",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Par Drugs and Chemicals Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/PAR_10082026104910_SignedNews10082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "001950e4362d6afcacc2adeb7b09b18375af5d17007b659131f44188e2cf66e9",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Omkar Speciality Chemicals Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/OMKARCHEM_10082026104808_Newspaper_Intimation.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "0e683f956b2eae542a6c97fd53c59ba7bb31d3d79439a50854509e95c4e68cb2",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "HP Adhesives Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_19797_WebXMLFile_20260810_104902752.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3e1a5a243dc134dd269ae7c8b5dbe3655c590adf1c6a43a0f310af5ebfefef8c",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Pix Transmissions Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SHYBUV_10082026104801_Newpaper_June26.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "89409ba86d887a220be459c2d1d2c995da3d9a8e7d482db1b3223ea69c570332",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Xelpmoc Design And Tech Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_17188_WebXMLFile_20260810_103612347.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fb40594532e24a973a1f30c801062b3adc6fdd0840103dc99588fb2aecfb510d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Embassy Office Parks REIT",
+      "url": "https://nsearchives.nseindia.com/corporate/EMBASSY_10082026103011_OutcomeBCMAugust102026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "4deb6a60e51f6145c90f9ba9cd2d58e5612b37eb0cd3997d831ac6bc2e7d64f0",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Vdeal System Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VDEAL_10082026103412_Order_-_10_08_2026_JSL.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b00f714d9a4684ba0b30b79352fd54ddbaf7e0e8a9ecbc042b50697ebb44cb3d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bandhan Mutual Fund - Bandhan Silver ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "802f98493ff9d1a630fa86eecf9b0e72c73bae4169a3d3982f49cc3efeba7925",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bandhan MF-Arudha Hybrid Long-Short Fund Plan Direct Plan-A IDCW",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "ff00dea55ba89d0bf712d8ae2d08621c5907a58cff48435a2f3ff72ef1f38336",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aspinwall and Company Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ASPINWALL_10082026102159_NewsAd_June_2026_-Signed.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "04fe500d04b22478f0b557d2d985cd072ab3675f8051eb64c5cbad8689c47e98",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "VRL Logistics Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SAIIM_12183_WebXMLFile_20260810_102655180.xml",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "bf4b2695ac4143facc95b2382222f01819aba08b32a997a87d07868144fa85f6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Cholamandalam Investment and Finance Company Limited",
+      "url": "https://nsearchives.nseindia.com/content/debt/WDM/JashJS_10082026102036_InterestIntimation7thAugust2026NSE.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "007c40bb2f5971358fa42bea708521c7912f067412e461f4a8117ba20f6a495d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Sathlokhar Synergys E&C Global Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/SATHLOKHAR_10082026101300_General_Update_NSE.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "54a135dd16da59d8fc15e50ffbbbd47777d3e032cef647eff3de077c1b3abc01",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Action Construction Equipment Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/ACE_10082026100547_plant_visit-12082026.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "3ade3cde3965f00391ea5e92c22638edd4c537f8885e0f4bc18838ca4b01941f",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "KNR Constructions Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/KNRCON_10082026100345_ConcallMumbai.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "fa4610a54ef0cd2e81fae7d86ea420e8fa20b606ec131ff9b664a9d6a5d099b4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bajaj Finserv Nifty 1D Rate Liquid ETF-Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "c4e050ea0d93d8bbffb3409b81f63ca05ec0bb59f33d56d2ab5b565f9a36b3c7",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "BAJAJ FINSERV MUTUAL FUND - Bajaj Finserv BSE Top 10 Banks ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "4566c847f1109bc4663da7a1f1cb77571ecb9e4562b336a6cb8e810cd8337b40",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Coffee Day Enterprises Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/COFFEEDAY_10082026095754_Newspaper_Publication-SD.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "8a8d8a4b5c40fdbf9e4328d450cf782d309333fb8ebd54d76e926f0d6627c3a3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Vibhor Steel Tubes Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/VIBHOR_10082026095351_Intimation_of_Earning_Call_Final.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d16ef85e2528afe6b3b2fe91801af1e4cf820219bd8acb1801e02749ff652197",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Yatra Online Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/YATRA2022_10082026095142_initmation_earnings_call.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "7a19261b648f31f02278290f05d531a2eb0aa43ca0836d840398bd1e25d76191",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae MF-Mirae Asset Nifty200 Momentum 30Plus 8-13 yr G-Sec 50:50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "6e6815969b434caa54f0180b453ac0f8df3dc264dc4043c1a508b06b1352460d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset Mutual Fund - Mirae Asset BSE midcap 150 momentum 30 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "17a30ed7125bd3bb8779d3f05953af37a4e329ee22de1b4d8447edf8ab93c1ed",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF-Mirae Asset Nifty India Infrastructure & Logistics ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "infrastructure"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0adeecb5f1fa134daf5c7d8c8f26ad26486f25ab5c566cffba1186f742c3d7e4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset Mutual Fund - Mirae Asset Nifty50 Equal Weight ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "889b8c3e95f3d8cf8261402d6c88b96b2810821a22fbb56784c963ffcf6bf101",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF-Mirae Asset Nifty Smallcap 250 Momentum Quality 100 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "4ea188cede7f79c15c7cc3097c50e14e288c835757c33a5fbe9f7a6a621498e5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset Mutual Fund - Mirae Asset Nifty India Internet ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a3a2dd5c6d9056963472cc5522fa03ffbcca54d50183bbcca0f03fc3b1c72fa3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Mirae Asset MF - Mirae Asset Nifty EV and New Age Automotive ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "24a7567e454d60d6cc642c84a08d9dd6caa4d842d91272ce2887ec87d7ca21cd",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "35dedffebabfe0b8b51fafb32abaf787f237d8b5d0f9004655d76af8e793d880",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "LIC MF - LIC MF G-sec LT ETF - GO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "lt"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "464951611e3c5681dc1c8229382ad687e96e623b12263951fc4ec58df80a855a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Midcap150 Momentum 50",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "937ce7c0da897782546986f16e23b42ec467c6c1d3b22dbfdecf82c84058d7ea",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Maharashtra Seamless Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/MAHSEAMLES_10082026093040_IntimationPublicationFR.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "b3751511ce7cd669dd0505e7a310e87cd871f1f11f3035e5d155946c6a25e4a4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "RattanIndia Power Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/RTNPOWER_10082026090036_RPL_CREDIT_RATING_INTIMATION.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d23d90964fc131290531600f2763e6ad04c79cc366459d6219afc4083dc0f646",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India Mutual Fund - Nippon India Nifty India Manufacturing ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "e6db65fb4ca3b7c562adba0be9672a765214a0e8753c3b88a1732b74c74c877b",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "KEPT_MACRO",
+      "matched_keywords": [
+        "nifty"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a548cc4d10d4427fadcaf5f1d17837cce0a65db212abf7e0a40cecfdbfe5702f",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "CPSE ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d535f79b312e28cf3923d18a22577d3e6182a575d014d61906f073e7320b1f93",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "NIPPON INDIA ETF HANG SENG BEES",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "859e43f3c4577f5f6de6f6bcf3adbfcdd0c21d897547d23a1eafeba8f1e69b94",
+      "source_id": "nse_board_meetings",
+      "source_tier": "OFFICIAL",
+      "headline": "NIBE Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/9028072464_10082026124949_Q1_BM_Prior_Intimation_-_Nibe_Ltd.pdf",
+      "published_at": null,
+      "category": "Board Meeting",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "54d6190c1b64e2829ca18f08729f99490052350ce84bee3d8851c8b697f7915b",
+      "source_id": "nse_board_meetings",
+      "source_tier": "OFFICIAL",
+      "headline": "Mcleod Russel India Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_2311_WebXMLFile_20260810_122101403.xml",
+      "published_at": null,
+      "category": "Board Meeting",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "d486a2dcbf07c9ca781594194baa3321d8cc38d9951b9e8c859b61c762e0a2be",
+      "source_id": "nse_board_meetings",
+      "source_tier": "OFFICIAL",
+      "headline": "Marine Electricals (India) Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_16788_WebXMLFile_20260810_111439665.xml",
+      "published_at": null,
+      "category": "Board Meeting",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "f1c5e2477e83e5c22a4d33d62c2b794363626e8f8cdc646c4bdecd8a00525a12",
+      "source_id": "nse_board_meetings",
+      "source_tier": "OFFICIAL",
+      "headline": "Kilitch Drugs (India) Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/PRIOR_INTIMATION_3565_WebXMLFile_20260810_104304269.xml",
+      "published_at": null,
+      "category": "Board Meeting",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "606c63ed1d8cd494256df3727cf4ecc373ab3f5e742acdf7c34bf3553675f18d",
+      "source_id": "nse_financial_results",
+      "source_tier": "OFFICIAL",
+      "headline": "Mindspace Business Parks REIT",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-financial-results",
+      "published_at": null,
+      "category": "Financial Results",
+      "decision": "DROPPED",
+      "reason": "no pass matched (ticker, sector, macro source, macro keyword)"
+    },
+    {
+      "item_hash": "eb19f26645e3676d58fb70584ff5225f542155c2aaacc7c5567f3da918ad7390",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[RELIANCE] [Company Update] The newspaper clippings of the advertisement on the captioned subject published today i.e., August 7, 2026 in the newspapers viz. The Indian Express (English), Financial Express (English), ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5129b54-de13-4e65-a1c4-e1e33d27e773.pdf",
+      "published_at": "2026-07-08T11:47:39.373000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "reliance"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d6e76daf6a5bdacdf5da480e772ffcd510ff2a98961ef6f0bc93aa616f1de32b",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[RELIANCE] [Company Update] Please note that the Company executives will be participating in the Institutional Investors'''' Meeting - Emkay Confluence 2026, scheduled to be held on August 12, 2026 at Mumbai. It is ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/556d5cc0-036f-4d63-910a-2ae1be214321.pdf",
+      "published_at": "2026-07-08T11:26:11.880000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "reliance"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "eb2343e753e86ccf4400663e4cc47d65bed3e3ca748fc2dfb0d20f53fa54a14f",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Link of Audio Recording of Post Earning Investor / Analyst Meeting",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1749f85b-7cc8-46b9-9959-cbbe31a6d3d2.pdf",
+      "published_at": "2026-07-08T15:05:58.737000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbin"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "448a40a2f18342d322e7d42395e210d0b3d36b21237c7997c4e2284a16d6ebc5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Statement of deviation / variation",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93aa15a4-38ad-4790-a85b-9e97ed902e6a.pdf",
+      "published_at": "2026-07-08T09:49:52.440000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbin"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0d376a822c5538b68ca847da1cdac8a6d265666b9a244de965d6f8e5f42fd6b7",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Result] Financial Results for the quarter ended 30.06.2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4df42574-1a0d-41d0-a30b-d4ee22e965f2.pdf",
+      "published_at": "2026-07-08T09:30:04.160000+00:00",
+      "category": "Result",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbin"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "09ef083f406d5609efc0d1d24fcefc4de0013929274704de1ab1da0d0fe83cc2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Press Release Q1FY27 Results",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89b08175-4d6c-4177-9733-ff21fa1fae92.pdf",
+      "published_at": "2026-07-08T08:24:01.130000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "sbin"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "99232c66dd33e76aa9716402c2223ce6c3c63b8eb1ed0e4fae039958a35352f5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Maruti Suzuki Annual Integrated Report 2025-26 The Next Million, New Momentum: Every Engine of Growth in Motion",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b55ea979-3175-4b78-b465-2f4c53cebe21.pdf",
+      "published_at": "2026-08-08T16:41:03.087000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "maruti",
+        "maruti suzuki"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f17419670e4a90dea723e1ec755157d43a05568546ee6a10f0ea7c36f06f076d",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Issuance of letter providing Web-link of the Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/356313d3-8bc6-46ef-9280-5977d2695873.pdf",
+      "published_at": "2026-08-08T16:15:57.503000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "maruti"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "0ce06fd4f797907b20fabd6a9858eb56a498494622ce309574c595adf2ccee91",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Others] Business Responsibility and Sustainability Report (BRSR) for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f830aefe-81ed-4bcf-96e4-3852972b067d.pdf",
+      "published_at": "2026-08-08T16:08:42.583000+00:00",
+      "category": "Others",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "maruti"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "a8fa021db8886ab06141baa193d8897e40e96dee027b55e36f40f874380b0c15",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [AGM/EGM] Notice of 45th Annual General Meeting and Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8231cb4-74ab-4aa7-94a5-335d11aef321.pdf",
+      "published_at": "2026-08-08T15:50:33.490000+00:00",
+      "category": "AGM/EGM",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "maruti"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "12ccf19f2c33c3aa1113e6d3b86d9d767b7810ce4ab287ec95bce7e6b7eb1bd2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[TATASTEEL] [Company Update] Intimation of Schedule of Analyst / Institutional Investor Meeting under the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94611b87-178d-41f6-84ea-ad059f5f6127.pdf",
+      "published_at": "2026-07-08T11:40:44.567000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "tatasteel"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "05a30f1b9839bb54c12624c30824ef6c7c52311e136c37ace52e44dc7d4cc189",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BHARTIARTL] [Company Update] We are enclosing herewith a press release dated August 10, 2026 titled ''Airtel Business and ITI Limited enter into strategic partnership to accelerate India''s digital transformation'' ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/285c8289-21d8-4160-98a8-cde3671b96d0.pdf",
+      "published_at": "2026-10-08T06:30:56.590000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bhartiartl",
+        "airtel"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f92b0d93a9b83c7ec2d22ae7be4a4531aa992f721f31d3a2c6ab0e7506da6d5e",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BAJFINANCE] [Company Update] Allotment of Secured Redeemable Non- Convertible Debentures on Private Placement basis.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6b9b5e1f-9083-4707-be40-e41a97b75350.pdf",
+      "published_at": "2026-10-08T07:30:25.303000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "bajfinance"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "f4747ded8ba4ae0e061bb587e70944a591f8e266417d223898f4c75cb5f1c7e2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[DRREDDY] [Company Update] Disclosure under Regulation 30 of SEBI (LODR) Regulations, 2105",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aba1e242-a7a7-48ea-bf1a-5c3984361d20.pdf",
+      "published_at": "2026-07-08T17:35:28.030000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "drreddy"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "d565553d6f8985ba10b7fa35465cbe0040f3419030435cf5d1d476f04ae97c49",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[ADANIGREEN] [Company Update] Intimation of interaction with Investors/Analysts",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/074255b7-e06b-4cee-b848-41e382ab036c.pdf",
+      "published_at": "2026-07-08T09:46:20.800000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "adanigreen"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "81d1c206403df5f852e2e908c08de36f406f462342e1c5c1ca0719849c3ce653",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[LT] [Company Update] L&T Wins Offshore Orders (Major*) from ONGC",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c06eba92-18e5-4c30-ac78-87ec0a4c3bbd.pdf",
+      "published_at": "2026-07-08T07:22:25.227000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "l&t",
+        "lt"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9293c0b00b69b8dd0aea6813ac899615556ab6a6e97a8091972c69e9fa7229e7",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[NTPC] [Company Update] Newspaper publication regarding special window for transfer and dematerialisation of physical securities of NTPC Limited",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e18cc77-7eee-4c49-af40-a94ccc0259f9.pdf",
+      "published_at": "2026-07-08T09:50:01.750000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "ntpc"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "9011cd6737273947b36cedb2e62958ca697b4f7122ef1eb19c5850eee66cf335",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KPITTECH] [Company Update] Letter to members for weblink of Annual Report for FY 2025-26 to those members who have not registered their email addresses with the Company",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a3edea8-df4f-46af-ba5e-615db8d2fb19.pdf",
+      "published_at": "2026-07-08T12:42:18.710000+00:00",
+      "category": "Company Update",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "kpittech"
+      ],
+      "sector_impact": []
+    },
+    {
+      "item_hash": "8b3b3c28e3bfee0eb5dfc582d17e9fcb193f08826dfda8376bbb2c9d2143a762",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KAYNES] [Mutual Fund] NAV Upload 07-08-2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2345e535-8b4b-47af-9186-1f5dc21897f5.pdf",
+      "published_at": "2026-10-08T04:04:12.870000+00:00",
+      "category": "Mutual Fund",
+      "decision": "KEPT_RELEVANT",
+      "matched_keywords": [
+        "kaynes"
+      ],
+      "sector_impact": []
+    }
+  ]
+}
