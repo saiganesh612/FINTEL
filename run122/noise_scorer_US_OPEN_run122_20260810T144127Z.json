@@ -1,0 +1,3674 @@
+{
+  "stage": "noise_scorer",
+  "session_type": "US_OPEN",
+  "generated_at": "20260810T144127Z",
+  "record_count": 234,
+  "records": [
+    {
+      "item_hash": "8a9e3c26e6b8d3ae8ceb28adadea99b9fc4bb337fc37e2434e31e1fdc5cc131f",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+      "published_at": "2026-08-04T20:30:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7d74094e6e82c278c50381f5e2c07970aae44eda67b9958e961582e26eb73978",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1ba6bcf0a9f362c8edc49678511c7627b060e9bc4ed57074776afcc8c6e8bc4f",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "70c04df5b4abdf687cacf0c17992cbdc46530b96f99b5b70e17cf1f1341c1c4e",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+      "published_at": "2026-07-30T15:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ca7b4cb0abda04c050de190abfc0fad82fd84b60900d3a23a40d87de995bfec0",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+      "published_at": "2026-07-30T15:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7825122cea16ed340f3dad63634b1a3213ab3ea56cffe40644339870d094e551",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b920df2b8ddc0113adc50a9f4b1b07dfafcad08c966ebccab43c618cccbde595",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+      "published_at": "2026-07-16T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0e8ac9b864c4cc8789a9597df015aeb7710577d9a8f4d0dfa6a303774a312c86",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "published_at": "2026-07-14T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "952dbd8cc6b8840c9689b1052d1e9b1837938ea7a3103e6465e71407191bcb23",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "published_at": "2026-07-09T19:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1cd7ece9cba39c8f821b5862655b07d09d603b909fd730e093c274718276c116",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "published_at": "2026-07-08T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1427d522e5b54452345e6cea76f146cb12a8e21ee48d93757287c512bcaf859e",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
+      "published_at": "2026-07-07T19:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7e923bb4f1abeaccb4ba7ce0f988c2c430a6c689c681b437e9c7edb48d6322a1",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+      "published_at": "2026-07-01T18:30:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "027eee1b8c8e58ae66f48ca656ec803105919c18bf215d2076adcd5a91886451",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+      "published_at": "2026-06-30T14:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4f2c9eebdd11c26c4dbf59cb9ce7d23ea32f4e5c04ff85281a4ca0c73fd3a4a0",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
+      "published_at": "2026-06-25T15:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "84a72d3a6519e3794ecc2fa35513abb52917508288c151c2b3f0153dc62193cf",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Intel plans $15 billion stock offering as AI demand accelerates",
+      "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+      "published_at": "2026-08-10T14:31:41+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0346a21ba7db4f493a95f3d12a7cebb5cbb3d3f89e96a85a20ef2da45456f5cd",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
+      "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+      "published_at": "2026-08-10T12:40:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8dc0d2e95ecb6a8245013405a500ee864f7cefbc317d101ed143212e91ef5490",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
+      "url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
+      "published_at": "2026-08-10T13:39:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fcb9e952334026a2ea0eebea71f641593f532b32b9f4b99d99ad82758a5b78d9",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "House Dems call for AI companies to testify on recent hacks: ‘Clear risk to safety’",
+      "url": "https://www.cnbc.com/2026/08/10/openai-anthropic-ai-hack-congress.html",
+      "published_at": "2026-08-10T14:06:08+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "3973eb8e4645bfdab614e770947e44f9fe84030223dbbb1eeb2ad3b544961c3d",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
+      "url": "https://www.cnbc.com/2026/08/10/openai-astra-cybersecurity-risks.html",
+      "published_at": "2026-08-10T11:04:50+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ce88bff5dd12391bc8d029d0e9d0c962d56233ec645c84d00e588885edff27b1",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "The Club's top 10 things to watch in the stock market Monday",
+      "url": "https://www.cnbc.com/2026/08/10/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "published_at": "2026-08-10T13:19:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "69b5e88950df1c326c239c06113c30626b2a21f882708b86100920bc414edf97",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+      "url": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+      "published_at": "2026-08-08T12:00:01+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ff4535d66715debbf79a299f4f3d056bc8557fc844639e2ed5ed9b7aa1b566fa",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Trump says oil supermajors are making too much money. What will they do with it?",
+      "url": "https://www.cnbc.com/2026/08/10/oil-iran-war-profits-windfall-tax.html",
+      "published_at": "2026-08-10T05:00:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f1b57df9a1afb28b50103d82bb264885ca7d116f8c80b79c7bc7a0daab7d3314",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat",
+      "url": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "published_at": "2026-08-06T13:18:38+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f811660c0ed443d8aedc7920b8366663662ca7fced3c1a68c941b559a1aac29c",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "We're downgrading Honeywell Aerospace after a shockingly bad earnings debut",
+      "url": "https://www.cnbc.com/2026/08/05/were-downgrading-honeywell-aerospace-after-a-shockingly-bad-earnings-debut.html",
+      "published_at": "2026-08-06T00:09:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "14920966a443754f0c4be1ac0358d63cb5975df02de1396606d08d7745a357df",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%",
+      "url": "https://www.cnbc.com/2026/08/05/elf-beauty-elf-q1-2027-earnings.html",
+      "published_at": "2026-08-05T21:00:48+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b4fe42b9cf159383544e98a9bbd6d1966b4c42e58e3de1a051c7892db9e1137a",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "We're increasing our Eli Lilly price target after another beat-and-raise quarter",
+      "url": "https://www.cnbc.com/2026/08/05/were-increasing-our-eli-lilly-price-target-after-another-beat-and-raise-quarter.html",
+      "published_at": "2026-08-05T19:28:32+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6b793a75ffcc0cb0e5717df8887d8dded076bbe9868ea0ed901c7336a0207f83",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge",
+      "url": "https://www.cnbc.com/2026/08/05/eli-lilly-lly-earnings-q2-2026.html",
+      "published_at": "2026-08-05T14:35:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ca11835ff81a2e69913eeb2a4055fdeb9b851c4183896f44dfd615c5aef2cb34",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "CVS blows past estimates, hikes guidance as insurance unit continues to improve",
+      "url": "https://www.cnbc.com/2026/08/05/cvs-health-cvs-earnings-q2-2026.html",
+      "published_at": "2026-08-05T14:15:32+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "63f7e48899c6841d22fcd4da89c75f24e4ce4ac643625f8e8460377d9741873b",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
+      "url": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
+      "published_at": "2026-08-05T20:02:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "bb7b543189a9adff1912defb177cb6de485fb51dbb5fc5366619c366f4f58dd7",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Novo Nordisk CEO defends economics of Wegovy pill as lower prices weigh on sales; shares fall 5%",
+      "url": "https://www.cnbc.com/2026/08/05/novo-nordisk-stock-guidance-earnings-wegovy-ozempic-eli-lilly.html",
+      "published_at": "2026-08-05T11:02:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a24d6e68f2f17f50989e2a58ab679b255a137abcd6d425a555cf42147a4b6f80",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
+      "url": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
+      "published_at": "2026-08-04T22:09:17+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "5c7cf13db275e303f633d83c1e6c63f1bc31f25158b3d3dbda3e656c6ab4a412",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "The U.S. economy is shedding jobs. Here’s why that’s good news for stocks.",
+      "url": "https://www.marketwatch.com/story/the-u-s-economy-is-shedding-jobs-why-thats-good-news-for-stocks-a7f4773c?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T13:30:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c329721b5443f907525bb680aff39bbf4e21d364840ca560db99a8db1c1e60b8",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Apple’s stock could underperform, especially without an ‘all-glass’ iPhone, this analyst warns",
+      "url": "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories",
+      "published_at": "2026-08-10T12:48:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "08822c51b114b741814063da4d57e18adeabc4e4f20dc57e34b28dad700f3f5d",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
+      "url": "https://www.investors.com/research/nvidia-nvda-stock-earnings-august-2026/?src=A00220&yptr=yahoo",
+      "published_at": "2026-08-10T14:00:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8a66e0136e10de9ba32b51f8935800d043ad992c796451cb68e2887862d221c1",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Tech stocks today: Meta lays out new AI path, Intel to sell $15 billion in stock",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-meta-lays-out-new-ai-path-intel-to-sell-15-billion-in-stock-135605566.html",
+      "published_at": "2026-08-10T13:56:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c6778ba75099cb97347966b3291f2cd1f6326d8a62ff2fdc10ec1f79a96932a9",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq little changed in wait for key inflation data",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
+      "published_at": "2026-08-10T10:43:58+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "80df67e834372c4d4714ecebac37443849639417c994e7e579d055cc41c67bbd",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Futures Mixed With Big Earnings Ahead; What To Do Now - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUk1TGt3SGVRbFVCa2R3cFBJVFFBdHZfTXBiSDE0SlgxS01CX2tWWV9iTUlmOWF4OWd1NzRKLTRYTHgxSUVEUGl1Vmw0OVROUTgwNjhSVVcybmJoVkc5b1IwUDN5Nm5TUEh0RHQyb2RwbjFLcHZTZlU3cGpCUFdwWEgyWXFlNWFaRUtac1hQWWFuTlZVZFdteTY2eHpsOG5IUkFkQk05SFNUajFFakpQVTJKekZ5dw?oc=5",
+      "published_at": "2026-08-10T12:09:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "427b43480a0c51e69e67ce0c56a0c08777ecb34a1dd43ba4819b84482c16376a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: S&P 500 Sees Muted Start As Traders Await Hormuz Clarity; Intel Drags Nasdaq In Red - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU1EtcFBKVkZmYUc4LVM4dmpiQzdZSlQwN3ZWaEdCZzh6Wm95S3hHUjRabGFOMlR0M2V1akRjRjJIb3J4QTgzclhnbkROaENqY0FOd1BWelVHQ0U3eVc1eXpaaTA0cktTdl96VF8xaU1MeWRWdVlsNUhfYWx5enViRmctT0MwOWp5VGdPM1ZiWGxQZVZhdzRYczJPQTBqN3k5bW1rREs4eE9QaE9VVFBmeVpuUml0VnM3aF9yMTI5aC0zajU5QjZabG9qQ2g2VEQwREVYS080dC1nTWxSVWZ0QVZB0gHqAUFVX3lxTE5TUmNsQlRncGg2MlNvcTVnbGRKY2IxelpqUWZLRFdGWFZwMEgtOHRhVmY3TzdhZ3cyellQbGNuSmFRYTRmTzhFV2RRUHA5d2I3QTdzbjVHVzU5RWdnZVZlVkplSC1haUFqc3dmZzluamo0SmNqUkl4c25xRjRwVzJTQTMzZ01YWWRVMW55WkdaZ2praFVLN0g4S3N6NUVWd21Kc2gyTmM5azZsR29xMzdMcThoRWdhdzhhV25nb0k5b05mNjN1clo1Z1AtN0hxN3VVelR5Nnl5bVBjc1pwdGExRTA1dDhpZ0haUQ?oc=5",
+      "published_at": "2026-08-10T13:40:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "3c487db998a2f8233d553504996ea6e9efffe4faa1b0e1aa7509921057db00dc",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The New York Stock Exchange | NYSE - NYSE",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+      "published_at": "2026-08-07T23:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3a33f4058e5c716b9a13a94c3225f3d4dfeab7fc738dc499f29788106b7883c4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Why Nasdaq, S&P 500, Dow Futures Are Edging Lower Overnight After Markets Closed Up Last Week - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcDdNZ2VyOFpRVFVGOVRKbVYtYWZlVmgyVTFFOV9hektNXzlsbzg1dm5kOW5XNE5qYVY3RGNVdXp2VV9CMlpHNG5VUEhfTHRCbG10NjVBOGdXeHAwWmh5Ymo2YnNhay1iY2Zzdmdrbl9SbWhkdm56M2JqM1N3Zkh1S0pYbmp6WmVvaWZudjR2eF90cmtDX3BmOUduaTBaOXFqMVZ5dGEwMDFNYjh0T3d0M0dYWnJRZ3JRR0lyZ2Y1a0hlS3V6aDJyenZmenpmci1uUFdCZEo4V1ZSVWtfcDhFNEpBYktCVG5RanNJdVNZVkk?oc=5",
+      "published_at": "2026-08-10T01:17:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e5c2023222f2e0b82b3c71f4d4602eeb9ee80649c22eada49dd62c578146d93c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "U.S. stocks set for cautious start ahead of key inflation data: Dow Jones, S&P, Nasdaq, Wall Street Futures - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX1piazF4Mks5T1B0TFhlVk9NZlJ3dkVGTEZHWVZMQ3BaT3BRTVJuSVFxcFluZU4yeklRd3RobzFCNnJwNV84TllHMlJ4YkNrWFpKX2JQV0t5RzRCcWFjZHFCSWJOeGVQREhBUXNCOEoyYzBjX0dOQkdCSU5ScmtDdEM0djk2ZUloRlRuYU1EaEJ2enQ4STNz?oc=5",
+      "published_at": "2026-08-10T13:14:32+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f9807af42cd6595ef9a841b5601352fa96fc731ba2cba0d3e71ad97021d586de",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "RETRANSMISSION: First Phosphate Announces Uplisting of American Depositary Receipt (ADR) to Nasdaq Global Market Under Ticker Symbol PHOS - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNVUZnV0pYN2luTlRweFdtMDlsOUxyWm1qSnljdll5X3lwZWFIdXduWmNYV1lZLTVEekJBMXZWX1VPbW5jUVFLQWVqTXNIWmJOcHdwM2dZd2NPR24wZ1ZvSWdWQm42aFdsdHBoNk9yLVFmSzFiTERVUlNla3pfZ0hlTE1pQmJmOURrbkJJdmVvcExHQWhtejhycFhjYW9XcjFCYi1IVUQtWlJVY21ZVjA3dnFTZTFjcDQ3bFh5N21pYkRWY1lfZUJ3aEdfakhnS3ZucGRRbUVFczIwUVJpQnBBM3dvUXZ0RTZtN0hMLVh5cTJiVE1MNmFDM1V6QXRVajF4ZVhWYl9kcFlkR1lUZkpWaS1Pc0dPbEc2aGQzUDJ4eDR2Tlk?oc=5",
+      "published_at": "2026-08-10T11:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "7fb1c79a90ca9b417c9e3e52549ba8c69e29af75a3f615733a04859c754ddfcf",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq will soon trade 23 hours a day. Australia is watching - AFR",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0w4Z0JNNl92MjFzODYzYnozMUhPV1FoVHluOG85N0JmaGplUEpLSDBJU3U5bkZrM0pYZ29FX1RmbGthNEljRDNhakNMeHNndjM2N1AzM20xaG9heWJSREtiRWVoR0tBSEdzdlg4QUpNaU0wdXlSR1hfamUtcWtGMHhXaUxRdE5GZU5HR1hQM21oREVmN2F5S3RLRDdPYlRQcDZ0dW9vWkpZWDllenZGVXo4bmxUd0lBdnJISDF1UGdRdw?oc=5",
+      "published_at": "2026-08-09T06:59:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d727256709193770459fbe6cb5eb36df1cfda062e11b3bacad39818a5da966c2",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P, Nasdaq futures climb amid uncertain Hormuz outlook By Investing.com - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEttVHFSdG9LN1FCOFozVzJJZUZ5N041d29JWmNCRmhvVWw4cVFzUHdVdFFDblBVMXBGMWltcDEzaXVWUVdVM0I5UlJPdmc0WUZhOXM4Z0pjZENHMkVTN0o4ajU0S3E3MHRPNTI2ZzN2UTByWi1ueXowbWlQalE3akwwUF9HMEdOanNaZXNYSS1UOWxTTUMzbGhFNThfbGVqeVZkQTNrY2VfNmZlbXNrVk8ydHNJSkZsZlE?oc=5",
+      "published_at": "2026-08-10T10:58:01+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "58c5ef24ca1d5ecfc7c43f570e4e6dafee3a50ef0b8b949728cef302234d099a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US markets today: Dow, S&P 500, Nasdaq futures indicate positive opening; US-Iran negotiations in focus - Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbnhLTGVGNmdxeU9iUGpIdlJIempBRm1IY3liUGJBaG43OWVndnhUMm9HVWo5QzNNT2VMbEdkcl9jNl9wT0VqdVNkWjBLa2ZBNmFaR0NlS0ZQekRpSkFYa1h0TnV1czdJVktCWHJlZXR0YzNFM1Q1NmpFNmlDeU5hRzI5bWFYV1hPN201ZGdQS3p0dE9kVFBGOHc5cDVTaWtETzd2REREc0NVRE50b09yZ3pFa196MXJVRVVOZXVyQWZhcExDTnZ0OElxUkVXQXZHSXE5SEViTjlFcVRRS2dmT2xEYkxuSkFzNkxWRFRLN0tTTzFCN1lXTA?oc=5",
+      "published_at": "2026-08-10T13:24:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ef545845f8209e989a191d933f4b7b262b69c25570ef7a3a6db4b566fa9f85f4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "【US Pre-Market】Apple Downgraded, Berkshire Earnings in Focus; Commercial Space Stocks Rise as RKLB and ASTS Face Earnings Catalysts - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZVFWTV9sVUpwUDMtdzhCX2h1ZFJMcVBJTmcxZFFsaThlSDJXdExKMkdzRHVhcmZYeTh0Zk1MWmRzOG1QaWpTX3Q5clJrUzZ5N05mSThsUzJCMmNnNzNmZ2FzZFBhTkROQkhqeUdBUHVqSkUtSVhGMUFzc3BUczRaOWtxUHFDOEJOSElJUE1rVWsyR085Q3B2Z3FnWGk5TmNheTN6Q1ZuZjVTd0t2WjBOS00yRjgwb0N1S1FNbWVSZzF3SmpvWFdwdmJjUzFacGhTaF80dUVfVkpETHZCT3dBN3pLbTFIOUg2Z2hWLUV3ZHpBR0U?oc=5",
+      "published_at": "2026-08-10T10:06:15+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f8e22e373ab84653d3fe4e02bd1b8e8534f46e92b0d75207f79e42510d7059de",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US markets set to rise with Nasdaq leading ahea... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0FHdDRhWFR0dkZSVTBsc1VlcWJObjNrZ1p2UDllN3VrZXJMVXZ5UWNkOUlYZ2lWa0hReUQwNml0dHg0NHVVNHo0SDhXQWhUN0VySTVSSUdRQURNblplM19jQ0VpZTd5TTJfdE9YQVdqekNiS3FRWUpqU01vbmUyYlFncmFubkowbkpMT2N3?oc=5",
+      "published_at": "2026-08-07T12:49:32+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "9530299d9f764ec12fd6edaaa05adcd8354b57df4561bf05599d5a08051d3542",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq, S&P 500 drop 1% after China’s latest AI breakthrough rattles tech stocks | CNN Business - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb1lYUUpVRVRtTkNqYzk2aGgxS1pQMWlqMFdGUUtieEstM1EyaE1uYjhObFU1Wm4yWWhuTDRkcUI5TnVfWVRsTklqX1BPbGJiTmlFVWY4bXpUQWNralJqbFBpOXZYQQ?oc=5",
+      "published_at": "2026-07-17T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e7f0e3a02a7facb93b0a843bc93e53518e7581eb5548814fa7cb3505aaf899dd",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow, S&P 500, Nasdaq little changed as markets await key inflation data - cnbctv18.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT3d1RFQ1UzlORUdNUDNrd2c1OVJMLW1qQ2VGVGVWa1FPQ1JvLWdpZXFYbGdRNVZkal9rSlpYeFd4UHEwOVdkajh3LUx4SklPcFlVT0pGemRER09McjV3REtsU2t4bi1fVzdZeWp5Qzh1bXlodmZCSE9fekFqblpCNTBKY1VmOUxsSVU1bGF4NGFfR25XOTFlMmRHOExmZ0dFLXVwV3JR0gGrAUFVX3lxTE8wZVJYVTFWSWdFTEpFU1k2X2RNWE5lVmppWHdWOXZ3eXlQQ2pYZ1BWQ2JaZWxtdTd6d0taYlFJdnJ5Umo5dldoTmtYV1RsMGhLWHNTa2hjZTVVRVhSVWl2ZEc3UTVGeEVlWW1tX21mVnEtNU8yWEljNlphTFIxWkh2VUxiVTN3NmpjNnJXV1RWTEZQVUhmdy1pQ3JUellnNnFtUTlHd0ZhZXAwWQ?oc=5",
+      "published_at": "2026-08-10T14:09:14+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "842a879a79589e2504399fe1a2f1c72b413a3eff53345e4e0dd973fc3c17085c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today Live, August 10: Dow Jones, Nasdaq, S&P 500 Futures Edge Higher Ahead Of Opening Bell - Goodreturns",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPREJoV05QdjBHMFNLV3R2MGJqblZMLWlpUndQekhlRi1hMTE1c29xRUlKZTZmR3ZmWmNyWWJCbmctOU1TdlMxU0FKQ3AtX1VtMzRGN0xuRWhJWEdvVVlfU3pJSGQxTWZZb2JWV0JRZFpST1N6S2JfY2NHV3Voa1BsYTg2WUtFeXVVb0QxM3o0dTBrTXBQVlY5UEhWdkNTQWpnRE8ySFlXWUFySEVla1Z6cUxvRDU3TldEeWVZUTl1cW5TOHViQ01SLUs0YVdFZ01wUl9Ba1FQdHlSSkE?oc=5",
+      "published_at": "2026-08-10T10:41:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "95bdf5fcc59b77f31c7089b472731687fd25797d83916f0aff2eeb9218d59c3e",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open on July 3? Here's the holiday trading schedule for Fourth of July. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeGFQNW1JNVNqc2FGTnljRmhkSzllLTl1b2VqdlN5OXZ4VmRUZEdVdzdYc2lVa3RfUDZDVS1HWEk3TWVWZmh3UnZDRHRXclZnSGY1ODlnaF90cEUyVDFaS295UnEzblNZWjA2dmMtU0NzS0lNUUFXeFo3TFFKVGc5MU5iTktlcnJDUENwN3VTRXdyR203SE9TR2U2b2tvXzBXUy1yMXllRDQ0NHJaZjM0ZGU2akJOS051YWZUbDBYeGw1aFpyUFBwbU9lMW16RmYtUFVTdFN1WFQ2eGo1V25NeUZJeXNvZ1ZoYVFMdFZVUng4ckswM2tR?oc=5",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8f35e83702bb3fcc65ce0912f8aed131ff53e7b3a7cc15ac6d26c27b310eaa81",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends lower as Iran tensions dampen risk appetite; chipmakers drop - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSUxJelN2M2lFYXd0QzZIdkhQVGdKTFl2clAtSllTMzIxZ0xudk9CeFpNNVV5MVNVSTdhb251ZjZYbWZ3UFQxWGl0ZWRBRXc3NFVvbXpRT1pPUjZxWUw5VDhtZ2s0bDZVT2VrWEp6M01qeTgwcWFtdmxOcFBYdmQxU1J6anlGbURld1ZmdnloOFBOaTJYbUFxNGo0dTFvbEl1bFdZTXIwcjMtRldFd1BMTw?oc=5",
+      "published_at": "2026-07-13T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5fed05db9a0c5ef1f81d8aed9a69bfc8df5675adbcc15dbc1c13304573eceb7c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Nasdaq Slides, Nvidia Can't Lift The Dow; Super Micro Shines - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc1NrcmE4ZHhZeWhueGxnS2NNLXQ3RjNvS3VsLVhQZWVRSjVnVDliUXQ2NUF2LUdjS25FNjRDY2ZkWFFGV0NleVQ2V0JSTTdISXZ6VjZQQWQzUlNiVGtXYlFuTWlob1ROTmdMSjZYLU9sQ0pOTWg3LTROLUUtQUdob3FHaTNJRUhIeENGTERtbkV5ZS1ZcnduNU9zMXB5U2paNjJiOW1LOHV3V1N6aW9IT3VsbUNwZ2t6QlFzSFg2aV9qdWFmd1E?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c2662686d43c7573ef7070114b5b2182312b04218b827835e33575abf2510e75",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "June, Second Quarter 2026 Review and Outlook - Nasdaq",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdEJPem5ySWp5ejRxUnh2LVNBN2c3LVhGZktqUlU5WndtcHlnQU42YnpTUjY3cTNxdkhuaGNPTUh1d1g4aUd5SWx5OXgxaHBUTG5SdHZ3YndqRzh4dE43NWxSeU5FRXVjcTUzWUVtN1dWNUh5TTA4YmlhZGI2Vmk1Ug?oc=5",
+      "published_at": "2026-07-01T20:30:11+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c046e004b826ca698d5260e7ad17a0f4220dcc40155525cf9ca84c5821aeee75",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close sharply higher as Broadcom rallies - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeURVeHcyZ0dZTjVKUU5YT1c0UFpHZjliRDdNamlueUo3M0pyaDFDYkNPYlZnTDMwY1I2Q2ZodmhPeWdKeUZNY2wzRUgxOUowQ0pLMnF0ajJqdnI2dS1uWjdIS1hSLUFkeHN3VnZadWJJYk9XZnAyczBjOVBXcmxCSlNCcVRWZjZnVkZQQWlYam9MQWZ2T0hpWnN0aHRSU2o2MU9WRlB0THYxREJzVkM2U1NSOA?oc=5",
+      "published_at": "2026-07-06T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a04a3818ab63eb97c144436ebdd1775d3455f344fc333137575c054e25a78479",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Palantir Technologies Inc. (NASDAQ:PLTR) Surges 40%, Highlighting 54-Times-Guided-Sales Valuation Pressure - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTC1VaEkwR1pxdGxDNXdOYXVXV3kyYi1qNjFiTU5USlU1dlB1dldmdnUtSmhJUmNrVFg0MkI1M2xYM0k3MDVDOGl4cUk1X0haU1JTNmNoMG94cjNEdXFzbU82Z1M2X3AyeU02Mk5qeEttZUJTajlMNlBUZEp5bU11X21WN1VpSmNxUFlBSmh4UFlGSmNEdm9abUFFRy16ZGdnSEFsY1ptQnVkdWNlc0U4NG02QnVxQ1F3VDQ4ek1B?oc=5",
+      "published_at": "2026-08-10T08:36:09+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e876de9ff1bbe3e065ec7d4403135bb8f96ead974a8dbb155b342a5638612937",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq end up as tech, chipmakers rebound - Virginia Business",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWi1qZTVibGdSOU40cjliS0JwcnpDWDkxWk04OFl2bG15ajVvSEdtMHpVS1FmdVR1d2hCNWtxQmU3R0VKZk9VSjBCT2hPdXZUUndhWEJROG40MWM1RHhBc0FlNXhKNzBzYjNfTWFraVZVSUE5emZPN1ZvU0pRQUJLaDVyelRKRHM?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "06340ed1afdf9a8bf96cebf14495afa96416ea39dcb43176fa43de5da353b7a9",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street is getting trampled by an AI sell-off. South Korean market plunges 10% - CNN",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWi1vbVJfRVl3SlVIX0xzRGpoS3pzMFBNYUJreWZsTVpRaUhwY0NFQlVvbGFzRWJRRnlNTWNYaHlTeFF4TUVBaTlkVmxSZ1h3T2tzTk5iRmpnNVZLZURiSkpoaGN0blFvVzMteEJxWFZTT0tOUXRrZlh3VWY?oc=5",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3d48affa1f2c38f81f8e05cc64e5b877ef97962373d2c58b21f9cf10f441023e",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stocks are recovering from a sell-off — but even bullish investors warn of a bumpy ride ahead - cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZUIzZkY5b1hzeWY3Sklyb3laaUVURkdITVprY2FmWjllei1ySDRzYnI1X3dWVzJMQjJxRXM4b3NOMExuQW9INHYxNFF4ZktYMW94eGREMEdIVGo2d29LTjF3S1htX2J3YnMzMkpNdUE1NVdYc2ItcFA5TFRzSHJrUGJmU29xcVc0UGlTOTk5bExHRzJ0bE9zNNIBngFBVV95cUxOZWQzX1JmMHZVaVhWZGUtNWJQQUdnaUs3NGRKaHBGU3BBSEo0UlZSdkV0TWtGTU84ZllERlpWak5vemx5T0t5anhtY2RNY2w4Vk81MVpqME9YV0dzTXFNcFFsTFlDQzJSVjZkTUd1UGVHR1dZcE9ZcEExRENBcjBQbGdMYzFDNk9Qb19RMUJwNVNEZE1CUHkyTzFJNEFnUQ?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "28ced546d0b141a0e6c06ff92967c2ddd0253b507485be3930cb26142bdef845",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "SEC Approves Nasdaq Proposal To Expand Trading Hours - Arnold & Porter",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUtCd2ZTYU05OUcwSDc0UDlMSmhDS3dwck8wNXZrQkE0RUpEdjJMYzlLOHZNNlg0MW94S0NMVGFERU81WEhENDR1SFBLdElWSWxaeTRhSUZTUlJDTExXME1XcTBuZDBJMHpRcWJaX0dWeFA2cDRSZFk3RXBfdi1YVG1OWThydURITDZEQkdGaks5MDZONmNCTTlaQWVJbkpQb3Y1R1NtckhzMG5Ca1VKSFV5blJGQVU?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "36ecb147dbd2080680643363217db6b33e1287da5c14fa17b7051081b2d9a1f0",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow closes at record high as SpaceX and AMD drag Nasdaq lower - CommBank",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbTlfakFTY282a1JYU29kZFZ5akdZdGtUM09PcWRwWG14VU5jSjh1NHd6ZnpCRUtFcVFXdE1WMjBmQzBWSnUzT3ZybWx4QUg2dlQ4QUpRVWdpVkxXWEZpanM1c0pBZWNxa3MtbnE5VXEyNjhkWkE5NU96UlFhTVNpUy13TGFuY0JsZl9pX2dmVWxOalhEWkZZQnMteHI5bmdEUmlZWWlkOVNtVDhjZzRBeDhjWU1YajYzTGxmZQ?oc=5",
+      "published_at": "2026-08-06T01:43:29+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1e1e074f8f7c91381af6293958253454eb1a2f0e0dcc0f4377b05dfbb5925754",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq sinks as AI worries hit chipmakers - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkRnZVFOUXdNU3JYa1lRMEFEQ0MwWGZMRkZ4TW1PM1JaUmQ4aEhTQlNsdlp1cVBTRVZ4LWZ0RDBJNU40a0tJS1JvaEtjZWczcHJWOFVncTBCYzh3NVFUS1M3UG1tZWJ4VDNsc1VkNkg2eVByZkhacEhDS1hQaGJlaUpGUG5qR0dhbzZ3RzRVSGpDdW94RlJWUFFNR0Mwc05lZ1hqRUJ3ZWVoaTRKTDJFSEtQaXRIdEVvQnc?oc=5",
+      "published_at": "2026-07-07T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5b298f8cab1df542c7ffb329f01c052b3440c1113c88e6df5b491af6b7992669",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Texas Stock Exchange launches trading in test of upstart’s challenge to Wall Street - Houston Public Media",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlJFcUtYWk9Ddmtpd1JnekNEdlBLRjRHWmZRQjBpaVcybC1sUUFPNHdVYjJQSFRpWFg3WFI3NHBWYmF0bi1FaWk1NWdOWE5xa0Nsei1mRng4TWRGQ0cta2I1R1gzQy02cGo2VXJMdU9INXA0VmlVemFrU09yT1pUTlgxeENQdS1fQ1RJZUUzYTNyM0xXdmZ4QXZ3bXNkZkR4RHRYak9wSU0xWHdkbUpyWTBR0gG6AUFVX3lxTE5hNU8wTUxieU55N0hCVHhRQmJBckZ5SHJJcGQxQUxqUGZuOXQ5di1BNldGeklDcjBYWi13cEkxbnBWWEFsSmpNTTJ5M2ZoRWh2QmRuVlI4VTUzNTdtdVRjMWthLVRFZEhsQU5tNVRVTy1SbFRHN2Zla0tRbzE1bGVabEpjQ3Vta20weGpwTTF6ZjVOTVJoaVFkal9xUmRLQ3RiV3Jmb1VuN2VXVG5CeHZYMU1XS2xnVlBMUQ?oc=5",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5d5c8fea9b949a01f41234df73fc4c2f295e132c3b487480f63c23eb79b2858c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFRDcUUwRFFNVjBGV3pwVVVHRU12NjdzSGVuY29pWHRGamc3NTAxSkExaThvUFdFLUVnUUx0VkJ2NWszanJCTmhVVjViUzlIUlVVTkVsOVdOanFITWF6Z0J2Ql9fSTBLX1p2TDdEakN3TUU5elV0NnNLNTRvajV6UjJzR2tPTzEtaGNPRUVlbVhJdmNMMXZUMmEzYU5DQm1qM1JB?oc=5",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "42c6844fce2abde06587cb88d3f4fc0f84cc5df46d9c1b511eea490e55132527",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq ends sharply higher; chip surge offsets Iran worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5",
+      "published_at": "2026-07-09T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "28dfd529e8ada861b427051eaf36332c4461f4e645969a816a708faf2f1c6099",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Why Are Stocks at Record Highs with no Iran Resolution? - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3o0YTF6TDN4XzFLLXRCOFFJelJRWjBiY1dRV0hiZXI3NUdnVm5zcVRibDNrODd2UjFLTDhieExrVFZaUE1rUWdYZlZjVU1wbW40ZENodDQ2cGtkNkVZZ3Y0VGptRXlJOW9zWW5RcVFfNDN1SmlpZ2hfTFVDUmh5RmJ2MUN1a2pSdHVmanZLaHVuQ3BQQzB0eVZyMkZlWEx1UE5GY3h5bkdDV2U3SzFhS1hPTEh6OVJhTXQ4TU9hbURLTHR4blJ6YXFUYi02Zw?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "65ab1f44da017d14246435f8fe67822ac41cab6847b7c70fefc5afec776cb1da",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq to launch new products ahead of extended trading hours plan - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmFNbUVndTNQOWpJLU5Hd19TUkZ2TVc4YVNOa0QtQ1F1SkJKT3BYeEdiOEhLYUxfQjFJVkpuQ1daWVQteFY4X0hMZU5hR01CSnFJb1IyRy1tWnJCaU00SGNGSUFHcFhNMExJcUpReXdIdjUyeGNfdl9tUGRGdWN1Y1FHeGtYZWZTMWV6Q0JpSjhyeV9oMGxvN1lxR1h2U1psNXdFZmtva2J4UkJkaGR5YUo3RQ?oc=5",
+      "published_at": "2026-04-23T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2816f4404ce4ee8fbf0d877d7fc1710220ea52755a3a7891a673c6c020301958",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq slips in volatile trading as 2026 high-flyers pull back - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdVJBS0ZvTW9NcW9Sek5mcFFpbV84dGg3VEE2OGlFS05UOWF4eUthZzlteEtEcERiaEVLRS1ITGc5WWp1amFfZUVLb1Rhdlp5aDk2ZVFqOHF1WW5yTVI5WGo5VXFhNFZkQUpJZ3Y3eTgwbkRITmc4UzcyblQ0Y3Y2WF9BbUU?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4147b92d39c05c0461f280f03741e5e00ed2456cfbf5da80d2aa6ef90617961d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq boosted by chips to record closing highs - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOFFvTzhsTGtZYjFZd3ZLQUNtNGxSZTlyb0ZmX3pKSHFucWF1bnpGQlQydHhod21iUWE2bW54QzgyeEstVGZhQmRpSWZQZTMycFlMeTNtUGtfT0VHeWdaSlJCb0xrY29Gcy0tbm5XMWRDYkgyVUY4UDRycXgtMHRfc2hiUHN1Wmd2YTNEMFZ0ZVdqQXRGTnhETXJuZjYxTUpwRGpaU2N6ZEd0Yldh?oc=5",
+      "published_at": "2026-05-13T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a49952614a63e8a3493b754e21f46a49f08fcb2682296fca6f3b8fdf95926706",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stocks slump as fears over Big Tech shake Wall Street - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Md0VwQTBZMkZhcmhKQ1phZFhwVUJMcGxHVW5wMkU3YUFoY2thZnJTb1FoaWkweV9wTllaZU1WQ0ZTX1ZaR2FPdExEUnJjM1ptN2hiV3l4Tk9qZw?oc=5",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1c35cda8c125f92a92a5c23f13e8397dc1a61baa86a5b49a31b7028be26606cc",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stock market jumps as US-Iran deal stirs hopes for end to energy turmoil - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGExUWx1WGZaNmtxTXJLZ1pNMmZ2dUg0dmJLTExtX1NXZURmZS1lNEQ2ZXIzdmxVZTdQdmtERU1PcnNXVU5YUGtXbWhPY3NjREtUYXhfUnN6aDRPNGhvWmFEbnlNWlNTcjdDUU5zMkxSaFZqVXdYZWhvUU1XNDZqcTNoZXp1Vk1sM3E4Q2NDWXgwcE1CdHo0RVdNMk5fUE00NVRIZ193NG03T3BUR0MyTURfcXZ4VS1fOXfSAb8BQVVfeXFMTkNlcjZLbmh6QUR3M19VY21kSWk0N2RPMEpneUxvZzhLRFdBMV9Uc0dCVzlNcG0zQWFRcm5SSnFSUGVoYlRnblpjX2ZhdnlBSXRrNllWMFQyQlM3TGJ4WndMYlVQU0l6alhNcWhLRkFkRVVqOTVhYXFtTnRha3hJa2c1OEV1djlkOWdBVDVWR1VMQ2MzSnpwclVMN29BNUFxRnJ5VWpYbE9XX1VJS0pFYXNZNUMxSlA5OVB2a083Ym8?oc=5",
+      "published_at": "2026-06-16T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "cae813455462386c01491724f19c0badf036377a62f042a42d1300db52d2c73f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "How Index Funds Are Adapting to Mega-IPOs - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BbWhmbzZ2bDR6UnhYTU9vVW9ISVRibWVpcHU4TnprejFRUzRUM3ZWQnV4Nkt0RzJ2RDFmRkFSNkFWYW5udWVoTDloM3E1ZlhENHJNQkRXR2lKWlltV3dEOHpIRjVoWGNVSWF0Z0wyMWEzcnBxcU5OczRGTEloQQ?oc=5",
+      "published_at": "2026-07-14T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "463e8b01fd864cf1ee5b3d7ed6db370c02b8aaa8d0ce4fa001b1cdbc58de3ff2",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow claims record closing high, S&P 500 advances; chip selloff weighs on Nasdaq - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRjd0VDVDTE8tQ3NNbkxONGN2d2VuUlFUb2xRc19kZFRPN1E4MWduSzczMTYyNUtPZjFLMFJWMGN0WTVCdDdwbk5rOHdZc09JUEwxd3ZDRS1RSVU5V2w5dXJkSkRQdXloYjJvRUJlaEJpek56SVZYQW5BZ2hqZTZJODdLUkVNb3ZTZFI0X1hoZEt0RXdOUk9Yeg?oc=5",
+      "published_at": "2026-06-04T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "0b5b84f9e74e7a06658b8ee0236fb69bc5bf4f3ce0f680ae579e85318aa08594",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Dow jumps to record closing high after soft US jobs data, Nasdaq down with chip shares - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmlSQU1CX2FPdk85U1ZHQjBSbHFXZDZ3VjUxNDg3THFOeUFyM0tiQURWczlyLUVxYm9QR0g5ZW5mcVA2bXVEc2QydjlQdkpfNHkxeTFzbXdxRkZVQ21lS2lXVVJQSktrWUVrY1pqUXdRN2VJdmpyWnRhT0ZncG1MT1RvZmpOcF9QcV91RXJ2SzBiQmpHd0ZHbkZNQzE?oc=5",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c490a62c314cbe6a573f9bf8f81ce0002f066fd78d2ee993bb47d6349a08e47c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St indexes advance with boost from chips, Iran optimism - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbk9OU3cxZnFJZTJuS2dhU3hka1hTQjc0ay1fMUgzTHl5cnhpb2F1NzUzbEkwTmQ1TzkxWHJscTJKVGRkMEFvdC1ieXJ1RDhWVjRvNERsaHdwUVBROEE4ckpaaUwyY1I0RlJwMVRDWFBSd1BmYkF0OC02UXIxMXFwSFU2RGNpd1hwNG9lN1NqbWVMTlhRUUhkVk5jdHN4MVhfRXpnZkdXYUFiT25WOWVndVktRVBNUHY3WjQ1SkNDeWFNZw?oc=5",
+      "published_at": "2026-06-18T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a7b8f8f63e39d22c70e048baa2d3801881598aa25c9165dbbd6b88f6a382338c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJ1bl83a1ZCa082M2NZNkdvamdjX2pNODlzalRUN0NiaEMtbXl4QTdlNkhGZTE0T3QzVmxHcjJ4OE9YZnFPbm0xWDdIckNobWVFN0oyZUoxTXNUeUhrdUtWQnFNQ1NCcjJ0MGprRm80eG9lM2NzMUpPcWdKNlJDNmNqLU5jZlBrVjdsUEtSeWhqVEdzdTRnSmtFWFBhb3RTemVV?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5c2d92dfb4f5b6dab01800d84b953ad6b96d835f768def6b4910cfc470d9eb92",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Weekly: Nasdaq Falls, Small Caps Hold 2026 Advantage - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEgtQW5TMmFhS1Q4ZEd4a0R0ekFiRUJHM1BhRW9SUnh3M01CWTM5UjJXZVNSVWpaM1NmU0s3UFFvN0xFOXdra1k0OGw5TmIxRTNZMTByYUFDVl9BTjJqclNIQUNHbmwxbjR3VFZBYUx0c2pSMEJNRjV3ZGxtcFZhNldUVHhoOENweFFOMUNOVGs?oc=5",
+      "published_at": "2026-07-18T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "62b015dc690932fff3ba315d9b31b32dc75f70dc19d2eb1e9dcef5e3af54ec08",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq nab record closing highs, WTI crude falls on hopes for Iran peace deal - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUdJaVVrejdzRGFrQTZTY0JUUzY5SEVJUzR5WWJpYjJBdEJHenRtTzJ5dEd0Rkd2SGhrTk1qQ3o5MGhOb3dVSlZSd2gwNVFZV2hCS2VCWkFoUlA2WV8xTEhKbEpyVVhxWnNCMl85dllubTQzU2kwM0Q0WDlKek5YZUE4UQ?oc=5",
+      "published_at": "2026-05-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "374cf353c5bb3376443e3d35671023879e1618ed3c1c0cf17f9c8d2bc10fe5f7",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "New Nasdaq 23/5 Rule and Its Potential Impact on Confidentially Marketed Public Offerings - Faegre Drinker",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPXy0zNFQ1N0xPX2loTklkQTFfaFdsM0gzSVJTN0dOQ2txWlIwTi1iNm0zaUFsLWlXWVVwbUNzMEdMS25FeWdYd2U1VEZCR1F6NHBqcTJJbkxfQl82czE4bkp1VHlsZDRHcUJMZjRabFBfd0sxQ1l0dVdhMWJMVXN1a1JqNHFrOEtNekRRNjV6VTlKRmNUN1Z3d1JzbEpoT1B1QWpNMXBlTTNXdFhKZ1VmbXktNFFMUmZRNHQwUXJiRFRoSGhTbEZpMVhyRHNsUHB5U1JiVGFXZ2NDcG9HckhFUjc2U09UQQ?oc=5",
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "3e3b76b1c6f250db9e5c9490210873b139f28e6880300337e49778ed74225c8f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Futures Rise On Trump, Iran Comments - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSHZGUXJUd3BHVl93cnRiQjBXX2tPSjcyclFhTUYwdUswWnJVN2dLZU9hVjJ5bjVCU3h2alpISEx5TXRNRmlYMzFGLTFwSTVFc0FmN3dfSDlJNF9RYlRHRnB0ZFN0RmJUNmNLb1pieFFqSVBlcGJOQ0prT2tyQ21GcnBjbmdNMXBMSWptdTBfTzBaVjRla084T0FDOEtRN3ZaVTFsM29hVkV0SmRjMzFxeQ?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ed92d68a356774a406656d91464e021bf6b6c0e58b5d4f2595e25c1b66ecc613",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St inches to higher close, AI fervor edges out Iran impasse - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalRramdTOWdXOEJkZHl0RVQzNWtQbnE2b3ZMWVc1V3JLZ3IxTFplM1NBVnhRSVBXbHNDV2hXMWJnRnpFeXBoeXcwU1djVzh4UTg0aENiWG1waUtfTnlQeGRDQjJyd1lDdGpFUndna0luRUp6UlNDeDBFWFJlMlFxYmxJckRjM3UwNDRuYmJfcExsRjRmQ0E?oc=5",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8037109ab2b042cab2e2451be7401542af7f6d68ecb5d777ebdce89c2402a5b6",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stocks Mixed as Indexes Head for Best Quarter Since 2020 - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWGEwTWVhRS16UWpmZTg0dXFzY2I0ZGlNeUM2eHdPMi1QRWtwalBTZFZRWEhPVWpGTWlJME9nQktQNW9XcGNodnljbjU0Tm9hbnRVRkJWX3d0cmVxSkVycHlrRnFZSjhwSy01SFBNVFdST0hWZHNUd25NamplZW9zVzN2VVRZSm1Oa2VwSHdhWENteDZkZmpvNHdycERiT1RFby1HR29lQTdUclM3aEVz?oc=5",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6fb2b4440701dc91d56553dc2b13de0e6b93160c149f014006d0e3c4802a2621",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St ends lower as inflation worries push up yields - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTExrQVdLWjM3N1B1VnNNMFc4MFNXMXU2RVRtNVVuNUlJcGJDenVoc0E3RWV4UDhMQkhIVmRZemxvQnVyQXJiQktfRV9XUzRkRW9vUjhQT0stU2RNM2w0ZHQzTGQ2Zi1Db1lVdEdwUzFpZTNHUFhOTmd3RE4zbW5sQkpkZzh1M1gxSk1rRmd4R3pUaVN6cFVZeWluNE1IQWZ2eHh6VTd6Z1JjNFZ4dUZERA?oc=5",
+      "published_at": "2026-05-19T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "84a600f77db871875eb9a62e7dba2c8a2c81906f8f69a5c0466d49183f1d4efb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq Drop: What Is Driving the Massive June Tech Stock Selloff? - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnVFozOWNNczBGWDhadHlPOXpWNlM2bUJ0R2QyMlZqQTJtOTB6cHJldUx5M3YzbUFuVTZxZ0VpaDRTQWFOekFLNkpZTUVnUF9kbndwQWxxVWNtSEJUTGpJQ1NkYVlQTmRpamlxTzVIQTBtTWV1RFE?oc=5",
+      "published_at": "2026-06-23T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ca2eb72e60a4314e1a0f781a92e3f81ecd81a73ef2c3b3016df69019956b077c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends lower on mounting inflation worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWjZBNTNiNzEwUUZ4SU40ZzNPX0FWWGhydkJtR3M2aEljYjVWZUN2NjRIRG5vQ2UtNUNlSGNlMUFacmlzQXZfaHN2MkJLTHY0ZXZMcVItZXo3Z3dubE9aenZXYjl6V0loS2lTZVVmUUtfeXpZcng5Tkw0bS03TmJ0d3RIOGV3ZnF3NmxTNU5SY0YwTlN2U2M5c3RmRFNtUkRZYTZxZjZURWFYWGVKNk9UZXdNdVNFOXp3MmQ2VjBCRThSaXZlNEtQc3hxN1NrSUZMRTBzc1NB?oc=5",
+      "published_at": "2026-05-15T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6d344699d019fe1b6ae54a3db495ffbcc3eef305d0c392eaeda212f18ac8b8c9",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Nasdaq Drops 2%, Dow Falls 950 Points As Chips Slide; Robinhood Pops - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeE5MM19LcFh2MWpkcm1wSUNENGFrTnhlcjdfbTBsVmYwT0tyOWJKQ3JFZFBRWU0xUHdUa19RMDI1dG4wd0ZZb1BCUTk2c2JaT3NOYWV1S3VvaWVvcUczSmpLVGdwRjdOZWZ0anhQRmx1TTNpRVFLWmlXclQyZjAzcU9tdFZDUUNMQzZGXzEzbHROWXFIY3BUTUh2ZkppRklac2RkZktvRm5DSVUyQnJlbg?oc=5",
+      "published_at": "2026-06-10T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "38d55a85a9705ac0ac852827428ea9a9c5768379bede5879318586878668b90d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close at records on tech lift, Iran peace talk hopes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeFI0QnNnNVVVckNHY3RrNk9MQTd1aS1ZRzFVZ2FzZEIycjhqSjdndzdyYkdXdGNPSThqc1lrSURHeUdQQk9JLW1KTHlUWkZweGxibG1YRVJhN2F6b0dhb0loZGo1NUtWU3FOeVNIcG1oWDY2QnppRXdVTkh5LTE4MkZoaGxWNmFTQ3JoQkxGWWRVb0c2TjRSTnMxUzA3cHp5ZDc2N1d1Z2tMOThqcFE?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "922ead28181719261054c82e8a5b34df4eef4379b7213bafa22010fff1bbf8d1",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stock markets continue to fall at weekly close - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1pHc2lPUndpWlVDMlVsR3Q0V1NrRmd3WTJMMU53dmN2c1QtejdTaUtzY2RPVnhlWUxUeFFnNU51dkVkakJ0X2RWV3EtRDhPb2p4cXUwZlpreW40a2FxQmtNSmJ4MXEwWi1YbTBaaUdPd0JjRWs4WHpJbTZuZlVUcmVieVNxR2taanpTWE9KWDZMdHd3?oc=5",
+      "published_at": "2026-03-21T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ce0455b3cec0c545c5a087c29098fe40935d29c4bdc786c94f6a74bd04c1a149",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Nasdaq Slides 1.7%, Dow Slumps 500 Points As Tech Stocks Drag; Google Falls 6% - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUmxEUkdUSnpfZGVIeW02VDA4WE9JSEpqYTZwbGpDTmVzTE5YZFVnYTBXLWRpZXZIb2xZeFhyc0FlaFlBcWxjZm8xQ3hoT2ZibGx6Qjh6SHREQThDOUFsRXMzU19fSXViQks4SDUtandTM1U3c25BaWdxX1dhTXh2WFNvMWNTclZEVUZvOXd3RGFKWThpWXVjRmxGS2s2X005UzFSU2hzMHNIbkZFeGZCLUtLanEzWllaempQR21PbVNsWEVYNzRMNlFaZ2hVNmctRUwyNE9OUdIB3wFBVV95cUxOUXdfc0t3QnJiWHFXNGF1N0FhdzJuQk1ma3Vtb0JGUTJkb2ZQdGV4dFlmMjZxSTgyNnJNWFFIaE5FTmFkUzJ5bnpNYVFJSUZwRUZ1UURVSVdCNkV4d2xWZXNRbm5ib0k2cmYyWXRHWVlFX1dxNVFFMjR3Z0h6RUtWM3Z0LVZaV3ZsM2FjUWxsOG0xajBqWTlQb2VFaTFTR3Itd3g4WFl6andTZUV4OFRLYVNMTGtQVERDc05vODRFSVRVc2RaRHVFVWE4Zk9mUXJsblRQVVZvcjktc2JNTnlF?oc=5",
+      "published_at": "2026-07-23T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "dea3b87713fd2a86963a4419de79cc2ca19e737fe18fe448432fccf46877e459",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500 and Nasdaq notch records as AI chip stocks surge - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXJmbTJ1QXlUbzNTS1ZhOXF6RHZmZjJGekJSRzZHRWRYQ05FSmEzMnlCaHJpbG0zSVB5WGRTNzUyYWtzY0JtSVNkRWdpWVo0Z2VrM1JLSW02UzRLWXQwaEhoMWgzYnNLdkhRdktMbGJlRnFxY2s5SzNDYkF3Y3ExVWdHTjJuMy1qT200WVo1WmxlT2hnYXJPWmpPTTlXWXhPTnI3N0dn?oc=5",
+      "published_at": "2026-05-05T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2f1ada707b4253d604cbafc363b12c29156e36c7db6d99e2f7ec1834dd9aaf8c",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq hit record closing highs on AI optimism, Micron joins $1 trillion club - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRWWDF6RVpndmREd3hkYTZ4Q1YyNmVLN09uSGlUaGdJaTdXM3kxM3lwNXRWdU9vX3NUSS1HR040RzVKQU5YZGFtU1BvSjBnTDBZWExDY0ZLLUcyamhXV0FGWVliZUxfWjFVYlFVckEyRmlsMmVaVEgzTHVOcFZLM0wtU0tHaWU3emFJdmprT0NSdUtq?oc=5",
+      "published_at": "2026-05-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "02a25742c3bdf161cea28cfea96faa6ca3111b2f0ee9edfc9685725791c104f3",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "How major US stock indexes fared Friday 5/15/2026 - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd2x1eWZrdmk0TTI2YVFnRW9LMVRFX0IyRWRzWG9xYjNrT2VacXdaNUVkSmp0SEphRGJId1VsdmRXWW5Ja3BwNkxHV0hTRkhOa05jRk01YmZ0dWtXWEY0QlNIazQzNy0xeUVSUlJvMGZWNGFYN2lmeVZFVkFwX2txY3FVdHlhZlpqLW93aTFpakJnMS1KOHpjODA1Q21BZ0xxeGpXUlNUTEdGc2RzZGRYMWpnSEhQYnl5UEV0NjBtQnJEWTl4ZTVn?oc=5",
+      "published_at": "2026-05-15T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0b7982ddfcdef17119d1ccf8cbfe0c295bfc5f841c042a4c4a14303d3c430efb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "UK stocks are beating Wall Street — but the Iran war is putting the winning streak at risk - cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVFhVGZJczc4SnlxbmRwY1pMc0RhRVhod29tUjhubUExa3VuM3VxVTJBMEc3RXhiR2ttaEpPY19RR1ktOFczclZ4Y1RUVFZJc2RzcEpFREZSUEYybFo0Um5GODY3Q2tXTFl3ZVhkQmNUTUMycF85eTdWemZfb3lsQWpxdmR6MlhMcWdwX2RWWUlZejBtMGtPZmp4TFdPcWs?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "27446c3e78336497dff1be7adf0e6a5418bff02593b777ab753f76c561faab60",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq close lower, dragged by Alphabet and megacap tech; focus on Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDQxcFBhNUJhWlNpLXhmbHBEcUMxSG00alpWU2t3bGpwWU82RUFLZmVFWklDZWpJSjg0a2dYdm14bkoxN3BYanhxUTMyZGprZ25rVlpCXzNQV3NaQmlUcVMydlp5eEdUQ1FMWU92ckNXWjhzTWt5R3NvNTV0UmFtbkhjTExKRm1hWlNPWThBemtwMExrWm9jcFFac2VHZVpmMmFYRGx1dWc?oc=5",
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c0eab1258e1a414f250a2551a49a252b1b1d84c2eaa43c3e350ce07725022581",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Earnings, not valuations, are fuelling the US stock market - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWd2MjZyQTBHYUhuVmxZUV9LTG9sWkhDbHU5U2R0R01lTXl5MEtyWUJtRE9YaWxVOE11TWlOdGZtVmwwOVNTaHdJX3ZGNmdkdHlEZmM0QUY0aVFfWXNjRkQwcnJ2TmlPU3VTbzJTNTJOUDA4RFUxbkVQT3ZYS3Z3enVzYnA?oc=5",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8659feac67e48a79e0d0176ed3e3abc9e9f84c2004747cf75d86457fc98f8ccf",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Bank of America told investors to ‘take profits.’ Then the Nasdaq fell 7% - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nX1I0TVdLcFBkeExleVhrV2FuMjJTRlhFNVFUSVJ3QmRHWHA4aUVkcXFrSS03UkI2S25TU0xaUmcwazBzSWZtYTFTZUpVcE5LT3pNMWcyRkQ2bjFSTGFRUndPQk40bDdHOWs2Z280ZUdmVjVWZ2hwVmFnazZ6a1E?oc=5",
+      "published_at": "2026-06-11T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "eb39389bd268da82b80fd211daf9848790803a47f96895a1ff3228221e42e66a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street indexes gain as investors hold out hope for US-Iran resolution - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnlHODRfWHZBSmRTd0hYTjBoVndLOTk4dm8tS1Q5WmVlQVZ5NEtoYU9wUFZKdXdMOXlYc0d4RU5jMEFyTUthSTZaMTlGMEJEaHdtNWh1YndGQnlRWjhQMnJzVmZFNTFhZ2FQX3JESzhxc1NaMXRiclVmNHlaZkIwT3dhWTJ6eFgtZ3ZQVDBZV2FoQ3RPWlRCbm5ZSDNSX2tqV0NjWE9EM0JLaENHRTNj?oc=5",
+      "published_at": "2026-04-13T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "dccca20395bcf75e49715899c786237db4b183a509f632938b30568403bd7afb",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq and Tech continue to outperform – Dow Jones and US Stock Market Outlook - marketpulse.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjVtamZTWnhJNDVVSWJTOTREUHpKNTNjOTI1dncwMGJNUUFMZEtxWkRxcVB2RnlZT1ozN3BYUnpuX2FjZkZ1Y1FtS0pnTWpwLXhpSFlVQlhRR2xxYVdmQmIyNmFoX3R5V3BEVUtDaWNPd0lBbzN0bkt5THlHNF9kTUxnOUppeHVhTmhPUW5GaFR0dXhK?oc=5",
+      "published_at": "2026-04-24T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fd0e642c6bd043254736313a244bca56ee37c21ed646a6a48fe48ada2c6f3218",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "[U.S. Equities] Dow Inc fell, down 430 points; Nasdaq also declined (as of morning trading on the 3rd). - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb00wUGpoSExvbzBuNk5yb003M0ROZEhncmhyVC11Z2lOYWM1QzVGMXJxVGk5NTJtTEdwaHl3YnRmaTFPMGNDTk5kb1F1bGdQbHVHTG5DcFNFQzZMdXUzV282bk4xTjNDMHhyZ2drLVl6TnlnZ1U3akF3aGJ1ZTRIUzF4ZUE0R0Y5dkh1Y2tOb1FmaVVaS3U4ak13?oc=5",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "7a8662c54130a734718f8cee5fd787db109b470796a27d73cbaf51370d3eda5a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq moves to make trading nearly 24 hours. Why some on Wall Street say that's a bad idea - cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYnhXRHhoM3FnOXBPZjhqSU42RlVrWXk5dXRKS21XZ3JibWxNZWxfWGgyb2hOV290UjlfVGhkYlRkT3JXaGpBdldMQW1SaGtFQXdDZUtKYWxvQ2NUWmhfMlF4LU5uUlM0aVR4VWczaTE1cm9TdnB6OTJBYXpfdEw2RmlVakxKVUJaTUx4YjBBcm1QdkcyWFhnVjVnZHppZ2t60gGmAUFVX3lxTE1hRmpqWTJ0ampHZlZwRzJjaXhwdkNKTnRJTlFNaFlCd1JnOURLVGx4aTYtWTYzYjlVcEw5UnkxcmotMGVxTlN1d3k1U1d5TElFUlJYdU1RS0tHeDRFUDFPY2dXNGp3MWUyVlBTbHVkMXpzbHVyZDJaLVVjVU15dzlZRE9iUUhyMG1LZXA0MEVHWXJnNjNtNGl5NHZzZTVWbjNQQmpudEE?oc=5",
+      "published_at": "2025-12-16T08:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a66728e487d71fac5b5f20cf639f2e676cf7714f517b830cc2003ad603212712",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Instant View: Nasdaq confirms correction as U.S. stock retreat gathers steam - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSTE2cXRfQnBlWmdzZVd2Zm5uLWFTZXEtWl82SklWcGZYT3BqamFteWt6cGtvQkdQcmc4aWtCR0VTSVdYTGJRWnFUWXRQZ2FydDZOS2VySjI3b3FGUU02NUpvY3NvZ0JOc3VCT01sN0w3ZmtRT2pzNkJVdXp5TTh3Y0FQLUM5ci1reDFsZ3JiZFVEa1E0V21uazk1cERNRHFsckxBUldvTWtrTTQ?oc=5",
+      "published_at": "2026-03-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c1c7f0bad396cc12c9a8d0e5d821b6ba6a4a6313e78bd57f063d08662c3142f0",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq Tokenization: From One Order Book to Two Systems - TD Securities",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazVfWEsxUlFKbzYzSjNueHhvUDBoa0ItZG5wZ1B4ajlLZXhiaDFCUFlibkd1cTZ0cnJpcFdRVWhQWUx2eVZHZUY5QjRCQ2FxNTNQZUpQcU1NMW54alNSNDZ4T2tHMENoaE4yM09lRU4tejJoQVY4YWl0Tm9Vb3VEUGk3M1Zta3lv?oc=5",
+      "published_at": "2026-04-01T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a2ef906dfa85cc6ee3d8e1ded1c6cf9f9ddb6558b20c7eaa784a67132a96d8e4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq edge up to new records with Middle East hopes in focus - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV1YzZ3lwdHRtd1p6VDEwRUhxOUxMcWdUbl9jM240QmMwVFh2U1JBOGZ3TFFEeWxuc1VHS183VnNDaWJVbF9oN2k1TUhlY1lOM1Q4dnVmMHkxN3JWck96UXpGMVFUR3B1Qjc0TzR1Q3lwaFljUmtLd3hOTXZKa0NOcGNFbHYyUGVCcEJONzZyaVlfZ1VWS3pMcEkxYnJxTlIzU21SbDJja050RW1zVVptUVJn?oc=5",
+      "published_at": "2026-04-16T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f5d87e3ecfb24d5723a9d7e159e2ee9ea54f4787562bcfad30dfdd6b2a597152",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Risks Are Not Cleared. Nasdaq Weakens at Open, Four Major Investment Banks Reach Latest Consensus Warning of High Stock Market Risks - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObEFCT1pQU1FTTGdkNFEwM0ZTWnEzTkh1c05sbkFjdlNsTzJkdTlrc0xlTUxSTjdNSS0zZUtmdXVIWWl6eWlQYkZPSUtpR0hTcDJaUERtRUt1SnVfQkM4QlpfRnI3TU5nV3NCeDZKVGhVWGNaLXhvSDFNdDlPa0pwR0FZV3RpNTVGcy1kUW12bVMyUms0NjhJWDZyaG9YZ2ZianhGZ081U0N2UTRTY2Y4cjNlbzU1YXZMaEFZVVc2Mkl3SDRYM3Jr?oc=5",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "56ccbdc49abeab8c33c733773368ff9b20de6ad0b8f66a2216c97a970485959f",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The Core Logic Behind the U.S. Stock Market's Consecutive Declines: The Fall of the 'Heaviest-Weighted' Magnificent 7 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTktnQmVETktKOUJPa0xmNThZeTFubTlhcElJMFp2ZlowYmpLNHJEYUJTelJXRHltUlprTWxPM2lHSGt4SzlqZXNvSTlUWTNNNFFGSmxBRzMySGxvXzdLQlh2UVYtRUR1SXhuSnBqNzRfNkltdkdBbm01dUtkSTFnSldLSjZwNU0wbHBYeE9rRjktWnVUbVdKbHNCTjd3Zw?oc=5",
+      "published_at": "2026-06-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1be8169daa9b16b387cd0843b6581a8d52965bcb0e5f4f0539cfb748945545a1",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Chip Stocks Lift Nasdaq Nearly 1%; S&P 500, Dow Advance Despite War Jitters - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWTlSNjFMb3YxUVVHNTAyc0l3amFLelRHQzgyTXVoM3ozZ0NMeEdCcTZtTmNhM01iOEtLaW0ySjNGNHF3MWpoeDlvU2dVbjhWQlc4Ui0tY21CTkZOXzhtcy0tTFBwN21fV3VPdVhLNzF3REpOcU1zNFRpMW5Dd2xZQnVoZkpXbWxNNEJncUJhM2ZHOEV4NHk3TW96RVlsQnNidWJiNmhCZjV2Ty1OckFraEoyY3J1N3VCNjdRVGdYZ3JfYkR5ZFdHOVdOUFczN2VHSEV1R9IB3AFBVV95cUxPa2RFYldUeVdCamR4Q0xJejl6VTBBNjhYZWVpSkJSV3lVUXhwM0RySmM0Z0FCdXpwWDFaSkk0N3p2QkNBWFRDYmU4Vm5maVFHblJaZkFMR09OMnBsbG1zZHZvTWpGaEN6eVVoRkVtQ205UGJGNE1YN3o0TW0wR0t4LU1xaEtTVnNGMHluN0d4cXUxel94NFlfakl4MDVaeEgtV1djMWVmZnhNUldxSmczODFTYTNRRWxwWXo5aE5wbmRncjFETXJBU2VibTQtRGlnNkxZR1VDb3FSbzR0?oc=5",
+      "published_at": "2026-07-20T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2686a9c75300cb2bb667218cba1f03625cf98d78dea8b64b7d7ef6cf189ac32b",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US Stock Market Today: Nasdaq Soars 1.6% As Microsoft Shares Spike 15%; S&P 500, Dow Rebound - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc1RRNDNjdHJIZl96X3hwWHZ1ZC1tZGRsa3hpZnJDMnR6TGFVR0hfRzNwUm1jN01NWDBUbE9VMFI1S2ZvejVCTkxSb2V5MjhJWHJFYkg3MXJBeUdMaXlLSDRxWW15X3lOcmUzM2pOT0MwRlVPdXpBak5MVTFfZlNvcy1aMDBaeG51MTVZQURnX2Nrc3l1ZjRNRHNMY2RHS2doaWlRanZVbDFDUzc0YUxTZEdEZ3V6eDRGMFV3OURRRTA2OWctUzgtWWdzZlZWUzdqM0huZVk3QVEwVFlwa2RTONIB6AFBVV95cUxQVkdsRzcxTTh1bDk0ZW5kclZBTkZfM3VVbWE0cjhDTWkwekVZUzh4ejNjeWZoZUVBMGJSalBVYVI1WG1Vd1I1a3F6SzVZX1FQNV9Ma3I5ejJoOG04Rmdzb1MyeEJoVHpqMEJ6aVQ0MTAyRUltcDNDOVhIeHM5Nzg1bUlQYnk4djVyVTVDUnhYamxRUC1YTlE3TU5IUDE3d2xZQ0FWZ052Qkx4QUpVdGUwNlBoVWRIdTNXU2MxNDJwNkxmcFlBR3lmMFI4a3FsSVJKTng3OFV6NmtNUDA3WWhnVFUxRUhtYkRy?oc=5",
+      "published_at": "2026-07-30T13:42:28+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8cd49151ee996f581b8541cf0f8c0e4afb5edbfab11ccd53e0cd174fc33145b7",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "US stocks close higher as S&P 500, Nasdaq wipe out Iran war-driven losses on hopes for deal - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGd6Uk4wOVpPYmlBcFhpRnZhUGJJR1J5NXdBLVg1RUx5MnFsekF2U25mWmZIWExZWF9pTXJ5b2tGNU5sTnZDUUdMTEdKN1BPc3RpR3F1eHdBaUJOZlpwdXQtWXR6ZnY4c2ZkSnRUQXUwMWpzMHRvcjk4cGdZVk9CNGVpRnhZWnU3RjB0UzlGZWh1cGg2N0Rvb0RmcUMxZlJjMmFUMGswTFFCRHlZNlFwaTBBMEFrV2VIdVZOT0QwMG1VM0RFU09PeXFR?oc=5",
+      "published_at": "2026-04-13T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4551a47ee8f031d01434cb2d31906606217e849ece764c24c810a8f46e44fb05",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq, S&P end lower as tech stocks fall - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYktYX1NzUUhjN2p1VDBmM2lIS0I4S2c1cmFSQjFxUmFCQWNfeXpycEw3VTdPblhTcDZEUjVSeWNnWjNCaEIzNUpnQjhIYm00R3l1NUwtYk5nX3VhTkp2RTVFaU51TnVDVzh5MFpYZTliMzFuZUNmYllmX0JTRVpycmp5OTU5ZnZUdGxiQ01XY3ItenNodklTQUliMzk?oc=5",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d15610df5674654cec1913575a182f379ca6afef6b1cc21532e3d403767ea3f4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "574b1b115d254b5ddd77ef7e4eab2edc45c4f2c9d8ce403eac711177efc46fe9",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The S&P 500, Dow and Nasdaq: Real Returns Since the 2000 Peak (June 2026) - etftrends.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSTJRQVRYbHRTSTFYM3VBR0tjRGVodGZ4VGJ0cHZFVGQzMVg0akRBS1NJUHpNSkNzbkNWUFBvUDA2cWRNaW1fVDdOT29kMVR2NXI4eEtKZ1pLSjB3RXhHeGRDVG8zbmRFZFBzZ1hLNjdtd3ZDS1hSNVI0Rmdla01zNXRtd1dPX014dzNyMGN6ZmRXNGd6MnhPRTJadWs3Njg5VWdSUDdhMUVXOThybzFNcW1GbUZpT2FtVTN0d1ZzS2dlaGxkcEHSAa8BQVVfeXFMTXAxSld6Zll2eTE5R3VwWFM5dmJqM3R1RmdOWkw1cFF5V1RlLXNOWkJYeDNqejB1eXlFVzJaQWM4ZU1HUGRGazl1OXZjWHJqV3pIeWR1MUtubVIyVlNxQ1Z4RXhWWWp1ZGJmRFY2a2NaMFRDc0VWak1sVElkQjQ5ekpwaWdoLXV5RTRBUmttU3N1Qks4dmV4X0NUY1RRZV94TVRFb0tOSlJlakFCM21oUQ?oc=5",
+      "published_at": "2026-07-08T21:01:50+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ef035e7e7d18c32dc056bedddb9b8ee02c9265255c3a4ce2ac6698855c4c5162",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open today? What to know about Memorial Day hours - Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTERla2tzRXdWZUdYVDRPVXpKSFh6NXpjZUxfTUZoeXRydTRzUGlXSU1xWXo2b0QyWnNpdXdMUXNDWWJZbWE1WFpLVVJKNHNLdXVZcGh6N21OV3Z5Sm5QWVZ4d3NCLU5TR0Fyc3pSSHk4Mkk1ckJqc25mMjIzV1dVVW96cTkxVkVlQmgzY0hFZ0YzWnh4ZGY1RmxIenlNVDBEaE5iZkh4MzU3ZEV3dm43cHlQSnd6Z2hQV3otTA?oc=5",
+      "published_at": "2026-05-25T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "411673c847be89cacec1663c9dfacb95924d814610ef8b27527ba0591b10e33a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq leads equity losses with oil, borrowing costs in focus - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlh5Y3pEUnpYTGgwMlRpWng4QW9kN0RZQzZTTjFJektBc1B5dmowTEZxaUozYkVmY0xiTlViVkRXblc4dmJsbl93dlQ5ZjVTNlR4TzZWaTRRWkVzTF9fRGR0WTI1Vm9pOVpRUE5tWS1xWHp3eGV1REkwTTl0NkhKSFl3YU16UUtlWnBzbm1LWHVfYmlI?oc=5",
+      "published_at": "2026-05-18T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5c598099dab4c4acf610ec08a01d43a68a172aad62980dae50e7935f18d14ed7",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street closes slightly down on renewed tensions between US, Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMjU2TlFwQnBjVlAzdFJFUENydUg2ZmFkc3dtVnRtOHhfZDVKNkN6SnZzdE9iOG45Mm01UUJnbVU4RHFjNUFZMVlicFZwMks0OTNOMDFiQWZfM3BfZm1tSVNRakg4ZWh6REtwNVRIQ1NLOGhSMDA5VE5nM3FGRTFkXy14Q09HZ0VNc0ZuQVNPRmZ3TE14UkhvbnNJTmliTlR4RWVn?oc=5",
+      "published_at": "2026-04-20T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8beeec64cdd8a6b26bb77ae58af5cce1ddaa8673bbedf8ccd2e83c34670634a4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq end higher, notch weekly gains after earnings-heavy week - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbzVzVFFXRWp6X1Q3cmU4VDNDalVDYms5ZXhYaWkxUjVmYml5T0htOExManp3eDg0LUptOHd2SG9pVE9qTWR0Q3hETUFlR3UtQ3hKM0tZUDU2REp2clR2Y0dteVFHS05Tam9IMHlWbV9ZVEZlSFo1dDl3YnZVblhPZzdOVVpKa2N4UkVkNXNEc25LTi1zVlhRcG1ycDFWZVktVmZjV3dZbkt5WEU?oc=5",
+      "published_at": "2026-05-01T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "b787aec8eb3f2f807e56e0d5f3aee4926c8b15e0cca1223b4bbf990185a1efa4",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street rallies on renewed hopes for US-Iran talks, earnings boost - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnl4MW04VzZlWE1mWVBMdFdCQWFwZjNoQmZuSU5lVkRIaWgyQ3czMFkzcEJlMmhEdVpkZmVwdll0MEl1VjA3emZoWkJyNlFZcl9UNlVpZTRsVWJSRXF0VTdDb2ZSbFFyWjJXMEFwN2wxa0h5Q05VRnFOVTVCQzA2ampLcWhZeEVLZVcwUXhJNTJPMU5xWjJUcEYybGFWS0ExMzgwWlo1azBEMzhFNG9Zc1FCMGxlRjQ?oc=5",
+      "published_at": "2026-04-14T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2cd00f125d9bd15cdf447236377cbdad6013d4a050439be3a135ceff721aa530",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq hit record highs as investors shrug off Iran war fears - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zVjFXLXh2WGJpSEwzUkxPUTA1M1dNYzk4Qk1jNWFUclVNdndybnVtelQwYk9wS3VpbDhWUl91dUozUnR0N0NGdXhPakZiUS1DM2k4NWVtQWJ1SkZjMXh1clhDTXVRRFItcERUWk5jN29rOGdITjNIQk130gF_QVVfeXFMUHRGRnVtMnRSQWFlYUNVTDZ4T2dWYlFYY294SEVlYjRhdTBQaXQydWtlTHZ5VVcxUERISFlqVm5QQ0Zpb2RmOFJqN2toeEpWeTUzQzZhUjRmZXJJbF9DdFdrVDdVMVp5d0xNQldpS00tenV4Z0pfNFlITExMT25xSQ?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5ca8a9af12993876f61692fa5f87b733f387be8083877713421d04ab6928a7d6",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "S&P 500, Nasdaq push to closing records on optimism around Middle East talks, earnings - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYU9PdE9VWERPN21wdEE5dTl5cThMNm92LVFpQWdDZGh3b2hkakFvVUdHS2w3UEEyOXRETFlndzI4Y0tJbk9WM280Y1F1YzZkaVhheUVEMnlhemtfR0lldEtQaXJkWTNvWEtBOW9Mc3BYLW5qejdFdS1fVXdEeHlLZXJPNjFLMDQ4TGg0LXNKaEhDUG93c1E?oc=5",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e3932f23163eabf2a56df34d2e961abd2bf99e08b1e9d1465c3ff409efbae6ee",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "The SpaceX IPO: How US Stock Index Funds Will Adapt - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYzVMVTcwVUViQlJ3cFhRZWlJVnJnM3EyRDQ0d3FRZHg2Yi1tUUpKdXpobkRLOVZnaVZTNElONFdGM3FaMUN3QXRITE1TenVsalphYndnTi1FZHRyWkFwUmtZbTJwZFJEOWlEWFJjVDZiLWRBUVFNSi1qdGhNc2hEU0xoczhnb05iVWxnRFU5ck5iWk0?oc=5",
+      "published_at": "2026-04-10T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c3b7817c6ce78dc0e0a91c2545e7a9338f85505989d0e5e6a5513e8c5d71620d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Is the stock market open July 4th? NYSE, Nasdaq holiday trading hours - Cincinnati Enquirer",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1ZnUXllRVBCV3R4Y1JMZDh6Vnp6VHRDZnRCTGZWVmtOZWRPYzZzak1QdWZFRWF6U0EzZ0R3QjdEb0FDV2I5VzBGNDRzLWJqdS1RSFJJMW5kVlE1MmtqTENOSkpRZEtHcVpNd3VuQW00a1VHSlhxaEZUdWV5dDl2a2R1bjFtWk9DWG1ETGJTbWJnQmEtTmxYd0hFVWZPX1NQSHVYejU3SGM1RExTalJvUkN4M2pjUlFXZ0E?oc=5",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1b02b1f329cd10339232b93a35c5d06c34a550b9e4bb04a178bbba34c6d70d8a",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Tech continues to pull Stock Markets higher, S&P 500 at 7,400 – Dow Jones, Nasdaq and S&P 500 Intraday Levels - marketpulse.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZldMRndLeERLYkRZYzBkRFdRU0liQmhyd0JLUTFnaVRFSmRzdW9GbFBpejdJdEw4ZkJUdWgyVlUydDk5U20wWkNCQWNiNlVZRmhvSDhFdFFIMHY4SnlWd2xVcTBCX0JCV3dxYzNydnhZTHM0WFZ3X1pGckVjWmRCWHc0d0JLOFlMVVdaVWwxWWFvYzA?oc=5",
+      "published_at": "2026-05-08T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "247e84cdb4a8eb455fc4016b3815ae665c9fb8c19164dbc072210b18e85e3a18",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Wall St split as slide in big tech hits Nasdaq - CommBank",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemlCZEd4WDdQcGZaRmg5eUVDajE0Z0pvU0Z6blJmbVJSLWJIV08yWGQzeXhHck5oVldHRm1OdnRVQnJwMjQ5UUI5d3NsdVVhT3lMTjFaNThFR245NVN0dkp4VllCRWsxc0R3VXNORmlRR052a25heF96SmZFaUJXMmotYkdyaWtfa3hmYklJNlNlZTZCOTVPYWZQZGJZUGhueHlTSWt5ZXM?oc=5",
+      "published_at": "2026-06-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "99d83a0f1552a5d7a0390026e3cdf3c7b1fa6d950382f6aad8a0083d3ed9b5ba",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq and Risk Assets Soar as Markets Ignore US-Iran Questions - StoneX",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPemdYNERuaXdKbWd1bFRzUkZjY1lxOG9tdTYwdlhvbnlocFItNnhIdFRIbFRNMlBpeHdHRGxwMXhZNnJNbERYTEdkR0lwMWV6VWVjQ3hrSWhpT1ItZWtUQy1ndXpycmlteHRLY0FQSDZRM3NUellubnZVUi1oM0RucWUwdEhYWE5TMDI3TmlIeDV1RWVMdkxyS1NKMnQtMk52?oc=5",
+      "published_at": "2026-04-18T23:55:25+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ab88a71d0694cde50a1994ddd1a437c157b3354b59aab53e15687cf78ea57a5d",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Nasdaq confirms correction, bond prices fall as Iran crisis pushes oil to $108 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CUDZ1ZEFoT1N5X3pEbnFqZnBkbllpZS0xSlg4MUtVelN4c3VibGhrSjZIQXRDY2QyY0w2TUtTTGxvdUU4WHFrblJQdk80VlV1OG5lNm1oVThudFc2SVYza2EtUVo5SS1sd0dtMmMzZkxJazhwdDF6eVdFQTlZVEU?oc=5",
+      "published_at": "2026-03-26T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6b2cdc2ffd5d18ff8281c743c576b618ec7b14bca9b3adfdf61ef9c58b6a1b98",
+      "source_id": "google_news_us",
+      "source_tier": "MEDIA",
+      "headline": "Bitzero Holdings Inc. Receives Approval to List on The Nasdaq Stock Market - TMX Newsfile",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVXVNTXMxSmFpeExuN2NBZ1NHazVMUXg5YUozQUtYN0JONjJwMUJqcUtfSHFVLW9ScjBnWUt3WVR3Rlc5VVNGdXlkbVNRTUZ6TkN5c1FVM0pFVnZwbmMzTWxmN1BpdHhRTFYzdWlmT3ZSTFBjU1VxLVRYTGloZUtBclJhY3dtREtIdjZFVXV6djIwSHJBbnZyV0JoQTFBNWg2T3BIMFBKQWFZVUpjaG03RGlfY2tzTFYt?oc=5",
+      "published_at": "2026-06-04T21:17:08+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "9dd03b221f03b41bc6b06ce60dde6de870b61d3a79a5d0deb28f560f45fff096",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] What TSMC’s Surging Sales Growth Means for Apple and Nvidia Stocks",
+      "url": "https://www.barrons.com/articles/tsmc-stock-sales-apple-ai-3491573c",
+      "published_at": "2026-08-10T13:48:58+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3101f1a496781d6b39c5f490a1d63e2429ebf049177dc5d5e87301a9bfcb028d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Form FWP JPMORGAN CHASE & CO Filed by: JPMORGAN CHASE & CO",
+      "url": "https://www.streetinsider.com/SEC+Filings/Form+FWP+JPMORGAN+CHASE+%26amp%3B+CO+Filed+by%3A+JPMORGAN+CHASE+%26amp%3B+CO/26895609.html",
+      "published_at": "2026-08-10T13:44:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 0.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "sensational language: -2"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "56dac402ea1c83d3e5cd7e0446ee9a9bffe9c9119567e5d9a94db492e014170d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] S&P 500 Earnings Hit Best Growth Since 2021: Here's Why - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+      "url": "https://www.benzinga.com/markets/equities/26/08/61075408/sp-500-earnings-growth-q2-2026-factset",
+      "published_at": "2026-08-10T13:44:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3220e0bd4d06e7fecabca0c76d88de46b2ffceda827a666e064ad3c8e637041e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Sony, TSMC to build $6.29bn image sensor plant in Japan – report",
+      "url": "https://www.investmentmonitor.ai/news/sony-tsmc-image-sensor-plant-japan/",
+      "published_at": "2026-08-10T13:41:45+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "89fbf05b887ffebe0c502c7cba086917a0516dc9de37baad43e904838662e968",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Terreno Realty (NYSE:TRNO) Stock Price Expected to Rise, Citigroup Analyst Says",
+      "url": "https://www.marketbeat.com/instant-alerts/terreno-realty-nysetrno-stock-price-expected-to-rise-citigroup-analyst-says-2026-08-10/",
+      "published_at": "2026-08-10T13:39:33+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "644666c13c5ed09f018616f8e1265539eec424031fe2adc45b4acf2e014383a1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Form 8K The Mosaic Company For: 10 August By Investing.com",
+      "url": "https://ca.investing.com/news/stock-market-news/form-8k-the-mosaic-company-for-10-august-93CH-4789687",
+      "published_at": "2026-08-10T13:05:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5802f1bcad0288e5b6895ffbc908dbc658c142e4e5977f193b5d5888838c9d2b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JNJ] [Somewhat Bullish] Can Johnson & Johnson (JNJ) Challenge Intuitive Surgical (ISRG) After Ottava’s FDA Approval?",
+      "url": "https://ca.finance.yahoo.com/news/johnson-johnson-jnj-challenge-intuitive-124242559.html",
+      "published_at": "2026-08-10T12:42:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5701e73aa001abc8bfd8114731c7a5280835069acc4c585e1a9db42458b5b124",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Bank of America buys Southside operations center for $155 million",
+      "url": "https://www.jaxdailyrecord.com/news/2026/aug/10/bank-of-america-buys-southside-operations-center-for-155-million/",
+      "published_at": "2026-08-10T12:14:34+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2e6e50420306d3e8ada500e80e64ca78ea0bebb81cc1aac546d9126243ee56ea",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Netflix, Amazon, Amcor And A Consumer Defensive Stock: CNBC’s ‘Final Trades’",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61070947/netflix-amazon-amcor-and-a-consumer-defensive-stock-on-cnbcs-final-trades",
+      "published_at": "2026-08-10T11:43:55+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "437cb5d4ebe1e2d080a10eddc4d39503cb134b6d7641eb71cae3f19e57a54afd",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bearish] Taylor Farms Issues Voluntary Recall Of Jalapeño Products Over Salmonella Risk Hitting Walmart (NYSE: WMT) and Amazon (NASDAQ: AMZN)",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/10/taylor-farms-issues-voluntary-recall-of-jalapeno-products-over-salmonella-risk-hitting-walmart-nyse-wmt-and-amazon-nasdaq-amzn/",
+      "published_at": "2026-08-10T11:39:08+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "86acc7d0fededdee8f4209ea91eaf59d74c45d23e897eb5e8d578678b09d8ad0",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bearish] Target Hospitality raises 2026 outlook on contract wins By Investing.com",
+      "url": "https://ca.investing.com/news/stock-market-news/target-hospitality-raises-2026-outlook-on-contract-wins-93CH-4788886",
+      "published_at": "2026-08-10T11:13:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8d147379f54ff41bcd942e77b4f2daa9a661586cb9416522aff660f929cf9b07",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] EM debt broadens its appeal",
+      "url": "https://funds-europe.com/em-debt-broadens-its-appeal/",
+      "published_at": "2026-08-10T11:12:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "187d9e6c230656e2ec33bd0742c2a73a76411b461994b1ef9f76b49452247464",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bearish] Franklin Street Advisors Inc. NC Boosts Stock Holdings in Micron Technology, Inc. $MU",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-franklin-street-advisors-inc-nc-boosts-stock-holdings-in-micron-technology-inc-mu-2026-08-10/",
+      "published_at": "2026-08-10T11:09:53+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b7f3d92e7f52b24038a981bfb466072126d0702531fb1cc608c0f6c6152c172f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Bullish] Bank of America Grant Will Link New Jersey Youth to Career Paths",
+      "url": "https://www.stocktitan.net/news/BAC/bank-of-america-expands-partnership-with-big-brothers-big-sisters-of-6rurr0zpgkxf.html",
+      "published_at": "2026-08-10T10:59:35+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ea63caceb9280497ba6409d89f9cfe96b2a5e589ff3083e31535501bbbdc95c1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[CAT] [Somewhat Bullish] Franklin Street Advisors Inc. NC Purchases 1,843 Shares of Caterpillar Inc. $CAT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-franklin-street-advisors-inc-nc-purchases-1843-shares-of-caterpillar-inc-cat-2026-08-10/",
+      "published_at": "2026-08-10T10:45:34+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e0457bd4e42a61945bb9e0e8d46f568cf81df154ff8250328df9acbae7ebabde",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] JPMorgan Chase & Co. $JPM Stock Holdings Increased by Franklin Street Advisors Inc. NC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-jpmorgan-chase-co-jpm-stock-holdings-increased-by-franklin-street-advisors-inc-nc-2026-08-10/",
+      "published_at": "2026-08-10T10:43:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "533acd57b1398a635aa21e506e4850e75efa06df7b010377ced3111390235026",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Broadcom Inc. $AVGO is Franklin Street Advisors Inc. NC's 5th Largest Position",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-is-franklin-street-advisors-inc-ncs-5th-largest-position-2026-08-10/",
+      "published_at": "2026-08-10T10:43:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3dfb74a17a6100a6bf171ce2703c514365115fb51ab06edc297b94fab31e0cd5",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] American Express Company $AXP Stake Boosted by Franklin Street Advisors Inc. NC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-american-express-company-axp-stake-boosted-by-franklin-street-advisors-inc-nc-2026-08-10/",
+      "published_at": "2026-08-10T10:43:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "eaa89e7c92e235270076026f01da365957984c39824d31be8508e57ec9e68f11",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bearish] Wells Fargo initiates Csquare stock coverage with overweight rating",
+      "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-initiates-csquare-stock-coverage-with-overweight-rating-93CH-4848348",
+      "published_at": "2026-08-10T10:43:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b65766d34b882f723a73e560158fe19e9cda09b469cf9deca89a0bf3f4fe821b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] 1 Reason Lowe's May Be a Smarter Buy Than Home Depot Before Aug. 19",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/3751979/1-reason-lowes-may-be-a-smarter-buy-than-home-depot-before-aug-19/",
+      "published_at": "2026-08-10T10:40:52+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "37a954a28baf88459538994d5f1f4336be761a2b12d03432d06d9f98b17b8b00",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bearish] Fluent Financial LLC Purchases New Holdings in Paychex, Inc. $PAYX",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-fluent-financial-llc-purchases-new-holdings-in-paychex-inc-payx-2026-08-10/",
+      "published_at": "2026-08-10T10:23:39+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3ba3a8e94801280de39c6c73375bc420cf5442b02bdd1218fca762c06073e910",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Sapient Capital LLC Has $63.49 Million Position in Bank of America Corporation $BAC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-sapient-capital-llc-has-6349-million-position-in-bank-of-america-corporation-bac-2026-08-10/",
+      "published_at": "2026-08-10T10:23:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9485c20db2a5321dd6df59e65bf9ba1ab25aa294a4a5fd5d8c21cb4c2da1534f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Sapient Capital LLC Has $5.33 Million Stock Position in The Home Depot, Inc. $HD",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-sapient-capital-llc-has-533-million-stock-position-in-the-home-depot-inc-hd-2026-08-10/",
+      "published_at": "2026-08-10T10:23:25+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "68e4228f3082f81106ed2d0cbc4c998cfc160b2b2a17a213a8897fa6eab82570",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] ExxonMobil Corporation $XOM Shares Sold by Sapient Capital LLC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-exxonmobil-corporation-xom-shares-sold-by-sapient-capital-llc-2026-08-10/",
+      "published_at": "2026-08-10T10:23:15+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1f917739002c6fb45b46cd57a5114a32c09bd58d8ad7a624b18b64aa5c820b77",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Fluent Financial LLC Invests $1.32 Million in The Clorox Company $CLX",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-fluent-financial-llc-invests-132-million-in-the-clorox-company-clx-2026-08-10/",
+      "published_at": "2026-08-10T10:23:09+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7c75ad2df9860ce4daf72fa9f788744dad0244c51269398ac2735d499d2395b1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] World Equity Group Inc. Sells 9,045 Shares of Citigroup Inc. $C",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-world-equity-group-inc-sells-9045-shares-of-citigroup-inc-c-2026-08-10/",
+      "published_at": "2026-08-10T10:16:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fc362d131153a69c65bd0b1ebd3b79672632d3e881202c8c62f4a8bf703daafb",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[META] [Somewhat Bullish] Vistra Corp. Q2 2026: Revenue $4.02B, EPS $0.76— 10-Q Summary",
+      "url": "https://www.tradingview.com/news/tradingview:cbfaebad6fe5b:0-vistra-corp-q2-2026-revenue-4-02b-eps-0-76-10-q-summary/",
+      "published_at": "2026-08-10T10:10:57+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2c371c4ded834f749b69673be550d73340f2a462b081373beb9a16a8b112d9a8",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JNJ] [Somewhat Bearish] This Insider Has Just Sold Shares In Johnson & Johnson",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-jnj/johnson-johnson/news/this-insider-has-just-sold-shares-in-johnson-johnson-1",
+      "published_at": "2026-08-10T10:06:27+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "24c7cd58e09270ffab0f27bfe0bd57d8dc813d3eaa5c75524bc5b4bb4fdcfdf3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] StoneCrest Wealth Management Inc. Acquires 7,841 Shares of Broadcom Inc. $AVGO",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-stonecrest-wealth-management-inc-acquires-7841-shares-of-broadcom-inc-avgo-2026-08-10/",
+      "published_at": "2026-08-10T10:03:18+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6389032ec92197160b313dd3902c8257c94d12eb6045f07703031660e968994e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LMT] [Somewhat Bullish] Vertrix Wealth Management LLC Makes New Investment in RTX Corporation $RTX",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-vertrix-wealth-management-llc-makes-new-investment-in-rtx-corporation-rtx-2026-08-10/",
+      "published_at": "2026-08-10T09:54:52+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "95ca06a47fef8221103b1b5e758c39aeb688eacfe0ec5c94273548b08d67e025",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bearish] TOWER TRUST & INVESTMENT Co Cuts Holdings in Advanced Micro Devices, Inc. $AMD",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-tower-trust-investment-co-cuts-holdings-in-advanced-micro-devices-inc-amd-2026-08-10/",
+      "published_at": "2026-08-10T09:47:29+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2dae1d6603e474c6624fc00d2f9c797b014768d25a56c29a0fb571708da30580",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Herbst Group LLC Makes New Investment in Broadcom Inc. $AVGO",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-herbst-group-llc-makes-new-investment-in-broadcom-inc-avgo-2026-08-10/",
+      "published_at": "2026-08-10T09:47:18+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8216ade33ebbc2131ce4c7e8c6d83ce35e3020fdc4150f5c64d3772345166c45",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LMT] [Somewhat Bullish] Hennion & Walsh Asset Management Inc. Acquires 4,634 Shares of RTX Corporation $RTX",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-hennion-walsh-asset-management-inc-acquires-4634-shares-of-rtx-corporation-rtx-2026-08-10/",
+      "published_at": "2026-08-10T09:44:52+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "afec15a4325e46ca2f638eab486b5d6f579d13dc14cbf44b2960b6a3d611b06b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/3750968/micron-trades-at-6-times-next-years-earnings-the-38-billion-of-capacity-that-ends-this-cycle-doesnt-open-until-2028/",
+      "published_at": "2026-08-10T09:40:19+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d0132a9918a18afb06a3e6e7a2fd6810d0575ab50377249a4f3ee658d7b3048e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[LLY] [Bullish] NewEdge Advisors LLC Grows Stake in CVS Health Corporation $CVS",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-newedge-advisors-llc-grows-stake-in-cvs-health-corporation-cvs-2026-08-10/",
+      "published_at": "2026-08-10T09:39:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "101ec87eb743dab4913c06483fda545fbae6ea9fb68b4259c4608c6820c631c4",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Sax Wealth Advisors LLC Purchases 1,371 Shares of Costco Wholesale Corporation $COST",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-sax-wealth-advisors-llc-purchases-1371-shares-of-costco-wholesale-corporation-cost-2026-08-10/",
+      "published_at": "2026-08-10T09:30:51+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d5496b097597a8ceaf732558df918adf9e7d1d74a143c2a12002a4d6176842ba",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Somewhat Bullish] Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.",
+      "url": "https://www.fool.com/investing/2026/08/10/warren-buffett-alphabet-stock-might-buy-this-next/",
+      "published_at": "2026-08-10T09:30:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b5ea46f9565b9c2372dff17393e795e5315bb8564bd42621344fa78f695ef167",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Bullish] JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/jpmorgan-strategists-raise-s-p-500-target-as-ai-capex-pays-off",
+      "published_at": "2026-08-10T09:28:28+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c8d0a4b9d9eede51a2f753c5eaf201abacd0a85432bee51fb7957e55a02d12c8",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Janus Henderson Group PLC Sells 428,264 Shares of Openlane $OPLN",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-janus-henderson-group-plc-sells-428264-shares-of-openlane-opln-2026-08-10/",
+      "published_at": "2026-08-10T09:05:09+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a859ecbf86cec7226f0c0b29383c29287a46bf91512b9b3120b8deb3d5c3f32b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Somewhat Bullish] Positano Wealth Management Ltd Cuts Holdings in Alphabet Inc. $GOOGL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-positano-wealth-management-ltd-cuts-holdings-in-alphabet-inc-googl-2026-08-10/",
+      "published_at": "2026-08-10T09:04:38+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3aa741809104270aa9ddda6d0a6ef33a18d2bd99f20dc41bcf61bea0f162c149",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Microchip's Data Center Revenue Grew 98% Last Quarter. Here's Why It's Guiding to $1 Billion for the Year.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microchips-data-center-revenue-grew-085700522.html",
+      "published_at": "2026-08-10T08:57:27+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "084559096535db0116d717d353f677cc5d51b2782eb9d01579c66abe43593aea",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Sei Investments Co. Sells 111,109 Shares of Microsoft Corporation $MSFT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-sei-investments-co-sells-111109-shares-of-microsoft-corporation-msft-2026-08-10/",
+      "published_at": "2026-08-10T08:49:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0f6132c604c75f6781b790d4c9053edc06cf840ba4ada1c5bc76c3339a370b2e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] The Manufacturers Life Insurance Company Takes $2.07 Million Position in Petroleo Brasileiro S.A.- Petrobras $PBR",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-the-manufacturers-life-insurance-company-takes-207-million-position-in-petroleo-brasileiro-sa-petrobras-pbr-2026-08-10/",
+      "published_at": "2026-08-10T08:49:11+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a16baa26668d27bde31c72c3e7a64413875c968aeb3edcee2501a58905eb9470",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Vivaldi Capital Management LP Has $37.35 Million Stock Holdings in Apple Inc. $AAPL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-vivaldi-capital-management-lp-has-3735-million-stock-holdings-in-apple-inc-aapl-2026-08-10/",
+      "published_at": "2026-08-10T08:49:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "5f59db3721ef775f8af05846532d75ec7e09aac0145873dbe153fdf41bf9d81b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] The Top 5 Analyst Questions From Diamondback Energy’s Q2 Earnings Call",
+      "url": "https://stockstory.org/us/stocks/nasdaq/fang/news/earnings-call/the-top-5-analyst-questions-from-diamondback-energys-q2-earnings-call",
+      "published_at": "2026-08-10T08:48:23+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "eb9cf699a00d692b78b54061ad8cc95d69390508203203ab4f9069e016b6f668",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Bullish] Gibbs Wealth Management Increases Stake in Microsoft Corporation $MSFT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-gibbs-wealth-management-increases-stake-in-microsoft-corporation-msft-2026-08-10/",
+      "published_at": "2026-08-10T08:47:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b0205f769b60afc09cb3f7f55ec67a11cd72bb6e150742cf2b1badc90d550998",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Bullish] Microsoft Corporation $MSFT Shares Purchased by Siren L.L.C.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-shares-purchased-by-siren-llc-2026-08-10/",
+      "published_at": "2026-08-10T08:47:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f58f6e4b96fc70c626c14115d6ab71db75c672c5e651f9564ceedded1b8f247b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Bullish] Inceptionr LLC Purchases Shares of 1,797 Microsoft Corporation $MSFT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-inceptionr-llc-purchases-shares-of-1797-microsoft-corporation-msft-2026-08-10/",
+      "published_at": "2026-08-10T08:47:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "39ff7130df1c29f0376e799ad5081a5dc9e72d4775846393b48209298af8b290",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] First Washington CORP Has $6.05 Million Stock Position in Microsoft Corporation $MSFT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-first-washington-corp-has-605-million-stock-position-in-microsoft-corporation-msft-2026-08-10/",
+      "published_at": "2026-08-10T08:47:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d15eef22a18b9bbf1d8c7f470943f0e0e9f9ef6b059bfc2f04baab84bb6e64bb",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] KCM Investment Advisors LLC Sells 4,757 Shares of Amazon.com, Inc. $AMZN",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-kcm-investment-advisors-llc-sells-4757-shares-of-amazoncom-inc-amzn-2026-08-10/",
+      "published_at": "2026-08-10T08:47:11+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0694c2223dac3aa21ac12fa63b22524a6488689937b52e9a700accb13c57052c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Bullish] Q Global Advisors LLC Purchases Shares of 15,384 Amazon.com, Inc. $AMZN",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-q-global-advisors-llc-purchases-shares-of-15384-amazoncom-inc-amzn-2026-08-10/",
+      "published_at": "2026-08-10T08:47:11+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "273d904c86eb75e22ddd072b074a4bc54b669bf5b94eca4e92b950ebe156c728",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Sentinel Advisory Group LLC Invests $1.20 Million in Apple Inc. $AAPL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-sentinel-advisory-group-llc-invests-120-million-in-apple-inc-aapl-2026-08-10/",
+      "published_at": "2026-08-10T08:47:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2ffb1e87a96e7cbb6f5e0f045950a67cc1e4169b0dcb78957d741d00b840644a",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Morningstar Investment Management LLC Sells 4,300 Shares of Apple Inc. $AAPL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-morningstar-investment-management-llc-sells-4300-shares-of-apple-inc-aapl-2026-08-10/",
+      "published_at": "2026-08-10T08:47:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "730d6afde834bb27bbb544772fc1d7dd4c7c226f970f3b03ceb069b49c6b4da3",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Bullish] Pennington Partners & CO. LLC Buys 16,379 Shares of Apple Inc. $AAPL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-pennington-partners-co-llc-buys-16379-shares-of-apple-inc-aapl-2026-08-10/",
+      "published_at": "2026-08-10T08:47:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "def4fdb38e8f9559658c2f1fa07d71234c380fd58ec1b69575f80bab9898e489",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Royal Bank of Canada Raises Position in Honda Motor Co., Ltd. $HMC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-royal-bank-of-canada-raises-position-in-honda-motor-co-ltd-hmc-2026-08-10/",
+      "published_at": "2026-08-10T08:45:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "976a47d0affe71fd793bc30d7e243a1ce39c33e1b275311708d32e2cb8673059",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Finivi Inc. Boosts Holdings in Union Pacific Corporation $UNP",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-finivi-inc-boosts-holdings-in-union-pacific-corporation-unp-2026-08-10/",
+      "published_at": "2026-08-10T08:42:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e5732292c81cf3cfad8401628deb3b74374612b97131d6a4822fdab0e91b70dc",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[CAT] [Somewhat Bullish] Deane Retirement Strategies Inc. Has $2.81 Million Stake in Caterpillar Inc. $CAT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-deane-retirement-strategies-inc-has-281-million-stake-in-caterpillar-inc-cat-2026-08-10/",
+      "published_at": "2026-08-10T08:24:58+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "30c44db772268c36975fb880a96f510299f482634e6b7f41d66c7e5db5ec9d07",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Deane Retirement Strategies Inc. Invests $2.73 Million in American Express Company $AXP",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-deane-retirement-strategies-inc-invests-273-million-in-american-express-company-axp-2026-08-10/",
+      "published_at": "2026-08-10T08:24:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4f3fe4a6da43eff1a73b695fbe3e1ae289237b839dc3e858a2482e82a5508ed9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Deane Retirement Strategies Inc. Buys Shares of 8,280 JPMorgan Chase & Co. $JPM",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-deane-retirement-strategies-inc-buys-shares-of-8280-jpmorgan-chase-co-jpm-2026-08-10/",
+      "published_at": "2026-08-10T08:24:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ebd4bbab3afdbee6d13eca09ab78e2f1b8b0278e503e2a9f34c0458eb4339532",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Bullish] TSMC Sales Jumps 45% as Nvidia-Driven AI Boom Powers Chip Demand",
+      "url": "https://ca.finance.yahoo.com/news/tsmc-sales-jumps-45-nvidia-121836175.html",
+      "published_at": "2026-08-10T08:18:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3372e7a083a50336187aedd1d9cd714b9407354ca7271211c339c5904f51c30c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[CAT] [Somewhat Bullish] Terex Corporation $TEX Shares Bought by Contravisory Investment Management Inc.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-terex-corporation-tex-shares-bought-by-contravisory-investment-management-inc-2026-08-10/",
+      "published_at": "2026-08-10T08:15:27+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "27aad393597d03af7a26c3cd43fe9f90e1fb8a45102abd4651305c54bca57857",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] GBank Financial Holdings Inc. (NASDAQ:GBFH) Given Consensus Rating of \"Moderate Buy\" by Analysts",
+      "url": "https://www.marketbeat.com/instant-alerts/gbank-financial-holdings-inc-nasdaqgbfh-given-consensus-rating-of-moderate-buy-by-analysts-2026-08-10/",
+      "published_at": "2026-08-10T08:12:34+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "595c801439dc8d52a742992c9160cd32436b509436fd32e6b992f0833cb5b80c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Super Micro Computer, Inc. $SMCI Shares Bought by Czech National Bank",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-super-micro-computer-inc-smci-shares-bought-by-czech-national-bank-2026-08-10/",
+      "published_at": "2026-08-10T07:59:26+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "65b33985784a5aead7f41f4b1441b3b77f99f82c4efd5b30e77dd84cb9358651",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Bullish] 34,271 Shares in Alphabet Inc. $GOOGL Acquired by Brandywine Financial Group",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-34271-shares-in-alphabet-inc-googl-acquired-by-brandywine-financial-group-2026-08-10/",
+      "published_at": "2026-08-10T07:50:13+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2ee0626af3f09f50c8e91605a0d8543d5b713ee8550fed87a8d675794d29fd7c",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Bullish] Microsoft Corporation $MSFT is Caxton Associates LLP's Largest Position",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-is-caxton-associates-llps-largest-position-2026-08-10/",
+      "published_at": "2026-08-10T07:48:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "de4d04e3a45dff53899129b9f55878e3ee53f93d76c168ff62621c5dd18bee1e",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] CoreCap Advisors LLC Reduces Position in BlackRock $BLK",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-corecap-advisors-llc-reduces-position-in-blackrock-blk-2026-08-10/",
+      "published_at": "2026-08-10T07:48:27+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "97a3dd951ff4879e30323f9381e7b39f5653f39b605cb27b095e18b005099b19",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Dimensional Fund Advisors LP Purchases 234,356 Shares of NB Bancorp, Inc. $NBBK",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-dimensional-fund-advisors-lp-purchases-234356-shares-of-nb-bancorp-inc-nbbk-2026-08-10/",
+      "published_at": "2026-08-10T07:48:25+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "811012b47b68af46ff26149ea00e3a7aa09550869d81fa9d8159351b76a52865",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Bank of America Corp DE Increases Stake in Shake Shack, Inc. $SHAK",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-increases-stake-in-shake-shack-inc-shak-2026-08-10/",
+      "published_at": "2026-08-10T07:48:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2bad1f9316473ed99d09fcb3b26735914e3f1aa46f60445326401293c42d2c09",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Amazon.com, Inc. $AMZN is Evercore Wealth Management LLC's 5th Largest Position",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-is-evercore-wealth-management-llcs-5th-largest-position-2026-08-10/",
+      "published_at": "2026-08-10T07:48:12+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9b135a3645194c8b03d57d7de48d7d6e57d6475bf7f1b8ddd54da700865d0f07",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Bullish] Amazon.com, Inc. $AMZN Shares Acquired by Excelsior Advisor Network LLC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-acquired-by-excelsior-advisor-network-llc-2026-08-10/",
+      "published_at": "2026-08-10T07:48:10+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e9babcbb810defc8b21445c007f1b7277cb0b7d19ef90c39930fbf0e90ba5f5f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Apple Inc. $AAPL Shares Acquired by Bollard Group LLC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-acquired-by-bollard-group-llc-2026-08-10/",
+      "published_at": "2026-08-10T07:48:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c938fba215f7d7ec397e8e4210ebcc6093ae04d446445a75ed3ee9008c3d150b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Dai ichi Life Insurance Company Ltd Sells 27,471 Shares of Apple Inc. $AAPL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-dai-ichi-life-insurance-company-ltd-sells-27471-shares-of-apple-inc-aapl-2026-08-10/",
+      "published_at": "2026-08-10T07:48:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4de67177ff8bb8c15661ec5e3e93f42172e2d2da50db8fa22dff9b43fdd4037b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Best Buy Co., Inc. $BBY Shares Acquired by Bank of America Corp DE",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-best-buy-co-inc-bby-shares-acquired-by-bank-of-america-corp-de-2026-08-10/",
+      "published_at": "2026-08-10T07:44:41+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "5db93f41abdda16f05eeba117750f5f153ad39f05dbf53bd20bd87e18e50c347",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Amazon.com, Inc. $AMZN Stock Position Lifted by Evelyn Partners Investment Management Services Ltd",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-position-lifted-by-evelyn-partners-investment-management-services-ltd-2026-08-10/",
+      "published_at": "2026-08-10T07:44:12+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3c9ddbe2648da082532d906fa3cdc626c766aead408f7f9465726cac71778004",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Bullish] Family Manage LLC Acquires 17,646 Shares of Amazon.com, Inc. $AMZN",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-family-manage-llc-acquires-17646-shares-of-amazoncom-inc-amzn-2026-08-10/",
+      "published_at": "2026-08-10T07:44:12+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0200751cf258ca2b9abdadf4dc14315d8dec732b784fc8aa89592e5c8d42905d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Clarkston Capital Partners LLC Sells 88,088 Shares of Microsoft Corporation $MSFT",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-clarkston-capital-partners-llc-sells-88088-shares-of-microsoft-corporation-msft-2026-08-10/",
+      "published_at": "2026-08-10T07:43:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a5141abc4f91e0f8b5509b7044b6102f98d8079cbbbabb79475c08c4352b40b9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Empowered Funds LLC Has $136.61 Million Stock Position in JPMorgan Chase & Co. $JPM",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-empowered-funds-llc-has-13661-million-stock-position-in-jpmorgan-chase-co-jpm-2026-08-10/",
+      "published_at": "2026-08-10T07:43:52+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3f48f7a15879692a7a353f54a6ce6129bdf252e9207fced37b55371d27876fe7",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Assenagon Asset Management S.A. Purchases 53,512 Shares of Tyler Technologies, Inc. $TYL",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-assenagon-asset-management-sa-purchases-53512-shares-of-tyler-technologies-inc-tyl-2026-08-10/",
+      "published_at": "2026-08-10T07:42:43+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "47ddc20c26b183dad2ec0c725070538ae5dc60b2cf9cb967d2b4fe9db88f8c9b",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Bullish] Best Income Stocks to Buy for August 10th",
+      "url": "https://sg.finance.yahoo.com/news/best-income-stocks-buy-august-075600424.html",
+      "published_at": "2026-08-10T07:38:57+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "3a48d59955cec474d48b17bceea1a2073f79dab7e9ccc52fb0f6ceca0ab12410",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AAPL] [Somewhat Bullish] Apple Inc. $AAPL Shares Purchased by Arrowstreet Capital Limited Partnership",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-purchased-by-arrowstreet-capital-limited-partnership-2026-08-10/",
+      "published_at": "2026-08-10T07:30:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f6a9392d23dca8c0fb890332a6ce3e338a8b8261ef58d9a5cbafef484439ca95",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Gartner Forecasts Worldwide AI-Optimized IaaS Spending to Grow 96% in 2026",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-10-gartner-forecasts-worldwide-artificial-intelligence-optimized-iaas-spending-to-grow-96-percent-in-2026",
+      "published_at": "2026-08-10T07:29:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b2f744094dbbae0cca94ef32126b720d6654d110aa3e22761c06ef9e6f9a4948",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Bank of America Corp DE Sells 24,520 Shares of HubSpot, Inc. $HUBS",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-sells-24520-shares-of-hubspot-inc-hubs-2026-08-10/",
+      "published_at": "2026-08-10T07:28:20+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "196513863b85c23084577a7c36317511f9c74846b184e753489f68b6754f4e99",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bearish] Bank of America Corp DE Has $72.87 Million Stock Position in Builders FirstSource, Inc. $BLDR",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-has-7287-million-stock-position-in-builders-firstsource-inc-bldr-2026-08-10/",
+      "published_at": "2026-08-10T07:26:19+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "83a089441a51da55cc45578f3995bd31c2498988e72729b103f10b392cd7252f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Bank of America Corp DE Buys 43,043 Shares of The J. M. Smucker Company $SJM",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-43043-shares-of-the-j-m-smucker-company-sjm-2026-08-10/",
+      "published_at": "2026-08-10T07:25:52+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "590261948b68a98195365f9553b98984f6f11d7f25c18b51c1af1739c47db4ac",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Assenagon Asset Management S.A. Sells 15,161 Shares of Cisco Systems, Inc. $CSCO",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-assenagon-asset-management-sa-sells-15161-shares-of-cisco-systems-inc-csco-2026-08-10/",
+      "published_at": "2026-08-10T07:25:46+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7409e502089d337e0e87c34eb898af2e1422b544c144b20719e56067bfc7c327",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] AI Computing Power Crunch Sparks New Opportunities: America's Largest Oil Field Transforms into Data Center Hub, Sending Land Valuations Soaring",
+      "url": "https://finance.biggo.com/news/822805bd-a3ee-4908-b823-47cd72115378",
+      "published_at": "2026-08-10T07:25:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5633e985ca86b01d4f1ca7ed764b09fd9bfacb02a552b944405149569b08ea15",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] 3,756,576 Shares in NIO Inc. $NIO Acquired by Assenagon Asset Management S.A.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-3756576-shares-in-nio-inc-nio-acquired-by-assenagon-asset-management-sa-2026-08-10/",
+      "published_at": "2026-08-10T07:13:01+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e73b4d81520d6fe2aa7521e6c905042af8c986c6001af0a919ff299b785d1c24",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] JPMorgan Builds Notifiable 5% Stake in Hexagon Composites",
+      "url": "https://www.tipranks.com/news/company-announcements/jpmorgan-builds-notifiable-5-stake-in-hexagon-composites",
+      "published_at": "2026-08-10T07:09:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c78fe119ed83d2f262e4abf762eaa700e3e13cb7572446129bf0b723e9c872fd",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[BAC] [Somewhat Bullish] Allied Private Wealth LLC Makes New Investment in Citigroup Inc. $C",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-allied-private-wealth-llc-makes-new-investment-in-citigroup-inc-c-2026-08-10/",
+      "published_at": "2026-08-10T07:06:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cda33df3f39148be4e3fbd1540fc90ef20794f880c2b2e3c8f3cba953b147d9f",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Bullish] Alphabet Inc. $GOOGL Shares Bought by AMS Capital Ltda",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-googl-shares-bought-by-ams-capital-ltda-2026-08-10/",
+      "published_at": "2026-08-10T07:05:28+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0f59f41abb5bc6a1adcefd7c3ee477e1613555d0047b74ae013ad091bbf8f1b1",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bearish] Advanced Micro Devices, Inc. (NASDAQ:AMD) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
+      "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-inc-nasdaqamd-given-consensus-recommendation-of-moderate-buy-by-analysts-2026-08-10/",
+      "published_at": "2026-08-10T06:41:09+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cd1fc345467d6d536f35e4e6cba0ffa3ddc852dfe1ebef6d6c3964dd40ae1dd9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] TMD Energy Ltd (TMDE) Earnings Forecast: Future EPS & Revenue Growth Estimates",
+      "url": "https://www.tradingkey.com/markets/stocks/tmde/forecast",
+      "published_at": "2026-08-10T06:15:33+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "589f065a14c593fe06861165cd8a399bfffea23855dc7372db2ae3bd0a2952b6",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] PLDT Home Selects Amdocs for Core Platform Modernization",
+      "url": "https://www.telecomreviewasia.com/news/industry-news/29952-pldt-home-selects-amdocs-for-core-platform-modernization/",
+      "published_at": "2026-08-10T05:41:22+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e2363e3ed759685c15a4c0831710a709b27522ea819383809f1257f5925763c5",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[GOOGL] [Somewhat Bullish] Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-cites-data-point-053551712.html",
+      "published_at": "2026-08-10T05:39:13+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "781014dd94b8fd58367699f0031c7289b09ccc0f5eaa53940fdff5b27006d814",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] Forget Chips: AI Is Now a Power Trade. These 2 Dividend-Paying Industrials Prove It.",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3748577/forget-chips-ai-is-now-a-power-trade-these-2-dividend-paying-industrials-prove-it/",
+      "published_at": "2026-08-10T05:16:47+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "10bb06dcaae5f7b697172d8d5d898c3cd156b540d7685524c53f6247dff77440",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bullish] Turning Point Brands (NYSE:TPB) Raised to Sell at Wall Street Zen",
+      "url": "https://www.marketbeat.com/instant-alerts/turning-point-brands-nysetpb-raised-to-sell-at-wall-street-zen-2026-08-10/",
+      "published_at": "2026-08-10T05:13:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "c2082dce81decacdc06ed7040407b137a6348e78874e519b699bdf8ab17c7ef9",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMD] [Somewhat Bearish] Farmers National Banc (NASDAQ:FMNB) Upgraded at Wall Street Zen",
+      "url": "https://www.marketbeat.com/instant-alerts/farmers-national-banc-nasdaqfmnb-upgraded-at-wall-street-zen-2026-08-10/",
+      "published_at": "2026-08-10T05:11:17+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0c41bfbdb9af7c0fc232961f29f1625ff57d2b22c34af19a61707d221be91c07",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[AMZN] [Somewhat Bullish] Vistra (VST) Could Be 53% Undervalued On EBITDA Growth And Data Center Deal",
+      "url": "https://simplywall.st/stocks/us/utilities/nyse-vst/vistra/news/vistra-vst-could-be-53-undervalued-on-ebitda-growth-and-data/amp",
+      "published_at": "2026-08-10T05:09:23+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4d9e72a5cdf5cef7d7b34333b630f119bc2a4a7174a3ac33de899b1397efb500",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[NVDA] Form 4 Gift | Insider: COXE TENCH  (CIK 0001197647) | Company: NVIDIA CORP  (CIK 0001045810) | Filed: 2026-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1197647/000119764726000007/0001197647-26-000007-index.htm",
+      "published_at": "2026-08-07T14:00:00+00:00",
+      "category": "Gift",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Gift': +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "56959f4d53649ba259646007c701bc9dd663061fa86849ff3f8f988e4f250b45",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[MSFT] Form 4 Insider Sell | Insider: Althoff Judson  (CIK 0001868758) | Company: MICROSOFT CORP  (CIK 0000789019) | Filed: 2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1868758/000078901926000143/0000789019-26-000143-index.htm",
+      "published_at": "2026-08-06T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "41865c8abd93c4e06e292ecb40969fed09d7f0ba7759b0764837cae504e34571",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[GOOGL] Form 4 Gift | Insider: Hennessy John L.  (CIK 0001198046) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1198046/000119312526338824/0001193125-26-338824-index.htm",
+      "published_at": "2026-08-06T14:00:00+00:00",
+      "category": "Gift",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Gift': +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e40c2058979370fd581efa9bfb75da2bce1165b46fd26b7b042728bd61e28953",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[META] Form 4 Insider Sell | Insider: KIMMITT ROBERT M  (CIK 0001181218) | Company: Meta Platforms, Inc.  (CIK 0001326801) | Filed: 2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326011964/0000950103-26-011964-index.htm",
+      "published_at": "2026-08-05T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "354876c24404a56649298dd6447d1556d56782bf7fb09d07203d37b2c40134a8",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[META] Form 4 Conversion | Insider: Zuckerberg Mark  (CIK 0001548760) | Company: Meta Platforms, Inc.  (CIK 0001326801) | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1548760/000095010326011908/0000950103-26-011908-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Conversion",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Conversion' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "98fafcb427a829d9f70e5fa84a0b668f35b578b2e6328e7ef25668aa591f2871",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMD] 8-K: Results of Operations / Earnings, Regulation FD Disclosure | Period: 2026-08-04 | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/0000002488-26-000121-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Results of Operations / Earnings",
+      "tag": "RELEVANT",
+      "noise_score": 8.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Financial Results': +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6fcb8bdf0365cc6e67cb709706d108bdeeddab2be941544e8d632e3db1d232d2",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[LLY] Form 4 Option Exercise | Insider: Seymour Melissa  (CIK 0002032089) | Company: ELI LILLY & Co  (CIK 0000059478) | Filed: 2026-08-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/2032089/000203208926000002/0002032089-26-000002-index.htm",
+      "published_at": "2026-08-03T14:00:00+00:00",
+      "category": "Option Exercise",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Option Exercise' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "406efdc78335021f71c1603ad43f7e0ef1d99935f586469393b54a102b618d82",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[JNJ] 8-K: Departure/Election of Directors or Principal Officers | Period: 2026-08-04 | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000167/0000200406-26-000167-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Departure/Election of Directors or Principal Officers",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Director Change' ambiguous — LLM deferred: +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "261c749d07e8d3a896a3855fc20fc7949474b9e6992f6a0605cc402cfb26192d",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[JNJ] Form 4 Insider Sell | Insider: Forminard Elizabeth  (CIK 0001950802) | Company: JOHNSON & JOHNSON  (CIK 0000200406) | Filed: 2026-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1950802/000020040626000169/0000200406-26-000169-index.htm",
+      "published_at": "2026-08-07T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cdd45b5a65fb41c19039525e10d395af0186ef205fa065d9487b0864ced603d4",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[LMT] Form 4 Unclassified | Insider: St John Frank A  (CIK 0001728300) | Company: LOCKHEED MARTIN CORP  (CIK 0000936468) | Filed: 2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728300/000122520826006930/0001225208-26-006930-index.htm",
+      "published_at": "2026-08-04T14:00:00+00:00",
+      "category": "Unclassified",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Unclassified' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "af2e3dc2febb4d4216ef1a28e988b4e3511e95e842d6492bdd1c9f3d6175eddd",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMZN] Form 4 Insider Sell | Insider: BEZOS JEFFREY P  (CIK 0001043298) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043298/000101872426000028/0001018724-26-000028-index.htm",
+      "published_at": "2026-08-05T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    }
+  ]
+}
