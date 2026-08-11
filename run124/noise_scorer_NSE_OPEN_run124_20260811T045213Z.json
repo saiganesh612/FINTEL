@@ -1,0 +1,2600 @@
+{
+  "stage": "noise_scorer",
+  "session_type": "NSE_OPEN",
+  "generated_at": "20260811T045213Z",
+  "record_count": 165,
+  "records": [
+    {
+      "item_hash": "a5fe99cba662c55f591c7f082a03e2129aef818ea4844137ddfefef58e1e4b67",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "BSE shares to join rival NSE's benchmark index Nifty 50. What this means for shareholders",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bse-shares-to-join-rival-nses-benchmark-index-nifty-50-what-this-means-for-shareholders/articleshow/133142094.cms",
+      "published_at": "2026-08-11T04:30:28+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "07eaa67f6e9fc7987b9c2604f2825a760ae90f625014d410065599282adfecad",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Retail investors make Rs 18,000 crore bold contra bet on 6 falling bluechip stocks. Will it pay off?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/retail-investors-make-rs-18000-crore-bold-contra-bet-on-6-falling-bluechip-stocks-will-it-pay-off/articleshow/133142033.cms",
+      "published_at": "2026-08-11T04:24:35+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "62462309d6b4abf9862999f24cbef98487a4d79eb967c05d7609ae876e789ed4",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Gold prices rise Rs 6,600/10g in 3 days; silver jumps Rs 16,200/kg ahead of US inflation data. Big rally brewing?",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-6600/10g-in-3-days-silver-jumps-rs-16200/kg-ahead-of-us-inflation-data-big-rally-brewing/articleshow/133141863.cms",
+      "published_at": "2026-08-11T04:12:05+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6b406d3c06118022080cb0c48234f8c4365c8cdd2d44d7ae8648b88d888a9c04",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Sensex falls over 300 points, Nifty below 24,550 as oil prices rise. What lies ahead?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-over-300-points-nifty-below-24550-as-oil-prices-rise-what-lies-ahead/articleshow/133141558.cms",
+      "published_at": "2026-08-11T03:57:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "920618219a0c22a8111ba57c311e33b683ef60a8980e036363bbbb5ee022d668",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "State Bank of India taps dollar bond market with five-year issue: Report",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/state-bank-of-india-taps-dollar-bond-market-with-five-year-issue-report/articleshow/133141420.cms",
+      "published_at": "2026-08-11T03:46:35+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "459b8dbf8eaf2e7cce82b9b4831a8e422af94d36bc9233342e24399d9b05e43f",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Adani Group stocks jump up to 3% after US judge drops criminal case against Gautam Adani. What investors should know",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-group-stocks-in-focus-after-us-judge-drops-criminal-case-against-gautam-adani/articleshow/133141156.cms",
+      "published_at": "2026-08-11T03:21:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1",
+        "ticker ADANIGREEN has risk_flag: -1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "dcd3aa8110701ea8a7617cdb128b4b64c31259718a42d16c78b2df9219af5e79",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Wipro Share Price Live Updates: Wipro's Weekly Returns Reflect a Downward Trend",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/wipro-stock-price-today-live-11-aug-2026/liveblog/133141056.cms",
+      "published_at": "2026-08-11T03:06:28+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "781e175cce2aa43d22220e1bb3838f15572d2b5058db5394c5a30393df5d745d",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "SBI Life Share Price Live Updates: SBI Life's Market Engagement",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-share-price-today-live-updates-11-aug-2026/liveblog/133140809.cms",
+      "published_at": "2026-08-11T02:50:40+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8d1d87fb911de1e60690bd9edf41c65154a29ad6ada985f9343f470af0d147aa",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Stocks to buy in 2026 for long term: Indian Metal &amp; Ferro Alloys, SBI among 5 stocks that could give 10-30% return",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-indian-metal-amp-ferro-alloys-sbi-among-5-stocks-that-could-give-10-30-return/slideshow/133140812.cms",
+      "published_at": "2026-08-11T02:43:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4a6571b99359480015252d6e8e520d5d8edc5c3908065633de14936c667c92b5",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "TCS Share Price Live Updates: TCS Sees 1.94% Drop in Weekly Returns",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-live-updates-11-aug-2026/liveblog/133140660.cms",
+      "published_at": "2026-08-11T02:40:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3984995856894ac120739437764c25c8c34e60a88a2ff9dc724df0e6da0e695a",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "ICICI Bank Share Price Live Updates: ICICI Bank Reports Negative Weekly Returns",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/icici-bank-share-price-today-live-11-aug-2026/liveblog/133140659.cms",
+      "published_at": "2026-08-11T02:40:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "756d782cd9913e1361108984dfc8cf5100135e39c2c379fb8e4dfe7a863dc0ee",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki's Stock Performance Reflects a Weekly Decline",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-11-aug-2026/liveblog/133140578.cms",
+      "published_at": "2026-08-11T02:31:23+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d5eda72d3393b0aefb60bba9a9bb617811f6fbdff7b364a550590a96fcb6cf8c",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "HDFC Bank Share Price Live Updates: HDFC Bank's Stock Hits New Low",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-11-aug-2026/liveblog/133140572.cms",
+      "published_at": "2026-08-11T02:31:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6899becc4b6693a8556ada47fa04a9b0ab7db91d5f4398fdc392e63bea3dfc9e",
+      "source_id": "et_markets",
+      "source_tier": "MEDIA",
+      "headline": "Bharti Airtel Share Price Live Updates: Bharti Airtel Trading Below Key Support Level",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bharti-airtel-share-price-live-11-aug-2026/liveblog/133140566.cms",
+      "published_at": "2026-08-11T02:30:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "b4826cf9f7956ce5a8f28cec7f9817c80f2f88e672087ae671bc614331600c87",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Buy HDFC Bank; target of Rs 1,850: ICICI Securities",
+      "url": "https://www.moneycontrol.com/news/recommendations/buy-hdfc-bank-targetrs-1850-icici-securities_17531671.html",
+      "published_at": "2024-04-23T08:11:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9af268c3c1b36a6cb27aedb1ec66ca09241e008c0e4faee86e5b3f0cb97e7670",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Reduce Persistent Systems; target of Rs 3700: Emkay Global Financial",
+      "url": "https://www.moneycontrol.com/news/recommendations/reduce-persistent-systems-targetrs-3700-emkay-global-financial_17531581.html",
+      "published_at": "2024-04-23T07:56:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2b030f32790eb4728ee2f1576b72e8fba63c9e61ded1f5f301a4d542daccd156",
+      "source_id": "moneycontrol",
+      "source_tier": "MEDIA",
+      "headline": "Accumulate Infosys; target of Rs 1531: KR Choksey",
+      "url": "https://www.moneycontrol.com/news/recommendations/accumulate-infosys-targetrs-1531-kr-choksey_17531411.html",
+      "published_at": "2024-04-23T06:35:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "bd891c941164ef2bf918e337ccb9490b7abad8094ea3cca76f5887dbdb48caa1",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Nikkei, Kospi to US stocks: Global equity heatmap you must know before the opening bell of the Indian stock market",
+      "url": "https://www.livemint.com/market/stock-market-news/nikkei-kospi-to-us-stocks-global-equity-heatmap-you-must-know-before-the-opening-bell-of-the-indian-stock-market-11786417558377.html",
+      "published_at": "2026-08-11T03:47:48+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "bd071943f227db96d3007923f552729c0dc7411b1e6fd0623c52f3e94390f69a",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "MCX gold jumps over  ₹1,55,100 per 10 grams, silver trades above  ₹2,39,400 per kg; Middle East, US inflation in focus",
+      "url": "https://www.livemint.com/market/commodities/mcx-gold-jumps-over-1-55-060-per-10-grams-silver-trades-above-2-39-000-per-kg-middle-east-us-inflation-in-focus-11786418608520.html",
+      "published_at": "2026-08-11T03:37:32+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "da0a71cd8f6005a84babfadc2a995225e8ba8e70fe8fca148b2e7ffcc49116b7",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Rupee opens 9 paise lower at 95.39 against US dollar",
+      "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-9-paise-lower-at-95-39-against-us-dollar-11786419156023.html",
+      "published_at": "2026-08-11T03:34:39+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a74f907a3aa6a3e28b7a465008798f7bde0fb042dbc8329121ceb6e66cdac636",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Buy or sell: Gift Nifty signals a flat start. Vaishali Parekh recommends three intraday stocks to buy today",
+      "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-signals-flat-start-vaishali-parekh-recommends-three-intraday-stocks-to-buy-today-11786413762159.html",
+      "published_at": "2026-08-11T02:57:28+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d3fffa92117b695d15ee5a934491c4ea641ceb95e71b86843b99cdd35193737f",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Q1 results 2026: RVNL to MRF among companies to declare Q1 results today; full list here",
+      "url": "https://www.livemint.com/market/stock-market-news/q1-results-2026-rvnl-to-mrf-among-companies-to-declare-q1-results-today-full-list-here-11786415475275.html",
+      "published_at": "2026-08-11T02:54:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9c16c396cbfb6cc6d8e83d93d001bfe576e5a9f301d48d67aa97e1a71010b63d",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Shares to buy or sell: Chandan Taparia of Motilal Oswal recommends three stocks to buy today - 11 August 2026",
+      "url": "https://www.livemint.com/market/stock-market-news/shares-to-buy-or-sell-chandan-taparia-of-motilal-oswal-recommends-three-stocks-to-buy-today-11-august-2026-11786380082239.html",
+      "published_at": "2026-08-11T02:52:50+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c3e6188a7bde11d4f7649b0204311850ccfca71e7b7fd2545f5a259485901586",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Emerging Currencies Weaken as US-Iran Standoff Lifts Dollar",
+      "url": "https://www.livemint.com/market/emerging-currencies-weaken-as-us-iran-standoff-lifts-dollar-11786416498421.html",
+      "published_at": "2026-08-11T02:48:17+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2440f36ee9c7a1e987ca98cff17a341f60de2165711511279f5376a2fb189188",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Stock market today: Gift Nifty hints a weak start; eight day trading stocks to buy on Tuesday, 11 August",
+      "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-weak-start-eight-day-trading-stocks-to-buy-on-tuesday-11-august-11786414129197.html",
+      "published_at": "2026-08-11T02:43:24+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cef6bfeafd790d1460fc6d9badc2c4257dacc88cddf66924456b7e18070a6539",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Stocks to watch: RVNL, Wipro, Vodafone Idea among shares in focus today; check list here",
+      "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-rvnl-wipro-vodafone-idea-among-shares-in-focus-today-check-list-here-11786413639952.html",
+      "published_at": "2026-08-11T02:20:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "78ad84db7e623d37748e3a2aeb5a953c2485ebfd7286c19a08d1b9a2731225a7",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 11 August",
+      "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-11-august-11786411998562.html",
+      "published_at": "2026-08-11T02:01:02+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8918c0ada20098992c59c1751842a1710ff45594494e48afeea8275ead20afed",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Crude oil price rallies for fourth session amid US-Iran war uncertainty; Brent near $87 per barrel",
+      "url": "https://www.livemint.com/market/commodities/crude-oil-price-rallies-for-fourth-session-amid-us-iran-war-uncertainty-brent-near-87-per-barrel-11786412625313.html",
+      "published_at": "2026-08-11T01:53:21+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "66bb8303b3212fb2545452739cb17c16e899a23c7d584ae232a86c93e2bc5c92",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "From Gift Nifty to Oil prices, Asian banking stocks rally: 8 key things that changed for Indian stock market overnight",
+      "url": "https://www.livemint.com/market/stock-market-news/from-gift-nifty-to-crude-oil-prices-asian-banking-stocks-8-key-things-that-changed-for-indian-stock-market-overnight-11786410558811.html",
+      "published_at": "2026-08-11T01:40:21+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7dabf4e95861cb9287ddb4fc1add8f024da1f255761ef5f9c808197a99cb0e2b",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Gold Climbs Above $4,400 as Traders Turn Focus to US Inflation",
+      "url": "https://www.livemint.com/market/gold-climbs-above-4-400-as-traders-turn-focus-to-us-inflation-11786410162796.html",
+      "published_at": "2026-08-11T01:02:42+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6c5dc2a93185b773317c183417d7484b002ee9f1b58af889b90b8ed8ed212579",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Gold climbs to nine-week high on buying momentum as inflation data looms",
+      "url": "https://www.livemint.com/market/gold-climbs-to-nine-week-high-on-buying-momentum-as-inflation-data-looms-11786389265821.html",
+      "published_at": "2026-08-10T19:14:25+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "02c29e7906fbfbdf6d41aa04f6ce217191369bc78a0ffda00c23d6cc80cb7dde",
+      "source_id": "livemint",
+      "source_tier": "MEDIA",
+      "headline": "Zen Technologies shares to be in focus on Tuesday after company secures  ₹295 crore defence order",
+      "url": "https://www.livemint.com/market/stock-market-news/zen-technologies-shares-to-be-in-focus-on-tuesday-after-company-secures-rs-295-crore-defence-order-11786381376241.html",
+      "published_at": "2026-08-10T17:19:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3fa928f483c25687f8fbce6463f87e1d036462212f822695e0971f491b1290da",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Q1 Results Today Live:  Siemens, Zydus Lifesciences, MRF, RVNL, PI Industries, Manappuram Finance, NBCC, Kalpataru, Swan Defence, Bata, Gujarat Energy, KPI Green to announce Q1 results, Vi, Bosch, Hindustan Copper, Info Edge shares gain after Q1, Zee, Bharat Forge in red",
+      "url": "https://www.thehindubusinessline.com/markets/q1-results-today-live-updates-siemens-zydus-lifescience-mrf-rvnl-pi-industries-manappuram-finance-nbcc-kalpataru-swan-defence-bata-gujarat-energy-kpi-green-vi-bosch-zee-results-11-august-2026/article71327946.ece",
+      "published_at": "2026-08-11T04:45:59+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f456c38f2df102e9f3f8969376932c3c5bf2d8eb535bd53ca9b3d0e659f932a9",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Milky Mist IPO opens today: Why SBI Securities, Anand Rathi recommend ‘Subscribe’",
+      "url": "https://www.thehindubusinessline.com/markets/tamil-nadu-based-milky-mist-ipo-opens-today-why-sbi-securities-anand-rathi-recommend-subscribe/article71330871.ece",
+      "published_at": "2026-08-11T04:42:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f8d4f02c13bd55940d2e13a88b5c2292643ed4046bdc450d25bf641ab6b4940f",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Sensex today | Stock Market Live: Sensex, Nifty fall as crude oil prices weigh on investor sentiment",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-11-august-2026/article71328121.ece",
+      "published_at": "2026-08-11T04:42:19+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "811f4eac4e6b18b6d92fbd33345a139ca9a3ec5cf4b8245911b3018d3d730b99",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Crude oil trades lower despite Trump demanding compensation from Iran",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-edges-lower-despite-trump-demanding-compensation-from-iran/article71331005.ece",
+      "published_at": "2026-08-11T04:41:12+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b4165a371fbbc5b9362c241b008f7a1a18348af99149a8e43acd46f97892efe9",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Rupee falls 8 paise to 95.38 against US dollar in early trade",
+      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-8-paise-to-9538-against-us-dollar-in-early-trade/article71331022.ece",
+      "published_at": "2026-08-11T04:32:07+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "3b7c7a7011f2bf6830620939c4a824b935a3f0f91d756007e4e7db3733cea81a",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "BSE shares fall over 1%, Wipro flat as stocks to switch places in Nifty 50",
+      "url": "https://www.thehindubusinessline.com/markets/bse-shares-fall-over-1-wipro-flat-as-stocks-to-switch-places-in-nifty-50/article71330997.ece",
+      "published_at": "2026-08-11T04:22:27+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "bd892e51fb87c31a309836bdee1dc89f992eca4c3ce6be5af26b3b02c79e1309",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Markets open lower as Strait of Hormuz tensions push crude above $87",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/markets-open-lower-as-strait-of-hormuz-tensions-push-crude-above-87/article71330982.ece",
+      "published_at": "2026-08-11T04:12:40+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "481ec032ea31bb4aa894b6fd75c0fd287e91b7aea87e15ca12ef1d15131408c3",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Raymond Lifestyle eyes Europe for 25% of exports, cuts US dependence",
+      "url": "https://www.thehindubusinessline.com/companies/raymond-lifestyle-eyes-europe-for-25-of-exports-cuts-us-dependence/article71330970.ece",
+      "published_at": "2026-08-11T04:09:10+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b91eb0ea03a760c5770f4a729c52edbe2a707babd2d13c9c18055f40d67ef9ab",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Stocks to Watch, Aug 11: BSE, Wipro, TCS, HCLTech, BEL, Lupin & 20+ stocks",
+      "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-bse-wipro-tcs-hcltech-bel-lupin-and-20-stocks-in-focus-on-tuesday/article71330849.ece",
+      "published_at": "2026-08-11T03:51:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "dab4bd9144fde2a3dcfa1cc4a8a394e05e3bfe34ea2848b4d4eb2203a6ff94e7",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Global gas turbine orders soar to record quarter, JPMorgan says",
+      "url": "https://www.thehindubusinessline.com/economy/global-gas-turbine-orders-soar-to-record-quarter-jpmorgan-says/article71330934.ece",
+      "published_at": "2026-08-11T03:34:38+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a1d47d50cfc189eaa196db1a4926855c64208ae799efc26d246564736941434b",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Maharashtra to expand EV charging network across MSRTC depots and RTOs",
+      "url": "https://www.thehindubusinessline.com/news/national/maharashtra-to-expand-ev-charging-network-across-msrtc-depots-and-rtos/article71330840.ece",
+      "published_at": "2026-08-11T02:00:59+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4b12d1cc82cca4282f1f89d88b28531d2e44d001dc7b397ba647993249f4045d",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Meta, Google, TikTok face thousands of lawsuits over alleged youth addiction",
+      "url": "https://www.thehindubusinessline.com/info-tech/meta-google-tiktok-face-thousands-of-lawsuits-over-alleged-youth-addiction/article71329825.ece",
+      "published_at": "2026-08-10T17:51:12+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "47bca61c09a5f54d9ce253cdead13b3b84fed9a135a1d70e5012a94634ddeb20",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "India’s kharif sowing deficit dips below 2% as overall coverage rises to 88% of normal",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/kharif-sowing-area-deficit-less-than-2-sugarcane-area-revised-to-lower/article71328493.ece",
+      "published_at": "2026-08-10T16:34:30+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1327eaa5355d1432550b38410503ba748d753fac3680bb25e20f5e72b7637784",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "Top Business & Market Headlines Today — BL Morning Report, August 11, 2026",
+      "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-august-11-2026/article71328112.ece",
+      "published_at": "2026-08-10T16:22:16+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f60d1c45c6278d33bb02b82f86b5ca400a0e221f560ab555543ec7b99be10e2a",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "How a Mumbai start-up cracked missile cooling tech",
+      "url": "https://www.thehindubusinessline.com/economy/how-a-mumbai-start-up-cracked-missile-cooling-tech/article71329495.ece",
+      "published_at": "2026-08-10T16:14:19+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fc322049cbb0c9fc67f1473943d22ea947af81ea8bc28437a1fafc16e14467f5",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "HDFC Bank cuts MCLR by 5 bps as lower funding costs aid repricing",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/hdfc-bank-cuts-mclr-by-5-bps-as-lower-funding-costs-aid-repricing/article71329488.ece",
+      "published_at": "2026-08-10T16:11:54+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "defdbb2f96acbc46ee3f3763ef59e42e7a49b2efbe008845172438f054a8c138",
+      "source_id": "hindu_businessline",
+      "source_tier": "MEDIA",
+      "headline": "UPI is not a ‘cost’ to be recovered",
+      "url": "https://www.thehindubusinessline.com/opinion/upi-is-not-a-cost-to-be-recovered/article71329180.ece",
+      "published_at": "2026-08-10T15:43:11+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "b6be6a9223c7ebe60003d753550d32cb11b804eb3a3c33b813a176488a5533fd",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "The Nvidia-SpaceX Deal Is Sending a Clear Signal on AI Dominance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-spacex-deal-sending-clear-173002617.html",
+      "published_at": "2026-08-09T17:30:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "23be8c9b8ce2eb8618ed3e2b22e096fb10d1cfdfa31f8a26ab529fb6b14d9504",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Inflation Date, Earnings Momentum and Other Key Things to Watch this Week",
+      "url": "https://finance.yahoo.com/economy/articles/inflation-date-earnings-momentum-other-170002840.html",
+      "published_at": "2026-08-09T17:00:02+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "cb3d02c3941eb87a3cc5be6067ab1fcb5ebe305ed608e6e54d091daa035f649e",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html",
+      "published_at": "2026-08-09T18:19:31+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f4736a678801e3eccb64c6016feb5e42ea4672f9f40b64bd17466a9954799ea9",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "A $13.5 Billion Berkshire Hathaway Mystery: What Is Greg Abel Buying Beyond Alphabet?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/13-5-billion-berkshire-hathaway-170517551.html",
+      "published_at": "2026-08-09T17:05:17+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3a3f866696a3e7c5440a7a2548a6a47bbc30ddaaf672f4cc2b68a6e7378e4ad4",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian Markets Marginally Higher Amid Crude Oil Spike, Geopolitical Uncertainty - Rediff",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdGx2ZjJiSHhrRkdsV2phNnBiV1V5MzB1Mmx1ZnJUMTZHUEVsTmZBaUQ5WHR3dHozbzd2dDJwa2dNN045cVVFTHZFVFJaVkgxSjRDVU5mbWxhRjRSeURjZWs4S0VWUzdZUkl3aGNTeHdqMl9GRG04ekpDRlJRMlpJMzdxZlR4Z091UkNwR18za25WVzNFM3VCODhKenRsS1dNSG9LTTNxUEpZM1NBazJlSlZGX3lWX1RnOWI0aldqdTZnekMxNEJYY3FkQdIBzgFBVV95cUxNRElmUXNzanoxTkpmSTlDVGVfRmYzMDM5UndpZHpzTEJtME1RYnMxMXNVc1YzN3VBM3VaTG9LNVR3dXNRSmhJNGtWR2ZoMUREcmJEYkhPRWlvSWhzNVZNYnQwd0kyOFR1U1F5WXNNd0lRc2lfZlNCdDVqTlhHNWlFcms0bGNScFhrTmRDQ21zUTJPYWxoSGxKUEdNak5rcWNlQVVhTFJjM2RiSzlOallHZEpNeHRMLTRtczBhaUVuQkRPSGtpVTFvRXE0UEZjUQ?oc=5",
+      "published_at": "2026-08-10T11:51:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ea32a694714abe00891f56173b41bb59b56ccfccf5e3ca4e5973e0667bfd4c5c",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today Highlights: Dalal Street ends flat; BSE Sensex up 40 points, NSE Nifty50 closes flat - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOTm1ra2Z1dDhMenJ6ZGdtcjZkRkxSc0Npak15LVh1ZjcyMTBXSWI4Ql9xMEVsMWFiY0lxVzFnWW1LeFd2UXZrLUcyeWFfVjdaZEJfUl9pT1BPYVZsT1BCNFRnRkpWVkpLbG1VRXktMkkwN1B4RjBtRXdhNnUtZ3ktREt3cnBRSUwxUWhsZDIwWklBWmloQXpUd3VjQy1fM01JS201OTJ5eVBEUmdFeVExRE10eVd0eEZJSDFKeW1FNkhFNmM3UEZnZy1NckFFQnRTZ3ZRZTFLWkVVYXNfbVRDbC01cnZVMER5c3JnSmM5Q1FYZ1ZaYzhjOUxwVFJmWGdtV2xwWFFJSEVZYXdXQVB5cno0a0NQN2lLYXpEZ0NyYmloSUJROUNaWW9ORUxFRDI2OFVn?oc=5",
+      "published_at": "2026-08-10T10:36:09+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "0cdfb3321fb845522d3e1ca248a5a4067d7543eaaa0b23b02ef482e96f3fb654",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian Stocks Open Higher as Oil Prices Rise and Global Sentiment Improves - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNDFSX1ctZHNQemNOUG1EaDlsU0NKMHBud1VrV194LUhzUVBVQTdiRXdaNmd1eGo5RUhrZmRyeDU3R05vZnV4R0duZWU1ZzlZc281alVORm84Z3JyV1BoX3dJWVM2eEkzV1h4a21LYVdkNGR6b0dQT01jX3lYUEpKRkNNdDVDY3BiclhGQ3ZRVFFHUlJrdG9VdW1aa1RVWF9qekVNaWRobmxjV0kzaTNCYy1Ta0ZnU3RXVFdJTVlZSWc1RFNYenlOXzVn?oc=5",
+      "published_at": "2026-08-10T03:58:25+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fb0be845a057befd02bbf0e4757f37262c66a63b39142453c3054c3ec924bad9",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty hints at muted start; US markets fall, Asian markets trade mixed - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPbnR0NFJxTjFHM3lwa0Ryem8xY0xkOFRGSUhzUlFIVkRsVmJRU0lfWU5kSEwySXh3VTVkUGxVZEl2ZW12VG1YQjBmMjJHY2NSall6NlpqM3hlWjIwV01aOHpCakM2M3VHNGdIR1dMVHVfbDVsVVduZHBYSUhYa2FTVXRnRDNnVnFRcS11dHlKYU5vRHhUb0dWYUM3ZFpRRGZ2cUEyLWt2dGpzaUprM25uSUtRMVVmSjVnSVpFbjFteU00MW9NVWFOT0pWTmJ1UUhwbWpOd09NTXZ4NE9WSElENFdGLVpLREJxQkh0YW9NWk5laTZHOENVUGl3eHFDZjBkRlpHaGhERERGWkRXQ1lDZlFVOVlVcHUtLTVoMnFBNWZ0QdIBpwJBVV95cUxQcHBaS1FUb2x6RWN3cDVKTnBGZGs1U25jam9sbGZWNGJoYmp6TGR0MXJrdWVqNExvallGVTFZWjJ0SU9Ta0ZOaHROeWw5ZGRZU2dKaThuTzVGX0NUOW9vZjhrNnROYWhOZm01bTZoSWNmSHd2NnRSUHV0UEN4a2V4aUhNQXFEcFQ0WHZkLU1QZWNUWnBsdUlBSWlDc2wzSkJzdWRUVm1VLVh6Tk83VFZpZktsWmIzWEZsV19STF9QdXFuczBxbXFUajNJZHprZlFwVGVxa3pXYUtWNG1fSmlsTFhFVHB0MWJmbkdzTUVvV1hnUHE3T2t2Y2JESFN2cmhxUHBZaUVOellWY3hWbmdIVmljdGxDQmtOVzdxc09ZdC1LMzI4WGxv?oc=5",
+      "published_at": "2026-08-11T01:40:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "60b490ff3920edcfed9c3d5141a47acc95f5a259059bee9a590274edac04fd7c",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Gift Nifty, Asian Markets To US-Iran War — Five Key Things To Watch Ahead Of The Indian Stock Market Opening - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUEFIcE95dWdvMnlWV3MyLWxXdVM2NVMwZEJ2OEZ5YTRkZFBEeGNxTWxxdFpNUDJXOGxGWHluNVc4LTRoNlp4a21ZenMzU1Vjd2dWOGJHZWZiN3lKeUpCYURtVW11QlIzZWRFTWJjbDRBS0NRXzFxU0pkZnF6aFNBR0ZSRlE3VUFtOU41R1Fvb3NFS29qWXpUNERqQnhVVEpaMWloakZrMGhZd2hiQnFIZVhhWWVkMFpvWi16Sm9KTHhuQlhGYUxoc09FTFRsaXFKZkZHRDFTcjQzY0ZVSDE5VXYxeWpXX0JSZVhV0gHzAUFVX3lxTE13d2lmdEFGYmFMWUNJa0tyVURkRlZFRHV5WWhQbk5wcU5rSUMybThsZVRGdFFoZ0VRbV9uV3IzTENYamhWZ0NFUGpUSUFJWHZxaE4xM0NfUGVJalo5QmFzSEwzTXhKUE1NdkpwTElfRkRjRmFmVWdVWWhvM3Y2U0Vxd0lCcmVLcXdWSjdtTG5admN1X2JGWWowckVma0x1SUVuLVZuanJfVlFYd3d4bmlQQndIOXJDaVpfZXBTSkMxQTE0OXdLQm9SRzFOaVNKbkY2TVI4WjRxNWM4UXNMcktuNmEzdUE1dDNxYXd2a3BDbWZpSQ?oc=5",
+      "published_at": "2026-08-10T01:39:43+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "29d381de1e48e8ea60c3ab011ad7fdc7e48b4ff59017d55ab1c1b98a77a6c381",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "India stocks higher at close of trade; Nifty 50 up 0.05% - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMEFYM2RqaVpQRk9PWFZYY0xvdFdEMlA1RGtiektrRmk4eGhuQW9rS3FkRVZVajdpOWs4cTVfZEpoOUFZOVVub2xkRHprTV9tSDc3Y1BEald4aFRtdHhKQllYMjlSbF9RcW9DS3g0VUV6c2VVY3oxYVNUUVZFbG8zdncteXFGelhDZHhhUFNHMnQ2b1B4SEtMZG1Oejc4ejRDcTFKTXdWejZsb09zU2sw?oc=5",
+      "published_at": "2026-08-10T10:34:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8f35d1cdd605e226ba2a2fdad531261c1944faafa704e51c31fe24e4c0b7d4cc",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Closing Bell: Sensex, Nifty end flat amid volatility; midcaps outperform - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQbWo5X2szSlk4MjR2MWhtSV9Ib2c0WnJlT09yd0NWRng4WWpIUXBiUEZMU0U4V3Zvdi1LM0Q4Vy1zcmVwZVRta29CZUR3R0UtTXQ5Zzk0VDUxZ0dkbkl4WEhBNzY5X2prcXNvY05rdXV6UEItUzBTSVJyVTZCa3FuUHNVeTNZeFQ2aW5KNVlDZUJwVGVpWE5hYWwwZ19CeGdXcVNycFB1RHdtZEQwWHRKQnRsSS1FUFpsZFJiSWpSd0psMjY3OTJzSHBWVjhGS2FnMTdNZmI3bUNhVUZTMUdMdTB1S05ZbDNKZE5rQjhvWUJmVE43TnBQTjZPSWFqRlpzZjVBLUY3OGxyd0Z5Y01yTmhrX2tHQUpXZjMtYlNlZG9sS3fSAagCQVVfeXFMUFpLd2lLX1JtRTdfaDh4TUJnYW4xM0hPRi1vR0ZISDctNVl6aFZtTmlMYTY2M1R5NnlDRlBoN09mS3R4dDI5ZmFtVUdwMGZwS1hLVnhMNXNmMkFDNnRGRkdCRVJDaUxVVGFmNmJldjlOT2J2Qm15VDFYT1FCZXBLeGxtU25uX3BUMXZuZHhCMkxCUzNSQkFPTmkxX1VDLUNHR3VzLTFKd1lfTUt6Z1dtSU1QUGpWRjRkaGs2YVA5WGpVM295SXoxOEl6SXpDcVd2UldpME1XVXhJcm5ZM0UzQzRaY29RLXpKaklGZGd0VXNEcWhFN0gzZ3l1OEpZVWJweUVEZDQ3T1BYa1Y3SUpRakMyUExHbnFrVjdlcnRQX3U4SjhZQnJGaTc?oc=5",
+      "published_at": "2026-08-10T10:54:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "aa64f325bbbe1af769ba67051705eb57dbaafdef94e67558acbf40b39f534144",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "How Indian investors are becoming the stock market’s biggest force | Share market news | Investment - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcE1EM2JlcVZKZlh1cWNpblpLeHVXeEhTNnc4bGZlaWZ6U25rUE1RS09qR0RKQXZtSjVqMjIweWRudnhLZnNkNzdSaElFQy1Nc2tXY0lxN2g3eGZacFdHb0V2MTR4U0lDZHp6QThITXRSR3QtQkk2MXYtajRjNTJJMGdicFk5dUs2OEJxUTRBaEN4T2cySGFBYXVzRUFua3F2emp1RG1xZFRkQUhZT0Z2TTMzUGNMeGo0elJEQlNKUTRUWlZjNHV4dUNydzFTYmlRekxqZGxneG5JUWlpUXJtcEdMUDJocW0wWnFWWWZvdU5nUdIB9wFBVV95cUxNMmt6NWtvYjhfTkk0MExFRGdZWERUT3hPaUd5Ykxuc3lfYWdWd0JmNDJEbUFZNUJzcVZGYU9MQXo5cDY3TXBzd2htV2F0UXRUbk1sa3hUYUVfajlnWG5HWDV1elBGakJoT2FKakNiVHlLRWdRUW94Wm5kNk9qUzlidk9PLU1PUUp3R05veXJuLXNBQ2phQTVFMFhyXzUwRjMzOEoxbUM5M2N6RnJMbnJ3S1QtV21uYkVzTHl3UWNQUXU0Qm0yaEpLLUJ2MVZfQkdEemJMUkpheElwRG1JbWtqWFdsbmNNU3N2N0NmUkppcEJfZWJpeUlj?oc=5",
+      "published_at": "2026-08-10T15:19:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "71e84eaabe92643d60e8456019137c3a3257a09a2b46197d5ae165fba5602a92",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5",
+      "published_at": "2026-08-10T15:56:42+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2136b772ef2206d2ec9396ba8006f763b4a713d4c0536d050778144e0cb5d868",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: All You Need To Know Before Going Into Trade On Aug 11 - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdUdwZFJtZVlKY3d3eG1CQzVQQzRJSFZ2dzBOR29Nd3VCMDFhVHdQTm8tWkpmSTZwOVBNMEU1VlFMcHVFM2NjamNNRW1TQmNHczVydGU2VDFJc2xwcTdoNTJZNU1zM0JsUEZQV2JTR2hMbXNHVkdWMDAyVnNkU1lKU2hFd3V3ZVluTEE2MDdkRG90MnpoUkpxX2ZGUXNVZXB2ZmYyeURxRDlDVklFeFJISzdEWXg2T1NV0gHAAUFVX3lxTE1qcGhGSGgxZ09IQUxqbHU3RDI2VGVZZDhEb01fbHhUcEtiWkVjMnlOVU43Zm50SmROdUItUTg3dHpIeWZnd1RkVGQ5ZHQ0d04xX3ZBZklKMng0MlJDeTRyeFVpYnRwaXBnTjNhaXREc09VQTIwWFdUTWZXdEVlZHpxMXNQX3dWWU5Vc2xBRmltcUFQNVd5UGNrbFZHTUZkTlFoOFAwd0NrdGlKQnlwanFGMko1LXFRcDBuczFiNE1Fbg?oc=5",
+      "published_at": "2026-08-11T00:30:01+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "88baf3b369bfa481108f3b9b367b3bba9e65d4a3e54155290647574c4bcfeb9f",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex Today Trades Lower | Nifty Below 24,500 | Trent & Titan Company Top Gainers - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPYk1HcWRJdEY0NHNNY1h6MVFXTmFfOEJhNmhBMVRBUGZvcUR5T2p5dkVTOFBwOHZqU1lQNnl3TnF4TXhucWhob2FhbVV4eU1MdmNZdFBOb3BNNUFfY3lFbkx0OEd2b29uRTAyNFlCd3pJX0hrNm44aEstR2RZWFd1dEN2d3VqTVJzYlpxbk4tRm5aZVQ1a05QN3RxVEh3c2Y4RGhUSTJBclY3NE0ySWdOWEdaQ2JHRGxnSkFJczFab2lFWGRXTmlZUWF3RlBBSmhSa09ianU4dWp2M3ZNNk9qR1pla0N6SVlBbjZTNk9GbVBhSTVpbzRVRmxBaVNaVHVsaFR2bm85RXFNa1BBWGZPOHFOdXZRUnhwSWM1S19QTDhJX1FPQ2NIazFyYnBVM3ZnLVd0UHVLdVpRQQ?oc=5",
+      "published_at": "2026-08-11T04:47:54+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7780b8e28f87f6db596443ef50aa68670626521434840a418d658f737f1ac6e3",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian markets open lower as West Asia tensions and rising oil prices weigh on global sentiment - ChiniMandi",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlptS1VDX2UxSHR2RnRINVNEZkFHWEgxN3lEd0dwOVMxWEhFTlNBYXBMSGxrcjhyNkhESkNZUUY4UTJjZjFtT3diM0Q2Zzc4UzhnNWstU1ZQc1dTb29mYlZic0pBcDJtZmxKT0w0cVNNdGpOV0ZabEVxZEJqZ3BNbjNDZWlBTUtiekhUM0N1OGxBRXgycmJkb1ZUNHQ4Z3JZUWZ5VGZSaEJwcXdMbGJKd256eXlPREZVY3RjdVRJV1Q?oc=5",
+      "published_at": "2026-08-11T04:32:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8a5819233c3e5b6270c542f5d4535e019474c78ec1068f5c878df36f29bb9985",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian Stocks Open Lower as Rising Oil Prices and Weak Sentiment Weigh - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTVljZXJWWkJqMXNXdFc4dTkxcDg2WFdXYXNUNkFyMksyWUxZamN6WFNQb1FJSTBNdEdUVFlUQnJNal9vb0tMeFpELTZkSGk0a1RMTk5aUXRpLXkzdThnWnZtd0JrYjdnUmVwQXYzSG44VHRYY09YQ3poX0ZvSWRQY3BLUWFxVFIzdHYtRGZHaUhVUEFKMmJMMWI1QW9MT1kzS3lVakQyUW9jbXJBWUNTZGRJQ3pFZkR1NHBNY0EyUnZIYmJZ?oc=5",
+      "published_at": "2026-08-11T03:58:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1826c57d0567265edf128b13cb740a0853a08ef42f43e6530bbab3f77adb4b9a",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Gift Nifty, Asian Markets To Wall Street — Five Key Things To Watch Before Sensex, Nifty 50 Open - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXBiVG9wNWpMVDd0c19EVUxvb3dJWjZQMXA4enMzUGIzWFRLc25RVXlieDZOLXRhMkEwdFh3OGlMcm82MzJJWkF4LTJrZ2JERXNqbm5tWUFsaEg3N2k2NFRHNTFYdHgtU0p2MnQyVGJwZzdlZVQxT0RHNC01TGxsZjE0NEFKSk5tM2QwTXpXNjlXTW04VWd0dnZqVi1NY1c4SFQyRzN5Mnp4aEMwMXh6a2hwTlg5dWRQS1FKUW9GdlRhVnA0Y2ZiODN4cnItTUE0SlUzZ2lBSTlvMWRfUEN2eDdNMW1mbFVQLTEzedIB9AFBVV95cUxNQmdTRnpubEVIcmpjSUFrdnVTTXM0NDdTLXhzQWE3anlOOUdPaktnd2ZnMVBQdEoxRjg1M1pOZFVtX0ZxOUVzZXpXV05oLXB0TmFvdVZYOHM2X2Q1ZVJ0UDNJakUyMjdFdV9MRWM3Qm9OenBadU1jNktwR2ZDLUxXRkJMZEpHaW5aeXEtYnNDTkUwRGR0a18tZUxGMUk5MFI3V2dTY25HY09lX3N4aFc5U3JHR09pN2xMeTlKOXhSbnFBQ19QemVaeGtuckh0WmNMVTgwbXFtTy1CM2dNNzVWdlVzQlBzeVp4RDQ4S3NXelhBVkVw?oc=5",
+      "published_at": "2026-08-11T01:39:22+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ecaa8ccf794435bc1b6714cf6558b353b518fbab1b48f8ee37e36948c75a8ce2",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Zaggle Enters Amendment Agreement with APAC | Inox Wind Q1 Results | Top Buzzing Stocks Today - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaVFlMTc3T3NqMEVJYVlTRlRHei1qSm9CaWdiaFZaYXlEcFVxbDl0c1ZLOTEyZ29BYm1WZ2s3N1hzS09QcWUyR2EtU0MwbFdfeEx5TndJNkgwWjBycWhRRXpTX2FacmMteU00RldXV0xEdjYyQlZpc1JLX1F0UzBTUjgtOE8tanFNaWExcXh4cEdTamI5Z0ZIN2hsQmVoMzV4emkxVEw1d200RmQ3Wl9EWlhqV3RkUzhYWHNkLWhjS1c5TEFHc0E0UjFobnAtWGc1VWxFdXpwZU9wYkNhSnprV09qS3BXdw?oc=5",
+      "published_at": "2026-08-11T00:30:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4ced44086d44acbfefde42c4646cc7753fbb271b308913fc2641a5cb94f030c6",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "US stock market today: Wall Street drifts near all-time high; crude oil prices rise - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNTi1iaUVrRGNybm9ERGhheDEzRXBkdjMwcDNxOEIxMTRTdUpBRkVDNTFhM0MxZUpKOGhOTjJVN2dxZXZ1Tm9sVUFobFZvT0NScUZNWGcwYTYwQlhfMTA4RGlSeHprSGRqMGhVbFVDUHpUME1DRUNpZ25QdnladlJENFdqak8tM1k3Q1AtNjJmTDJFckQ1MlNLTlRveDItWkpwRWE5VVAwRmtjUmxoUFlzTHBvWWdCNnV0NXBaZE51VkJJdzFUWEd0S0RqRndWYmhfbzktUlRVZ2lXNWRSRWQxbTVjNGdIOVp0eEVINlU1amRSeGxOZlpwRkVPNmNaU2pYR1hGOU9oMVhsS2E3dm9PVE1zVFhzY3NEYUd5alBvaXhjbjF2RHB6RjlJTkJVN3YwOWlobFExTVh5VXVmeXR4UUppVVgwQ0xKMi1xbnhOeWRBMWpFbG4ySGl2V0ZkQTBIZVYw0gHoAkFVX3lxTFBUX2FUcTE5TUxOa3ZxbE1hM0RPS0RaSjJmdUJhUmJjMEZRZWRYRVlFNnYzQ3g1VjRYa0gzaHhDbmwzRGs4RTA2eW04cTZPZVphZmxnOE1odTlLdTludURwVDcwNXJ1Rjc2LUdCazZlSFRHaEdYeGpjUU1HUUNiUnpjOWFVUUVhNzBEUzFJRjF0OC11SmFZSU9razFoeWpsaHRsNjBFaEJpMUhRNnE4LWJQeWtkOWFrV2c2S010bENYMEpGUGRsanhaWGwwT3o5cjNLQ0NUbVg2djVaUlJsbDlkUGtwUUtaWDJQWXZCVko2dFg5cE0zU0RYLVRWdk1pa0g0eVRFTzJ1M3E1REFjdHdwSEZhTjZRVTRBZTNxVVF2MFRCUGR0RndyQzZnQll1ZElLVEJrMXY4VTdNM2NKQjVEY0hJZnM4MVR3eXhiWVVuTk5aVWNmLVpBYXBadzhjVzR6VWRMTExKZA?oc=5",
+      "published_at": "2026-08-10T15:09:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "552c8ea39900d98bdb7fc68e9ed167630db12e9806374017d854c21f2973618a",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian stock market: How are Sensex and Nifty 50 likely to perform next week amid ongoing US-Iran war? - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPcWRiX1NhcUVEdTB3NmF4el82UzFndEVRZDNydmpaMDZkYmk5R19NME92Uk1POV90YzRPRkZYeWZXSEtYTEZGX29KbFVtWDBCczdzWEtXNUlIYUlUQVB3U2dFaUQzZ3BaNlhabmZtY1V5aTE1WFlUc01PX3ItYXA4TW1ETkhFdTBua2xlTjgzcTdRSk1EeEZ4Tmp0NlhfWUJkUnhkUVNERUhyV2liNXZ4V0xDMUktZlZ0dGpWYi1UQlExeWxITjBodTY1RzI3bWRzS3FFcERUelpPU3VCdXNKeDVvVkFQMXhQSGlkY0M0U0t5X3NnT0lZSl9sVDVXTmfSAYQCQVVfeXFMT0VtRG1zam1SMkJpWVNFMEdENW9Ja0VhU3lqRV90MjhRaWc0NHFhY2RET25od1o0X3RLLTNNTmNMX2lfN3l2NFB3SDdKVXZhT2tsazFPc0ZzV283bkZ5enBPYmN5eGtuVUlvVEpKdDhJU3JSUE53OEdWZ2JKdHNILUN4TXNnWG5LMHRYbDFRLUxCWG5wc1Z2MGRTOVNmRGlSNDdJRWxfMnk3eHhhVG9FZHREUWRGZHVJQllpdlZsRHZsdGZrMXlqX1NpOC1jV255dGd4Y3IzTjY5RVp2T1hoRjlfVGQzeGJ5YUIyNE9XemxfOG84R3FoYTM1cDBEUGtPcnhJQ24?oc=5",
+      "published_at": "2026-08-09T04:57:33+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2eeba33974a47d9dd4873eb1e4d8d3874dec8d738f306c338b6c1cd78685de69",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "‘Broken overnight’: How stock market’s new closing auction is making traders jittery - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNEJPQUhFNWZvT1hoXzBvS05PaDFFRFdXNTBGQkZBbEMxYzl1WjZtVXQySlFpNXlLc1pyNFlidVNSVVNod3BZQmVTOXJhWWNzTkRfOWxMbFVZZUp6M2ZsT1JqZVAyY1BaejBGWTJDVXl4ZjB2cmt5aFh4X0dNbFRNdG0xbTJKa1J6dEo1S2p4VXJzdEVDdnAxSGt1SFM0cVloZnpJWFZkLTF4Tk9zNHF5U25qYUdINkdGMkd2aTFPaUExb0dvV0JrbEpMRnZQWXV5aU5EUFI2WENnVnJSYjFfS0NFVWtvU1g0T2xRRkVXNEhTUzJDY3owZUVB0gH_AUFVX3lxTE80TUxhWlFMaHFNZlM0LWFEUnJrSnJSakdxS1NxQU8tWG9lSUZsRG9Kdy1uMTRyRmtMU3gySEJPMF80WkxicGRPWlNiMzE2UGxadjFvNWhvMkVRaHN5WldlTUJRY01TaDBLZk9FYTZ0aXBnUGV5RzF1OU84UEY5UjBxLXVaM0JLTTJYUThOaGpDQjdPQTJxY25CM0xlMWRQaUlndmoxd2ZRNWpTbXp3R3NyNVgtdVZ4djVqNHlDaEp3aUZqQmFZaFJSa2xWRkpSNjh1YVpNamlhdTl1ODFYalhUSVlwQ2pQcTJXbFZMM0F1V0FRb2hPUm9iSk5pdXoyTQ?oc=5",
+      "published_at": "2026-08-10T15:59:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5e1b2d26e982245b86f3ff7c2fe527e685e3540ddb568b3573982bdd950bf6d7",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Ahead of Market: 10 things that will decide stock market action on Tuesday - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZEtVVnJCWlFkWFpIcjlHRTJQYm1MU0xGU2xpTXNrbE9hb3F2LWJIN3NPYjFHWHcycUJ0dXFmVXdMdW9fX2RMT09ybzI1MElqWnFfX29hRjh0SzAyYXVuUmZWNjN3aUVNOTRLT1RhRTc4MEQxeDFOM19mZ2xoUlhmOWsxS0hTMDhSSEFwcVdUSG5qUkg2TUowSDBGRDF6Y3EyQkpDd0tFVGNHY0hvb0hxRVUyNnY3bmpDdE9xV2V5N2dLYUtvZnEta2J1SUVKU2NMekdtNUdHbUYwbkdsUUpIctIB5gFBVV95cUxPS1NUSGxJTUhfcGNNRHpEWkZTWlpheTNDSnNIbE9VNW9jREJkRjZWV3JnMzFOYVl3NXBDVUJMdlRMdlhTT1hRY1JoODZvODN6dTlNTEtGVVIzbnJncF9LcTk5QlpNeFZwR3VwVkdCTzBIcUl6X3NHTkFxODIzcTNhNDlIaGNjVEZRd1J5ak1jXzR4MnR0TEZSWGZqMG9CTDBWX2tUajJOTzdoVC1MUHBzeUhPNXJzT2VZVmlwSUFDYzZXUmVCaDlVck5nY1FpTTRUU0NpZXBtRExSRzhNakhjSnJkREpTUQ?oc=5",
+      "published_at": "2026-08-10T16:11:26+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "8d719b040ef234e04ef5e81bf41a75a664a9d2752c7d589a1d3970f12362770c",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Top stocks to buy today: Stock market recommendations for August 11, 2026 - check list - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOelNFRk44X1hPVmVGQ3ZRZU55WmhjQ3hNdndvLW9KZFB5STZKOThFOWRLbjNodzUzaFpGS1hLSkVrM1dScmxoM2dSSmVuQTEyUzh6c1VxeU52RkJYN3RRNHRwOTl3dW9fYmFvUzhoLXBMVWJldWh0eHg1XzhCWG9NN1ZYbkpaNC1iZlFJa3R4SEgwa0hib05CamdfcFFPOFRRcmc1SF8xQ3FJNUxid3F0dlJCTXVUQWVRSEZUUDVFOXZfSlpsajlqdGl4VF9lSGVpX00yTU1EM3E3SzNXWVU2S1RFcWNrTmRmTGRKZlRiTlYwQk1hRG1aQnVxYm9ndVRfdzN6NkdadGM3VVZOLU1MNFRkY1FKaXJ1d3l2T0VZMUNmS0Q5ZDV3dnlrSllCREFpSXFYOHpGb2tVaW10dzJPZE9jVE80d9IBywJBVV95cUxQS2VPZDJVQW45MzM1YUYxZ2M0eno5Q1gtYnlpcENDM1kzMnNPTVc5VV95TE5maVhRUW4xMEpkTFBVQ3BoRVotVmdkdDZvTEw2R1ZiUk1xcHBuOGJVNGU1ZUlVU05KMHE5VVlkMThuQ1M5UkNpYUExSzVPdzEwNE1BMloyWXRBSmRqWXdJalQxbW1xM1FrcXZ0R0dYWmc4My01U09ocW9MazFBZ25ZMnhqLWRqWTVtWFVDR19SQmk4UEtPU0Jrc0pLSjR2eDhDOWRVaGtuZkRseHYzTnUwTXFGLWJ3V2R3NUhWT0dQakgyVnRPWnN1V2tPblM2QS05aGV4NlJJYVVjOTlFYnFNRHM5YThTZ1AwZV9OdXgyOWdxYlozb21uYWttMUs2eXhQT19VSkNSSk5BZ2NpTFEyTEQ1RWw4YnpYelVtOHdn?oc=5",
+      "published_at": "2026-08-11T02:37:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "c58278bb77a86248e57d4e41d4befffbd9c6cd1bf5f6911474043feac218daac",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex, Nifty 50 end flat; elevated oil prices, Middle East uncertainty weigh on sentiment - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV0xmMm4teXRMRkFkZ2pqUGtKLXE1Q2pxY19XYTFpclBDaG5FTFJNZmtydjBEVnBTeER5RWt5SWIzRFZNWTk0N3FhUWRzSW1NUmFwUDJZelA2czd1UEs3bVZXRUx0TmFEQmpoQzlrUmlIVTRYcmlUYzAxVnlpakE0Q1BUb1hkcW5qQ2pVa1dwZWpPWTM3T1dVUTU3bTQ1SldLVFBfMjRkdWtFNUNObDBLU2lkcjZtUERTcVdFWjZYQktIbjNWeUFFX1RTdlROc0RFN2trendJYlFRcFdGSTE5ck1LU2ZyWEtReGQxVHR30gHzAUFVX3lxTE42WFd0Q1lwaWt6RjFMLVhkYWk0ZFcyaGJfa2xQbHk1MFpQdThTRjN5X0dWa0F1bkZyVk43QmplMnZpM25EOEMzdkhvcjVsS0FkOGN4OTk2ekNDSDlTMHYtNWNMbzZBZXlHZW5jSl9hMXpqVy1nbTNIZGx5Y1JNVV9JbUsxcUV1VExSbi0yRUk1RXd6Q1VXUEp1WTFPMHgwNGl1U3NfQS1uMG9SQzJHZGFkQ2NROGVQajhCNEFHSHhWU1dMNHhvaWFMVVFLY2dEZFhzQ0lDQ0RpU3ItRzBJenJuTzdSZ2szNE9OT1Z2ZDhHX0hyUQ?oc=5",
+      "published_at": "2026-08-10T10:09:50+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "6374f7a068505966f43576ae15d9c2bed2c0e2895209d266bf5a11731ae7e2bb",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian stock market surges over 3 pc over Iran ceasefire, Sensex jumps 2,775 points - ddnews.gov.in",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNGU1ekdxR3ZRM1MxbUFCVHlyOWZjS3h4S2FuX2lXM3FrcjEyd0dwLWx5WENvQlUtZloySy1MRmNGZ3dxNVhZT2x0WXA3T2JYNU5sdktFQjdhREEtclJPOURRNG9xZjhXbm5JZ3B5ZzZoUlZ6YUtySUthZUl4MzhrXzV3bXd3cThoemJOZVpScjZwemo4eDhXVllLVFdrUWFRQkRlcXItU1FzaVE?oc=5",
+      "published_at": "2026-08-09T11:11:14+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "814eb5ccbd414d6a500a1a55b2ad65b6f82791f8dfe8f0fb4bae0afd331eb8fd",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex Today Ends Flat | Nifty Above 24,550 | Hitachi Energy Up 10% - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUUQteUxLUUtkMXpBaWRkQTdnbURMUjVwY2swRmNrbFNZWUNqejBlOTMyWEN2QjdNWXNLOTdpLVB4RldzX0tPZ0RHaFRXc1YwQmhzYkh1S2wyN3k0ejhBaGFWTTRNdjNkWFFUYm10cFYxdjBzSVRQM1BwU2JEMTB1Y0Zia210dGw2OF9tUzhUbmZYX2xDU19VbjFuSWcxUkQtNzA5aTRKMXRBMGN3dEFzeTR6RVAyZjRKa1BnaXR5VThXdw?oc=5",
+      "published_at": "2026-08-10T10:54:59+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d21a3f287c85ee2adccdceec516b0ec91835d26a4af1ca89e3e3f21f223f8de4",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex declines 320 points to 78,204 in early trade, Nifty drops 94 points to 24,490 - Telegraph India",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSkREYjYxN2FzVkJQVEdwYTRMTHdaTnh4ZjJ2R3BmbzREbWpOVWFvcFAzcGFxNk0xRThtV2RlM09tc3Zod243RUJadTU5RUtlbU9lYVI0cnNaTVJ5NjF3QTFieXZsMFI5d2EzUFplLURXV1hnVHhQVWhmMDkzTzBGUkt4VVNoY25FQ1hsV1B0MjdVa1MzeF9TSk1ScloxdWU0bkJ1Si10QXFnYUR6RDF6bzZjU296aHEta1dtRDJTRUJvdUFEd1RSMS1pMjJ0QdIB0wFBVV95cUxPMlVramdXaEJxUHFGdzhDMl9wNzd1NmxtbEFNcG5VaTZSd0VkQXdsQkh5YWxMbFZqZGJrUFN0RUpOLTgzbXA3OWRmSVVyenp2dEplQnlvX0VUNmZyY0lIallqbFUzd21NRlJxVW1oTnQzSlhKYzNRUC0yMFhVNmExXzV6dGtpXzVLbWRHaVRCZzZPZkhGemxXeVJTVXFKTF9mR216VlVFRDNyUjZBaFF4VHBBdlRlazhtb2c5TTdUZGpUeGVMaXNKSy1STkZOdV9RQk80?oc=5",
+      "published_at": "2026-08-11T04:17:55+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4420037bdeaca6d778c0adee8398848e8b3ff9b075d4c173dd97c2b858fb4da4",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian Stocks Edge Up on Crude Spike, Geopolitical Fears - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM3RQN0x1SzBudU16c0huaTE2OFl1VEdHd1k0elZHVkZYTEQ5X0NKXzJ0UW04QWdJSlBKUm9PbTl5ejZ0bFpxWDBDelR3YWREU0sxSnFsWTExcHJOMS1VdUdHZFJpRWVFVVphdlBla2hIVXN5dXdxRTV0TVZHM2xnaXhaZ3VLNnNrcVZSb3hkT1c3SjhneUhaU1dHem9ULXJpT2VJWmtoT0lkZk3SAbABQVVfeXFMTlRMOGg2c2ktd0k4ME5yejNQemF2eEJHU1FKUndJcERZYS0xTE1jRmViekRzNUhsR0NieW1aZXpHdkxSbDd5TWZEWVNLaHF0QTN6ek00S2Zmd21XdS1EMWVwcEpfNUk2NjUzMGtlTTJqM2xMaThwbGlEbVd2R3BiM1Rub1hKMXhIb3RQWTI3ZXJsTmk1WU5mUEJnS0dSRkFBdUgzZkk2OUsxQXBrQnU5MzY?oc=5",
+      "published_at": "2026-08-10T10:46:26+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "18561ff54102b034f2d9bfda997d75039c2c4e39352183310164d9d24bbf1a15",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "FCNR deposits vs foreign investment: Which is better for India's economic development? - ETGovernment.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOc0ZhN3hEZURmXzBqakJIRkJzTVc5UWRaVE5DZHc4U0NGNWFnVmNicjEyc2tQUVFOY3d6N1U2UUdRNi0wSy1HeVpTcERYT0NMa3lXal9VLWRnZ09qai1wNWNHYXhLUlBHVG1OLUdPTjQ2cHNRTUhvMnN0bXZwa01Za0tJdmRIUzVFTmZZa0F5YjMxaHFkYjF6aUpwa3B6bXhnRFB0VW5uQ0ZyRF85TWUzV1lsMXJibWhFcUpxZW9sa040MGFOakRzWU1hM2c2QzdYZVptYnBKcHl0VjdJYV9v0gHkAUFVX3lxTE5jYU9adDZpT3FhRDdaT2RMazEzRFlEYmpSSU9aSXZaLXprNEE2WUJIR0JDcld6cW1hZjBMT1l4cFNsMHlBd184QlczYWNZS0FXNF9nZE1kTzVncy1QYXkzWTJPM09GeXVHbWNnVnZxd1VNb254b3NlcmpRRl9zc2lDTlRhdXJzOEhqWmd0T3RYNUlVcUR5MzJ2SExvM1ZtaDFsOEZnamtJRmMxbm9rQlFBZ0k3VzE1ZHplNHY5SXQ1bEFYYUM3V1FZZFd0S0VHWHVKOEVwZmZFbnJJMkxoZlNYcjJWdQ?oc=5",
+      "published_at": "2026-08-11T02:07:49+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "371fadc755cf48e41d424620016cb5166b2ab48a36c98cefea985ea64af81deb",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Has the AI Bubble Burst? Impact on Indian Stock Market - Sahi",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xUjUzNDZhU18yZG0wVVprSURUYUNZd3dnbm50WTA0a2RoZ2laRHV6Z3BuVDNacHRTLUJUaGNLbk5RdlB4UHR3RVRWdTJremQyRnpwMEg2OWVVSlc2cU1ZVDJsc0dtazUzT1gxbUY1eXkxaXhlVE5YZw?oc=5",
+      "published_at": "2026-08-07T20:07:54+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d878119cc085f30bdf592056e4e03fa1346eece93e2e036f1d93e32bc6822afa",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Q1 results FY27 to US-Iran war: Top five triggers that may dictate the Indian stock market this week - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNR0VjMUw0OGh6YjNFT2thQnQtSDRuNXJNSWl6UXFlMzVueG9iMzhHbWZhSFg4UFAwTUstV1B2QXluY0hfXzk3V0UySDZ2Z1hUZ0tNa1F5ZjBJOWdHaVdGYmZwdVczY0Z4Ukl2WHlBZTRkQ3loOElQM0x2ZnFzanY5T0lQZndpU0liRkcyeGIwSHgtMENlaklGV0M0czhzXzNrbHp3T0hUdHdWdV9yUGZUTF9YQzVmTXo1VFNkZVhOX2ZOT0FKVEUzYXF5THFjS09oNldSMGZTU1pWQkJVaXlLcEVPOV9Uci1lSkpBY3pEWmxjOHRwRkc0STJmTy1ad9IBgwJBVV95cUxPbXNSclYwWWh6QXF3bTRIV1FWRVozZjNKaE8tTjdBcTVJV0hvZUY1YjluMXNFWUZXZ3lFTjd2cjF0a05LZ052WXIzWGJZYUdCd3pJVnZ5dEstc3ktWXdRTU5iNXdaN0l5NDBQTVZhU216ZUNkdlZZVW16Vi1JMFEtSFNSYlJlaUtESFBOcFVsZzBibWw4M2QtazVVNThuRHpSdmtISlhJM3hMMGNqa0RsOTQxYlJzUjRKSUQ1UElMREltdFMtYTlXbDhPN1pQel9uWmV2ZFJaeXpaMkdpdi1mdEpQTmVQbjZVNVhTZzB5TXVpWEhqdHUyaWYzSzd2RTFKWWhr?oc=5",
+      "published_at": "2026-08-09T02:33:14+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ca12e6a544e3f09ab6900e6a14059180ab8096372f01f39c15de3884422b5add",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Share Market Live News: Indian Stock Market Prediction, Nifty 50 - blog.liquide.life",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRjBfQmw4dFloYW5WS0l3LTgyb3NGU0kwc1cxdURTSjJsMmNsUkdiOVI1aE9RcjJ2Ym9lTUoxMjkxOHdZN3JjU2JnWkNsdnE5YXNiNE5PWDRhOGRCRldQeVNxNWQzMVdtZVBqVURRbUZXXzFRSVc1VTFmUmRIVFFqVG1jVTR5dzI2bkNxMHNNaWlFdThX?oc=5",
+      "published_at": "2026-08-09T14:26:03+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "363a282deb796cc112308ac02f66f698f6cfabfae673096c5b676ec503e826bb",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 10, 2026 - blog.liquide.life",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMnNzSGU2cWpWTHlPN3JXYk00N2pCekJGTGp2N2RrNlNUV3NULTJVX0xQY2lWdDQzWngyMWxYZlJESkdmY2NYY2ZjYk8xQjhjcExjRzdzTnI1NV9pT3h1QlY4Zm5YVUowLU5XQlUzeHlZZF9IX25pZDNhLWZpNS1xTWR5M2xkVU40WnlsSWRRUG9PbW5qYktYNHBiT3h0ZHhwVnpHckZSdzMxS1EwTnZKNVJsYkotT2pIQzlsN1ZWZmczUWpIelM0Zi1TZjZjTk1WS2c?oc=5",
+      "published_at": "2026-08-10T11:31:05+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e850498f257c59a99b3cc0d868150bfc1a94a08d4d2bd5252da09c2741849430",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "The stock market needs Gen Z - Mumbai Mirror",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRkZFY2xCRnM0NkJVV05kZGRnSGxyaERqTWZFMHprNzhESkZTalRVWDJYeEhRSVhnOEphMkxybk9IYTgtTTlmNUlHVXVERjdON1Z3WENyYUtTSjdicF9nc1hHNE13bDhMN1hmMDFKMGllRnJGTFh1cjN5Uk9MX1h2RlNvV3hoc2hjQW5TNDZ2QVZfWEtTQklQY0ljX2VqNy000gGmAUFVX3lxTE5MU3k1elIwLWVCVTQtQXJ0UlVQNnVVOWhnMnViOERKbVZVNlM5RnY1VjhyemtLbFdSa2pyZzU0STNvcXVGVm0wX2U2andFcTc4VGU4dnQ3SUtWaHAxUTFJVU9LNGo0Y2ZkNUtWWlF4WFVqQzYxNGVSazdiMzZFVE9JX0ZKTFQwVlBZZmp0SnkxRDNISkxfOEVhQmFOeWR2YnNLT1ltclE?oc=5",
+      "published_at": "2026-08-09T22:30:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "7791a34c74fc4c0252ff4aebe35cf4388b092ce54db69ddb005276f3ae96845d",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Crude, Hormuz & more: What will drive stock market this week - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNVNUT0RNUC1RNERIOENXVGJlUlJFc2dZVlN3bmE1eDRXSF9kM0JCQ3MzVjhzWXhvbXY3YkdjNlN6WnVNajlHTl9nTEd3Ti0yQXZGRGU0ME9xb2hDem5GYUJ1NHZONERGWnlGd0JmQlJEY1ZyU201aUxONTNiVjZHaW5PSjY3N0x1SVg5d0lOR1JVV3lDbFR4YThBVFRzZ3phMzFacTh5UUZQdmptRlJfNEtGaWl5NkdZQzJiZ01mSXZHbFh4d2hBRVphVlJncXBfaUN2STNNQ09YMHfSAeABQVVfeXFMUEZUZlR1NjI0QVNXejlpZG5kMVdURmh6Z0E2ZjFfU09sbW5ERERpaDlHaXZPY2pfaVNrbFBjRS1tdE1GVldaeWpjazNVU0hfeHFENVVkY1JWTGhnU3lhYUNJb1ktN3kyYVloM3JrajFfalgyRVkwYVNhU3Jpdng3dElBZWpIVXhXckFjZ3V4RVZ1OWpLOXRYN2RBNlNVY0R6TG9OdF8xdU1WSjkzYmtiVU5Va0VjNGVyU1hYQnZCdVBCdEpWYXAyRHVub1RPaDdlU1FhYUllNGNpZFdGcEcyNjU?oc=5",
+      "published_at": "2026-08-09T11:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "9f7277e60cc890619078f5aa4d51b8c7cec362e7242b7715699d16bf031d0a10",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Nippon India Equity buys stake in Iris Clothings that has risen 250% in five years - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSVVBUWRGN1ZtT0RJcmNveWZvTWs1aFVWWkN6alNHaF9RVVVkYjIyTXpTQUhTRUFBMG56QWp1dWEtSGt0OS16ZXlMeDRCc2x4NGItd010Z01rbEZrRm1PeGpLRGhEYVBOQ0lBTFBXbGtGR0Iza0dmdERxallKZnhvUzhvMWxiTTlnT3Zic0VjWVdWSEJsWF9OQlROQlE5QVdxWHM3YWdSU0UtUDlEX2lBQkp1ZTVKQUg2ZHVGSmg4VnROSjhpR0c4Y3gyVGEyWjlsNWFCcWtsU1lLN2ZKZ25CWlMxb0pJd9IB6wFBVV95cUxPcEZIWDdRd1gyaG95Q2RScE1NR295NkRENnF0aV9KVjNpcnBQZHlPcERlVWlxTVljVkQ2ZEtBSkIxX0pXYnA3eUJnVWFfZ0ZKRVBESU5GV1JPZ2tYNHZ1elV0RWxVQ1RpWnYxS3d2akNnSUQzcTVQU1BmS1pVbTFzcjZGTU51X3JObzh6R0dfUm5tbWozY2p3RlhCUkh4Q1dBWEF5cHF0aHlkZjl0eDVncVFxU0tGUi03MFN6d0Jfb2drcmVjVWI4bjBscGx1ME1hczN6OWhuT09fUGxXUzBfU2xUT1FTOTZyN3NV?oc=5",
+      "published_at": "2026-08-10T15:02:56+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0a79c7fbf6aaf68d098fe52777496a931e758a0172ec151bc780fa72a119d1fa",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Ardee Industries IPO Allotment Status Finalised. GMP Signals Strong Listing Of Shares In Stock Market - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZFFuTDlTR0NKei1TTU9ER2t6d0ltRzA3UWRfV09SX2JSUXIwamM4X0o4NVVBakhheTVfSEJRSmpJelBvRkY0ZXI1ZTZlZXgwYWw2bURjRXRBRFpyaFBTaWx0YzNxcGFNdUhKYXlTMEpZaEdtZHVna01HdV85OTNrcHBRZnE4NmhxV21FR3ZnWkRZUzRTMk5yV3FFNEJUYnl1OXF6UXpTRHFlRHdzY1kzbHlweDVHUlljSXQtYWZ5SWl4V3BIenYyWENWcFNZWFZPX2d3ZEZtLWNRZ1hmclRZX19SbUJnd9IB7gFBVV95cUxPalA2LTBCLWhKVVpjUC1qSlVGbWRBczRERkVuZ2pvQ0h3VU9NRHhGOEdjRmNlY2lvX1dzWnJLWVpZeTZWSnVwb180MkdiRkhJVVItQjFhbjR2X1RQSFZtZmR2Y3JOSnp4TTZHWTZLSXZPSUtLbEs1aEFkN3ZBTmF3cGJZYnpyeThVbTY1Q05nR0daRjFQOUF1eXBxZjFBOWk1bk13WVo2ekRvdl9rYzJaZGFsT0hIMmtkWHhpalZSelltZkFlR1NJOWM0SnNaYWRuYkQ5OGUycWc5U0l5eTFKa1JnOWRzMEFfNUVYejF3?oc=5",
+      "published_at": "2026-08-11T04:41:59+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "57eb2856831284be33015a326d3c5c3fdd2b31b8a1e4a8ce367a5af08990a6f0",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Why India's Stock Market is About to Explode - businessworld.in",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaG90cXVsZjZBa1VlMHdGbFFRdC1GTEdUdHNRZkJCU01IQWxOalBGU21POUpRZ21EdllNNkJLZjhEUTJING1odF9YRGZzU2JVMDIyaHo0T1U0UDFHZVBtZUFTeTVLVnBSenJ4T2MwX3FFcWNfVG40b1FPSktXQU5YaEJOMGppX0dyRXNzOG0wbGo3Zw?oc=5",
+      "published_at": "2026-08-10T07:23:42+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 0.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "sensational language: -2"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ca1628f7adcdf3b099c6214b670fbc16ffb008e5f483a1c3272f359c8a75f9c1",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock market opening: Sensex, Nifty to open higher or lower today? - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOOHYxREtISEFwNGlPRUFCNGFRWGZDaFNibjlGUzhKOWc0TUtyc0dZNUo1bEtUTm1DOGtHMzlzSE5rU0VEbXFjS1lmdlI2c3M2dXlzMFRZVU1WbFVxZUJJa3dtSnk0Q05LOXNYMWVNQV9qRGFhUjhXX2s3ZTdqWW9GSThWMjh5RDVSalcza2lNNHhxNHdwdkhlNGVXVDF1OEloQTdDNlhIRlZkLVo4dDFDVS0xN2liV2lxdVlJeGs5bXp1c0RhZzBjTnBvbVhudEoxUGxOM0NfMXdJblN2blZ0SS10TVlUR29HcUlmekhuM1RNQUx00gH6AUFVX3lxTE9mX0d4N3BScVVWUWI4R2d4N29lQ21BdV85dzVETmpubUJkZE1pT3NqUzRmZHZ0RUxUMHlEdEtWZ1A3OG16SWdGMFpxN1QzTlBuVU4zb3dtWnQ5dHE1SnVXblgtZDMydmNBRFhDRUgyT2N1U0xkd3UwWEpmalBBS0RUbl9lQTBSSzdHMFNKWXVTX1lpVG5Xem1ZRXFHcXNiMjRoT2l1T3pDc0phODlSeFMwakZxYXFLNjlSY2owYVo0MUV2LXFqaG9CemlUcElYckhCTFoxak9hYXNtTFYwblViT3ZKdDVFZ0ZieDhNZ1pwdVZRZzJUanhLN2c?oc=5",
+      "published_at": "2026-08-10T03:34:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "00667d9f0cc9dd792969291f9ba93d86aaf1299e63b87c4b37812132611d7167",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Crude oil, West Asia tensions to guide stock market this week - Telangana Today",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT1daVzlKTzZWTlh4Nk0yNDhrZFZOZW84MnV6T0RWYUNHQ0FKeVNfMXlVbUtfQzBTQXd4dVQxUG8taTlwTFdkTkwxRlA0RkVveHNqdlNBQ1VFQndSWVRtWnVYOUxiekxzb3lNUGRKUjJhMmdtMDN0bHA0ci13MzNWeHFyWGtZYXdlUmNzM2k2eTk?oc=5",
+      "published_at": "2026-08-09T09:25:37+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "555f8d50fa6fe833d337be717a3a7624b3fabb7a6ff058c7c32c596c61060910",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Trent Q1 FY27 Results | Firstsource Solutions Q1 FY27 Results | Top Buzzing Stocks Today - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNemNFR1BjRmV2VXFCa25QME1IRmZOczB6TkhqV05JYlIxaUt6cWl4VXllaVdWMEt4Y3RlZDFnVElaYy1qampDZWFicEVwcmtFYlpYMFVMM0xyZFYyczJGbkk1a0ZLRUJwZXIydkhsa244NG4yeUZBMThSWEdya3gxbTlIOG02ZkNoR2RFZ2JzeUdHeXhjeHlRcTJ4RDc1dUhqM0k2dGJnbkJzYXA5VkIyWDNHT21WdGFkd2t6MTIxUkM1cklrbC12Z1FlbmtjTzNhV0lha3BCUUt2ZnZjXzJzaGln?oc=5",
+      "published_at": "2026-08-10T00:30:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "971f454a0b7d77e19d4cb3e4c7bf0de79808638d0f864d1f2e3b69c12165d695",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian shares muted as easing US rate concerns, domestic earnings counter oil worries - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWUtCM0hIYk1wODVSVUtjaFN6ZzY5NzVvd3Jld1kzMnJLdnQ0VU5mOFlMV25IRldtLXA0R0VjWkplQmtJaVlfVVdMaGtsMGI3VUxjVlpoaFdkUnlSYzVnMkNZcHh3eGpYeFdEdmw3amNvZzlrMjRmOGV4TlRwQ3BJZ1g5OUY4d1ZYV1RVdDVfdWw0Si1KZGN0MS1nMHQ2NzdzN3FmMFlKenpNa0df?oc=5",
+      "published_at": "2026-08-10T02:25:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2032a5f8efcf2f20e9d425713154f49c1b7d479e06b4a5eb338de326439c99e8",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock market today: Nifty may open cautious as Fed split and geopolitical tensions weigh - BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMGhQSEpEZlpXX1czNzgxdFJKaHFZOEFzRWxydVpOUFkxM09HLWprV2g1dERnbUJkVzBCQk8zM2EtWUxycjBLeXoxa0NTZ0hFX1I4emRvN1FqdzVJN2RvUkFfdmE1ellvMjhIS2FwNUhrdi1hbzRwWUFqSl90SzNLdkFjaHNZRGhKcGpxWFFLWnY5WjcyUVZ2eF9mX2JCNXJKSzdpNHJQWWp6ZTRkSlVaWm1VeFJqX1F2QlJpYzd30gHEAUFVX3lxTE12bEt5NW9oVDZPNC1IY1o3X0pHTmlJWUNTQ3B3WkNuY2t1aVltM05DRXhlNWE3N3NtRjBMSWZuZHdncGJyTENDaFRLU3JkT1ZqTks2X2JXbWFCMkoySEV6c0VXWjBFN21Ub1FHWVRQNWJ5S2ZlSzRUT3UxN0NiREkyMU91UDV1aHJzbUlTSEk1TXUwLVk1Ti0yV09mTjk1aEx4UnZ5NExhNnc0LUVnX2RSc3VVV1NwbkRHd2pGU1prMFo0eWU?oc=5",
+      "published_at": "2026-07-30T02:34:06+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "2ba5f0548eae186f521aa008d5ece452989e5fb8cf1930dcf70e75bddaf4017a",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex Today Trades Lower | Nifty Below 24,650 | Bajaj Finance Share Price Drops 5% - Equitymaster",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVWhuc053ODhkSkV3ZmItQ25VdkNCc0E4RzJJcm9zVmlEbHRLRXhtUWljRXVwWm40MjBJcUExU0FEbHVLNXpkMzJUQ2lzenpyRjJiRk1HMHdxZEJoRVFpc2NvQ1g0ejJ0cTFHU0pCLXFuYzY0WUx5bENLNVlkLVhRUVVWc01BYmtHYnh3Z0VmREVpSFRoZ2FfRWVTYXA2OE1EaWJ6a2cwNmVHR2o3N2xYVWx4b0FBTXZDMTVUQkhHcjFydzVfNFhJUnVPUTdhZlp5WUdoMFdYZw?oc=5",
+      "published_at": "2026-08-07T04:35:34+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0f89c1869f46325aa08196103e682495791e1798f4aed2487685014f24fe5069",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Top Gainers & Losers on 10 August: Hitachi Energy, Paytm, Titian, BSE, BEML, Lenskart among top gainers - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNckJ5MHBRTU5lZEdjOHREaXhsNU1QWF9xWnVZUjM0S3dyRXdDMHkyMGZIY3RTOHoxeF9FWGRjaDg1ZjVYdktRdmtrVHluSERBWU9GbktVa1NoMHI5Qmd5OU9wNlN0T2gxU0FCM3FnY3VjRXhSOWxaMkxkMDhRcG1jRHhUWktWM0tCdjVTUjJKOEhCYVBKbkdGSkl6RkxHMVotbGJsUWU1OTczc3VNd0xOSzhLalNOeUxZdlJHXzk1ZXVnMlpwWndwVm12Wmh2UzVaSGVDV3lXTTdKZms2cTNGczBidWVRTE1lX0F6TDdJYWNTQzAyZnJWbtIB_gFBVV95cUxOaVhwdG5UT05oN0lVTE54NGFIZWVNWS13MW93S2lsQTk0Qy1qQ0pmdm9ESUJtQThCOUVyazZzS2I1Umt6UzJvNkpqSW9MWXNGeV9BeHRYSnRWamJrV3NiTWNfUkJhSy1iaGpEdEFiM201RElMdUVHVjVxcDR6T3hSSnlxOEp1aXlHTzVrN3BibVI2Ni1FZDliYXdqTjlpWXVKV2I1T0VtMVNDQkJxT3hGNGtRUm5YeGcwN2xHMUl4UmlKRktMUi1uTi1md3NjWVlVc2V0N1FJdWNrdFRLbU1FOW5na25xOGxSUU12RWlLSzRFUDlkV1B0ZWZ6X1NHUQ?oc=5",
+      "published_at": "2026-08-10T10:27:39+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4bfa6428f033bbe0a72ddaa4e7521cd9ab01a246982f84e0a7f660c87f68b9fd",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Lenskart Solutions market cap crosses ₹1 trillion; stock hits new high - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbWhWQUNvRFI4c3hoclRwcDY1UlZoaDk1Vks3b3E2X25qSUQySnVpaHl1NTQwYkMzRXpNUTl4LURZWl9NZTlwYlBtRGNSRXFmZVE2Y2VyRV9QLTRlZnNmZVNQaUt2NjFtTDYyTlBUMmU1SVRyWm5CVXFCMUY5S21vbGVKUjVCaXRNck9Mb1JzcnRCSGNrSFRZem85WTV1OUM5Mnk5akFGU09VLUFOdWQ1cXpHZ092Q3c1TElwcW5YUERsR2wtalRIMEExeF9JN25V0gHWAUFVX3lxTE9GTzVqY1Q2ODNjcEtQM3I3am16eElsTWZSS0txeFlhUGdiT003NDRwNERtTjZIcFQwMklQTUJaR051MDQtSGFhSVNLdFhOWTdvQ1lSdjNJNWdIVXFIeUY1bHV0NExXdzFINnczTGJ1Z0VSSExxeTNDblNYT0htLXFlTlZCam5xTjhndTNOZ091WUNGWjgtZ09Md2dPdFpVTHVGYVhrbjJtLU8wZ1ZGZWdNY2xtaWlWN1BTSXZaVmd5S0gydDNHMk53MlF3ZGF5SElEOHdNMXc?oc=5",
+      "published_at": "2026-08-10T07:56:35+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d97b4d5f7a1fdceee2c8a4069eaccc11f709590e93941efac1b17f88cf96ede4",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Explained - Why Hitachi Energy shares jumped 10% and where is the stock price headed - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONHRJUGt0a2tTR0VIb0YyU29hMlc0NDBTZG9tNVN6VWZFSlZ5blZCWEN5SlRUWkJDMkFaekJocEF4bWltME9qWjhybGdQT0FqaTcyQ09mdS05aHUxa3dQVVVqQ2RoYllSUmd1TVdka0dGYjBHenVFdmlPXy03aHBfWVZEaEU1cnAyVGRDZjZmR0lES2lMbDdzUXVxbmk4aFFKNTU1ZkloeG9CZE54OV9tb1VwSU9HTjdySEhYdExyR2I4Y2VvWUhlMVhn0gHPAUFVX3lxTE1MY1NUVDlGYVU5a0JNbEM1WlVhNUZzTnBiTTNZTkJoVHhoaUk2ZHRDTlkxRWxFZ0JfU3ZOZld4d1k1cU90U3BUZVRxSkRkWEtKWHk0YkRSM0llLVdSWTZub0ZOaFV0VVNHTnY2dFJQVTQxblZBZ3FKc2dwOW1vOEZjQktuSUtpRUtQWmt1TllkSS1oQ3dKRGtkcXRlanFPT2w2dHh0and6d0FjQjIteXJQRlRFS3NwTEd6Unh1UHc5UWtDT29FaDBCM3AxSDhUNA?oc=5",
+      "published_at": "2026-08-10T05:57:51+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fa1876fc38ff5869f17768cf97862b01a275977144942b656c824aba52efca5f",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Sensex Ends 43 Points Higher, Nifty Above 24,550; Midcaps Outperform - News18",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSndLSHBpNEJwV0FXa0dmLXRzSVFqaHdJVW9oT2tBb3l4SVJuQjQ5UExxa2ZKd01pZWFnalZxbXRidDZSZEs2UW95SGNLQ3UtQ2tzSTdBQkZMa1otdlJWTHF4V1dxTi1mRUFTNmY1MWY5MVduME9LaHdrUTJESkxsbTNEUThBX2JVSVREalBGdUZycGl3VjJmTFhrZTczZTBFY0RsQTVzR3ZfT3NSOXcwWmRnenFlaEZnUGpZdVVaeTNhWXdWWUQxcUdObnpOaVZzSk1TeC1KRVp6VVXSAeABQVVfeXFMTWtUd0NLdThQU0NGblY3T0xyMDh6QkJHanpyVXdwdUkzWVcwZVQwZEVBRVA4d0xsQWJLR3V3YXgtTzZTUDBEeHBINkN0WGlSdy1uOURPTDN1UFowdmhzSU9zdTk5bGdXQmRXSEV6LUNNRTByZTdjS2tPTFNvNmtlYnZJaHlZZEF0cFlQMzU1bWFsbkJwckVoQW54aFBFM1JqcTdDWDhYY2F0cndMYkRwQmxOZkhSUm13NnlVQ0c3SHVrWlk0UE5DeHRVd3EwdTkxM0ZCTTI4T1MzQ0FPS0dhcS0?oc=5",
+      "published_at": "2026-08-10T10:08:54+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "30894abd9bf88e127d4f99dfb241fd8ed31c57f62b7a96327c32301a8a866a43",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "India's equity benchmarks log worst day in 2 weeks on widening Mideast conflict - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTHV6TU4tdUJnZzJDT010V2dGNXRVU3V6NDA1UXBkeUllWlpCR1VyU0hzMnk1bi1BdDM2ZTJpQ3RBb0kyTTBYQkZ1cnNCekhFOUFrUEJvbFp3UWY3aGVuZUdqZEROZHA3LWVqQ3JMZ2tvWlh6Q0UwLVM0bmlvblBDSWhWVlZ0aWJac0xYcEJIX2V4S2k0dXNRaVcxM2RsS0FlSHN5Vy1lTFdvT0dNeDJkYg?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "5a589e4207948e75b856827aaae99a8316628276ad836af8e7de50cf58d31b79",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex, Nifty end flat as Middle East uncertainty caps gains; Titan jumps 3% - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMDBRWkhuR0plZElHejhLNVdrc21lRC1HRHJXZU1UVkk0blJ4ckRjZWNsRmlYeTlZTlRyMWVVeFByNWY2Zm9zRzM1c2tMczItOHF0d1A1VktnbVBzLVZvSjltUUJpQXdLSXpud1ZsZ05HRkdLN0N6SzI2WGRWRzd0Uk9nalNFdXcwZUxSeHgydGR3LTRiM194d2Q3a1ZoejJnQTdOYTRFTFBIYXhZa0h1b2JPdW1salJjOHJFb1dQaE91c3NiMEdzRy1nME5KTGZhQXJ6bVI3UVRpbVowTHBockVvdnnSAeoBQVVfeXFMTjJSYnlqcnJwaWlKLUoyMDZrSF9SVlVKVEhWUjB4Q3Y1bksxOFBQTmI2a01yT0ZIaUdSWURPNHhNQTZfeVJLdm1GRG42ZDRQWkllb1lPUEIzQld0TkNOankwMjctN25DaHJURzA0RHFDZUx5aGtQNXBVVDVKMHNLd0JYNHdXT1BOYjhjcEs5QUZSeWtEY09oZ0tNcUo3aVVaX1d4R01vdktyeWFxTE5YdWtzOFJLemQ0a3d6NUJRRll1bVFUMExJQS16WVhla2wzOC1kZnVOU2s4ZHlOWEZTMVlhZDZaNndmTHlR?oc=5",
+      "published_at": "2026-08-10T10:26:30+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fb6a6bdc03db4450b6b4e2198bc87bae085ef9c416c9b560444299beb0a215d3",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex Today | Stock Market Live: Sensex trades higher, Nifty at 24,600; Titan shares rise most in n - IndiaIPO",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVWI0WllaWldISF9WZzliMlhLTlVNbTdPeVA0cFVuN0ZxaS1walBVMEl3VVdNYnZUbXZlZ1FBZXhTNXBrM2lGc2dpT0h0M0xzcHlEUEp1M2tqVUF2OTFCRjZVb2RZRnRpdHpTVWhBSkxFYVFZdFY4MTllYVJlSWx6WmdGaG1XZXBMSkZoOXJiblVGQ3hkQkpmV0ZzU0ZNcFF3cVNGM2tXeUIyNHVJV1pzdVZZemYtanB4X291ZU5GRGxSZkVYaVFFVWpB?oc=5",
+      "published_at": "2026-08-10T06:43:22+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ae1737a56b6ce30075642bbb02dfa9f9c1961255018f9360386088d93d7ae5eb",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Why did the stock market crash today? BSE Sensex ends over 700 points down, Nifty50 below 24,000; top rea - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQcG0xNWRPcXpqNGZYMlVPamVqMlI4dXNMdnlGSFZlVnRhZmFHREZnYlNCVWVTa1p6WkpMcWRtUDV6ZTZKY3hhVTVCc0RIS1VpMnFpN1RyYzdzdnR4RXRyNTNPWmtURFExSDhrMnNpenhYQ0x2ODlvNXVBU1M5bmhUOXlZV0xQeUU2S2pSUXIxb3RtR1U0VVJEaW5mbi16YmJkbmlEa1pSOVB6Xzd2QjI5cnl0dXdQUWoyanhsM0JfRXhYX2pRa0RJSFN3MGVlWHp0aXA3SWN0MmVBaW9ZZ05SSWtNS0xWdHdGS1F4N1FuMzd2Z1hRbWpuNGdyZXRWQnBGZHJIMUxGMEJOc3VNVklHem5vemNXdlZHVE5UVDRmWm5PS19XdFFrU1hJdkludlloY29XcmY3OFDSAb4CQVVfeXFMTXR2MHlpcl9SR1FwSDdINWNFOXRtTmpHRG1ULVBaaG10Z2MxR3RpMjBMREl2aFdZMDRPX282TW40VkNVamxiMVo4YTVLYzNpWlBqVGZGOFBmd05UdUhiUHBZT2Mtb3NmcmpXSVh6S2NOM0RtUTlsWXYxZ2dqTVhENVZiX1RRSlRWaXpsczVkLU5ISkxjcVk1WklJcXJ3MFZ3dlRNblcxOHBsUTZsbVVHNHNhY2pzZmplc1BtTVhuOTh1OG1JcDBjM2NoNE9XaDZ2amdUaWRJWEJVdDFVSy1HWUJuVmlNQy1mLXhpc0RBZ1VtbDJrRlo5VVF1dHFhUEZwclI3aEF3RC1UZUtuZmpUSkJUU0toNU1nVnFyWmNsMHpJSmJwc3UzYmFOLU43V2FTSlpZc2d4YUJfcUNLeEZR?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 0.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "sensational language: -2"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fc556e96e724a718704b49b620b690277973c0fac6dc9ff8494cf73ca8920ce3",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Markets Decline on Rising Crude Oil Prices & Geopolitical Risks - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWU5wVHRPVkk1amZ2OUlRMmRDbUNQSXE0R2tuUTBNMjhrMHRYaXZ0XzRFeE5Fb3REbXYwVmpsRVBBM0s5ZTdxZDN6M1ZmdUpHWC00dGNqS1luNm1zdGg2TjJjd2F1R3RRODNESkRPalhYUGJOOGRRNGowNkVkZWxfV3F4enNNVEtCTXZzMVZCT29XTkVXZzYyMEYzZllRbENOa3ZJZ3FYNUFkZGt6STBYb0c2cVZQTTk5X3hR0gHAAUFVX3lxTE1RWDJ5Tno1dDBzN1NydU1BSGhVNlR0clRaeTluYjI3TGxpb2YwckgzOGVEc2FLc0NfVUFDNll3SnVOV0d3RHROSDE3emVBbXh5RXRfVEJhcHpXczYzZVdkcUNDajc0MkNCY1ZwamExZF8wMHNQY1V2QVgzSDRvUXFiUGMtU1Z3S1k5UGFGZFZCRHR3MUNrMDFGSk1feGlpbXQzRGt2VHBNUGw1bC1saTBmRG43M2pNOWFFUUVUak5PXw?oc=5",
+      "published_at": "2026-08-10T04:44:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4caea7d45157ccc215b4844aff145eda3c40677f0835129fd7011ab7ace9d9e6",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Domestic investors' share in Indian equities hits record 17%, foreign investors' share at 15-year low: SEBI - BFSI News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWGtXX2stdmZ3c0xHTmctdVgwUjhVTUFtR2NBbnBjd0hBY19FNzI0Rnl6dkI4bHQ2SURTYmNESWsyeEVEQkVsYVdIV2RVNXVIbWEzdmVOeGJOUlNWdW40VkhOUVdIX0FlaEFlWmRfTkZ5MklDRnMyTk9NbmdRQUZacHMtWUdCWHV5cDJuZ3pqaTNUdzZWRWFYNjhnYkdqVU1fczFUc3czREZqZjFfV2J1eHV1cnRRX3FIclQ3T1hMTmowSDV1OFBMeENKWWFBTzM1ckxxZFFFakV3bXlHZXRMU1pPT212NWpnbzM5d3BScE1ScFBKOHfSAfsBQVVfeXFMTWlXanNkb1JTdGlTUHdDZC1SX3hXWk1LS2NUUi1YemxGR185c3ZFbDNiT0xUME1TYWc2ajlnTG5UY0c5cFZaUlMxYjlDazU4NGZzczBZSDhZU2tELWZqSk1Icm01WElIdUdOYkhlanRJZzRrU1VhVHNkWk9mOGN6dmdKRXR0b2l5UXF2N0pOTXhBMjQzTkRxbEIzWmRhVWo3N3diZk1lVGJ0eTVPLXIzbml3NEVXVGlNbmJQV01CaTJ0TFlDUzc1MzhUX240bGRwZmRWYVFyUGx0Q24zSU5Ya2E4SU1JTkFGWkEzNlNqOVpublp2OEFDUHV5cEk?oc=5",
+      "published_at": "2026-08-10T05:22:33+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0500378ebba6c672a5707994fac65e249e228a886077fbf1904b118528e83952",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Crude oil, West Asia developments, inflation data to dictate market trends this week - Rediff",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcmUyRXZrTFdsdjJhRjlZdVM3RzVud3N3WmlDMmVqWmxOVnkxby1zZmVIR01fN2RSdE5La3JIYk9ja1J0QnhkbTllbEk1dERGZmFOUWt1RGZlNmVjcG05NjRNVVZmSWN6N3V6bzRPSDJIc2lVS2pZcEVEY0QyVzEyd0gwVmxYU25aVElBTXE2VGNvN3FleXZnQlQ2VVJVWENaTWl2MmNnNVJuejl3bEt2c0lZZXd4NUVYZUNxbmkyQ1F2RVk4OEJNLXVvS3Q3c2ZJVjdPQtIB1wFBVV95cUxOb0hZbGIwbkREaFR1NlFpX185M2VrbEZ0MGN5bG4takNaTzNzXzdxQV9SdU82V0pid0F1M2FmZHJKZnhJaUtiQ3RHaEpkdlg3Z0EwTkdXRUZhd0hxN3MyWFhIM196aFpzSloxVXozNjR0MWZfNG92dTRJUWFzNmxvT3owYXZWSnpmcGtYeTRzcGs3dmY3U3NVZVNkelNzaS1ldjgyT2hlYzlVazk5WXVwamFiM09nZWxpSVExel80ODk0d1owTjFpODU4WHY2cHdFUzBFSFNOQQ?oc=5",
+      "published_at": "2026-08-09T14:17:01+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "75ef0a0a5bc996d304e854f8e645095c39d443207b7a567c8c91342961d2e312",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "NSE IPO 2026 - Expected Date, Price, Issue Size, GMP, Business Strength, and Why This Could Be India's Biggest Stock Market Listing - Spherical Insights",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbk9kcFhMVF9oTnpGSkt1bEl2OEkwclpIQkh0Z1ZvQm5DdGRYRjhYd3loVDUzaGtDRmhuZjFWbDczVlpIM2hkaWROMDRYTXZpRGw1LWhUdkVFakw0SC1jbjRkNGhJNWVKdVpNSS16Qlk1bW54SW9HQU8yOTZpVVEzWkk1RDJpcDh0ODZBRGx5NXJ2Q3RLMkkwVTRHOVpOSzVfblZUdTZlczQwLTNCRmExOE56VHlFd2lpRFYtbGs3MnFtazFrY0FRbGlHb3g3d0tjOWNuQVpwTDJVNnY5aEdSMFFNN0N2MDZZMGxVZzZ1b3c0WTQyTTlj?oc=5",
+      "published_at": "2026-07-21T19:02:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "941f22acfe956977322c14c7155c152417a46f1abc38bffdfcd9c00cd336d9de",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "US Markets Holiday 2026 : List of US Stock Market Holidays - HDFC Sky",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQU1FqejhHd0RuMXFWVll4UG1WX1FySm5tUEI1N2dOeEtKNU5PMWd0MjFEaFFNNWV6WHdTM2U3ZXA5V2c4SnV5U3MtOUlBSGVZX250b1ZzMHRRNWoyaHpYalYyNzFnYzl4OW9TWlA0VXZING8?oc=5",
+      "published_at": "2026-08-10T05:20:57+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "136df867b93b79257fc78cecd1b895bb7b5ce391db9bae33f0ae007f6a1c667c",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Wall Street slips ahead of inflation data, crude oil surges - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQjdiMEp3eU1FR2N3aVl2aFZMcWxuWDF1TE42ZnY3YTd2RVFsY0V4Y2poMDFuNDJiQVZQZW93emI3b0lrM1ZRU0hRbXByVUFrcHFLMy1qeUVfQWx5eXZPN3VFdzhBWi1feDFFeUtyVHRnWVp2dGc3UV9yNllYQmlwQk5Sb2E1NWdwZEozLW9jNlFZdFFQQ0pQazVBaFgyUTQzTVJOenpiRXNpQUxwNTdKeHQ5WkNxa1AyN1dFNDlNLWstbU14ZFhF0gHMAUFVX3lxTE5hb2VpOGZIQjh6RFlNM2JYZl9NRXVncU5aUWNYeElQOEl5UlFETzIyVHVGb1hDTkM4R2RuckhpcVZNX193RUVpZ1BIOTNvbkFQU2RaeS1VM2JGTmNCQktpUFV3VHBtTGVxeVhXcTVRYWFxRkZmOUc5QUVMZU1kbDNGMjYxNHBMUEpQUGZxc09uY2dyajREMTZJUnliWGZtMUdqTHNCRlAwcGNMcm5FRDg5RDhONno4U3BjU2VMdWdrS2VYUjFmMWx2LTltcw?oc=5",
+      "published_at": "2026-08-10T14:11:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1b3f18db5e46303c4235e287d5e23de7d2060552727c4e352e36a59694061c4e",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "BSE shares rise 4% as Nuvama expects stock exchange to replace Wipro in Nifty 50 - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFg4c0VlVkEtd3ZmTzZqQUl1ZHNKM21HVVNfOXFqOWtfcnhkeDFaOEkydVo0bldqQnctclA4R2ZKTUtmNEVOUmdFTEZkR1dNblBVWmJyRkthbTVVWDkzbS1uSkVJMk9FUFJYUHp0bHBmMUxjWGZHRU1mdjBTUzZLVDZLVDRXeE5qVEl3S3dSdXNPOVpSUU5xbVZoT0V5cWdkTXk2Rk9YRDdVSUNZblZLUDhYbzZRUVd6cFRXTFNSLVZ4VlJ2ZFJyTm5pZ04zMzdyc0dKLS1GN3puamVrR3ln0gHkAUFVX3lxTE5vb0ZDSlBkUkpEb1JjSmhlRmphTEQxYWc0UzdCX3VjbzJpZFpXaEx0cUJDSmNJNXp0TE1UVFdpNGRsVTZXSlBpckJCNS1udzJvTWxUOEgzTk1OOE9DRXZPSFpDMkU4ZUgwWFhBYU9TdEFHTkNnR2JiZmxvWF81MUNYMjBsSHNvalZtTXJMQWFwem1qcjJrajRQWFBBcGNaTFM0SEI2Smd1bVBVbURWN1pkTVlSOEJ2a0NkSExGc2F5X0JDVDVxb1A0bUM1a25vRS1lQmVuY2RWRmFjSVdVdjl5WkpIVg?oc=5",
+      "published_at": "2026-08-10T05:37:19+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e3465bd75fe5c468d458b3cc313abcb84611f4b29a06355f07afc9014f692367",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Markets find their footing as inflation fears ease and growth expectations rise says Vinod Nair - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOOTJLQnVJcjN1akd4RG1CWEVXdkYyT0t5Q1BqX2UteVRwY2hSNURRaldDdmRKTTQ4b3l4aVlTTEt0Rng5WjJ6bkJ1WlhlaFRxMkdtZDlTbFMtMUVjUlBYLVJwNGZwSktKcEkwcTlMNzJLYzJTclp0eVA1aGNmNUFqOUhSVmpNakFWWUdGcHQ0VmFtMzE1b1RYRDFRRjhsQW95MWFRNFdNd04yTUYwTllTdHN6ZE14MmpJY2tVSi03cTJjRDFfMFIwaDZWN0ZlaXNwX3JnM2JmcFNiZjNyOW5nN0xoRmZCWm9sS1EzVjRmcnNEUi1NYjJpdtIB_gFBVV95cUxQV1prM00wbFQ3NXhCRmVidDRBWFRodXo2MDNZRTlpZ0R5RGFwOXRyMkJtZjVWVEpjbnRwNTRRZlBieVFnTU9WU1pNcVZFUXJZSEFYOTRwYnV3c2E4S2xRd3NXNmtLWkdxVFpQelFmanVwZlkyQThXSzNnaVVBa1dJNjZ5c2N4ckRxNWNsdWg3QklNVURLUnROYVBkQkVCdGhhOWJQRy14M1hVMVhjZ1ZLV0JoaG4ydFVUeDhZbjZhMlJBVnJ5ZXhwblV5enlCV2dEWm8wdzhTMkQ1Smtob0xWTkVYV2VYRTFxUjdiblRYYVoyZkV0WTltOGJzMzh2QQ?oc=5",
+      "published_at": "2026-08-10T04:16:57+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1db75b0ea432a4805b5e44f9ee7513819d71fab82ab0a65656d5fa6a2e22ec28",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "The Outlook for India’s Stock Market amid the Middle East Conflict - Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "e27f1c40dc4b571d3aa1cdce0befc7e07545ec8187142dc370bb2b17f26653a7",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Buy or sell: Gift Nifty up despite elusive Iran-Oman deal, Vaishali Parekh recommends three stocks to buy today - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNaERheVFNQnFBZEd0RlUtU2YwWXlRRnczbERtTHFDVTZQSEhqWHFZRGpRQVNqcndvY2NOdWlXeTlZcEVkaDFtdmhqaVEyNUREbnNDOFhjcFlHczJwUEV3TldMSl9Bc2t2Q3lZZjNNcWhNU216czlWUHoxMnNTRkNRcWozalZtNDFvSGZ1NFhTNzJXYUJGc0tqQ0FPSTJrM0plRWFZbmJjSGNRQWt5T3JzNEhXY1BjeWRodXp1MDdpNG10N3lfcUVaanBxMVIyMGhyY1NVWGlhRUtSMEtZOXVIWXB0d1dfdlBFenlsTGx5Skdtam1lYW8zNHdiUDhOeldVaDZ0RWQyeHZlek3SAZACQVVfeXFMUHFrdDMyQzNxejRYVVlUZTY2X1RXMTlFUlFmd2FUNVZzOXk3NHBMc0ZtVFJweWxuUmFHSzFISGJtLUczMDE5ZHZHY3hUN2o5eUtaUy1BMl84dUM0WV9mb1pTVklmR3pLa1R4WjVlcUVKYUE0VUZncDlrMVE4Z0xTMnJTbVFhelJ1aDZkVkVZeHEzTjI4TnpHQWNSY1dKYlhIRXpXZVJZWUFra0FpVGJTWEJEZUdnbzVLenhSUllOLXpVY3k0aUVQb2VEZXlvcGx4NkVaZXNEQUxQVmU4czlKa1J3aEVORmx3czhQQ09iZmxBLXBrd2FSd2FweDZrRG8wa3ppVmpSM1VVWHNJY21weHA?oc=5",
+      "published_at": "2026-08-10T01:38:23+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "184936df04058048dc601ccf045917b00b10fabfbcf5e6ed30f942d81df7b526",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Indian Stock Market Preview: Fed, Earnings & Key Stocks in Focus - INDmoney",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HcE5hMm1iLU9pUUhLWFBVM25uOVZGb0N2RjNjV05HcFRvajI2RE5DRFlqYkN0SDVnZzhUbjZ5eXlNWktrQVAxZGtPZFRNNTIxa0ZTU1lmbno0OHpRcWRzZUg3THV1Y3hFRU1BdVJSR3Bqdw?oc=5",
+      "published_at": "2026-07-29T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d70c257d4d8ce2a7fef951887a6bbfea7bbb67b5f9befc9498e3c88893cbc486",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "India's next stock market headache isn't oil but a bigger storm brewing in the skies - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMmtJY1dqQjk2Y2lKSm5VMWNrWWZrdk03QWZORV9RN0MwS0tZRjBCTklyenJ1YVkwcE1BWllOMXkyWF8xZmtZNmtsdkRMMVhLZ0JNc1k4d1BZeHExRUM2QWRTV2ozc0FkNjg1WGpxa3JLYm9sSHIyZlIxOVVhZ3c5bDVsQTRzVFo1QUVQS0xsV2RBN3VLZ3BQYkgyOEFVNnpuN0FVQTVXckJLOXFrb0ZBempXT0V2S1NsUU0wb1FKSndFVFRDSzBsQ0tWV0tmdDliM3ZhTU5jdmVWbVpFSjJIUUlRWWdjcWNDRmpTStIB8gFBVV95cUxNTExjWVRhQ3FUTjRNZEU0Y2NDNy0wSEJhcWgwMVpIY3R3NnZsRUZ4ajhFX2xUM2xhQmkzYXMzS0RGeG5ObmVOR292Ykpad05Cb2NDbVYtSjFPOG1kTk5veWVyWlB4T1hZN2FxVXZ3c214ZFhVa0NDSUQ2cFk4WUxCaDdDcVVIZGNWYUVnQWgtVmVCM096MVA2RG5rbDFidjZNYmY4MG9QcjQzcFVVSFJsNHdKUDl4MkRrY1NnaERsWHRCeDhfdm8ySi1mQjNFOUpoQlFnQVFiSHVsM0hqTmkzajVwTTBDSFE2ejFWT2JOSnpvQQ?oc=5",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "486063e1c30d0e667a8e4176ce396507a8c470b0d220d7b428efc0d15b7b13fb",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Hitachi Energy India shares zoom 11% after Q1 results 2026. Do you own? - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQXZSdV9paHFJUUpDUkNuT0RoYUpLR2pROUdDRFotRV9YaHd1cnozdTFEY293RmROUHBiSi11V2k5WEtKQmpSanVXT0g4X0l0NXZuNmZVY0ZlR3pBZ05aYnV0X0s1ZlZDMHgzbVlId3NVR0NmVjc2RVU3cC1RaWEtekxBdVRWbURyUE1MYTJzUGlISTdGYUJlV0o0ZVJVbEhncWZ0OW5DMk1oWUp1dHpVSUM4MTJBWUMwdXF4WU9FbzItcGZILWVzczRWR0dXX2g2WHBRSNIB2gFBVV95cUxNdlltaGh0N1Fmbk1xZHN0ajNEdDRkTDJYQzFDVWVzQTFRMTJvQlI0NnFNMWtRY2d5eE1EbDRPNDNNR0V5MFh2ZU5JZ24yYW1Ub0dVX0phYklObGg3eWdZaWNXRXNpbndvSmc3T1JjWUEtRGkzUXE2UUxKSXlMMkJqYzBLRTNDV0hXazhMZG5BeVVEY19ucm9wOENyX3Bhc1lueEl0cHlyRlJaS0c0dExzZ0JwT2puc1ZQZDRndGU4ZFBqSkNETkFtZDA1dUg4S0l2Y3VkSzN0UVVIZw?oc=5",
+      "published_at": "2026-08-10T08:37:08+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d46ed5956d4dd2158eba267ba485397046cf18758eb5a66fc1440250bea66ed6",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex jumps over 800 points: 3 reasons why stock market is rising today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMENfY0hvWWdRbUtCLWlJX2pyWGFHak9HWmhpVjJ2d1pCZ3pxSEliZDV0Q0pRS3locDlZWGJwQ25Qakk2N2tUQ3owYzlyRWNvOFJhb184RzhSWF90TW1NVFh1QVJIenZNVWtfSnBWT1JJQXp1Ni1rN2RfakNBN3VyWVQ2dmhDLWttUl9adldMbENJelA3LXAwUkNIZC1ib2RjOS1pX2N5dWV4dHVVaGJ6bmJZTklraXVOR2ZiR0tIbmZycDVGbzcyN0JEM2E5T2V0cDVjNl8xcTMzZHZpUlV0eEdkVG9uTlYzTmI4OG5sUmVidHBfaWfSAfsBQVVfeXFMUFlsVXpseHhzbDcxdlpodjExS0FpNWVWeEVwVGF2cHp3QWlaR1FZNW82WThUeGNDZVZ3MVBjM1R4RElJUl9zQkJISkVDMDBMRDBmYldyV3doMEc2ZDNCVTFmbzZVU05rUzB5bE5jYVVDNFZObGZCMnQxdm9kRkt0U2trTEFKenBsWkUzU24xX05yXzlnZmk1S012NkJSV0p6VlRoZmdKdFJwSmRJSmNvX3VQUTZZaXhFdzVUem9EUlU0aDR5M2gwdkV3NEd5cUpxUjNxbjRPYnZlS2pUNnNjMS16a0FYTzdYQnp2XzBYQjR4MGh1Z0pxck9qMFU?oc=5",
+      "published_at": "2026-07-27T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d8743b1bb3e4f5b5605f356be7e6f59d4ce9e213d9788a2e8a7b17475eb84dc1",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Stock Market Today: Live Updates 10.08.2026 - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkSEpCMEtYREFXc3VOSzNqdTkyMWlCemRRNkt0OXVTWDhDRkZwcnFXamJJUm9QaENyTWRwT01xVThkV0lkRl9ZdDRkNm9rUDRScE9DWDdvclUxV0lQZlkw?oc=5",
+      "published_at": "2026-08-10T08:00:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "896190fbe15d8bf75afa44308630b2c5d6df4d54ae42388ed5e4021ad74ba11e",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex crashes over 700 points, Nifty 50 ends below 24,000- key factors behind stock market fall explained - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQYjVkQ05MUVp6cnJRX0tIY2R4V1RDUkpKZ0daeS1IMnF2NTZuRXFINDE0bkdISks0ZnlkUVFZejFXTGs4eUwtdGk2NTRTclpTY3VMSUN1cVBKYVRYQU1PVVpkQk1ic3lGQU03VkpBTVJ5QllaVkl1aUg0Q3JCT0x1RzRpcjVZbG1YNUlxUlFSWW4ybUR2NjFqUnVFX1RiU2tGOTNSR2tVaE0zX056bTM2cWdIajNuaEYwZm51WjUxSVpmeHRRVzJpbVZWY1U4R1R2ck9NbEQ5UEEtdTZpOWVyRTZsaTBFallGYjVBRVdJUk9ldUVHYXc4aU4zU1VIeUZTYXhXTnp5b2VLYlFGaFVB0gGUAkFVX3lxTE8yNUpEWTUtUE9YWW9NanZiMUZFYU9JNW4wUVRzTkhDdElnMElNNHZoNEVkTURNRmV2YnN3ckdtQnVQSVZrZnVyX0RUQVBBR0h1d01GZDg3QmRBdEF5Nks2SDhoWlRvWnRRQVB2SzZfOUhmcS1Ca3lBd09nMWtLYkFNYUFNZHBSWGNibmxzZ0N6d2RlMXNzeWF2ZGdiVFZFUGVmNWVEVFpMY2QxRGV1ZXk5UVUyaERILXFVRUV2ajdBR2gzdVctTER4X3JYeVVHZXQ0LTFLTTlFYi0zUHpNNWx3dU13Z01pS3ZiajRMbnZOS1E4dDdYbkNRam5GUmJOV2UyaTZyVjVwNHlpdVBQTFphZkJlNg?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "005139f217cf2d538318d2806661d1e69d81344691de5368854abe0e734de1df",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Valuation of 4 out-of-top-10 companies surge ₹1.43 lakh crore: Top gainer SBI sees ₹63,922 crore market cap... - Bhaskar English",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmFONkJvZTN5cWFGNlV3dklxQllaZnd5UFUzdTZwM3JvdktpVVB1R3FzUHlfay1TOGpJcVhGUVlreUJjQlQ0OHJOMUtKd2lJc1Q5dVRFQ09SbU9UbmIyU3RWaHFHYUhJWTZIcUs1MEdaWVcwVllkRE8zT1NRdUZYZW5zYnRrejRVRXUxYl9aSWdzU1BmMFVac2NUQVRtSWpFOHZQdnhUc3lyNWYxZzgzQnZFdUsxR0dBQlZWV2kxVDcwd9IBxwFBVV95cUxNWWJVUVRjaEJkNmdURndlQTN1eElwZ3d0aWVsRUdsU1BzV1ZULU9NN0Y0Tlp1N21McFRlRG9XQkZMSHdwNHV1d0dlQVpjMlVhY204dWdxaWFLbnZQa3BTUnVBZ3h4cWgyQ0ZRS3lpUkN4M1owZTF5ckphWTRZRVdmWjRRVkd3YXc1cUF6Mmk4bWdobVVYZk9VS3d5ODVFdkZxc3FNMDV0d2k0UzhYcGwtdUpQdFliWUltdjdKNzRBV0VVV0RZSS1B?oc=5",
+      "published_at": "2026-08-09T07:08:44+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a5972c08bd408210a5a76a564dbd3574e16482eb34774c28c190a0b0ef9f8550",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Daily Voice: Why India’s stock market can rally even without a strong FII comeback in FY27 - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNZXJaQXRyTUlpa0xSdk1YTDFSM290S1k4V1BjaVhuUnNGMmszQ3ZtczA0R0NteFR1UEppdnZQc3A3Y252LTdEbGtFTnBXTXRzLUFDc1lqc0hLMjVDVzMtcXZlZGR4dE5JYkJ4ektSZl84UUQ5NFdwS21IRmtBVTNQeGRTLTBtYUN4Z1hKTXlFYVUtc0Q0YWI3bjhhUHlkMGozOWYteXlxUGRKamlMMlFCMWxQdEpJZHphVkg3c0RCYl9UOGFidVk1SmxvOXVZVHNXTHFnR2F4ZmhDQllBQk9vYlFHR204ZGl5aXR6MnFmMENnZVMtX2RrMWxqdFZUUHpndXlTSWlZVHRzMlIyYUFkOHZpaDgtTHFEb1c0R0ZwRGlEYkJlSmFTTVduRFFDdXJtSU1NZDI1MnZPMnJ2OTdQcXprR0c1d1ZWMy1HLWN1eUlsREt5NFlfWF9R0gHfAkFVX3lxTE9ZMEw4TWFCX2xVdE9zcjFidTN1c1IzZ3M0M2NXOFRTb1czSVNjdkJNenZYb2dVVmplLXROVWZJdmF6V2F3UjdJTWxrS1drUGZMN0c0YlRqSjZCODZuaFpRdnlpVjBsa2xMSy1xdmZHS25JYTNYc0VxaHdXcVI2NDNNd3YtdHcteTk5aUoybDNJQzBtQURfTTNkeFB5TE4ycG40T3ctNVRIQlhrdzBxQXE0dDlpd0hmZks3ZmNlSnRuR0xVaHdZelFSRnJJMWUxZ2xHMlRoeThlNEZkZkF1bTc1ejBDQ0UyZWpudVNVNjh0RmlkN0pHRl9oSHRhWmN4UW5vY0x2NFFtSE5yUVpZb1RLTnJZVmU0N0ZLand0MFViWmVqU1JHaGRudFRwTGR5ckxhSzRGZUEwOFRFWWFEUTZ3ZFpTY01ZaWtwZnU2c1gxVmtUS0xKa0g4b1N0djB1aw?oc=5",
+      "published_at": "2026-08-06T00:35:38+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d9d3b4b0460be190340041e2ac710441654d592be5d220c6e729f2f6a39f8ca2",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex, Nifty open higher as FII buying and strong earnings lift mood - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMDFONVhIeFlieUdoY2RUNzV1UncxcWlXS3dOYVVaOE10QVJCS3lKZE9XMFlrbWQ5eTNBSjE2dWFsMkRpaVNQeEZjYTQycVk2elNnekU0c3RuNkc4WS1qRld5VnJ6Tkp6TnNHakx1OW95N2V1XzhXaXllaHBaRHFBM0NOOXNlZVRaRWMyV3FwMjlLbUFlNUdTdjR0YWl5MVFKZURxQ1cySWlheGZfYnMtY21LNmc4SG9zRHRGYVJ3M1Z0Uy1FQ3pySmZpalhPamFXei1kc2hlQdIB3AFBVV95cUxPQU9jZDJ6SEZxMEo3Ymk2NnFHMFU5dGJ1X0tLMUhrTHhTaENtNlVnWFdHVXludGxhcXNaWWc4RHhSMGx4dHdNNlFvUFYyb2R6MzI0TFA2WGdqN2IwWU9PZjhMaUhPUjZTUUs2SmdfNk9mUExQeFIyakh6dUh4aFIxTVhKZnVUcmFscWh2X3QxR0xENWM1STUyczVlc2VPb1RzWjctbnNEZFZEMTVVd254MjhWX3FyMFcxTFVqUkJtRkJxVjdVeEhzcGdZUHBGTDBmSDZUY1k4aGFVeEo1?oc=5",
+      "published_at": "2026-08-10T04:04:04+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ac1569d48c8f6035906cf5a755315e5525fe599fb87d7301a85b52269d45c0f1",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex tanks 700 points: 3 reasons why the stock market is falling today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSTJQUDBNdExlYVhyUXh4WlZ5MUlDeUR5LTNYRExqRlM3TlpxMlcwTkdMUnliQzFYclFxaE1YazRpSkloTlBadTdtcTE1SlZWdXZveHNVYzFkV2N2dlB1emlxOU9tejZDY1RMc2phb3FIM0pBUVc2eXdZc2dqQm5iRmphaFVSS01yQmVCMHgtTGY5Q1ZZTGlCS1VDNzI5UjMwSDR4MEZhRVlIRi1tTTA0VlNIWUphQ3IxbUxPRmY4Vk1mX1c4bWI2YXRDemxWbXE5SnFiR3hjZ2V4bnUzanA2X0dUQlpsRTg1N01EN3cwc3dVYjjSAfgBQVVfeXFMTVZzTHdDZVFzd1o0MEtFUmhlOGxjTmJSNGRTRnh3b3BaMDNuWG9oWVo0SE9XTHYxVkpZOXIyOEZNbzVLMzBNY2VibFZFc3FqNEllcW5ycnBnTmdRM3ItTHhqY3lpUzNXWVc2UFJ6aEZJNlpxcGdBaEN2Q0NzS0pHM29jRUZRRkE5NkItZlloODgta2dYcGVKVHROZTcwak00QTJRanA5UWs0ajFSeFpJVW50SWRDOUwtbHNQVHZvaXV3eWN2bWRRbU5kNzdlTVNUVnBFRTRoMmRmU3hCbHI5MW0xbUhDcnZxMkl5Vk9vMDlLV2VFdUZTZjg?oc=5",
+      "published_at": "2026-07-22T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "483491a8920d8b62fc989406f2dd00c66ac25b9fbf4f09f821c2e7819efabe88",
+      "source_id": "google_news_india",
+      "source_tier": "MEDIA",
+      "headline": "Sensex ends nearly 1,000 points up: 3 reasons why stock market jumped today - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkEtaWhKU1dqTTR4OFppUEp2b1RPXzFlTWxrNWo5ZXA1OGZDY0ZOUkNmXzIyVjg1ZnJSYW5fTl9HakVkQ21yV0lDclRMUUVERWhlcS1XZDdkYWk5UmthdEduNFAzNTNxOVB2R05zQy1Xdl9xenVmQWJQT2l0SzRULTZULVpZbm1EdWxDcFBidkN2OFk3eUtyUFFqWk9tZDUzcVVVcDRNME9uelRXVUxYODQ1Uk04Q0hGczhuTU1oTS1ZT1J5eC13dmZmd3hHOWRTRkZ5NXk0eXNBZ0Vra2RyRk41UW5VVXJjTi1Hdi1IM25jTmo5UVYySdIB_gFBVV95cUxOcjlQMGc2cklBY21tTUU3VVBweDBwNFlyYTdyRTlCNUVpMzBqRGhWeEFmTXZhamc5VFZ3cFA2b01MMkFwY3NwdHN3dEVINk82ZUtZZ1hrQTZac0liQWZRNGpIVGFQTVlGSFh3eS03U3lKbDJJWjZyOGhUQTBEVV9YclgtT0dZYXNzbzI2dUpQcGNrbk5YQ19KTk1jOXVmOUxfUXhfejlKQlUxVkxKUXRWbmk5MXZLdjU4UmZKSmpCa3U0aVVGU1ZiSHJGaU82TmJFeGJOa2xRcEFvVFhLemVkdXM1ejZSNFlhMjRQNWtJd05oQ0J6RnpVSmQ3dmdRdw?oc=5",
+      "published_at": "2026-07-17T07:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "9ad6593b22bff28167ce1d6ec44e19d50c4577bd6118d9aa6cde22e61f532eca",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bandhan Nifty 50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "fa4610a54ef0cd2e81fae7d86ea420e8fa20b606ec131ff9b664a9d6a5d099b4",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Bajaj Finserv Nifty 1D Rate Liquid ETF-Growth",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f1af3afdc5c931b660593f5f256f8b6eaa774ec5abbfc35bf4b7b023b7558f56",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India ETF Nifty Infrastructure BeES",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b98434ab3bf28c66e36d967b8a5e5a04095fa50533142fb129b53108bbe4b132",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India ETF Nifty Dividend Opportunities 50",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "85746485096980ac4c544aeba432e3e4f4fc49a9a8bc6d65fc9b17da9a4b3e33",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "423c46e7119ebcb01eac4030ce0bc247afc7311e9226d3406aac6c2351bb4d8a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Nippon India Mutual Fund - Nippon India Nifty Auto ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "6c789efaa16c0c040bed5365a006aa415bb0719ed6e2da1ab56b5fbd75189bc1",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "L&T Technology Services Limited",
+      "url": "https://nsearchives.nseindia.com/corporate/LTTS_11082026085135_LTTSPressReleasesd.pdf",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "98eeed7ba7c1e6dd55447b2364d5cf7b4377d42eed2432e320df273f0585dd35",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Edelweiss Mutual Fund - Edelweiss Nifty 1D Rate Liquid ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ae8964d6da0b857a5a0d0ecadee7d6bef0f664f3daf6bc1c34828a269ca57eff",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - Magnum Hybrid Long Short Fund - DP-IDCW RO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "70ffe6b37c6ad56567328c1ec182aed3db525ef984e5936e028f0d92c96790ec",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - SBI FMP - Series 49 (1823 Days)-DP-IDCW Payout",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2b901ec2515a12dda6c5419e80165d01601db584360bae8ddc6ba6f35040d960",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - SBI BSE PSU Bank ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "21d6021c0308a2bf1676bf0432ed7d25744092a01499c2dc6f714974b7c66803",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Mutual Fund - SBI FMP S61 - SFMP61GR-RP-Growth Option",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8758ed8dd30ca6ac99d72034d536418919a8a58156f3ec3e80e8f9a3266d7cd6",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI MF - SBI Fixed Maturity Plan (FMP) Series - 1 (3668 Days)-DP-DP",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0fcddcba796da419758238beb8f7988a934021d3b6bd38697343d6e9091bba2d",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "SBI Nifty Midcap150 Momentum 50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "250f2a3e6bfdeacf180896e9d398f0510f5144c4ced7675e22439971969c1dec",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aditya Birla Sun Life MF-Aditya Birla Sun Life Nifty Healthcare ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a104f9026291151e786a83a71b97a7f9a8a8aab1fffd29bcdfdf7fff4703c344",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty 200 Mo",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0b653dd7991bdba58ad46eb222dba0e28cd8cc64a87b0af69118e4118002ea3e",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "HDFC Mutual Fund - HDFC NIFTY Growth Sectors 15 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3290722940fd3074878d6fca370e627e2e509ed295eb18a3af04b3fcc1b9947a",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Reliance MF - Reliance Interval Fund - QIF- Dir-Div-DPO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d9896f4c17cf7dab5d43afc0776fbf720bccba87a073a14101a1a80e827a4129",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Reliance Mutual Fund - Reliance Int. Fund - QIF - SII - RP- DP - DPO",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "2f681fbd53a866ef35fbac64da38477f806647a8f43b5c6ed1fbf73743b1ddc5",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Quantum Nifty 50 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "478ab1860475bbe991898cdf449cc1f1bf4f2e996c4890a510f1355f05c60645",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Invesco India Nifty 50 Exchange Traded Fund",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "dfb3a4053ce0c6678a426d24eeac92a71149dc083b216ad1bd093ceefd0e0251",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Groww Mutual Fund - Groww Nifty Smallcap 250 Momentum Quality 100 ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "ff447538482c972d76ff27317283408b6d66624be01159510d8a3cdf78a6ace3",
+      "source_id": "nse_announcements",
+      "source_tier": "OFFICIAL",
+      "headline": "Groww Mutual Fund - Groww Nifty EV & New Age Automotive ETF",
+      "url": "",
+      "published_at": null,
+      "category": "Announcement",
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Announcement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "32eaa275ebef13835d095ab984f18392a32df1ceb066b5bd228e9d3e710545b9",
+      "source_id": "nse_circulars",
+      "source_tier": "OFFICIAL",
+      "headline": "Launch of UTI Nifty 500 Index Fund NFO on NSE MF Invest Platform",
+      "url": "https://nsearchives.nseindia.com/content/circulars/NMF75657.pdf",
+      "published_at": "2026-08-09T18:30:00+00:00",
+      "category": "Exchange Circular",
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Exchange Circular' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f265e2eeae9c8b3d02f5e4e75c21679c6bdcf8523f9eddf98777f79c936ad8f5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Newspaper publication of financial results for the quarter ended 30.06.2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91d1467c-20ac-452b-9a7e-9f279691f1f5.pdf",
+      "published_at": "2026-10-08T11:51:00.290000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e0bdfcc37aed28d4456e61187445b10a79b6d8f06d0c4d5c9f8aa7387b522d44",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Newspaper Publication of Special Window for re-lodgement of transfer request",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dfb85924-15c5-42ff-a338-3200d985fc89.pdf",
+      "published_at": "2026-10-08T11:23:42.350000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "61cf0d17a56e755507a24c821ee053f6691e9b7168ac3c6de433c6986e00a73e",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[SBIN] [Company Update] Raising of Senior Unsecured Bond",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d563c7e-9c10-4054-b52a-75876ff0cef2.pdf",
+      "published_at": "2026-10-08T11:13:53.667000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4a699ab61310306f3058b999da33d8aec60d09b4eb81cb3db52ced2026f9967b",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[TCS] [Company Update] Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations , 2015",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ac9edbea-ea43-4c0a-beb8-5239bcd03ec9.pdf",
+      "published_at": "2026-10-08T10:39:00.670000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "references filing/official release: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e2ecf9be9b271d61a5002c4b480d894fc41f8efb3f3f7c19d657a83c18e8ed91",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[INFY] [Company Update] Enclosed",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5abf765-ed48-476c-b7d7-5d1f3291b706.pdf",
+      "published_at": "2026-10-08T10:49:47.473000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7f52d6c4b4dd0bbc699b7750c90904ddfe5e55f23bb50480737a150f753fccfc",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Copy of notice published in newspaper",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5e2e999d-23c9-46d9-a82b-38f26de04ae2.pdf",
+      "published_at": "2026-09-08T05:39:06.773000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "99232c66dd33e76aa9716402c2223ce6c3c63b8eb1ed0e4fae039958a35352f5",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Maruti Suzuki Annual Integrated Report 2025-26 The Next Million, New Momentum: Every Engine of Growth in Motion",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b55ea979-3175-4b78-b465-2f4c53cebe21.pdf",
+      "published_at": "2026-08-08T16:41:03.087000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f17419670e4a90dea723e1ec755157d43a05568546ee6a10f0ea7c36f06f076d",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Company Update] Issuance of letter providing Web-link of the Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/356313d3-8bc6-46ef-9280-5977d2695873.pdf",
+      "published_at": "2026-08-08T16:15:57.503000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "0ce06fd4f797907b20fabd6a9858eb56a498494622ce309574c595adf2ccee91",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [Others] Business Responsibility and Sustainability Report (BRSR) for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f830aefe-81ed-4bcf-96e4-3852972b067d.pdf",
+      "published_at": "2026-08-08T16:08:42.583000+00:00",
+      "category": "Others",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Others' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a8fa021db8886ab06141baa193d8897e40e96dee027b55e36f40f874380b0c15",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[MARUTI] [AGM/EGM] Notice of 45th Annual General Meeting and Annual Report for the financial year 2025-26",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8231cb4-74ab-4aa7-94a5-335d11aef321.pdf",
+      "published_at": "2026-08-08T15:50:33.490000+00:00",
+      "category": "AGM/EGM",
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'AGM Notice': -1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "05a30f1b9839bb54c12624c30824ef6c7c52311e136c37ace52e44dc7d4cc189",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BHARTIARTL] [Company Update] We are enclosing herewith a press release dated August 10, 2026 titled ''Airtel Business and ITI Limited enter into strategic partnership to accelerate India''s digital transformation'' ....",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/285c8289-21d8-4160-98a8-cde3671b96d0.pdf",
+      "published_at": "2026-10-08T06:30:56.590000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "f92b0d93a9b83c7ec2d22ae7be4a4531aa992f721f31d3a2c6ab0e7506da6d5e",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BAJFINANCE] [Company Update] Allotment of Secured Redeemable Non- Convertible Debentures on Private Placement basis.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6b9b5e1f-9083-4707-be40-e41a97b75350.pdf",
+      "published_at": "2026-10-08T07:30:25.303000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cd432ca1b38820834f88f47787656c28839fc948b96532dea2f5ea66c97552e2",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[DIVISLAB] [AGM/EGM] Submission of Scrutinizer''s report on 36th AGM resolutions.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c17f5e5f-7e27-419a-bd9f-c7317994237d.pdf",
+      "published_at": "2026-10-08T13:58:35.363000+00:00",
+      "category": "AGM/EGM",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'AGM Notice': -1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "18ba5ee052101b042a0a466341d36f5fab2c50f28d0bae950237b81dcc5552ad",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[BEL] [Company Update] Press Release - BEL receives orders worth Rs.541 Crore.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18c574bf-6fda-43b1-b04f-e9ae3eef36bb.pdf",
+      "published_at": "2026-10-08T12:46:30.833000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "contains numbers/percentages: +1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "4f2e5beca53f959cb84bf63b9dbb930cb5890a4500b8384336608289451d058d",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[ADANIGREEN] [Company Update] Further update on US Matter - CRIMINAL Matter",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d027c24-d848-493f-94cc-daff2207d964.pdf",
+      "published_at": "2026-11-08T01:54:54.053000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "ticker ADANIGREEN has risk_flag: -1",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "84a13c843e41d221d1f2e039e1e7a25f6db1db5d05acbaa486be1178151bfa8f",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[ADANIGREEN] [AGM/EGM] Notice of the Extra Ordinary General Meeting scheduled to held on September 03, 2026.",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f9ff772b-94f8-4865-b79b-7f3d9e2db986.pdf",
+      "published_at": "2026-10-08T10:26:04.227000+00:00",
+      "category": "AGM/EGM",
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "ticker ADANIGREEN has risk_flag: -1",
+        "category 'AGM Notice': -1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "94d0fb650028ccc128a57c6bc44047f3b3f6056994b4fadd9315167903a75da0",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KPITTECH] [Company Update] Outcome of Investor Conference held on Monday, August 10, 2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71e0e812-24a0-446f-97bd-b5f04c094f1d.pdf",
+      "published_at": "2026-10-08T16:26:45.603000+00:00",
+      "category": "Company Update",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Company Update' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8b3b3c28e3bfee0eb5dfc582d17e9fcb193f08826dfda8376bbb2c9d2143a762",
+      "source_id": "bse_filings",
+      "source_tier": "OFFICIAL",
+      "headline": "[KAYNES] [Mutual Fund] NAV Upload 07-08-2026",
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2345e535-8b4b-47af-9186-1f5dc21897f5.pdf",
+      "published_at": "2026-10-08T04:04:12.870000+00:00",
+      "category": "Mutual Fund",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Mutual Fund' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    }
+  ]
+}
