@@ -1,0 +1,53 @@
+<svg width="680" height="1310" viewBox="0 0 680 1310" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>FINTEL end-state LangGraph — all 13 agents</title>
+<desc>Full pipeline: Collector, Deduplicator, RelevanceFilter, NoiseScorer, Validator (done/ready) flow into a fork — a conditional DeepCheck branch and a parallel Fundamentals-then-Technical branch — which join into Tagger, SignalGenerator, Synthesizer, Delivery. SupervisorAgent runs as a separate weekly graph.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="1310" fill="#0D0D0C"/>
+
+<g><rect x="190" y="60" width="300" height="56" rx="8" fill="#04342C" stroke="#1D9E75" stroke-width="0.5"/><text x="340" y="80" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#9FE1CB">CollectorAgent</text><text x="340" y="100" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#5DCAA5">7 adapters, 5 sessions/day</text></g>
+<line x1="340" y1="116" x2="340" y2="156" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="156" width="300" height="56" rx="8" fill="#04342C" stroke="#1D9E75" stroke-width="0.5"/><text x="340" y="176" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#9FE1CB">DeduplicatorAgent</text><text x="340" y="196" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#5DCAA5">Hash + fuzzy clustering</text></g>
+<line x1="340" y1="212" x2="340" y2="252" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="252" width="300" height="56" rx="8" fill="#04342C" stroke="#1D9E75" stroke-width="0.5"/><text x="340" y="272" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#9FE1CB">RelevanceFilterAgent</text><text x="340" y="292" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#5DCAA5">4-pass keyword/macro filter</text></g>
+<line x1="340" y1="308" x2="340" y2="348" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="348" width="300" height="56" rx="8" fill="#04342C" stroke="#1D9E75" stroke-width="0.5"/><text x="340" y="368" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#9FE1CB">NoiseScorerAgent</text><text x="340" y="388" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#5DCAA5">Static rules, category weights</text></g>
+<line x1="340" y1="404" x2="340" y2="444" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="444" width="300" height="56" rx="8" fill="#04342C" stroke="#1D9E75" stroke-width="0.5"/><text x="340" y="464" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#9FE1CB">ValidatorAgent</text><text x="340" y="484" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#5DCAA5">Trust label: 3-way split</text></g>
+<line x1="340" y1="500" x2="340" y2="530" stroke="#5F5E5A" stroke-width="1.5"/>
+
+<text x="250" y="515" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888780">conditional</text>
+<text x="430" y="515" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888780">parallel</text>
+<path d="M340 530L250 560" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M340 530L430 560" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="165" y="560" width="170" height="56" rx="8" fill="#412402" stroke="#EF9F27" stroke-width="0.5"/><text x="250" y="580" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#FAC775">DeepCheckAgent</text><text x="250" y="600" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#EF9F27">Verifies single-source claims</text></g>
+
+<g><rect x="345" y="560" width="170" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="430" y="580" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">FundamentalsAgent</text><text x="430" y="600" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">PE, margins, debt/equity</text></g>
+<line x1="430" y1="616" x2="430" y2="632" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<g><rect x="345" y="632" width="170" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="430" y="652" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">TechnicalAgent</text><text x="430" y="672" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">RSI, MACD, EMA, volume</text></g>
+
+<path d="M250 616L250 708L340 708L340 728" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M430 688L430 708L340 708L340 728" fill="none" stroke="#5F5E5A" stroke-width="1.5"/>
+
+<g><rect x="190" y="728" width="300" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="340" y="748" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">TaggerAgent</text><text x="340" y="768" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">Tickers, sectors, time horizon</text></g>
+<line x1="340" y1="784" x2="340" y2="824" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="824" width="300" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="340" y="844" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">SignalGeneratorAgent</text><text x="340" y="864" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">5 signal types, confidence score</text></g>
+<line x1="340" y1="880" x2="340" y2="920" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="920" width="300" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="340" y="940" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">SynthesizerAgent</text><text x="340" y="960" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">Compiles the email digest</text></g>
+<line x1="340" y1="976" x2="340" y2="1016" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g><rect x="190" y="1016" width="300" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/><text x="340" y="1036" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">DeliveryAgent</text><text x="340" y="1056" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">Sends email, logs run</text></g>
+
+<text x="340" y="1104" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#888780">Separate graph — Sunday only</text>
+<g><rect x="190" y="1114" width="300" height="56" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/><text x="340" y="1134" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#D3D1C7">SupervisorAgent</text><text x="340" y="1154" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#B4B2A9">Weekly accuracy review</text></g>
+
+<rect x="190" y="1220" width="14" height="14" rx="3" fill="#04342C" stroke="#1D9E75"/><text x="212" y="1231" font-family="sans-serif" font-size="12" fill="#B4B2A9">Done — tested on live GitHub Actions runs</text>
+<rect x="190" y="1242" width="14" height="14" rx="3" fill="#412402" stroke="#EF9F27"/><text x="212" y="1253" font-family="sans-serif" font-size="12" fill="#B4B2A9">Code written, not yet deployed (Validator)</text>
+<rect x="190" y="1264" width="14" height="14" rx="3" fill="#2C2C2A" stroke="#888780"/><text x="212" y="1275" font-family="sans-serif" font-size="12" fill="#B4B2A9">Designed on paper, not yet built</text>
+</svg>

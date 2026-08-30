@@ -5,3 +5,6 @@ venv
 .DS_Store
 av_budget.json
 CONTEXT.md
+
+# Test audit records
+artifacts/**/*

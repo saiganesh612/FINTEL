@@ -86,9 +86,20 @@ def main():
     )
     if scored:
         logger.info(f"Top scored item: [{scored[0].noise_score}] {scored[0].item.headline[:80]}")
+
+
+    # Validation
+    from pipeline.agents.validator import run_validator
+
+    validator_output = run_validator(items=scored, session_type=session)
+    logger.info(
+        f"Validation complete: {len(scored)} scored → "
+        f"{len(validator_output.validated_items)} validated (CONFIRMED/UNCONFIRMED) | "
+        f"{len(validator_output.pending_deep_check)} pending deep-check (SINGLE_SOURCE)"
+    )
     
-    # Placeholder — ValidatorAgent next
-    logger.info("(Validator) not yet implemented — pipeline stopping here")
+    # Placeholder — DeepCheckAgent next
+    logger.info("(DeepCheck) not yet implemented — pipeline stopping here")
     logger.info("=" * 60)
     logger.info("FINTEL Pipeline run complete")
 
