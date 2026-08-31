@@ -1,0 +1,3227 @@
+{
+  "stage": "deduplicator",
+  "session_type": "US_CLOSE",
+  "generated_at": "20260831T232051Z",
+  "record_count": 143,
+  "records": [
+    {
+      "canonical_source_id": "alpha_vantage_news",
+      "canonical_headline": "[MSFT] [Somewhat Bullish] Constellation Energy vs. NextEra Energy: Which Utilities Stock Is a Better Investment in 2026?",
+      "canonical_url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/4359821/constellation-energy-vs-nextera-energy-which-utilities-stock-is-a-better-investment-in-2026/",
+      "canonical_published_at": "2026-08-31T18:49:39+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "alpha_vantage_news",
+          "tier": "MEDIA",
+          "headline": "[MSFT] [Somewhat Bullish] Constellation Energy vs. NextEra Energy: Which Utilities Stock Is a Better Investment in 2026?",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/4359821/constellation-energy-vs-nextera-energy-which-utilities-stock-is-a-better-investment-in-2026/",
+          "published_at": "2026-08-31T18:49:39+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "alpha_vantage_news",
+      "canonical_headline": "[JPM] [Somewhat Bullish] Zacks Industry Outlook Highlights Morgan Stanley, The Charles Schwab and Interactive Brokers",
+      "canonical_url": "https://www.theglobeandmail.com/investing/markets/stocks/MS/pressreleases/4357897/zacks-industry-outlook-highlights-morgan-stanley-the-charles-schwab-and-interactive-brokers/",
+      "canonical_published_at": "2026-08-31T17:07:12+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "alpha_vantage_news",
+          "tier": "MEDIA",
+          "headline": "[JPM] [Somewhat Bullish] Zacks Industry Outlook Highlights Morgan Stanley, The Charles Schwab and Interactive Brokers",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/MS/pressreleases/4357897/zacks-industry-outlook-highlights-morgan-stanley-the-charles-schwab-and-interactive-brokers/",
+          "published_at": "2026-08-31T17:07:12+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "alpha_vantage_news",
+      "canonical_headline": "[NVDA] [Somewhat Bullish] GE HealthCare Wins EU Nod for Photon-Counting CT",
+      "canonical_url": "https://www.mpo-mag.com/breaking-news/ge-healthcare-wins-eu-nod-for-photon-counting-ct/",
+      "canonical_published_at": "2026-08-31T14:12:55+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "alpha_vantage_news",
+          "tier": "MEDIA",
+          "headline": "[NVDA] [Somewhat Bullish] GE HealthCare Wins EU Nod for Photon-Counting CT",
+          "url": "https://www.mpo-mag.com/breaking-news/ge-healthcare-wins-eu-nod-for-photon-counting-ct/",
+          "published_at": "2026-08-31T14:12:55+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "alpha_vantage_news",
+      "canonical_headline": "[XOM] [Somewhat Bullish] Oneok Bets $4.425 Billion on Brazos Assets To Expand Permian Operations",
+      "canonical_url": "https://www.benzinga.com/m-a/26/08/61518449/oneok-bets-4-425-billion-on-brazos-assets-to-expand-permian-operations",
+      "canonical_published_at": "2026-08-31T12:18:39+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "alpha_vantage_news",
+          "tier": "MEDIA",
+          "headline": "[XOM] [Somewhat Bullish] Oneok Bets $4.425 Billion on Brazos Assets To Expand Permian Operations",
+          "url": "https://www.benzinga.com/m-a/26/08/61518449/oneok-bets-4-425-billion-on-brazos-assets-to-expand-permian-operations",
+          "published_at": "2026-08-31T12:18:39+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
+      "canonical_published_at": "2026-08-27T15:00:00+00:00",
+      "cluster_size": 4,
+      "corroboration_count": 4,
+      "effective_corroboration": 4,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
+          "published_at": "2026-08-27T15:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+          "published_at": "2026-08-20T15:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 81.6
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm",
+          "published_at": "2026-08-13T15:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 91.6
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+          "published_at": "2026-07-30T15:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 83.5
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "canonical_published_at": "2026-08-25T18:00:00+00:00",
+      "cluster_size": 2,
+      "corroboration_count": 2,
+      "effective_corroboration": 2,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+          "published_at": "2026-08-25T18:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+          "published_at": "2026-07-14T18:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 91.9
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+      "canonical_published_at": "2026-08-20T20:00:00+00:00",
+      "cluster_size": 3,
+      "corroboration_count": 3,
+      "effective_corroboration": 3,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+          "published_at": "2026-08-20T20:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+          "published_at": "2026-08-04T20:30:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 82.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+          "published_at": "2026-08-04T20:30:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 85.9
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+      "canonical_published_at": "2026-08-20T15:00:00+00:00",
+      "cluster_size": 3,
+      "corroboration_count": 3,
+      "effective_corroboration": 3,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+          "published_at": "2026-08-20T15:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+          "published_at": "2026-07-30T15:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 91.0
+        },
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
+          "published_at": "2026-07-09T15:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 83.5
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "canonical_published_at": "2026-08-19T18:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+          "published_at": "2026-08-19T18:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+      "canonical_published_at": "2026-08-04T20:30:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+          "published_at": "2026-08-04T20:30:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "canonical_published_at": "2026-07-31T14:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+          "published_at": "2026-07-31T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "canonical_published_at": "2026-07-31T14:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+          "published_at": "2026-07-31T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve issues FOMC statement",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "canonical_published_at": "2026-07-29T18:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "published_at": "2026-07-29T18:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+      "canonical_published_at": "2026-07-16T18:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "published_at": "2026-07-16T18:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+      "canonical_published_at": "2026-07-16T15:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+          "published_at": "2026-07-16T15:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "fed_press",
+      "canonical_headline": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "canonical_published_at": "2026-07-09T19:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "fed_press",
+          "tier": "OFFICIAL",
+          "headline": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+          "published_at": "2026-07-09T19:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/trump-venezuela-oil-gas-price.html",
+      "canonical_published_at": "2026-08-31T21:22:08+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+          "url": "https://www.cnbc.com/2026/08/31/trump-venezuela-oil-gas-price.html",
+          "published_at": "2026-08-31T21:22:08+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Supreme Court lets Trump build White House ballroom as lawsuit continues",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/supreme-court-white-house-ballroom.html",
+      "canonical_published_at": "2026-08-31T21:23:41+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Supreme Court lets Trump build White House ballroom as lawsuit continues",
+          "url": "https://www.cnbc.com/2026/08/31/supreme-court-white-house-ballroom.html",
+          "published_at": "2026-08-31T21:23:41+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Bessent, Warsh kick off G20 finance meeting with growth-focused remarks",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html",
+      "canonical_published_at": "2026-08-31T18:41:27+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Bessent, Warsh kick off G20 finance meeting with growth-focused remarks",
+          "url": "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html",
+          "published_at": "2026-08-31T18:41:27+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Stock futures are little changed after Wall Street closes out winning August: Live updates",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html",
+      "canonical_published_at": "2026-08-31T23:06:05+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Stock futures are little changed after Wall Street closes out winning August: Live updates",
+          "url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html",
+          "published_at": "2026-08-31T23:06:05+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "House Intelligence Committee warns of 'Black Swan' AI risks",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/ai-warning-house-intelligence-committee.html",
+      "canonical_published_at": "2026-08-31T21:18:37+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "House Intelligence Committee warns of 'Black Swan' AI risks",
+          "url": "https://www.cnbc.com/2026/08/31/ai-warning-house-intelligence-committee.html",
+          "published_at": "2026-08-31T21:18:37+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+      "canonical_published_at": "2026-08-31T20:50:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+          "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+          "published_at": "2026-08-31T20:50:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Avoid these potential earnings 'blow-ups', says Wolfe Research",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/avoid-these-potential-earnings-blow-ups-says-wolfe-research.html",
+      "canonical_published_at": "2026-08-31T20:49:03+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Avoid these potential earnings 'blow-ups', says Wolfe Research",
+          "url": "https://www.cnbc.com/2026/08/31/avoid-these-potential-earnings-blow-ups-says-wolfe-research.html",
+          "published_at": "2026-08-31T20:49:03+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Trump Account holders may receive $250 Dell grant starting Monday, Dell Foundation says",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/trump-account-holders-to-start-receiving-250-dell-grant-spokesperson.html",
+      "canonical_published_at": "2026-08-31T21:10:05+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Trump Account holders may receive $250 Dell grant starting Monday, Dell Foundation says",
+          "url": "https://www.cnbc.com/2026/08/31/trump-account-holders-to-start-receiving-250-dell-grant-spokesperson.html",
+          "published_at": "2026-08-31T21:10:05+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "KKR-backed OPI nail polish owner Wella Co. files for U.S. IPO",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/kkr-opi-nail-polish-wella-us-ipo.html",
+      "canonical_published_at": "2026-08-31T21:04:06+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "KKR-backed OPI nail polish owner Wella Co. files for U.S. IPO",
+          "url": "https://www.cnbc.com/2026/08/31/kkr-opi-nail-polish-wella-us-ipo.html",
+          "published_at": "2026-08-31T21:04:06+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "CNBC's The China Connection newsletter: McKinsey's contrarian economic view",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html",
+      "canonical_published_at": "2026-08-31T23:00:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "CNBC's The China Connection newsletter: McKinsey's contrarian economic view",
+          "url": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html",
+          "published_at": "2026-08-31T23:00:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+      "canonical_published_at": "2026-08-31T17:16:59+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+          "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+          "published_at": "2026-08-31T17:16:59+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Manhattan's luxury rental market is booming, with units reaching $100,000 a month",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/manhattan-luxury-rentals-100000-month.html",
+      "canonical_published_at": "2026-08-31T11:27:20+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Manhattan's luxury rental market is booming, with units reaching $100,000 a month",
+          "url": "https://www.cnbc.com/2026/08/31/manhattan-luxury-rentals-100000-month.html",
+          "published_at": "2026-08-31T11:27:20+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+      "canonical_published_at": "2026-08-31T19:38:38+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+          "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+          "published_at": "2026-08-31T19:38:38+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Bessent pushes back on Druckenmiller critique of bond intervention",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/bessent-druckenmiller-bond-treasury-g20.html",
+      "canonical_published_at": "2026-08-31T21:00:15+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Bessent pushes back on Druckenmiller critique of bond intervention",
+          "url": "https://www.cnbc.com/2026/08/31/bessent-druckenmiller-bond-treasury-g20.html",
+          "published_at": "2026-08-31T21:00:15+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "End of an era at Apple: Tim Cook's last day as CEO",
+      "canonical_url": "https://www.cnbc.com/video/2026/08/31/end-of-an-era-at-apple-tim-cooks-last-day-as-ceo.html",
+      "canonical_published_at": "2026-08-31T15:18:48+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "End of an era at Apple: Tim Cook's last day as CEO",
+          "url": "https://www.cnbc.com/video/2026/08/31/end-of-an-era-at-apple-tim-cooks-last-day-as-ceo.html",
+          "published_at": "2026-08-31T15:18:48+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Where to find some of the highest CD rates heading into September",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/where-to-find-some-of-the-highest-cd-rates-heading-into-september.html",
+      "canonical_published_at": "2026-08-31T19:17:55+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Where to find some of the highest CD rates heading into September",
+          "url": "https://www.cnbc.com/2026/08/31/where-to-find-some-of-the-highest-cd-rates-heading-into-september.html",
+          "published_at": "2026-08-31T19:17:55+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan: Report",
+      "canonical_url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+      "canonical_published_at": "2026-08-31T15:33:30+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan: Report",
+          "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+          "published_at": "2026-08-31T15:33:30+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "When someone talks down to you, use Dolly Parton's simple trick to 'maintain your dignity and disarm' them, says expert",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/when-someone-talks-down-use-dolly-partons-simple-trick-maintain-dignity-disarm-communication-expert.html",
+      "canonical_published_at": "2026-08-31T13:34:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "When someone talks down to you, use Dolly Parton's simple trick to 'maintain your dignity and disarm' them, says expert",
+          "url": "https://www.cnbc.com/2026/08/31/when-someone-talks-down-use-dolly-partons-simple-trick-maintain-dignity-disarm-communication-expert.html",
+          "published_at": "2026-08-31T13:34:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+      "canonical_published_at": "2026-08-31T20:34:45+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+          "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+          "published_at": "2026-08-31T20:34:45+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
+      "canonical_published_at": "2026-08-31T21:36:32+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
+          "url": "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
+          "published_at": "2026-08-31T21:36:32+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Lilly taps obesity windfall for more M&A. Plus, Elon Musk remarks pull GE Vernova lower",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/lilly-taps-obesity-windfall-for-more-ma-plus-elon-musk-remarks-pull-ge-vernova-lower.html",
+      "canonical_published_at": "2026-08-31T18:27:11+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Lilly taps obesity windfall for more M&A. Plus, Elon Musk remarks pull GE Vernova lower",
+          "url": "https://www.cnbc.com/2026/08/31/lilly-taps-obesity-windfall-for-more-ma-plus-elon-musk-remarks-pull-ge-vernova-lower.html",
+          "published_at": "2026-08-31T18:27:11+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "CNBC Points Pro: Which card has primary rental car insurance, lounge access and 2X points?",
+      "canonical_url": "https://www.cnbc.com/select/which-card-has-rental-car-insurance-and-lounge-access/",
+      "canonical_published_at": "2026-08-31T17:59:51+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "CNBC Points Pro: Which card has primary rental car insurance, lounge access and 2X points?",
+          "url": "https://www.cnbc.com/select/which-card-has-rental-car-insurance-and-lounge-access/",
+          "published_at": "2026-08-31T17:59:51+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel Securities",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/risk-reward-outlook-for-stocks-is-getting-worse-says-citadel.html",
+      "canonical_published_at": "2026-08-31T19:25:54+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel Securities",
+          "url": "https://www.cnbc.com/2026/08/31/risk-reward-outlook-for-stocks-is-getting-worse-says-citadel.html",
+          "published_at": "2026-08-31T19:25:54+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
+      "canonical_published_at": "2026-08-31T18:47:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Trump says U.S. communities opposing AI data centers could end up 'backwards and poor'",
+          "url": "https://www.cnbc.com/2026/08/31/trump-data-centers-backlash-elections-congress.html",
+          "published_at": "2026-08-31T18:47:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "American Airlines announces Trump Accounts matching program",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/trump-accounts-american-airlines-matching-program.html",
+      "canonical_published_at": "2026-08-31T17:19:46+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "American Airlines announces Trump Accounts matching program",
+          "url": "https://www.cnbc.com/2026/08/31/trump-accounts-american-airlines-matching-program.html",
+          "published_at": "2026-08-31T17:19:46+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Broadcom reports earnings this week. Mike Khouw says this trade could be a winner",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/broadcom-reports-earnings-this-week-mike-khouw-says-this-trade-could-be-a-winner.html",
+      "canonical_published_at": "2026-08-31T17:18:15+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Broadcom reports earnings this week. Mike Khouw says this trade could be a winner",
+          "url": "https://www.cnbc.com/2026/08/31/broadcom-reports-earnings-this-week-mike-khouw-says-this-trade-could-be-a-winner.html",
+          "published_at": "2026-08-31T17:18:15+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Kalshi permanently bans former GOP Rep. George Santos over illegal trading",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/kalshi-perman.html",
+      "canonical_published_at": "2026-08-31T17:36:20+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Kalshi permanently bans former GOP Rep. George Santos over illegal trading",
+          "url": "https://www.cnbc.com/2026/08/31/kalshi-perman.html",
+          "published_at": "2026-08-31T17:36:20+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "canonical_published_at": "2026-08-31T16:33:46+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
+          "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+          "published_at": "2026-08-31T16:33:46+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Bank of England chief warns new AI models threaten global financial stability",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
+      "canonical_published_at": "2026-08-31T13:35:11+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Bank of England chief warns new AI models threaten global financial stability",
+          "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
+          "published_at": "2026-08-31T13:35:11+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_top",
+      "canonical_headline": "Santoli: Why investors should be on high alert heading into September",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/santoli-why-investors-should-be-on-high-alert-heading-into-september.html",
+      "canonical_published_at": "2026-08-31T11:40:29+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_top",
+          "tier": "MEDIA",
+          "headline": "Santoli: Why investors should be on high alert heading into September",
+          "url": "https://www.cnbc.com/2026/08/31/santoli-why-investors-should-be-on-high-alert-heading-into-september.html",
+          "published_at": "2026-08-31T11:40:29+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "BYD shares slide as fierce China competition dents first-half earnings",
+      "canonical_url": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
+      "canonical_published_at": "2026-08-31T04:01:47+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "BYD shares slide as fierce China competition dents first-half earnings",
+          "url": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html",
+          "published_at": "2026-08-31T04:01:47+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+      "canonical_url": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
+      "canonical_published_at": "2026-08-31T14:12:05+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+          "url": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
+          "published_at": "2026-08-31T14:12:05+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+      "canonical_url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+      "canonical_published_at": "2026-08-29T13:25:55+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+          "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+          "published_at": "2026-08-29T13:25:55+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
+      "canonical_url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
+      "canonical_published_at": "2026-08-28T20:09:13+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
+          "url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
+          "published_at": "2026-08-28T20:09:13+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+      "canonical_url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
+      "canonical_published_at": "2026-08-28T13:42:43+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+          "url": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
+          "published_at": "2026-08-28T13:42:43+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+      "canonical_url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
+      "canonical_published_at": "2026-08-27T21:54:18+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+          "url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
+          "published_at": "2026-08-27T21:54:18+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings",
+      "canonical_url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+      "canonical_published_at": "2026-08-27T20:08:43+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings",
+          "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+          "published_at": "2026-08-27T20:08:43+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Best Buy beats quarterly estimates and hikes its outlook, but stock falls",
+      "canonical_url": "https://www.cnbc.com/2026/08/27/best-buy-bby-q2-2027-earnings.html",
+      "canonical_published_at": "2026-08-27T13:48:45+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Best Buy beats quarterly estimates and hikes its outlook, but stock falls",
+          "url": "https://www.cnbc.com/2026/08/27/best-buy-bby-q2-2027-earnings.html",
+          "published_at": "2026-08-27T13:48:45+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
+      "canonical_url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+      "canonical_published_at": "2026-08-27T20:47:36+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
+          "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+          "published_at": "2026-08-27T20:47:36+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Qantas shares jump after earnings as airline unveils new business-class seats",
+      "canonical_url": "https://www.cnbc.com/2026/08/27/qantas-shares-jump-on-earnings-as-airline-updates-business-class-.html",
+      "canonical_published_at": "2026-08-27T05:02:44+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Qantas shares jump after earnings as airline unveils new business-class seats",
+          "url": "https://www.cnbc.com/2026/08/27/qantas-shares-jump-on-earnings-as-airline-updates-business-class-.html",
+          "published_at": "2026-08-27T05:02:44+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+      "canonical_published_at": "2026-08-27T01:02:43+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
+          "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+          "published_at": "2026-08-27T01:02:43+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "We're raising our price target on Salesforce after results defy 'SaaSpocalypse'",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/were-raising-our-price-target-on-salesforce-after-results-defy-saaspocalypse.html",
+      "canonical_published_at": "2026-08-27T00:39:19+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "We're raising our price target on Salesforce after results defy 'SaaSpocalypse'",
+          "url": "https://www.cnbc.com/2026/08/26/were-raising-our-price-target-on-salesforce-after-results-defy-saaspocalypse.html",
+          "published_at": "2026-08-27T00:39:19+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "CrowdStrike's quarter shows AI is a cybersecurity tailwind, not a threat",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/crowdstrikes-shows-ai-is-a-cybersecurity-tailwind-not-a-threat.html",
+      "canonical_published_at": "2026-08-27T00:19:24+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "CrowdStrike's quarter shows AI is a cybersecurity tailwind, not a threat",
+          "url": "https://www.cnbc.com/2026/08/26/crowdstrikes-shows-ai-is-a-cybersecurity-tailwind-not-a-threat.html",
+          "published_at": "2026-08-27T00:19:24+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html",
+      "canonical_published_at": "2026-08-27T14:06:58+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave",
+          "url": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html",
+          "published_at": "2026-08-27T14:06:58+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Okta pops 20% after topping estimates as AI threat spikes demand for identity security",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html",
+      "canonical_published_at": "2026-08-27T14:12:37+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Okta pops 20% after topping estimates as AI threat spikes demand for identity security",
+          "url": "https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html",
+          "published_at": "2026-08-27T14:12:37+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Salesforce stock jumps 18% on AI growth and Anthropic investment gain",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+      "canonical_published_at": "2026-08-27T13:53:26+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Salesforce stock jumps 18% on AI growth and Anthropic investment gain",
+          "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+          "published_at": "2026-08-27T13:53:26+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Haidilao shares jump as delivery growth and new restaurant brands boost outlook",
+      "canonical_url": "https://www.cnbc.com/2026/08/26/haidilao-shares-delivery-restaurant-growth.html",
+      "canonical_published_at": "2026-08-26T09:35:08+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Haidilao shares jump as delivery growth and new restaurant brands boost outlook",
+          "url": "https://www.cnbc.com/2026/08/26/haidilao-shares-delivery-restaurant-growth.html",
+          "published_at": "2026-08-26T09:35:08+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market",
+      "canonical_url": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html",
+      "canonical_published_at": "2026-08-25T20:38:59+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market",
+          "url": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html",
+          "published_at": "2026-08-25T20:38:59+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
+      "canonical_url": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+      "canonical_published_at": "2026-08-25T07:00:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
+          "url": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+          "published_at": "2026-08-25T07:00:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation",
+      "canonical_url": "https://www.cnbc.com/2026/08/25/xpeng-shares-robot-valuation-china.html",
+      "canonical_published_at": "2026-08-25T04:49:18+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation",
+          "url": "https://www.cnbc.com/2026/08/25/xpeng-shares-robot-valuation-china.html",
+          "published_at": "2026-08-25T04:49:18+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Labubu maker Pop Mart shares fall as key ex-China sales data drop, Citi cuts price target",
+      "canonical_url": "https://www.cnbc.com/2026/08/21/labubu-maker-pop-mart-shares-fall-after-sales-drop-in-asia-americas-.html",
+      "canonical_published_at": "2026-08-21T07:18:33+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Labubu maker Pop Mart shares fall as key ex-China sales data drop, Citi cuts price target",
+          "url": "https://www.cnbc.com/2026/08/21/labubu-maker-pop-mart-shares-fall-after-sales-drop-in-asia-americas-.html",
+          "published_at": "2026-08-21T07:18:33+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Why our cyber stocks are dropping and our favorite memory play is rallying",
+      "canonical_url": "https://www.cnbc.com/2026/08/20/why-our-cyber-stocks-are-dropping-and-our-favorite-memory-play-is-rallying.html",
+      "canonical_published_at": "2026-08-20T15:57:43+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Why our cyber stocks are dropping and our favorite memory play is rallying",
+          "url": "https://www.cnbc.com/2026/08/20/why-our-cyber-stocks-are-dropping-and-our-favorite-memory-play-is-rallying.html",
+          "published_at": "2026-08-20T15:57:43+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+      "canonical_url": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
+      "canonical_published_at": "2026-08-20T20:01:49+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+          "url": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
+          "published_at": "2026-08-20T20:01:49+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+      "canonical_url": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+      "canonical_published_at": "2026-08-20T13:42:25+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+          "url": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+          "published_at": "2026-08-20T13:42:25+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Why we're giving off-price retailer TJX a pass for softness in its biggest division",
+      "canonical_url": "https://www.cnbc.com/2026/08/19/why-were-giving-off-price-retailer-tjx-a-pass-for-softness-in-its-biggest-division.html",
+      "canonical_published_at": "2026-08-19T19:16:28+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Why we're giving off-price retailer TJX a pass for softness in its biggest division",
+          "url": "https://www.cnbc.com/2026/08/19/why-were-giving-off-price-retailer-tjx-a-pass-for-softness-in-its-biggest-division.html",
+          "published_at": "2026-08-19T19:16:28+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
+      "canonical_url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
+      "canonical_published_at": "2026-08-19T20:00:17+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
+          "url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
+          "published_at": "2026-08-19T20:00:17+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Target says its turnaround is picking up steam, with help from a big tariff refund",
+      "canonical_url": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html",
+      "canonical_published_at": "2026-08-19T20:00:13+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Target says its turnaround is picking up steam, with help from a big tariff refund",
+          "url": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html",
+          "published_at": "2026-08-19T20:00:13+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "We upgraded Home Depot and raised our price target. It made the best of a terrible hand",
+      "canonical_url": "https://www.cnbc.com/2026/08/18/we-upgraded-home-depot-and-raised-our-price-target-it-made-the-best-of-a-terrible-hand.html",
+      "canonical_published_at": "2026-08-18T19:27:54+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "We upgraded Home Depot and raised our price target. It made the best of a terrible hand",
+          "url": "https://www.cnbc.com/2026/08/18/we-upgraded-home-depot-and-raised-our-price-target-it-made-the-best-of-a-terrible-hand.html",
+          "published_at": "2026-08-18T19:27:54+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Walmart, Target results could put this earnings season to the test. What analysts are saying on retailers",
+      "canonical_url": "https://www.cnbc.com/2026/08/18/retailer-earnings-could-put-this-season-to-the-test.html",
+      "canonical_published_at": "2026-08-18T18:20:11+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Walmart, Target results could put this earnings season to the test. What analysts are saying on retailers",
+          "url": "https://www.cnbc.com/2026/08/18/retailer-earnings-could-put-this-season-to-the-test.html",
+          "published_at": "2026-08-18T18:20:11+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "cnbc_investing",
+      "canonical_headline": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
+      "canonical_url": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html",
+      "canonical_published_at": "2026-08-18T13:43:28+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "cnbc_investing",
+          "tier": "MEDIA",
+          "headline": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
+          "url": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html",
+          "published_at": "2026-08-18T13:43:28+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "canonical_url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T22:24:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+          "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T22:24:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
+      "canonical_url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T22:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
+          "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T22:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "The S&P 500 usually falls in September. Why this year should be different.",
+      "canonical_url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:36:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "The S&P 500 usually falls in September. Why this year should be different.",
+          "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:36:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+      "canonical_url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:34:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+          "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:34:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market",
+      "canonical_url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:33:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market",
+          "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:33:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "Maybe the snowbirds are right? One state dominates this list of best places to retire.",
+      "canonical_url": "https://www.marketwatch.com/story/maybe-the-snowbirds-are-right-one-state-dominates-this-list-of-best-places-to-retire-ab506160?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:23:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "Maybe the snowbirds are right? One state dominates this list of best places to retire.",
+          "url": "https://www.marketwatch.com/story/maybe-the-snowbirds-are-right-one-state-dominates-this-list-of-best-places-to-retire-ab506160?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:23:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "23 best-performing stocks of August, as the software industry continues its recovery",
+      "canonical_url": "https://www.marketwatch.com/story/22-best-performing-stocks-of-august-as-the-software-industry-continues-its-recovery-88e432bf?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:16:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "23 best-performing stocks of August, as the software industry continues its recovery",
+          "url": "https://www.marketwatch.com/story/22-best-performing-stocks-of-august-as-the-software-industry-continues-its-recovery-88e432bf?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:16:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
+      "canonical_url": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T21:01:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
+          "url": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T21:01:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "This maneuver is boosting oil shipments through the Strait of Hormuz",
+      "canonical_url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T20:56:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "This maneuver is boosting oil shipments through the Strait of Hormuz",
+          "url": "https://www.marketwatch.com/story/this-maneuver-is-boosting-oil-shipments-through-the-strait-of-hormuz-070d8fa3?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T20:56:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "marketwatch",
+      "canonical_headline": "With Warsh running the Fed, should bond investors be worried?",
+      "canonical_url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
+      "canonical_published_at": "2026-08-31T20:55:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "marketwatch",
+          "tier": "MEDIA",
+          "headline": "With Warsh running the Fed, should bond investors be worried?",
+          "url": "https://www.marketwatch.com/story/should-bond-investors-worry-with-warsh-running-the-fed-0a99c5ac?mod=mw_rss_topstories",
+          "published_at": "2026-08-31T20:55:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Goldman Sachs sends blunt message on oil price, economy",
+      "canonical_url": "https://finance.yahoo.com/energy/articles/goldman-sachs-sends-blunt-message-003700417.html",
+      "canonical_published_at": "2026-08-31T00:37:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Goldman Sachs sends blunt message on oil price, economy",
+          "url": "https://finance.yahoo.com/energy/articles/goldman-sachs-sends-blunt-message-003700417.html",
+          "published_at": "2026-08-31T00:37:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade.",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/marvell-wins-wall-street-google-144502254.html",
+      "canonical_published_at": "2026-08-30T14:45:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-wins-wall-street-google-144502254.html",
+          "published_at": "2026-08-30T14:45:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Why Billionaire Founder Jack Ma Just Bought $76.5 Million Worth of Alibaba Stock",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/why-billionaire-founder-jack-ma-150002705.html",
+      "canonical_published_at": "2026-08-30T15:00:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Why Billionaire Founder Jack Ma Just Bought $76.5 Million Worth of Alibaba Stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-billionaire-founder-jack-ma-150002705.html",
+          "published_at": "2026-08-30T15:00:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "A $3.13 Billion Reason to Buy Zoom Communications Stock Now",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/3-13-billion-reason-buy-150002113.html",
+      "canonical_published_at": "2026-08-30T15:00:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "A $3.13 Billion Reason to Buy Zoom Communications Stock Now",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-13-billion-reason-buy-150002113.html",
+          "published_at": "2026-08-30T15:00:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Despite Impressive Results, Nvidia Stock May Be Stuck in a Range - What's the Best Play?",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/despite-impressive-results-nvidia-stock-143002477.html",
+      "canonical_published_at": "2026-08-30T14:30:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Despite Impressive Results, Nvidia Stock May Be Stuck in a Range - What's the Best Play?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/despite-impressive-results-nvidia-stock-143002477.html",
+          "published_at": "2026-08-30T14:30:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Bull Markets Rise, Bear Markets Fall: Here's How I Use Each to Build Wealth",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/bull-markets-rise-bear-markets-145000231.html",
+      "canonical_published_at": "2026-08-30T14:50:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Bull Markets Rise, Bear Markets Fall: Here's How I Use Each to Build Wealth",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-markets-rise-bear-markets-145000231.html",
+          "published_at": "2026-08-30T14:50:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Man posed as a 49ers player and convinced 26 women to hand over $1.3 million in romance scam scheme",
+      "canonical_url": "https://finance.yahoo.com/markets/crypto/articles/man-posed-49ers-player-convinced-142000089.html",
+      "canonical_published_at": "2026-08-30T14:20:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Man posed as a 49ers player and convinced 26 women to hand over $1.3 million in romance scam scheme",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/man-posed-49ers-player-convinced-142000089.html",
+          "published_at": "2026-08-30T14:20:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
+      "canonical_published_at": "2026-08-30T15:30:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
+          "published_at": "2026-08-30T15:30:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Dear Kraft Heinz Stock Fans, Mark Your Calendars for September 14",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/dear-kraft-heinz-stock-fans-153002037.html",
+      "canonical_published_at": "2026-08-30T15:30:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Dear Kraft Heinz Stock Fans, Mark Your Calendars for September 14",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dear-kraft-heinz-stock-fans-153002037.html",
+          "published_at": "2026-08-30T15:30:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "A Major $12.9 Billion Catalyst Is Brewing for Nvidia Stock",
+      "canonical_url": "https://finance.yahoo.com/technology/ai/articles/major-12-9-billion-catalyst-141502070.html",
+      "canonical_published_at": "2026-08-30T14:15:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "A Major $12.9 Billion Catalyst Is Brewing for Nvidia Stock",
+          "url": "https://finance.yahoo.com/technology/ai/articles/major-12-9-billion-catalyst-141502070.html",
+          "published_at": "2026-08-30T14:15:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Digital Euro Adoption Hinges on Speed—Can the ECB Make It Easy Enough to Use?",
+      "canonical_url": "https://finance.yahoo.com/markets/currencies/articles/digital-euro-adoption-hinges-speed-145133013.html",
+      "canonical_published_at": "2026-08-30T14:51:33+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Digital Euro Adoption Hinges on Speed—Can the ECB Make It Easy Enough to Use?",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/digital-euro-adoption-hinges-speed-145133013.html",
+          "published_at": "2026-08-30T14:51:33+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks",
+      "canonical_url": "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html",
+      "canonical_published_at": "2026-08-30T13:45:07+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks",
+          "url": "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html",
+          "published_at": "2026-08-30T13:45:07+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Everything I Learned from My Hot Chart Summer, and How My 21 Stocks Picks Have Performed.",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/everything-learned-hot-chart-summer-133002092.html",
+      "canonical_published_at": "2026-08-30T13:30:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Everything I Learned from My Hot Chart Summer, and How My 21 Stocks Picks Have Performed.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everything-learned-hot-chart-summer-133002092.html",
+          "published_at": "2026-08-30T13:30:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Victoria's Secret stock soars nearly 300% as GLP-1 weight-loss drugs help reshape lingerie buying habits",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-stock-soars-nearly-130000704.html",
+      "canonical_published_at": "2026-08-30T13:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Victoria's Secret stock soars nearly 300% as GLP-1 weight-loss drugs help reshape lingerie buying habits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-stock-soars-nearly-130000704.html",
+          "published_at": "2026-08-30T13:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "SpaceX Has an Emerging Challenger in Space. Here’s the One Thing Rivals Can’t Copy.",
+      "canonical_url": "https://finance.yahoo.com/technology/ai/articles/spacex-emerging-challenger-space-one-172828623.html",
+      "canonical_published_at": "2026-08-30T17:28:28+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "SpaceX Has an Emerging Challenger in Space. Here’s the One Thing Rivals Can’t Copy.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-emerging-challenger-space-one-172828623.html",
+          "published_at": "2026-08-30T17:28:28+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Trump’s New Oil Deal With Venezuela Is Insane — U.S. Now Controls 7.1% of Proven Global Reserves",
+      "canonical_url": "https://finance.yahoo.com/energy/articles/trump-oil-deal-venezuela-insane-164936558.html",
+      "canonical_published_at": "2026-08-30T14:52:52+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Trump’s New Oil Deal With Venezuela Is Insane — U.S. Now Controls 7.1% of Proven Global Reserves",
+          "url": "https://finance.yahoo.com/energy/articles/trump-oil-deal-venezuela-insane-164936558.html",
+          "published_at": "2026-08-30T14:52:52+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Alibaba’s Chairman Just Bought Shares After a Major AI Funding Deal. How Investors Should View the Move.",
+      "canonical_url": "https://finance.yahoo.com/technology/ai/articles/alibaba-chairman-just-bought-shares-173002285.html",
+      "canonical_published_at": "2026-08-30T17:30:02+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Alibaba’s Chairman Just Bought Shares After a Major AI Funding Deal. How Investors Should View the Move.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-chairman-just-bought-shares-173002285.html",
+          "published_at": "2026-08-30T17:30:02+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Michigan woman to dip into her $50,000 in stocks to cover her brother-in-law's unpaid HOA fees or face foreclosure",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/michigan-woman-dip-her-50-123000768.html",
+      "canonical_published_at": "2026-08-30T12:30:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Michigan woman to dip into her $50,000 in stocks to cover her brother-in-law's unpaid HOA fees or face foreclosure",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/michigan-woman-dip-her-50-123000768.html",
+          "published_at": "2026-08-30T12:30:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Come on, Target. Do better.",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/article/come-on-target-do-better-123000000.html",
+      "canonical_published_at": "2026-08-30T12:30:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Come on, Target. Do better.",
+          "url": "https://finance.yahoo.com/markets/stocks/article/come-on-target-do-better-123000000.html",
+          "published_at": "2026-08-30T12:30:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Is Advanced Micro Devices Stock Outperforming the Dow?",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-stock-outperforming-122944212.html",
+      "canonical_published_at": "2026-08-30T12:29:44+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Is Advanced Micro Devices Stock Outperforming the Dow?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-stock-outperforming-122944212.html",
+          "published_at": "2026-08-30T12:29:44+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html",
+      "canonical_published_at": "2026-08-30T14:55:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html",
+          "published_at": "2026-08-30T14:55:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "How AI Power Demand Transformed Caterpillar (CAT) into a High-Multiple Tech Play",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-demand-transformed-caterpillar-173543057.html",
+      "canonical_published_at": "2026-08-30T17:35:43+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "How AI Power Demand Transformed Caterpillar (CAT) into a High-Multiple Tech Play",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-demand-transformed-caterpillar-173543057.html",
+          "published_at": "2026-08-30T17:35:43+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Mortgage and refinance interest rates today, Monday, August 31, 2026: Purchase rates currently higher than refinance rates",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-august-31-2026-purchase-rates-currently-higher-than-refinance-rates-100000904.html",
+      "canonical_published_at": "2026-08-31T10:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Mortgage and refinance interest rates today, Monday, August 31, 2026: Purchase rates currently higher than refinance rates",
+          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-august-31-2026-purchase-rates-currently-higher-than-refinance-rates-100000904.html",
+          "published_at": "2026-08-31T10:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best high-yield savings interest rates today, Monday, August 31, 2026: Earn up to 4.15% APY",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html",
+      "canonical_published_at": "2026-08-31T10:00:00+00:00",
+      "cluster_size": 2,
+      "corroboration_count": 2,
+      "effective_corroboration": 2,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best high-yield savings interest rates today, Monday, August 31, 2026: Earn up to 4.15% APY",
+          "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html",
+          "published_at": "2026-08-31T10:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY",
+          "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html",
+          "published_at": "2026-08-31T10:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 87.7
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Where Retirees Can Avoid Paying State Taxes on Their Retirement Income",
+      "canonical_url": "https://finance.yahoo.com/small-business/articles/where-retirees-avoid-paying-state-150224971.html",
+      "canonical_published_at": "2026-08-30T15:02:24+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Where Retirees Can Avoid Paying State Taxes on Their Retirement Income",
+          "url": "https://finance.yahoo.com/small-business/articles/where-retirees-avoid-paying-state-150224971.html",
+          "published_at": "2026-08-30T15:02:24+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "HELOC and home equity loan rates today, Monday, August 31, 2026: A 19-basis-point differential",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-31-2026-a-19-basis-point-differential-100000999.html",
+      "canonical_published_at": "2026-08-31T10:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "HELOC and home equity loan rates today, Monday, August 31, 2026: A 19-basis-point differential",
+          "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-31-2026-a-19-basis-point-differential-100000999.html",
+          "published_at": "2026-08-31T10:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Gold prices today, Monday, August 31, 2026: Gold sinks following U.S. strikes on Iran",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-31-2026-gold-sinks-following-us-strikes-on-iran-123744944.html",
+      "canonical_published_at": "2026-08-31T12:37:44+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Gold prices today, Monday, August 31, 2026: Gold sinks following U.S. strikes on Iran",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-31-2026-gold-sinks-following-us-strikes-on-iran-123744944.html",
+          "published_at": "2026-08-31T12:37:44+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Silver prices today, Monday, August 31, 2026: Silver opens lower as rate-hike expectations rise",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-31-2026-silver-opens-lower-as-rate-hike-expectations-rise-125201881.html",
+      "canonical_published_at": "2026-08-31T12:52:01+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Silver prices today, Monday, August 31, 2026: Silver opens lower as rate-hike expectations rise",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-31-2026-silver-opens-lower-as-rate-hike-expectations-rise-125201881.html",
+          "published_at": "2026-08-31T12:52:01+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html",
+      "canonical_published_at": "2026-08-31T13:22:22+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html",
+          "published_at": "2026-08-31T13:22:22+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Jim Cramer delivers unmistakable verdict on vital tech giant",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-delivers-unmistakable-verdict-143700553.html",
+      "canonical_published_at": "2026-08-30T14:37:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Jim Cramer delivers unmistakable verdict on vital tech giant",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-delivers-unmistakable-verdict-143700553.html",
+          "published_at": "2026-08-30T14:37:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best student loan refinance companies of September 2026",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-student-loan-refinance-companies-104900001.html",
+      "canonical_published_at": "2026-07-22T10:49:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best student loan refinance companies of September 2026",
+          "url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-student-loan-refinance-companies-104900001.html",
+          "published_at": "2026-07-22T10:49:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best private student loans for September 2026",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-private-student-loans-135459013.html",
+      "canonical_published_at": "2026-05-13T13:54:59+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best private student loans for September 2026",
+          "url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-private-student-loans-135459013.html",
+          "published_at": "2026-05-13T13:54:59+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best personal loans for bad credit for September 2026",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-for-bad-credit-211415243.html",
+      "canonical_published_at": "2025-07-30T21:14:15+00:00",
+      "cluster_size": 2,
+      "corroboration_count": 2,
+      "effective_corroboration": 2,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best personal loans for bad credit for September 2026",
+          "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-for-bad-credit-211415243.html",
+          "published_at": "2025-07-30T21:14:15+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "The best personal loans for September 2026",
+          "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-202034980.html",
+          "published_at": "2024-02-28T17:24:16+00:00",
+          "join_method": "headline_direct",
+          "join_score": 95.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best secured personal loans and lenders of September 2026: Get lower rates by adding collateral",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-secured-personal-loans-224147862.html",
+      "canonical_published_at": "2026-04-28T22:41:47+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best secured personal loans and lenders of September 2026: Get lower rates by adding collateral",
+          "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-secured-personal-loans-224147862.html",
+          "published_at": "2026-04-28T22:41:47+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/amazon-badly-underperformed-p-500-143500321.html",
+      "canonical_published_at": "2026-08-30T14:35:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-badly-underperformed-p-500-143500321.html",
+          "published_at": "2026-08-30T14:35:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "These are all the companies pledging matching funds to Trump Accounts",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/banking/article/these-are-all-the-companies-pledging-matching-funds-to-trump-accounts-155809477.html",
+      "canonical_published_at": "2026-02-09T15:58:09+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "These are all the companies pledging matching funds to Trump Accounts",
+          "url": "https://finance.yahoo.com/personal-finance/banking/article/these-are-all-the-companies-pledging-matching-funds-to-trump-accounts-155809477.html",
+          "published_at": "2026-02-09T15:58:09+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Discover Q3 2026 rewards calendar — Earn 5% cash back at gas stations, on transportation, and at drug stores",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/discover-rewards-calendar-163005023.html",
+      "canonical_published_at": "2024-09-17T16:30:05+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Discover Q3 2026 rewards calendar — Earn 5% cash back at gas stations, on transportation, and at drug stores",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/discover-rewards-calendar-163005023.html",
+          "published_at": "2024-09-17T16:30:05+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best credit cards for shopping on Amazon (2026)",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-shopping-on-amazon-212142241.html",
+      "canonical_published_at": "2025-11-19T21:21:42+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best credit cards for shopping on Amazon (2026)",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-shopping-on-amazon-212142241.html",
+          "published_at": "2025-11-19T21:21:42+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Solana Just Set an All-Time Record for Blockchain Network Activity. Does That Make Solana a Buy, Sell, or Hold Right Now?",
+      "canonical_url": "https://finance.yahoo.com/markets/crypto/articles/solana-just-set-time-record-150800457.html",
+      "canonical_published_at": "2026-08-30T15:08:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Solana Just Set an All-Time Record for Blockchain Network Activity. Does That Make Solana a Buy, Sell, or Hold Right Now?",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/solana-just-set-time-record-150800457.html",
+          "published_at": "2026-08-30T15:08:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Uphold review 2026: One account for crypto, metals, and cash",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/investing/review/uphold-review-203900002.html",
+      "canonical_published_at": "2026-08-31T20:39:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Uphold review 2026: One account for crypto, metals, and cash",
+          "url": "https://finance.yahoo.com/personal-finance/investing/review/uphold-review-203900002.html",
+          "published_at": "2026-08-31T20:39:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Can you pay rent with a credit card?",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/can-you-pay-rent-with-a-credit-card-000451795.html",
+      "canonical_published_at": "2024-01-26T22:27:16+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Can you pay rent with a credit card?",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/can-you-pay-rent-with-a-credit-card-000451795.html",
+          "published_at": "2024-01-26T22:27:16+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "How to calculate credit card interest",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-calculate-credit-card-interest-222228806.html",
+      "canonical_published_at": "2024-08-08T22:22:28+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "How to calculate credit card interest",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-calculate-credit-card-interest-222228806.html",
+          "published_at": "2024-08-08T22:22:28+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "The best credit cards (2026): See our picks for the top cash-back, rewards, travel cards, and more",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-202825345.html",
+      "canonical_published_at": "2024-09-12T20:09:33+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "The best credit cards (2026): See our picks for the top cash-back, rewards, travel cards, and more",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-202825345.html",
+          "published_at": "2024-09-12T20:09:33+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "JPMorgan remains positive on equities, sees rotation driving further gains",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-remains-positive-equities-sees-150916529.html",
+      "canonical_published_at": "2026-08-30T15:09:16+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "JPMorgan remains positive on equities, sees rotation driving further gains",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-remains-positive-equities-sees-150916529.html",
+          "published_at": "2026-08-30T15:09:16+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Wells Fargo Active Cash Card review: Unlimited 2% cash rewards and generous intro APR",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-active-cash-card-180512515.html",
+      "canonical_published_at": "2025-12-01T18:05:12+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Wells Fargo Active Cash Card review: Unlimited 2% cash rewards and generous intro APR",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-active-cash-card-180512515.html",
+          "published_at": "2025-12-01T18:05:12+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Wells Fargo Autograph Journey℠ Card review: A high-earning card designed for frequent travelers",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-autograph-journey-card-review-215134623.html",
+      "canonical_published_at": "2024-09-05T18:26:17+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Wells Fargo Autograph Journey℠ Card review: A high-earning card designed for frequent travelers",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-autograph-journey-card-review-215134623.html",
+          "published_at": "2024-09-05T18:26:17+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Best credit cards with no annual fee (2026)",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-with-no-annual-fee-204747522.html",
+      "canonical_published_at": "2024-11-25T20:47:47+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Best credit cards with no annual fee (2026)",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-with-no-annual-fee-204747522.html",
+          "published_at": "2024-11-25T20:47:47+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "yahoo_finance_news",
+      "canonical_headline": "Credit card fees explained: 8 types you should know",
+      "canonical_url": "https://finance.yahoo.com/personal-finance/credit-cards/article/types-credit-card-fees-144450351.html",
+      "canonical_published_at": "2024-02-27T21:16:06+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "yahoo_finance_news",
+          "tier": "MEDIA",
+          "headline": "Credit card fees explained: 8 types you should know",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/types-credit-card-fees-144450351.html",
+          "published_at": "2024-02-27T21:16:06+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_8k",
+      "canonical_headline": "[NVDA] 8-K: Results of Operations / Earnings | Period: 2026-08-26 | Filed: 2026-08-26",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm",
+      "canonical_published_at": "2026-08-26T14:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_8k",
+          "tier": "OFFICIAL",
+          "headline": "[NVDA] 8-K: Results of Operations / Earnings | Period: 2026-08-26 | Filed: 2026-08-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm",
+          "published_at": "2026-08-26T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[GOOGL] Form 4 Insider Sell | Insider: ARNOLD FRANCES  (CIK 0001665419) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-31",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1665419/000119312526377149/0001193125-26-377149-index.htm",
+      "canonical_published_at": "2026-08-31T14:00:00+00:00",
+      "cluster_size": 2,
+      "corroboration_count": 2,
+      "effective_corroboration": 2,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Insider Sell | Insider: ARNOLD FRANCES  (CIK 0001665419) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1665419/000119312526377149/0001193125-26-377149-index.htm",
+          "published_at": "2026-08-31T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: Ashkenazi Anat  (CIK 0001761679) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1761679/000119312526371785/0001193125-26-371785-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 81.1
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[GOOGL] Form 4 Conversion | Insider: Pichai Sundar  (CIK 0001534753) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1534753/000119312526371797/0001193125-26-371797-index.htm",
+      "canonical_published_at": "2026-08-27T14:00:00+00:00",
+      "cluster_size": 5,
+      "corroboration_count": 5,
+      "effective_corroboration": 5,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: Pichai Sundar  (CIK 0001534753) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1534753/000119312526371797/0001193125-26-371797-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: Porat Ruth  (CIK 0001479258) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479258/000119312526371794/0001193125-26-371794-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 90.2
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: WALKER JOHN KENT  (CIK 0001238734) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1238734/000119312526371799/0001193125-26-371799-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 88.7
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: Schindler Philipp  (CIK 0001837573) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1837573/000119312526371788/0001193125-26-371788-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 91.9
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[GOOGL] Form 4 Conversion | Insider: Saraci Marsida  (CIK 0002138895) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/2138895/000119312526371778/0001193125-26-371778-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 89.5
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[AMD] Form 4 Insider Sell | Insider: Papermaster Mark D  (CIK 0001449649) | Company: ADVANCED MICRO DEVICES INC  (CIK 0000002488) | Filed: 2026-08-21",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1449649/000000248826000174/0000002488-26-000174-index.htm",
+      "canonical_published_at": "2026-08-21T14:00:00+00:00",
+      "cluster_size": 3,
+      "corroboration_count": 3,
+      "effective_corroboration": 3,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMD] Form 4 Insider Sell | Insider: Papermaster Mark D  (CIK 0001449649) | Company: ADVANCED MICRO DEVICES INC  (CIK 0000002488) | Filed: 2026-08-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1449649/000000248826000174/0000002488-26-000174-index.htm",
+          "published_at": "2026-08-21T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMD] Form 4 Insider Sell | Insider: Hu Jean X.  (CIK 0001452385) | Company: ADVANCED MICRO DEVICES INC  (CIK 0000002488) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1452385/000145238526000008/0001452385-26-000008-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 87.9
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMD] Form 4 Insider Sell | Insider: Norrod Forrest Eugene  (CIK 0001622864) | Company: ADVANCED MICRO DEVICES INC  (CIK 0000002488) | Filed: 2026-08-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1622864/000000248826000176/0000002488-26-000176-index.htm",
+          "published_at": "2026-08-26T14:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 83.7
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_8k",
+      "canonical_headline": "[LMT] 8-K: Material Definitive Agreement | Period: 2026-08-24 | Filed: 2026-08-28",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.htm",
+      "canonical_published_at": "2026-08-28T14:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_8k",
+          "tier": "OFFICIAL",
+          "headline": "[LMT] 8-K: Material Definitive Agreement | Period: 2026-08-24 | Filed: 2026-08-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.htm",
+          "published_at": "2026-08-28T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[AMZN] Form 4 Gift | Insider: BEZOS JEFFREY P  (CIK 0001043298) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-27",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1043298/000104329826000002/0001043298-26-000002-index.htm",
+      "canonical_published_at": "2026-08-27T14:00:00+00:00",
+      "cluster_size": 3,
+      "corroboration_count": 3,
+      "effective_corroboration": 3,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Gift | Insider: BEZOS JEFFREY P  (CIK 0001043298) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1043298/000104329826000002/0001043298-26-000002-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Olsavsky Brian T  (CIK 0001639902) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1639902/000163990226000008/0001639902-26-000008-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 80.7
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Reynolds Shelley  (CIK 0001397333) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1397333/000139733326000006/0001397333-26-000006-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "snippet_assist",
+          "join_score": 82.7
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[AMZN] Form 4 Insider Sell | Insider: Jassy Andrew R  (CIK 0001374545) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1374545/000137454526000010/0001374545-26-000010-index.htm",
+      "canonical_published_at": "2026-08-25T14:00:00+00:00",
+      "cluster_size": 4,
+      "corroboration_count": 4,
+      "effective_corroboration": 4,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Jassy Andrew R  (CIK 0001374545) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1374545/000137454526000010/0001374545-26-000010-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Herrington Douglas J  (CIK 0001936006) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1936006/000193600626000022/0001936006-26-000022-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 85.9
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Zapolsky David  (CIK 0001557979) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1557979/000155797926000008/0001557979-26-000008-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 88.6
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AMZN] Form 4 Insider Sell | Insider: Garman Matthew S  (CIK 0002024813) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/2024813/000202481326000010/0002024813-26-000010-index.htm",
+          "published_at": "2026-08-25T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 86.8
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[CAT] Form 4 Award/Grant | Insider: Kaiser Jason  (CIK 0002005183) | Company: CATERPILLAR INC  (CIK 0000018230) | Filed: 2026-08-27",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2005183/000110465926102419/0001104659-26-102419-index.htm",
+      "canonical_published_at": "2026-08-27T14:00:00+00:00",
+      "cluster_size": 3,
+      "corroboration_count": 3,
+      "effective_corroboration": 3,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[CAT] Form 4 Award/Grant | Insider: Kaiser Jason  (CIK 0002005183) | Company: CATERPILLAR INC  (CIK 0000018230) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/2005183/000110465926102419/0001104659-26-102419-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[CAT] Form 4 Award/Grant | Insider: Creed Joseph E  (CIK 0001739859) | Company: CATERPILLAR INC  (CIK 0000018230) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1739859/000110465926102417/0001104659-26-102417-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 87.8
+        },
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[CAT] Form 4 Award/Grant | Insider: Epley Kyle Joseph  (CIK 0002131716) | Company: CATERPILLAR INC  (CIK 0000018230) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/2131716/000110465926102420/0001104659-26-102420-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "headline_direct",
+          "join_score": 88.0
+        }
+      ]
+    },
+    {
+      "canonical_source_id": "sec_edgar_form4",
+      "canonical_headline": "[AAPL] Form 4 Insider Sell | Insider: Newstead Jennifer  (CIK 0001780525) | Company: Apple Inc.  (CIK 0000320193) | Filed: 2026-08-27",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1780525/000114036126034741/0001140361-26-034741-index.htm",
+      "canonical_published_at": "2026-08-27T14:00:00+00:00",
+      "cluster_size": 1,
+      "corroboration_count": 1,
+      "effective_corroboration": 1,
+      "citation_laundering_discount_applied": false,
+      "cluster_members": [
+        {
+          "source_id": "sec_edgar_form4",
+          "tier": "OFFICIAL",
+          "headline": "[AAPL] Form 4 Insider Sell | Insider: Newstead Jennifer  (CIK 0001780525) | Company: Apple Inc.  (CIK 0000320193) | Filed: 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1780525/000114036126034741/0001140361-26-034741-index.htm",
+          "published_at": "2026-08-27T14:00:00+00:00",
+          "join_method": "anchor",
+          "join_score": 100.0
+        }
+      ]
+    }
+  ]
+}

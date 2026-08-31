@@ -1,0 +1,800 @@
+{
+  "stage": "noise_scorer",
+  "session_type": "US_CLOSE",
+  "generated_at": "20260831T232051Z",
+  "record_count": 51,
+  "records": [
+    {
+      "item_hash": "fe6636d69e0b1af55bf4cf8ea0ae6280508ec5f6f37e3d245dc129399718242d",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[MSFT] [Somewhat Bullish] Constellation Energy vs. NextEra Energy: Which Utilities Stock Is a Better Investment in 2026?",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/4359821/constellation-energy-vs-nextera-energy-which-utilities-stock-is-a-better-investment-in-2026/",
+      "published_at": "2026-08-31T18:49:39+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ef951732e96b2e7c75373f33cf0631aaadc030d79c8d817c0ff9246365977301",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[JPM] [Somewhat Bullish] Zacks Industry Outlook Highlights Morgan Stanley, The Charles Schwab and Interactive Brokers",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MS/pressreleases/4357897/zacks-industry-outlook-highlights-morgan-stanley-the-charles-schwab-and-interactive-brokers/",
+      "published_at": "2026-08-31T17:07:12+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "06d9b5aaf726cdafc958fd9d2c4662ffb288716b211faa636a96eda76ea947e5",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[NVDA] [Somewhat Bullish] GE HealthCare Wins EU Nod for Photon-Counting CT",
+      "url": "https://www.mpo-mag.com/breaking-news/ge-healthcare-wins-eu-nod-for-photon-counting-ct/",
+      "published_at": "2026-08-31T14:12:55+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "a0dca0d4da79acca1a4649aad5d094a2c6fee781162d28b2f3bdd2002cbae596",
+      "source_id": "alpha_vantage_news",
+      "source_tier": "MEDIA",
+      "headline": "[XOM] [Somewhat Bullish] Oneok Bets $4.425 Billion on Brazos Assets To Expand Permian Operations",
+      "url": "https://www.benzinga.com/m-a/26/08/61518449/oneok-bets-4-425-billion-on-brazos-assets-to-expand-permian-operations",
+      "published_at": "2026-08-31T12:18:39+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a8d7983312f314e518cd04d5e96177c252cdd3c3d324a7aec58f72d2cfbd9583",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
+      "published_at": "2026-08-27T15:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "42842b56e57d6292f5aedfb989ec10c076506a0840c3199670b70a5f603a46ca",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "published_at": "2026-08-25T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "313e3adfaacc4d1645da03fea9da83edec7dcc8421ff3798a3e669cd8de63d87",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+      "published_at": "2026-08-20T20:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "cca99dc96c6192d5ec8b1ec51f723641e649da9c2e86f6e57bad5e6499533562",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+      "published_at": "2026-08-20T15:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "d8bdd68ed96d0806822f20e14687d2aed1fcfd434393bbaa33bf06b5ea0e7142",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "published_at": "2026-08-19T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "8dc3a55465429207907d0109f734dbd56f821186e1f4de28329d9bacc3a8951e",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+      "published_at": "2026-08-04T20:30:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "1ba6bcf0a9f362c8edc49678511c7627b060e9bc4ed57074776afcc8c6e8bc4f",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7d74094e6e82c278c50381f5e2c07970aae44eda67b9958e961582e26eb73978",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+      "published_at": "2026-07-31T14:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "7825122cea16ed340f3dad63634b1a3213ab3ea56cffe40644339870d094e551",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "b920df2b8ddc0113adc50a9f4b1b07dfafcad08c966ebccab43c618cccbde595",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+      "published_at": "2026-07-16T18:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "af08cc8685e6c3877e3a3c50663f0beccd197d96193b063b6d75fd9f7c2714c3",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+      "published_at": "2026-07-16T15:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "952dbd8cc6b8840c9689b1052d1e9b1837938ea7a3103e6465e71407191bcb23",
+      "source_id": "fed_press",
+      "source_tier": "OFFICIAL",
+      "headline": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "published_at": "2026-07-09T19:00:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "02566bf104228ee11f66670d8fed2858575416927f96621838891f43c3d629c5",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+      "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+      "published_at": "2026-08-31T20:50:01+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e1181285d455a89475ae82511cc90db6872bfb74d010857c9db71448d29803d7",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Waiting for homebuying to get more affordable? Here's what to expect in 2027",
+      "url": "https://www.cnbc.com/2026/08/31/what-homebuyers-can-expect-in-2027.html",
+      "published_at": "2026-08-31T17:16:59+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "d142c6db2d02d10e629c25ac9b2573b0b7be31b9bb6471c4826ebd516bd73f0a",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+      "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+      "published_at": "2026-08-31T19:38:38+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "439facde1400d2ce5df8c9c182e8d9aa13ef50e26d223b3e1dd792f0dbfa0650",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "End of an era at Apple: Tim Cook's last day as CEO",
+      "url": "https://www.cnbc.com/video/2026/08/31/end-of-an-era-at-apple-tim-cooks-last-day-as-ceo.html",
+      "published_at": "2026-08-31T15:18:48+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "b7182168b2215a5706fcd5b9bb192e09c3a4e7f06704a14bb429cf95942352ea",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "FTC sues Amazon, accusing the e-commerce giant of misleading advertisers",
+      "url": "https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html",
+      "published_at": "2026-08-31T20:34:45+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ef19a6be870f74afbba859a0ecfeca793d36eaf6183a1da72ba4efeae707d49f",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "Microsoft Outlook and OpenAI's ChatGPT Work are experiencing user outages",
+      "url": "https://www.cnbc.com/2026/08/31/microsoft-outlook-and-openais-chatgpt-work-experience-outages-.html",
+      "published_at": "2026-08-31T21:36:32+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "eefd859da9c93d80662cab503ad0cfa864d49b5a1720ba679c6b42da3b77602c",
+      "source_id": "cnbc_top",
+      "source_tier": "MEDIA",
+      "headline": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate",
+      "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "published_at": "2026-08-31T16:33:46+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "573d5ff669f476eee2f89af8695eab1954fdb8d34a32457066e291c93837ccfc",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+      "url": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
+      "published_at": "2026-08-31T14:12:05+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fedf6cf2461c9f9ea8b10a7ab18788f62a0cd382588465015b7f5de34552fa09",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+      "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+      "published_at": "2026-08-29T13:25:55+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "16e89313c4d03dec364eed61c04df7f7fce8ba14bef8f5236c61d46c2348da5c",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
+      "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+      "published_at": "2026-08-27T20:47:36+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "a6d918e2ec7c488f25ca72bff72d03aa9305f77575385a23e9c6fffb76bb14c9",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
+      "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+      "published_at": "2026-08-27T01:02:43+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "744cd954e2bf2413efd09f860ffc957f959b54f9ae5669da8bbdadaeaeba95c7",
+      "source_id": "cnbc_investing",
+      "source_tier": "MEDIA",
+      "headline": "Target says its turnaround is picking up steam, with help from a big tariff refund",
+      "url": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html",
+      "published_at": "2026-08-19T20:00:13+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "56cba00378687fbf983830c610d0b48e53bb4e5d378904091e55411c13417d4e",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "published_at": "2026-08-31T22:24:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "ffb227acab4a3c8064873c3bd051a2c29e2dbd0cab5c5fffe2a3587e262ed02f",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "The S&P 500 usually falls in September. Why this year should be different.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+      "published_at": "2026-08-31T21:36:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "be8e586d5ee66b763ddb8711b17b333368a288df6ce88c49efbaee70a6f76c34",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market",
+      "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
+      "published_at": "2026-08-31T21:33:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "1dc4742c0766822a7e3b69598f6148cdf925352c3080c4e67c0673a8b3c45cee",
+      "source_id": "marketwatch",
+      "source_tier": "MEDIA",
+      "headline": "Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch",
+      "url": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+      "published_at": "2026-08-31T21:01:00+00:00",
+      "category": null,
+      "tag": "MACRO",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "85388538d8c882b65cda6d87f10ed5406d6c8be1164a8ba7680c71dc82ed8fc2",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-wins-wall-street-google-144502254.html",
+      "published_at": "2026-08-30T14:45:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "69d085c861632795b3e34f7289cf85812d22b93ce54d3efe25d3c6f38061ff38",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Despite Impressive Results, Nvidia Stock May Be Stuck in a Range - What's the Best Play?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/despite-impressive-results-nvidia-stock-143002477.html",
+      "published_at": "2026-08-30T14:30:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "19e5aafb3e3273cc3b0343eb0c979bfaf6e143dcace6291af3cc9f554c6594dd",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "A Major $12.9 Billion Catalyst Is Brewing for Nvidia Stock",
+      "url": "https://finance.yahoo.com/technology/ai/articles/major-12-9-billion-catalyst-141502070.html",
+      "published_at": "2026-08-30T14:15:02+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 2.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "e3a9081e035241178dafb1f47dd0255ee50f6196499c2eefa9af51eeab17ff0a",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Victoria's Secret stock soars nearly 300% as GLP-1 weight-loss drugs help reshape lingerie buying habits",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-stock-soars-nearly-130000704.html",
+      "published_at": "2026-08-30T13:00:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 0.0,
+      "score_reasons": [
+        "tier MEDIA: +1",
+        "contains numbers/percentages: +1",
+        "sensational language: -2"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "fc69acd5e178b20f2b44878765bd6f832944f9a1cbdff6859ef0e83fafdfcf59",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Is Advanced Micro Devices Stock Outperforming the Dow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-stock-outperforming-122944212.html",
+      "published_at": "2026-08-30T12:29:44+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f33aee75679849c7b1d4a03a1b865e54c6935013333fb3bed77e7e5d2795b337",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html",
+      "published_at": "2026-08-30T14:55:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "4ace336e609f53e8cea42fe8943bb9f6dfe1c3cd8c30b091543735a04aa0aa84",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "How AI Power Demand Transformed Caterpillar (CAT) into a High-Multiple Tech Play",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-demand-transformed-caterpillar-173543057.html",
+      "published_at": "2026-08-30T17:35:43+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "011dcadf87525f07e75273233e08a0817f5247ce35a85fe49d7407dbd01eaa56",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-badly-underperformed-p-500-143500321.html",
+      "published_at": "2026-08-30T14:35:00+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "93d3336a6eef6b7617fca49438f690d2c20c69fa2df3514c48405a2cb1351447",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "Best credit cards for shopping on Amazon (2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-shopping-on-amazon-212142241.html",
+      "published_at": "2025-11-19T21:21:42+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "f51acb5c48694959627d6f5f90c7bc7057307fa7cdc12350a0f48da34678629f",
+      "source_id": "yahoo_finance_news",
+      "source_tier": "MEDIA",
+      "headline": "JPMorgan remains positive on equities, sees rotation driving further gains",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-remains-positive-equities-sees-150916529.html",
+      "published_at": "2026-08-30T15:09:16+00:00",
+      "category": null,
+      "tag": "RELEVANT",
+      "noise_score": 1.0,
+      "score_reasons": [
+        "tier MEDIA: +1"
+      ],
+      "decision": "DROPPED_BELOW_FLOOR"
+    },
+    {
+      "item_hash": "06a6d8f68ae2af67eff813c17afd3c28995a28bd482111cfef2c8e8c2ea4631c",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[NVDA] 8-K: Results of Operations / Earnings | Period: 2026-08-26 | Filed: 2026-08-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm",
+      "published_at": "2026-08-26T14:00:00+00:00",
+      "category": "Results of Operations / Earnings",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Financial Results': +3"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "45207ff9069bdba239a54c3906a57a6d57d8fe5c546ba7fabddba730d1a2c3bd",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[GOOGL] Form 4 Insider Sell | Insider: ARNOLD FRANCES  (CIK 0001665419) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665419/000119312526377149/0001193125-26-377149-index.htm",
+      "published_at": "2026-08-31T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration ==2: +1",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "543ecade120e4133dcb73000271fcaf43e35bddc29e1dd058149f31b12574091",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[GOOGL] Form 4 Conversion | Insider: Pichai Sundar  (CIK 0001534753) | Company: Alphabet Inc.  (CIK 0001652044) | Filed: 2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534753/000119312526371797/0001193125-26-371797-index.htm",
+      "published_at": "2026-08-27T14:00:00+00:00",
+      "category": "Conversion",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Conversion' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9a672b3cf761d61f9df5de1f94ff6fb7b6fba736695ae4f09a3463cea4b67a71",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMD] Form 4 Insider Sell | Insider: Papermaster Mark D  (CIK 0001449649) | Company: ADVANCED MICRO DEVICES INC  (CIK 0000002488) | Filed: 2026-08-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1449649/000000248826000174/0000002488-26-000174-index.htm",
+      "published_at": "2026-08-21T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "624c3ad7fa10a0b76b994e632c48a08acf137386ec4c2e978e3197ee730aad11",
+      "source_id": "sec_edgar_8k",
+      "source_tier": "OFFICIAL",
+      "headline": "[LMT] 8-K: Material Definitive Agreement | Period: 2026-08-24 | Filed: 2026-08-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.htm",
+      "published_at": "2026-08-28T14:00:00+00:00",
+      "category": "Material Definitive Agreement",
+      "tag": "RELEVANT",
+      "noise_score": 3.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Material Definitive Agreement' unmapped (gap): +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "83f6d495774888a6bb4042bc82e0139ec4bbd422627709ed36d9c6c22d4c3de4",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMZN] Form 4 Gift | Insider: BEZOS JEFFREY P  (CIK 0001043298) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043298/000104329826000002/0001043298-26-000002-index.htm",
+      "published_at": "2026-08-27T14:00:00+00:00",
+      "category": "Gift",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Gift': +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "3b021b14cdd0741611a597c708e8859fb47a0fc89904ad6f2c73e3628c829dde",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AMZN] Form 4 Insider Sell | Insider: Jassy Andrew R  (CIK 0001374545) | Company: AMAZON COM INC  (CIK 0001018724) | Filed: 2026-08-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1374545/000137454526000010/0001374545-26-000010-index.htm",
+      "published_at": "2026-08-25T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 6.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "afbee5ad656d8004e163c0c8128fbdb979360afea0e857e634b61ecb764bfb03",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[CAT] Form 4 Award/Grant | Insider: Kaiser Jason  (CIK 0002005183) | Company: CATERPILLAR INC  (CIK 0000018230) | Filed: 2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/2005183/000110465926102419/0001104659-26-102419-index.htm",
+      "published_at": "2026-08-27T14:00:00+00:00",
+      "category": "Award/Grant",
+      "tag": "RELEVANT",
+      "noise_score": 5.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "corroboration >=3: +2",
+        "category 'Award/Grant': +0"
+      ],
+      "decision": "KEPT"
+    },
+    {
+      "item_hash": "9e6bcccf288d072eb9c8a77afdcfcc9b26bdeab0c8daa3758ecb14500091ad9d",
+      "source_id": "sec_edgar_form4",
+      "source_tier": "OFFICIAL",
+      "headline": "[AAPL] Form 4 Insider Sell | Insider: Newstead Jennifer  (CIK 0001780525) | Company: Apple Inc.  (CIK 0000320193) | Filed: 2026-08-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780525/000114036126034741/0001140361-26-034741-index.htm",
+      "published_at": "2026-08-27T14:00:00+00:00",
+      "category": "Insider Sell",
+      "tag": "RELEVANT",
+      "noise_score": 4.0,
+      "score_reasons": [
+        "tier OFFICIAL: +3",
+        "category 'Insider Sell': +1"
+      ],
+      "decision": "KEPT"
+    }
+  ]
+}
